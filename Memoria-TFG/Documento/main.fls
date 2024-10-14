@@ -1,6 +1,6 @@
-PWD c:\Users\marco\Desktop\Memoria\Documento
+PWD c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento
 INPUT C:\Users\marco\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\marco\Desktop\Memoria\Documento\main.tex
+INPUT c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento\main.tex
 OUTPUT main.log
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
