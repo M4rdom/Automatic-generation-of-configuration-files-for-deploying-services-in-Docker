@@ -1,3 +1,4 @@
+import asyncio
 import io
 import requests
 import aiohttp  
@@ -11,10 +12,13 @@ GITHUB_TEMPLATES_URL='https://github.com/M4rdom/Templates/archive/refs/heads/mai
 GITHUB_API_URL = 'https://api.github.com/repos/M4rdom/Templates/contents'
 GITHUB_RAW_API_URL = 'https://raw.githubusercontent.com/M4rdom/Templates/main'
 
+#Development URLs
 URL_UVENGINE_RESOLVER = "http://localhost:5001"
 URL_REPOSITORY_MANAGER = "http://localhost:5000"
 URL_FRONTEND = "http://localhost:4200"  
 
+#Production URLs
+URL_UVENGINE_RESOLVER = "http://uvengine-resolver"
 
 @app.route('/repository-manager/')
 def index():
@@ -31,7 +35,7 @@ def list_templates():
         response = requests.get(GITHUB_API_URL)
 
         # Ejecuta la notificación de manera asíncrona sin bloquear el flujo
-        #asyncio.run(notify_uvengineresolver())
+        asyncio.run(notify_uvengineresolver())
 
         if response.status_code == 200:
             contents = response.json()
@@ -100,7 +104,7 @@ def download_repo():
 async def notify_uvengineresolver():
     try:
         async with aiohttp.ClientSession() as session:
-            async with session.get(f'{URL_UVENGINE_RESOLVER}/update-repo') as response:
+            async with session.get(f'{URL_UVENGINE_RESOLVER}/uvengine-resolver/update-repo') as response:
                 return response.status  # Retorna el código de estado de la respuesta
     except Exception as e:
         return str(e)
