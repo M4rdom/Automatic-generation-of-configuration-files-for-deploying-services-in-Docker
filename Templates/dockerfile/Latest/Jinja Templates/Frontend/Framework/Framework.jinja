@@ -10,9 +10,8 @@ WORKDIR /app/
 
 COPY package*.json ./ 
 
-RUN --mount=type=cache,target=/root/.npm npm install \
-    npm run build --prod
+RUN --mount=type=cache,target=/root/.npm npm install 
 
 COPY . .
 
-RUN npm run build --prod
+RUN npm run build 

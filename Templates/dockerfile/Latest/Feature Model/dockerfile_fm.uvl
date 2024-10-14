@@ -44,11 +44,17 @@ features
                                     String MYSQL_PASSWORD
                     PostgreSQL {abstract}
                         optional
+                            Custom_config_file_PostgreSQL
+                                mandatory
+                                    String name_of_config_file_PostgreSQL
                             String POSTGRES_PASSWORD
                             String POSTGRES_USER
                             String POSTGRES_DB    
                     MongoDB {abstract}
                         optional
+                            Custom_config_file_MongoDB
+                                mandatory
+                                    String name_of_config_file_MongoDB
                             String MONGO_INITDB_ROOT_USERNAME
                             String MONGO_INITDB_ROOT_PASSWORD
                             String MONGO_INITDB_DATABASE
@@ -183,6 +189,14 @@ features
                 mandatory
                     String Port
 constraints
+
+    //Frontend Restrictions
+   Frontend => Framework
+   Frontend => WebServer_Frontend
+
+   //Backend
+   WSGI => uWSGI | Gunicorn
+
    Custom_apache_config_file => ProjectName
    Custom_nginx_config_file => ProjectName
    Gunicorn => Custom_Exposed_Port
