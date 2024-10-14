@@ -20,7 +20,7 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 RUN pip install --no-cache-dir gunicorn==23.0.0
 
 # Run the application using Gunicorn
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5001", "app:app"]
+CMD ["sh", "-c", "python download_template.py && gunicorn -w 4 -b 0.0.0.0:5001 app:app"]
 
 # Make port 5001 available to the world outside this container
 EXPOSE 5001
