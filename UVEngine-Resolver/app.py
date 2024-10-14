@@ -1,15 +1,10 @@
-import os
-import time
-import zipfile
 import json
 import traceback
-from flask import Flask, jsonify, request
 import UVengine
-import requests
-from pathlib import Path
-from flask_cors import CORS
 
-from constant import URL_REPOSITORY_MANAGER, CURRENT_PATH
+from flask import Flask, jsonify, request
+from flask_cors import CORS
+from constant import CURRENT_PATH
 from download_template import download_and_extract_file
 
 app = Flask(__name__)
