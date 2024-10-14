@@ -13,12 +13,12 @@ GITHUB_API_URL = 'https://api.github.com/repos/M4rdom/Templates/contents'
 GITHUB_RAW_API_URL = 'https://raw.githubusercontent.com/M4rdom/Templates/main'
 
 #Development URLs
-URL_UVENGINE_RESOLVER = "http://localhost:5001"
-URL_REPOSITORY_MANAGER = "http://localhost:5000"
-URL_FRONTEND = "http://localhost:4200"  
+#URL_UVENGINE_RESOLVER = "http://localhost:5001"
+#URL_REPOSITORY_MANAGER = "http://localhost:5000"
+#URL_FRONTEND = "http://localhost:4200"  
 
 #Production URLs
-URL_UVENGINE_RESOLVER = "http://uvengine-resolver"
+URL_UVENGINE_RESOLVER = "http://uvengine-resolver:5001"
 
 @app.route('/repository-manager/')
 def index():

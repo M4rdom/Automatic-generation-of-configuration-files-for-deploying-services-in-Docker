@@ -1,6 +1,8 @@
 import os
+import time
 import zipfile
 import json
+import traceback
 from flask import Flask, jsonify, request
 import UVengine
 import requests
@@ -12,9 +14,9 @@ app = Flask(__name__)
 CORS(app)
 
 #Development URLs
-URL_UVENGINE_RESOLVER = "http://localhost:5001"
-URL_REPOSITORY_MANAGER = "http://localhost:5000"
-URL_FRONTEND = "http://localhost:4200"  
+#URL_UVENGINE_RESOLVER = "http://localhost:5001"
+#URL_REPOSITORY_MANAGER = "http://localhost:5000"
+#URL_FRONTEND = "http://localhost:4200"  
 
 #Production URLs
 URL_REPOSITORY_MANAGER = "http://repository-manager:5000"
@@ -67,7 +69,9 @@ def Resolver():
         try:
             result = vengine.resolve_variability()
         except Exception as e:
-            return "No se ha podido resolver:"+ str(e), 500
+            error_message = str(e)
+            error_traceback = traceback.format_exc()
+            return f"No se ha podido resolver: {error_message}\n{error_traceback}", 500
 
         response = {
             "result": result
@@ -88,8 +92,17 @@ def download_and_extract_file():
     
     local_filepath = os.path.join(templates_dir, local_filename)
     
-    # Descargar el archivo
-    response = requests.get(file_url)
+    # Intentar descargar el archivo hasta que el servidor esté disponible
+    while True:
+        try:
+            response = requests.get(file_url)
+            response.raise_for_status()  # Lanza una excepción si la respuesta contiene un error HTTP
+            break  # Salir del bucle si la petición fue exitosa
+        except requests.exceptions.RequestException as e:
+            print(f"Error al conectar con el servidor: {e}. \n Reintentando en 5 segundos...")
+            time.sleep(5)  # Esperar 5 segundos antes de reintentar
+    
+    # Guardar el archivo descargado
     with open(local_filepath, 'wb') as f:
         f.write(response.content)
     
@@ -100,7 +113,6 @@ def download_and_extract_file():
         zip_ref.extractall(templates_dir)
     
     print(f"File extracted to {templates_dir}")
-    
 
 if __name__ == '__main__':
     download_and_extract_file()
