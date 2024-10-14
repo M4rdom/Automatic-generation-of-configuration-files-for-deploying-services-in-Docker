@@ -1,0 +1,54 @@
+\ProvidesPackage{example}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\usepackage{geometry}
+\usepackage[titletoc]{appendix}
+\usepackage[final]{pdfpages}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec} %% For custom sections
+\usepackage{etoolbox} %% End on odd page
+\usepackage[spanish]{babel}
+
+\definecolor{numbergrey}{HTML}{7f7f7f}
+
+%% begin abstract format
+\makeatletter
+\renewenvironment{abstract}{%
+    \if@twocolumn
+      \section*{\abstractname \\}%
+    \else %% <- here I've removed \small
+    \begin{flushright}
+        {\filleft\Huge\bfseries\fontsize{48pt}{12}\selectfont\abstractname\vspace{\z@}}%  %% <- here I've added the format
+        \end{flushright}
+      \quotation
+    \fi}
+    {\if@twocolumn\else\endquotation\fi}
+\makeatother
+%% end abstract format
+
+\titleformat{\section}[display]
+    {\filleft\Huge\bfseries\fontsize{48pt}{12}\selectfont}
+    {\color{numbergrey}\fontsize{112pt}{12}\selectfont\thesection \\}
+    {0pt}{}
+
+\geometry{
+ a4paper,
+ left=2.5cm,
+ top=2.5cm,
+ }
+
+\renewcommand{\baselinestretch}{1.5} %% line spacing of 1.5
+
+\pretocmd{\section}{\cleardoublepage}{}{} %% Start on odd page
+
+\newenvironment{umaappendices}
+  { \begin{appendices}
+        \titleformat{\section}[display]
+            {\filleft\Huge\bfseries\fontsize{48pt}{12}\selectfont}
+            {\color{numbergrey}Apéndice \thesection}{0pt}{}
+  }{
+    \end{appendices}
+  }

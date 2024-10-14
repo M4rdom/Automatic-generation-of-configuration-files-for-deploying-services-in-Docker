@@ -1,0 +1,493 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  14 OCT 2024 11:34
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/marco/Desktop/Memoria/Documento/main.tex
+(c:/Users/marco/Desktop/Memoria/Documento/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (umatfgenglish.sty
+
+LaTeX Warning: You have requested package `umatfgenglish',
+               but the package provides `example'.
+
+Package: example 
+(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\libertine.sty
+Package: libertine 2023/11/26 (Bob Tennent) Supports Libertine and Biolinum fonts for all LaTeX engines.
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))
+\XKV@depth=\count195
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+LaTeX Info: Redefining \oldstylenums on input line 485.
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LinLibertine_I.tex)) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks21
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count199
+\c@@ppsavesec=\count266
+\c@@ppsaveapp=\count267
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count268
+\calc@Bcount=\count269
+\calc@Adimen=\dimen149
+\calc@Bdimen=\dimen150
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count270
+\calc@Cskip=\skip52
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen151
+\ESO@tempdimb=\dimen152
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+)
+\AM@pagewidth=\dimen155
+\AM@pageheight=\dimen156
+\AM@fboxrule=\dimen157
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count271
+\AM@pagebox=\box51
+\AM@global@opts=\toks22
+\AM@pagecnt=\count272
+\AM@toc@title=\toks23
+\AM@lof@heading=\toks24
+\c@AM@survey=\count273
+\AM@templatesizebox=\box52
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen158
+\ttl@minus=\dimen159
+\ttl@toksa=\toks25
+\titlewidth=\dimen160
+\titlewidthlast=\dimen161
+\titlewidthfirst=\dimen162
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count274
+)) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count275
+\c@Blindtext=\count276
+\c@blind@countparstart=\count277
+\blind@countxx=\count278
+\blindtext@numBlindtext=\count279
+\blind@countyy=\count280
+\c@blindlist=\count281
+\c@blindlistlevel=\count282
+\c@blindlist@level=\count283
+\blind@listitem=\count284
+\c@blind@listcount=\count285
+\c@blind@levelcount=\count286
+\blind@mathformula=\count287
+\blind@Mathformula=\count288
+\c@blind@randomcount=\count289
+\c@blind@randommax=\count290
+\c@blind@pangramcount=\count291
+\c@blind@pangrammax=\count292
+)
+LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF on input line 10.
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibertinet-tlf.fd
+File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 10.
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box54
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+\c@mv@tabular=\count294
+\c@mv@boldtabular=\count295
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 454.67433pt, 71.70166pt)
+* v-part:(T,H,B)=(71.13188pt, 672.50832pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=454.67433pt
+* \textheight=672.50832pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-0.56833pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count296
+\scratchdimen=\dimen163
+\scratchbox=\box55
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen164
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks27
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/cover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Portada-Titulo-Contraportada/cover.pdf, id=1, 597.19112pt x 845.19763pt>
+File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/cover.pdf>
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf  used on input line 12.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/cover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/cover.pdf>
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf  used on input line 12.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/cover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/cover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Portada-Titulo-Contraportada/cover.pdf, id=4, page=1, 597.19112pt x 845.19763pt>
+File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/cover.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/cover.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/cover.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/cover.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+[1
+
+
+ <./Portada-Titulo-Contraportada/cover.pdf>]
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/title.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Portada-Titulo-Contraportada/title.pdf, id=30, 597.19112pt x 845.19763pt>
+File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/title.pdf>
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf  used on input line 16.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/title.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/title.pdf>
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf  used on input line 16.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/title.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/title.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Portada-Titulo-Contraportada/title.pdf, id=33, page=1, 597.19112pt x 845.19763pt>
+File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/title.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/title.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/title.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/title.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
+[2
+
+ <./Portada-Titulo-Contraportada/title.pdf>]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 21.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 21.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 48.0pt on input line 21.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 24.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 24.
+ [3{C:/Users/marco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}] [4] (main.toc
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+ []  
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+ []  
+ []
+
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [5
+
+] [6
+
+]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 112.0pt on input line 39.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 41.
+<./images/xp.png, id=92, 1204.5pt x 1106.1325pt>
+File: ./images/xp.png Graphic file (type png)
+<use ./images/xp.png>
+Package pdftex.def Info: ./images/xp.png  used on input line 46.
+(pdftex.def)             Requested size: 227.33716pt x 208.76646pt.
+ [7]
+Underfull \vbox (badness 2261) has occurred while \output is active []
+
+ [8 <./images/xp.png>] [9] [10
+
+] [11] [12] [13] [14
+
+]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 59.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 59.
+
+Underfull \hbox (badness 1189) in paragraph at lines 58--61
+[]\T1/LinuxLibertineT-TLF/m/n/12 Michel Goossens, Frank Mit-tel-bach, and Alexan-der Samarin. \T1/LinuxLibertineT-TLF/m/it/12 The L[]T[]X Com-pan-ion\T1/LinuxLibertineT-TLF/m/n/12 .
+ []
+
+[15{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}] [16
+
+] [17]
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Portada-Titulo-Contraportada/backcover.pdf, id=139, 597.23125pt x 845.1575pt>
+File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/backcover.pdf>
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 93.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/backcover.pdf>
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 93.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Portada-Titulo-Contraportada/backcover.pdf, id=142, page=1, 597.23125pt x 845.1575pt>
+File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/backcover.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 93.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/backcover.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 93.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/backcover.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 93.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/backcover.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 93.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+[18
+
+ <./Portada-Titulo-Contraportada/backcover.pdf>] (main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 5680 strings out of 474541
+ 98460 string characters out of 5744425
+ 1932978 words of memory out of 5000000
+ 27821 multiletter control sequences out of 15000+600000
+ 613234 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 87i,17n,93p,306b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (18 pages, 685713 bytes).
+PDF statistics:
+ 208 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+
