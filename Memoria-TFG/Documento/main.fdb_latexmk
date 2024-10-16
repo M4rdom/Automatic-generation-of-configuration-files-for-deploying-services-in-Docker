@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1729079651.10645 "main.bcf" "main.bbl" "main" 1729080573.08036 0
-  "main.bcf" 1729080572 107703 5fcabe06666ac7c50e30b7bc879fd25d "pdflatex"
+["biber main"] 1729092487.09007 "main.bcf" "main.bbl" "main" 1729093902.75515 0
+  "main.bcf" 1729093902 107703 5fcabe06666ac7c50e30b7bc879fd25d "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1729080570.49936 "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex" "main.pdf" "main" 1729080573.08164 0
+["pdflatex"] 1729093899.92115 "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex" "main.pdf" "main" 1729093902.75648 0
   "C:/Users/marco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1728892131 145878 e6812506e79acb857d15ab982aacc14c ""
   "C:/Users/marco/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1708092790 24210828 c3deb5dff1e30ee191890ce89d7a0041 ""
   "C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1497089888 2933 9ad527ce78d7c5fa0a642dead095f172 ""
@@ -105,12 +105,14 @@
   "Portada-Titulo-Contraportada/backcover.pdf" 1728900613 71145 170ec07017f71f9da995785d1d2acb05 ""
   "Portada-Titulo-Contraportada/cover.pdf" 1728900613 110675 8caeea4302027bd64e979b5ec7f8041f ""
   "Portada-Titulo-Contraportada/title.pdf" 1728900613 134375 d9d0384e08b052664e226d09479ecb39 ""
-  "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex" 1729080569 22351 800fdf937462fc78f6a47e7204c34bd9 ""
-  "main.aux" 1729080572 12496 d59d75d8cb65563dce46192497623064 "pdflatex"
-  "main.bbl" 1729079654 486 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.run.xml" 1729080572 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
-  "main.tex" 1729080569 22351 800fdf937462fc78f6a47e7204c34bd9 ""
-  "main.toc" 1729080572 7917 cdbec9406ad080cd93cdcea3bd2247fe "pdflatex"
+  "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex" 1729093898 23251 a2c813516cbf924be0f6d35b448e1548 ""
+  "images/Docker Init.png" 1729065047 33355 cf58993e374832e1b4aacdeecc617a57 ""
+  "images/MagickPen.png" 1729093772 75655 f7f5d03caa41e46e52e1c783d78ad4b4 ""
+  "main.aux" 1729093902 12820 cf3f9678586ea7a81cd66826a8ebee37 "pdflatex"
+  "main.bbl" 1729092490 486 ee04f40f768daeed26442158e95aba61 "biber main"
+  "main.run.xml" 1729093902 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.tex" 1729093898 23251 a2c813516cbf924be0f6d35b448e1548 ""
+  "main.toc" 1729093902 7950 3cf691ed0fe112cda2e47b62e162cae8 "pdflatex"
   "sections/abstract.tex" 1728981777 581 3dbb809a62bf20c2748179d18a53f37a ""
   "sections/resumen.tex" 1729011269 2718 68f01d3798517e5ab11f01ecc9be2d46 ""
   "umatfgspanish.sty" 1728982935 1480 eeda30aeaa473f18b0eea84cd32b4d36 ""

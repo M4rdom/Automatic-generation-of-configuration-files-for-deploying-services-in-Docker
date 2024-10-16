@@ -1,106 +1,106 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{9}{}%
 \contentsline {subsection}{\numberline {1.1}Motivación}{9}{}%
-\contentsline {subsection}{\numberline {1.2}Objetivos}{10}{}%
+\contentsline {subsection}{\numberline {1.2}Objetivo}{10}{}%
 \contentsline {subsection}{\numberline {1.3}Resultados Esperados}{10}{}%
 \contentsline {subsection}{\numberline {1.4}Estructura del documento}{10}{}%
 \contentsline {section}{\numberline {2}Estado del Arte}{11}{}%
 \contentsline {subsection}{\numberline {2.1}Contenedores}{11}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Porque se usan los contenedores}{11}{}%
 \contentsline {subsection}{\numberline {2.2}Imagenes}{11}{}%
 \contentsline {subsection}{\numberline {2.3}Docker}{11}{}%
 \contentsline {subsubsection}{\numberline {2.3.1}Dockerfile}{12}{}%
-\contentsline {subsubsection}{\numberline {2.3.2}Buenas Prácticas}{12}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Buenas Prácticas Docker Images}{12}{}%
 \contentsline {subsection}{\numberline {2.4}Problematica}{12}{}%
-\contentsline {subsection}{\numberline {2.5}Alternativas Actualmente Disponibles}{12}{}%
-\contentsline {subsubsection}{\numberline {2.5.1}Docker init}{12}{}%
+\contentsline {subsection}{\numberline {2.5}Soluciones Actualmente Disponibles}{12}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Docker init}{13}{}%
 \contentsline {subsubsection}{\numberline {2.5.2}Docker Extension for Visual Studio Code}{13}{}%
 \contentsline {subsubsection}{\numberline {2.5.3}Inteligencia Artificial}{13}{}%
-\contentsline {subsubsection}{\numberline {2.5.4}phpdocker}{13}{}%
-\contentsline {subsubsection}{\numberline {2.5.5}Starter}{13}{}%
-\contentsline {subsection}{\numberline {2.6}Conclusiones}{13}{}%
-\contentsline {subsection}{\numberline {2.7}Que se aporta en este contexto:}{14}{}%
-\contentsline {section}{\numberline {3}Tecnologías Empleadas}{15}{}%
-\contentsline {subsection}{\numberline {3.1}Universal Variability Language UVL}{15}{}%
-\contentsline {subsubsection}{\numberline {3.1.1}Feature Models}{15}{}%
-\contentsline {subsection}{\numberline {3.2}Docker}{16}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}Docker Desktop}{16}{}%
-\contentsline {subsection}{\numberline {3.3}Node}{16}{}%
-\contentsline {subsection}{\numberline {3.4}Angular}{16}{}%
-\contentsline {subsubsection}{\numberline {3.4.1}Angular Material}{16}{}%
-\contentsline {subsubsection}{\numberline {3.4.2}Monaco Editor}{16}{}%
-\contentsline {subsubsection}{\numberline {3.4.3}ngx-json-viewer}{16}{}%
-\contentsline {subsection}{\numberline {3.5}Nginx}{17}{}%
-\contentsline {subsubsection}{\numberline {3.5.1}Reverse Proxy}{17}{}%
-\contentsline {subsubsection}{\numberline {3.5.2}Web Server}{17}{}%
-\contentsline {subsection}{\numberline {3.6}Python}{17}{}%
-\contentsline {subsubsection}{\numberline {3.6.1}Flask}{17}{}%
-\contentsline {subsubsection}{\numberline {3.6.2}guinicorn}{17}{}%
-\contentsline {subsubsection}{\numberline {3.6.3}Pypi}{17}{}%
-\contentsline {subsection}{\numberline {3.7}Jinja}{18}{}%
-\contentsline {subsubsection}{\numberline {3.7.1}Jinja2}{18}{}%
-\contentsline {subsection}{\numberline {3.8}Git}{18}{}%
-\contentsline {subsection}{\numberline {3.9}GitHub}{18}{}%
-\contentsline {subsubsection}{\numberline {3.9.1}GitHub Public Api}{18}{}%
-\contentsline {subsection}{\numberline {3.10}Visual Studio Code}{18}{}%
-\contentsline {subsubsection}{\numberline {3.10.1}UVLS extension}{19}{}%
-\contentsline {section}{\numberline {4}Metodologia del trabajo. (Fases) Implementación:}{21}{}%
-\contentsline {subsection}{\numberline {4.1}Introduction}{21}{}%
-\contentsline {subsection}{\numberline {4.2}Metodología del Desarrollo}{21}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}Justificación}{22}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}Procedimiento}{22}{}%
-\contentsline {subsubsection}{\numberline {4.2.3}Limitaciones}{22}{}%
-\contentsline {subsubsection}{\numberline {4.2.4}Fases de Estudio}{22}{}%
-\contentsline {subsection}{\numberline {4.3}Estudio del Estado del Arte :}{22}{}%
-\contentsline {subsection}{\numberline {4.4}Investigación opciones de configuración para Docker}{22}{}%
-\contentsline {subsection}{\numberline {4.5}Desarrollo Modelos plantillas dockerfile y dockerignore …}{23}{}%
-\contentsline {subsection}{\numberline {4.6}Fase desarollo Scrum}{23}{}%
-\contentsline {subsubsection}{\numberline {4.6.1}Requisitios de la aplicación }{23}{}%
-\contentsline {subsubsection}{\numberline {4.6.2}Desarrollo del la aplicación de uvengine }{23}{}%
-\contentsline {subsubsection}{\numberline {4.6.3}Desarrollo de la web}{23}{}%
-\contentsline {subsubsection}{\numberline {4.6.4}Desarrollo de los servicios de backend}{23}{}%
-\contentsline {subsubsection}{\numberline {4.6.5}Elaboración de la guía de uso}{23}{}%
-\contentsline {subsubsection}{\numberline {4.6.6}Elaboración de un manual de instalación}{24}{}%
-\contentsline {subsection}{\numberline {4.7}Elaboración de la memoria}{24}{}%
-\contentsline {section}{\numberline {5}Arquitectura y Modelado del sistema }{25}{}%
-\contentsline {subsection}{\numberline {5.1}Vision general de la arquitectura }{25}{}%
-\contentsline {subsection}{\numberline {5.2}Arquitectura de backend}{25}{}%
-\contentsline {subsection}{\numberline {5.3}Arquitectura de Frontend}{25}{}%
-\contentsline {section}{\numberline {6}Extensibilidad}{27}{}%
-\contentsline {subsection}{\numberline {6.1}Plantillas}{27}{}%
-\contentsline {subsubsection}{\numberline {6.1.1}Plantillas de Dockerfile}{27}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}Plantillas de Dockerignore}{27}{}%
-\contentsline {section}{\numberline {7}Despliegue de la aplicación }{29}{}%
-\contentsline {subsection}{\numberline {7.1} Despliegue local }{29}{}%
-\contentsline {subsection}{\numberline {7.2} Despliegue en la nube }{29}{}%
-\contentsline {section}{\numberline {8}Resultados}{31}{}%
-\contentsline {subsection}{\numberline {8.1}Resultados Obtenidos}{31}{}%
-\contentsline {subsection}{\numberline {8.2}Viabilidad del proyecto}{31}{}%
-\contentsline {subsection}{\numberline {8.3}Escalabilidad}{31}{}%
-\contentsline {section}{\numberline {9}Conclusiones y líneas Futuras }{33}{}%
-\contentsline {subsection}{\numberline {9.1}Conclusion Personal,}{33}{}%
-\contentsline {subsection}{\numberline {9.2}Conclusiones del Desarrollo del proyecto}{33}{}%
-\contentsline {subsection}{\numberline {9.3}Contribuciones / Aplicaciones Prácticas}{33}{}%
-\contentsline {subsection}{\numberline {9.4}Desarrollo de nuevas plantillas }{33}{}%
-\contentsline {subsection}{\numberline {9.5}Continuación en el desarrollo de plantillas ya existentes}{33}{}%
-\contentsline {subsection}{\numberline {9.6}Mejorar la experiencia del usuario }{33}{}%
-\contentsline {section}{Ap\'{e}ndice \numberline {A}Manual de \\ Instalación}{35}{}%
-\contentsline {subsection}{\numberline {A.1}Requisitos Previos}{35}{}%
-\contentsline {subsection}{\numberline {A.2}Descargar el codigo fuente}{35}{}%
-\contentsline {subsection}{\numberline {A.3}Configuracion del archivo Dockercomose}{35}{}%
-\contentsline {subsubsection}{\numberline {A.3.1}Nginx reverse proxy}{35}{}%
-\contentsline {subsubsection}{\numberline {A.3.2}frontend}{35}{}%
-\contentsline {subsubsection}{\numberline {A.3.3}Repository Manager}{35}{}%
-\contentsline {subsubsection}{\numberline {A.3.4}UV Engine resolver}{35}{}%
-\contentsline {subsection}{\numberline {A.4}Construccion de los contenedores}{35}{}%
-\contentsline {subsubsection}{\numberline {A.4.1}Github API}{35}{}%
-\contentsline {subsection}{\numberline {A.5}Terminar el servicio}{35}{}%
-\contentsline {section}{Ap\'{e}ndice \numberline {B}Manual de Uso}{37}{}%
-\contentsline {subsection}{\numberline {B.1}Inicio de la aplicacion}{37}{}%
-\contentsline {subsection}{\numberline {B.2}Barra de Navegación}{37}{}%
-\contentsline {subsubsection}{\numberline {B.2.1}About Page}{37}{}%
-\contentsline {subsubsection}{\numberline {B.2.2}Help Page}{37}{}%
-\contentsline {subsection}{\numberline {B.3}Seleccionar plantilla}{37}{}%
-\contentsline {subsubsection}{\numberline {B.3.1}Seleccionar version de la platilla}{37}{}%
-\contentsline {subsubsection}{\numberline {B.3.2}Cargar configuracion}{37}{}%
-\contentsline {subsubsection}{\numberline {B.3.3}Descargar Fichero Generado}{37}{}%
-\contentsline {subsubsection}{\numberline {B.3.4}Copiar Fichero Generado}{37}{}%
+\contentsline {subsubsection}{\numberline {2.5.4}Starter}{14}{}%
+\contentsline {subsection}{\numberline {2.6}Conclusiones}{14}{}%
+\contentsline {subsection}{\numberline {2.7}Que se aporta en este contexto:}{15}{}%
+\contentsline {section}{\numberline {3}Tecnologías Empleadas}{17}{}%
+\contentsline {subsection}{\numberline {3.1}Universal Variability Language UVL}{17}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Feature Models}{17}{}%
+\contentsline {subsection}{\numberline {3.2}Docker}{18}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Docker Desktop}{18}{}%
+\contentsline {subsection}{\numberline {3.3}Node}{18}{}%
+\contentsline {subsection}{\numberline {3.4}Angular}{18}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}Angular Material}{18}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Monaco Editor}{18}{}%
+\contentsline {subsubsection}{\numberline {3.4.3}ngx-json-viewer}{18}{}%
+\contentsline {subsection}{\numberline {3.5}Nginx}{19}{}%
+\contentsline {subsubsection}{\numberline {3.5.1}Reverse Proxy}{19}{}%
+\contentsline {subsubsection}{\numberline {3.5.2}Web Server}{19}{}%
+\contentsline {subsection}{\numberline {3.6}Python}{19}{}%
+\contentsline {subsubsection}{\numberline {3.6.1}Flask}{19}{}%
+\contentsline {subsubsection}{\numberline {3.6.2}guinicorn}{19}{}%
+\contentsline {subsubsection}{\numberline {3.6.3}Pypi}{19}{}%
+\contentsline {subsection}{\numberline {3.7}Jinja}{20}{}%
+\contentsline {subsubsection}{\numberline {3.7.1}Jinja2}{20}{}%
+\contentsline {subsection}{\numberline {3.8}Git}{20}{}%
+\contentsline {subsection}{\numberline {3.9}GitHub}{20}{}%
+\contentsline {subsubsection}{\numberline {3.9.1}GitHub Public Api}{20}{}%
+\contentsline {subsection}{\numberline {3.10}Visual Studio Code}{20}{}%
+\contentsline {subsubsection}{\numberline {3.10.1}UVLS extension}{21}{}%
+\contentsline {section}{\numberline {4}Metodologia del trabajo. (Fases) Implementación:}{23}{}%
+\contentsline {subsection}{\numberline {4.1}Introduction}{23}{}%
+\contentsline {subsection}{\numberline {4.2}Metodología del Desarrollo}{23}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Justificación}{24}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Procedimiento}{24}{}%
+\contentsline {subsubsection}{\numberline {4.2.3}Limitaciones}{24}{}%
+\contentsline {subsubsection}{\numberline {4.2.4}Fases de Estudio}{24}{}%
+\contentsline {subsection}{\numberline {4.3}Estudio del Estado del Arte :}{24}{}%
+\contentsline {subsection}{\numberline {4.4}Investigación opciones de configuración para Docker}{24}{}%
+\contentsline {subsection}{\numberline {4.5}Desarrollo Modelos plantillas dockerfile y dockerignore …}{25}{}%
+\contentsline {subsection}{\numberline {4.6}Fase desarollo Scrum}{25}{}%
+\contentsline {subsubsection}{\numberline {4.6.1}Requisitios de la aplicación }{25}{}%
+\contentsline {subsubsection}{\numberline {4.6.2}Desarrollo del la aplicación de uvengine }{25}{}%
+\contentsline {subsubsection}{\numberline {4.6.3}Desarrollo de la web}{25}{}%
+\contentsline {subsubsection}{\numberline {4.6.4}Desarrollo de los servicios de backend}{25}{}%
+\contentsline {subsubsection}{\numberline {4.6.5}Elaboración de la guía de uso}{25}{}%
+\contentsline {subsubsection}{\numberline {4.6.6}Elaboración de un manual de instalación}{26}{}%
+\contentsline {subsection}{\numberline {4.7}Elaboración de la memoria}{26}{}%
+\contentsline {section}{\numberline {5}Arquitectura y Modelado del sistema }{27}{}%
+\contentsline {subsection}{\numberline {5.1}Vision general de la arquitectura }{27}{}%
+\contentsline {subsection}{\numberline {5.2}Arquitectura de backend}{27}{}%
+\contentsline {subsection}{\numberline {5.3}Arquitectura de Frontend}{27}{}%
+\contentsline {section}{\numberline {6}Extensibilidad}{29}{}%
+\contentsline {subsection}{\numberline {6.1}Plantillas}{29}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Plantillas de Dockerfile}{29}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Plantillas de Dockerignore}{29}{}%
+\contentsline {section}{\numberline {7}Despliegue de la aplicación }{31}{}%
+\contentsline {subsection}{\numberline {7.1} Despliegue local }{31}{}%
+\contentsline {subsection}{\numberline {7.2} Despliegue en la nube }{31}{}%
+\contentsline {section}{\numberline {8}Resultados}{33}{}%
+\contentsline {subsection}{\numberline {8.1}Resultados Obtenidos}{33}{}%
+\contentsline {subsection}{\numberline {8.2}Viabilidad del proyecto}{33}{}%
+\contentsline {subsection}{\numberline {8.3}Escalabilidad}{33}{}%
+\contentsline {section}{\numberline {9}Conclusiones y líneas Futuras }{35}{}%
+\contentsline {subsection}{\numberline {9.1}Conclusion Personal,}{35}{}%
+\contentsline {subsection}{\numberline {9.2}Conclusiones del Desarrollo del proyecto}{35}{}%
+\contentsline {subsection}{\numberline {9.3}Contribuciones / Aplicaciones Prácticas}{35}{}%
+\contentsline {subsection}{\numberline {9.4}Desarrollo de nuevas plantillas }{35}{}%
+\contentsline {subsection}{\numberline {9.5}Continuación en el desarrollo de plantillas ya existentes}{35}{}%
+\contentsline {subsection}{\numberline {9.6}Mejorar la experiencia del usuario }{35}{}%
+\contentsline {section}{Ap\'{e}ndice \numberline {A}Manual de \\ Instalación}{37}{}%
+\contentsline {subsection}{\numberline {A.1}Requisitos Previos}{37}{}%
+\contentsline {subsection}{\numberline {A.2}Descargar el codigo fuente}{37}{}%
+\contentsline {subsection}{\numberline {A.3}Configuracion del archivo Dockercomose}{37}{}%
+\contentsline {subsubsection}{\numberline {A.3.1}Nginx reverse proxy}{37}{}%
+\contentsline {subsubsection}{\numberline {A.3.2}frontend}{37}{}%
+\contentsline {subsubsection}{\numberline {A.3.3}Repository Manager}{37}{}%
+\contentsline {subsubsection}{\numberline {A.3.4}UV Engine resolver}{37}{}%
+\contentsline {subsection}{\numberline {A.4}Construccion de los contenedores}{37}{}%
+\contentsline {subsubsection}{\numberline {A.4.1}Github API}{37}{}%
+\contentsline {subsection}{\numberline {A.5}Terminar el servicio}{37}{}%
+\contentsline {section}{Ap\'{e}ndice \numberline {B}Manual de Uso}{39}{}%
+\contentsline {subsection}{\numberline {B.1}Inicio de la aplicacion}{39}{}%
+\contentsline {subsection}{\numberline {B.2}Barra de Navegación}{39}{}%
+\contentsline {subsubsection}{\numberline {B.2.1}About Page}{39}{}%
+\contentsline {subsubsection}{\numberline {B.2.2}Help Page}{39}{}%
+\contentsline {subsection}{\numberline {B.3}Seleccionar plantilla}{39}{}%
+\contentsline {subsubsection}{\numberline {B.3.1}Seleccionar version de la platilla}{39}{}%
+\contentsline {subsubsection}{\numberline {B.3.2}Cargar configuracion}{39}{}%
+\contentsline {subsubsection}{\numberline {B.3.3}Descargar Fichero Generado}{39}{}%
+\contentsline {subsubsection}{\numberline {B.3.4}Copiar Fichero Generado}{39}{}%

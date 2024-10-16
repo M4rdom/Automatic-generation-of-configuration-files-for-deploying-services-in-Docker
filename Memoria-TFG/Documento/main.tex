@@ -43,22 +43,28 @@
 \section{Introduction}
 
 \subsection{Motivación}
-Las herramientas de automatización de tareas son fundamentales en el desarrollo de software, ya que permiten mejorar la eficiencia, la calidad y la consistencia en la producción de código.
+Las herramientas de automatización de tareas son fundamentales en el desarrollo de software permiten mejorar la eficiencia, la calidad y la consistencia en la producción de código.
 Al relegar tareas repetitivas y propensas a errores a herramientas automatizadas, los desarrolladores pueden centrarse en tareas más creativas y de mayor valor añadido.
+
 Parte del ciclo de vida en un desarrollo de software implica la configuración y el despliegue de servicios en entornos de producción y desarrollo.
-La configuracion y despliegue requiere de la creación de archivos de configuración específicos, como los archivos Dockerfile y .dockerignore, que definen cómo se construye y se ejecuta una aplicación en un contenedor de Docker.
+La configuracion y despliegue requiere de la creación de archivos de configuración específicos, como los archivos Dockerfile y .dockerignore, que definen cómo se construye una imagen de un contenedor Docker.
+
 En el contexto de la tecnología de contenedores, Docker se ha convertido en una de las plataformas más populares para la creación, el despliegue y la gestión de aplicaciones en entornos contenerizados. 
-Sin embargo, la configuración de servicios en Docker puede ser una tarea compleja y propensa a errores, especialmente cuando se manejan múltiples servicios y configuraciones personalizadas.
+Sin embargo, la configuración de servicios en Docker puede ser una tarea compleja y propensa a errores, especialmente cuando se manejan múltiples servicios y configuraciones.
+
 La motivación para realizar este proyecto surge de la necesidad de simplificar y automatizar el proceso de generación de archivos de configuración para el despliegue de servicios en Docker. 
-En la actualidad, la creación manual de estos archivos dockerfile puede ser una tarea tediosa y propensa a errores al no conocer el usuario de toda la informacion necesaria para la correcta configuracion de los servicios, 
+En la actualidad, la creación manual de estos archivos dockerfile puede ser una tarea repetitiva y propensa a errores al no conocer el usuario de toda la informacion necesaria para la correcta configuracion de los servicios, 
+
 Al desarrollar una herramienta que automatice este proceso, 
 se busca mejorar la eficiencia y la precisión en la configuración de entornos de contenedores, facilitando así el trabajo de desarrollo y administracion. 
 
-\subsection{Objetivos}
-El objetivo principal de este proyecto es desarrollar una herramienta que permita la generación automática de archivos de configuración para el despliegue de servicios en Docker.
+\subsection{Objetivo}
+La meta principal de este proyecto es desarrollar una herramienta que permita la generación automática de archivos de configuración para el despliegue de servicios en Docker.
+Siguiendo las pautas recomendadas para la generacion de dichos archivos
+ 
 
 \subsection{Resultados Esperados}
-Dada la gran cantidad de opciones de configuración disponibles en para la generacion de ficheros de configuracion como puedes ser dockerfile..., el desarrollo de esta herramienta presenta varios desafíos técnicos y conceptuales.
+Dada la gran cantidad de opciones de configuración disponibles en para la generacion de ficheros de configuracion, el desarrollo de esta herramienta presenta varios desafíos técnicos y conceptuales.
 El primero de ellos es la magnitud de las opciones de configuración disponibles, que pueden variar en función de las necesidades y los requisitos de cada servicio.
 dar una covertura a todos los escenarios posibles es una tarea inabarcable, por lo que se ha optado por centrarse en los casos de uso más comunes y en las configuraciones más utilizadas en la práctica.
 Sin embargo se espera que la herramienta sea lo suficientemente flexible y extensible como para permitir la incorporación de nuevas plantillas y configuraciones en el futuro.
@@ -76,12 +82,20 @@ Por definir
 
 
 
+
+
+
+
+
+
 %% Estado del Arte 
 \section{Estado del Arte}
-Para la realización de este proyecto se ha realizado un estudio del estado del arte en el ámbito de la generación de archivos de configuración para el despliegue de servicios en Docker.
-En este apartado se presentan las principales herramientas y tecnologías disponibles en la actualidad, así como las tendencias y los enfoques más comunes en la configuración de servicios en entornos de contenedores.
+En este apartado se presentan los conceptos clave necesarios para comprender la situacion actual, asi como las soluciones existentes.
 \subsection{Contenedores}
-Los contenedores son paquetes ligeros que incluyen el código de las aplicaciones junto con sus dependencias, como versiones concretas de entornos de ejecución de ciertos lenguajes de programación y bibliotecas indispensables para ejecutar los servicios de software.
+Los contenedores son paquetes ligeros que incluyen el código de las aplicaciones junto con sus dependencias, como versiones concretas de entornos de ejecución de ciertos lenguajes de programación y bibliotecas para ejecutar los servicios de software.
+\subsubsection{Porque se usan los contenedores}
+Los contenedores constituyen un mecanismo de empaquetado lógico en el que las aplicaciones pueden extraerse del entorno en que realmente se ejecutan. 
+Esta desvinculación facilita el despliegue uniforme de las aplicaciones basadas en ellos con independencia de que el entorno sea un centro de datos privado, la nube pública o el portátil personal de un desarrollador.
 \subsection{Imagenes}
 Las imágenes de contenedores son plantillas de solo lectura que contienen el código de la aplicación, las bibliotecas, las dependencias y otros archivos necesarios para ejecutar un contenedor.
 \subsection{Docker}
@@ -91,41 +105,59 @@ Docker es una plataforma de código abierto que permite a los desarrolladores cr
 El archivo Dockerfile es un archivo de texto que contiene una serie de instrucciones que Docker utilizará para construir una imagen de contenedor.
 Usualmente la construccion de un archivo de configuracion se realiza a partir de una imagen base, que puede ser una imagen oficial de Docker o una imagen personalizada creada por el usuario.
 A dicha imagen se añaden las instrucciones necesarias para instalar las dependencias y configurar el entorno de ejecución de la aplicación, lo que viene a representar el contenido de un archivo Dockerfile.
-\subsubsection{Buenas Prácticas}
+\subsubsection{Buenas Prácticas Docker Images}
 Para la creacion de los ficheros dockerfile es recomendable seguir una serie de buenas practicas para garantizar la eficiencia y la seguridad en el despliegue de servicios en Docker.
-Estas practicas se recojen en la documentacion oficial de Docker y en guias de buenas practicas de la comunidad de desarrolladores.
+Estas practicas se recojen en la documentacion oficial de Docker CITA
 \subsection{Problematica}
-La creacion de los ficheros dockerfile puede ser una tarea tediosa y propensa a errores, especialmente cuando se manejan múltiples servicios y configuraciones personalizadas.
-\subsection{Alternativas Actualmente Disponibles}
-En la actualidad existen varias alternativas para la generación de archivos de configuración para el despliegue de servicios en Docker (dockerfile)
+La dificultad para crear imagenes reside en la naturaleza de la aplicacion que queremos llevar a un contenedor, existen una gran cantidad de escenarios donde si bien la tarea es sencilla, esta puede escoder una complejidad implicita
+de la que el usuario no es consciente. 
+
+Estos apartados repercuten en el tiempo de compilación, tamaño de la imagen, mantenibilidad, seguridad y repetibilidad en las imagenes que se crean.
+
+La calidad de las imagenes pueden marcan una diferencia que puede llegar a ser crítica para posteriores etapas en el desarrollo de aplicaciones como son la Orquestacion de contenedores CITA.
+
+\subsection{Soluciones Actualmente Disponibles}
+En la actualidad hay disponibles varias soluciones para disminuir la complejidad implicita que reside en en la configuracion de dichos ficheros dockerfile 
 \subsubsection{Docker init}
 Docker init es el comando de Docker Desktop CITA que permite inicializar un proyecto con un archivo de configuración básico.
-su funcionamiento consta de elegir una plantilla de proyecto y seleccionar las opciones de configuración deseadas.
-Las opciones de configuracion se limitan a elegir el lenguaje de programacion y que comando se ejecutara al iniciar el contenedor.
+su funcionamiento consta de elegir una plantilla de proyecto y seleccionar entre las opciones de configuracion.
+
+Las opciones de configuracion se limitan a elegir el lenguaje de programacion, puerto en el que despliega la aplicacion y que comando se ejecutara al iniciar el contenedor.
+
+\begin{figure}[ht]
+  \centering
+    \includegraphics[width=1\textwidth]{Docker Init.png}
+  \caption{Captura de las opciones de Plantillas disponibles Docker Init.}
+\end{figure}
+
+
 \subsubsection{Docker Extension for Visual Studio Code}
 La extension de Docker para visual estudio code CITA permite entre sus funcionalidades la generacion de los ficheros dockerfile y dockerignore.
-su comportamineto es similar al de Docker init, permitiendo elegir el lenguaje de desarrollo del proyecto y que comando se ejecutara al iniciar el contenedor.
+su comportamineto es similar al de Docker init, permitiendo entre otras opciones elegir el lenguaje de desarrollo del proyecto y que comando se ejecutara al iniciar el contenedor.
 \subsubsection{Inteligencia Artificial}
-En la actualidad existen soluciones que se apoyan en la inteligacia Artificial 
-para la generacion de archivos de configuracion, y para la creacion 
-de los ficheros dockerfile y dockerignore. La calidad de estas soluciones es variable y depende de la calidad de los modelos de lenguaje natural empleados y de la calidad del promp de entrada.
+En la actualidad existen soluciones que se apoyan en la inteligacia Artificial para la generacion de archivos de configuracion, y para la creacion de los fichero dockerfile. 
+La calidad de estas soluciones es variable y depende de la calidad de los modelos de lenguaje natural empleados y de la calidad del promp de entrada.
 como https://magickpen.com/templates/128/ CITA o alternativas con propositito más general como chatgpt CITA
-\subsubsection{phpdocker}
-Tambien estan disponibles alternativas más epecificas como https://phpdocker.io/ CITA que permiten la generacion de archivos de configuracion para servicios en php.
-\subsubsection{Starter}
-herramienta open source como estarter CITA https://www.startwithdocker.com/ capaces de reconocer el lenguaje de programacion del proyecto y generar un archivo de configuracion basico.
 
+\begin{figure}[ht]
+	\centering
+	  \includegraphics[width=1\textwidth]{MagickPen.png}
+	\caption{Captura de Magickpen.}
+  \end{figure}
+
+\subsubsection{Starter}
+Starter es una herremienta open source CITA https://www.startwithdocker.com/ capaces de reconocer el lenguaje de programacion del proyecto y generar un archivo de configuracion. 
+La herramienta es capaz de forma autonoma reconocer el contenido de un proyecto y generar los ficheros dockerfile y dockercompose
 
 \subsection{Conclusiones}
 En este estudio se han recogido algunas de las principales herramientas y tecnologías disponibles en la actualidad para la generación de archivos de configuración.
-Todas las herraminetas proponen mediante plantillas la generacion de los ficheros dockerfile y dockerignore, estas plantillas son limitadas y no permiten la personalizacion de las opciones de configuracion.
+Todas las herraminetas hacen uso de plantillas la generacion de los ficheros dockerfile y dockerignore, estas plantillas si bien son correctas son por naturaleza limitadas y no permiten la personalizacion más final de las opciones de configuracion.
 No obstante suponen un punto de partida para el desarrollo de aplicaiones 
 
 \subsection{Que se aporta en este contexto:}
 Las opciones actualemtne disponibles para la generacion de archivos de configuracion para el despliegue de servicios en Docker son limitadas y no permiten la personalizacion de las opciones de configuracion.
 Se deja de lado la variabilidad y las posibles opciones que existen a la hora de construir las imagenes, el proyecto proporcinara una nueva forma de construir plantillas dotando capacidad al usuario de una personalizacion
 más profunda y detallada de las opciones de configuracion de los servicios en Docker.
-
 
 
 
