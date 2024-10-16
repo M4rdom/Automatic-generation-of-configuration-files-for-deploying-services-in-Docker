@@ -1,0 +1,56 @@
+\documentclass[12pt, a4paper, twoside]{article}
+
+%% Preamble
+\usepackage{umatfgspanish}
+\usepackage{blindtext}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{yourbibliography.bib} % Replace 'yourbibliography.bib' with the path to your .bib file
+
+\graphicspath{{images/}{../images/}}
+
+\usepackage{subfiles} % Best loaded last in the preamble
+
+\begin{document}
+
+%% Cover
+\includepdf[noautoscale=true, width=\paperwidth]{cover.pdf}
+
+%% Title
+\clearpage
+\setcounter{page}{1}
+
+\includepdf[noautoscale=true, width=\paperwidth]{title.pdf}
+
+\newpage
+
+%% Abstract
+\subfile{sections/abstract}
+
+\newpage
+
+\subfile{sections/resumen}
+
+\tableofcontents
+
+%% Sections
+\section{Introducción}
+\subfile{sections/introduccion}
+
+\section{Conclusions and Futures Lines of Research}
+\subfile{sections/conclusion}
+
+\section{Conclusiones y Líneas Futuras}
+\subfile{sections/conclusiones}
+
+%% Bibliography
+\printbibliography
+
+\newpage
+
+%% Apendices
+\appendix
+\section{Manual de \\ Instalación}
+
+%% Back Cover
+\includepdf[noautoscale=true, width=\paperwidth]{backcover.pdf}
+\end{document}
