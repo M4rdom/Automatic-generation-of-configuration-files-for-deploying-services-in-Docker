@@ -82,7 +82,7 @@ Para la realización de este proyecto se ha realizado un estudio del estado del 
 En este apartado se presentan las principales herramientas y tecnologías disponibles en la actualidad, así como las tendencias y los enfoques más comunes en la configuración de servicios en entornos de contenedores.
 \subsection{Contenedores}
 Los contenedores son paquetes ligeros que incluyen el código de las aplicaciones junto con sus dependencias, como versiones concretas de entornos de ejecución de ciertos lenguajes de programación y bibliotecas indispensables para ejecutar los servicios de software.
-\subsection{imagenes}
+\subsection{Imagenes}
 Las imágenes de contenedores son plantillas de solo lectura que contienen el código de la aplicación, las bibliotecas, las dependencias y otros archivos necesarios para ejecutar un contenedor.
 \subsection{Docker}
 Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos
@@ -94,7 +94,7 @@ A dicha imagen se añaden las instrucciones necesarias para instalar las depende
 \subsubsection{Buenas Prácticas}
 Para la creacion de los ficheros dockerfile es recomendable seguir una serie de buenas practicas para garantizar la eficiencia y la seguridad en el despliegue de servicios en Docker.
 Estas practicas se recojen en la documentacion oficial de Docker y en guias de buenas practicas de la comunidad de desarrolladores.
-\subsubsection{Problematica}
+\subsection{Problematica}
 La creacion de los ficheros dockerfile puede ser una tarea tediosa y propensa a errores, especialmente cuando se manejan múltiples servicios y configuraciones personalizadas.
 \subsection{Alternativas Actualmente Disponibles}
 En la actualidad existen varias alternativas para la generación de archivos de configuración para el despliegue de servicios en Docker (dockerfile)
@@ -123,7 +123,8 @@ No obstante suponen un punto de partida para el desarrollo de aplicaiones
 
 \subsection{Que se aporta en este contexto:}
 Las opciones actualemtne disponibles para la generacion de archivos de configuracion para el despliegue de servicios en Docker son limitadas y no permiten la personalizacion de las opciones de configuracion.
-Se deja de lado la variabilidad y las posibles opciones que existen a la hora de construir las imagenes 
+Se deja de lado la variabilidad y las posibles opciones que existen a la hora de construir las imagenes, el proyecto proporcinara una nueva forma de construir plantillas dotando capacidad al usuario de una personalizacion
+más profunda y detallada de las opciones de configuracion de los servicios en Docker.
 
 
 
@@ -142,34 +143,79 @@ Se deja de lado la variabilidad y las posibles opciones que existen a la hora de
 
 %% Tecnologías Empleadas
 \section{Tecnologías Empleadas}
+Este apartado describe las tecnologías y herramientas empleadas más relevantes para el desarrollo del proyecto, así como su función y su relación con el objetivo del proyecto.
+Para el interes del lector 
 
-\subsection{UVL}
+\subsection{Universal Variability Language UVL}
+CITA 
+La Universal Variability Language (UVL) es un lenguaje de modelado diseñado específicamente para representar y manejar la variabilidad en sistemas software. 
+La variabilidad en software se refiere a las partes de un sistema que pueden personalizarse, configurarse o cambiarse para adaptarse a diferentes necesidades o contextos. 
+UVL se usa comúnmente en el contexto de ingeniería de líneas de productos de software (Software Product Line Engineering o SPLE), donde se trabaja con una familia de productos que comparten un núcleo común, pero pueden tener variaciones.
+
 \subsubsection{Feature Models}
-
+CITA 
+El principal artefacto para modelar la variabilidad en SPL son los modelos de variabilidad. Existen muchos modelos 
+de variabilidad pero los más extendidos y usados en la práctica son los modelos de características (feature models). 
+Un feature model (FM) es un modelo para representar la variabilidad de una SPL en base a características comunes y 
+variables (véase Figura 1), especificando qué características se pueden seleccionar en una configuración para generar 
+un producto válido de la SPL
 \subsection{Docker}
+Con el objetivo de desarrollar una aplicaicon con animo de ejecutarse en contendores se ha optado por la tecnologia de Docker.
 \subsubsection{Docker Desktop}
+Para el manejo de los contenedores en el entorno de desarrollo se ha optado por la utilizacion de Docker Desktop.
 
 \subsection{Node}
+CITA
+para el desarrollo de la aplicacion web se ha optado por la utilizacion de Node como entorno de ejecucion de JavaScript.
 \subsection{Angular}
+CITA
+Para el desarrollo de la aplicacion web se ha optado por la utilizacion de Angular como framework de desarrollo de aplicaciones web.
 \subsubsection{Angular Material}
+CITA
+CITA Para el diseño de la interfaz grafica de la aplicacion web se ha optado por la utilizacion de Angular Material como libreria de componentes.
 \subsubsection{Monaco Editor}
+CITA
+CITA Para la edicion de los archivos de configuracion se ha optado por la utilizacion de Monaco Editor como editor de codigo.
 \subsubsection{ngx-json-viewer}
+CITA
+CITA Para la visualizacion de los archivos de configuracion se ha optado por la utilizacion de ngx-json-viewer como visor de archivos json.
 
 \subsection{Nginx}
+CITA
+Para el despliegue de la aplicacion web se ha optado por la utilizacion de Nginx como servidor web.
 \subsubsection{Reverse Proxy}
+CITA
+Para el despliegue de la aplicacion y requerimientos adicionales se ha empleado Nginx como un proxy inverso.
 \subsubsection{Web Server}
+CITA
+Para el despliegue de la aplicacion web se ha optado por la utilizacion de Nginx como servidor web.
 
 \subsection{Python}
+Para el desarrollo de los servicios de backend se ha optado por la utilizacion de Python como lenguaje de programacion.
 \subsubsection{Flask}
+Para el desarrollo de los servicios de backend se ha optado por la utilizacion de Flask como framework de desarrollo de aplicaciones web.
+\subsubsection{guinicorn}
+Para el despliegue de los servicios de backend se ha optado por la utilizacion de guinicorn como servidor web.
 \subsubsection{Pypi}
+Para la gestion de dependencias se ha optado por la utilizacion de Pypi como repositorio de paquetes de Python.
+
+\subsection{Jinja}
+\subsubsection{Jinja2}
+
 
 \subsection{Git}
+Para el control de versiones se ha optado por la utilizacion de Git como sistema de control de versiones.
 \subsection{GitHub}
+Para el almacenamiento de codigo se ha optado por la utilizacion de GitHub como plataforma de desarrollo colaborativo.
 \subsubsection{GitHub Public Api}
+Para la gestion de los repositorios de GitHub se ha optado por la utilizacion de la API publica de GitHub.
 \blindtext
 
 \subsection{Visual Studio Code}
+Para el desarrollo de la aplicacion se ha optado por la utilizacion de Visual Studio Code como entorno de desarrollo integrado.
 \subsubsection{UVLS extension}
+Para la edicion de los archivos de configuracion se ha optado por la utilizacion de la extension de UVLS para Visual Studio Code.
+ademas de las siguientes extensiones:
 EXTENSIONES VISUAL ESTUDIO
 	-UVLS https://github.com/Universal-Variability-Language/uvl-lsp
 	-Docker
@@ -188,17 +234,60 @@ EXTENSIONES VISUAL ESTUDIO
 
 %% Metodología
 \section{Metodologia del trabajo. (Fases) Implementación:}
-\subsection{Enfoque/Procedimiento/Justificación/Limitaciones}
+\subsection{Enfoque}
+El enfoque se ha dado en desarrollo de este trabajo ha consistido en una investigacion previa para conocer en profundidad las tecnologias y herramientas empleadas
+para porstesiromete aplicar estas ideas y conceptos en el desarrollo de las plantillas de configuracion con el objetivo de "automatizar" la creacion de ficheros como son dockerfile...
+para la implementacion de la aplicacion se ha optado por la utilizacion de una metodologia de desarrollo agil que permita la adaptacion a los cambios y la evolucion del proyecto.
+\subsection{Metodología del Desarrollo}
+Al encontrarnos ante un trabajo individual toda la responsabilidad y capacidad del desarrollo recae sobre una persona. 
+Para el desarrollo de código optaremos por una metodología Scrum simplificada. De forma iterativa se ejecutará un Sprint con 
+unos objetivos de desarrollo y planificación muy limitados. Con el objetivo de dar cabida a la complejidad del proyecto, habrá 
+que tener en cuenta las posibles revisiones que pudieran sucederse en el momento de encajar nuevas funcionalidades. 
+Tras cada Sprint se evaluará la progresión y dirección del proyecto con el tutor. 
+\subsubsection{Justificación}
+De entrada aportar una solucion tecnica optima a un problema es extremadamente improbable, por lo que se opta por una metodologia de desarrollo agil que permita la adaptacion a los cambios y la evolucion del proyecto.
+\subsubsection{Procedimiento}
+Tras cada Sprint se evaluará la progresión y dirección del proyecto con el tutor. 
+\subsubsection{Limitaciones}
+El desarrollo de un proyecto de estas características requiere de una planificación y una metodología de trabajo adecuada.
+En este sentido, como se han identificado anteriormente una serie de limitaciones y restricciones que pueden afectar al desarrollo del proyecto.
+para el caso el desarrollo de las plantillas tiene que verse limitado en cuanto a formato y contenido, ya que no se puede abarcar todas las posibles opciones de configuracion.
+\subsubsection{Fases de Estudio}
 \subsection{Estudio del Estado del Arte :}
+En esta fase se realiza una revisión exhaustiva de la literatura y tecnologías existentes relacionadas con el tema del 
+proyecto. El objetivo es comprender el panorama actual, identificar tendencias, mejores prácticas y tecnologías 
+relevantes que puedan influir en el desarrollo del proyecto.
 \subsection{Investigación opciones de configuración para Docker}
-\subsection{Requisitios de la aplicación }
+Esta fase implica investigar y evaluar las diferentes opciones de configuración disponibles en Docker para el desarrollo 
+y despliegue de aplicaciones. Se exploran las características, herramientas y técnicas que pueden optimizar el uso de 
+Docker en el proyecto [2].
+
 \subsection{Desarrollo Modelos plantillas dockerfile y dockerignore …}
-\subsection{Desarrollo del la aplicación de uvengine }
-\subsection{Desarrollo de la web}
-\subsection{Desarrollo de los servicios de backend}
-\subsection{Elaboración de la guía de uso}
-\subsection{Elaboración de un manual de instalación}
+Esta fase implica la construcción el árbol de características y las restricciones textuales que orienten el espacio de 
+configuraciones posibles del fichero Dockerfile 
+
+\subsection{Fase desarollo Scrum}
+\subsubsection{Requisitios de la aplicación }
+Aquí se definen y documentan los requisitos funcionales y no funcionales de la aplicación. Se recopilan y analizan las 
+necesidades de los posibles usuarios, los objetivos del proyecto y las restricciones técnicas para establecer una base 
+sólida para el desarrollo.
+\subsubsection{Desarrollo del la aplicación de uvengine }
+En esta fase se desarrolla la aplicación de uvengine, que permite la generación automática de archivos de configuración
+\subsubsection{Desarrollo de la web}
+En esta fase se desarrolla la aplicación web que permite la interacción con el usuario y la visualización de los archivos de configuración generados.
+\subsubsection{Desarrollo de los servicios de backend}
+En esta fase se desarrollan los servicios de backend que permiten la comunicación entre la aplicación web y la aplicación de uvengine y los repositorios.
+\subsubsection{Elaboración de la guía de uso}
+En esta fase se elabora una guía de uso que explica cómo utilizar la aplicación y las funcionalidades disponibles.
+Se elabora una guía detallada que describe cómo utilizar la aplicación, incluyendo instrucciones paso a paso, capturas 
+de pantalla y ejemplos. 
+\subsubsection{Elaboración de un manual de instalación}
+En esta fase se elabora un manual de instalación que explica cómo instalar y configurar la aplicación en un entorno local.
 \subsection{Elaboración de la memoria}
+En esta fase se redacta la memoria o informe final del proyecto, que documenta todo el proceso de desarrollo, desde la 
+planificación hasta la implementación y las lecciones aprendidas. La memoria incluirá el análisis de los resultados, 
+conclusiones y recomendaciones para trabajos futuros. 
+
 
 
 %% Arquitectura y Modelado del sistema
@@ -208,17 +297,25 @@ EXTENSIONES VISUAL ESTUDIO
 \subsection{Arquitectura de Frontend}
 
 
+
+%% Extesivilidad de la aplicación
+\section{Extensibilidad}
+\subsection{Plantillas}
+\subsubsection{Plantillas de Dockerfile}
+\subsubsection{Plantillas de Dockerignore}
+
+
 %% Despliegue de la aplicación
 \section{Despliegue de la aplicación  }
 \subsection{ Despliegue local }
 \subsection{ Despliegue en la nube }
 
 
-
 %% Resultados
 \section{Resultados}
 \subsection{Resultados Obtenidos}
 \subsection{Viabilidad del proyecto}
+Estamos limitados por la generacion de los fiechors de configuracion que nos proporciona la extension uvls
 
 
 %% Conclusiones
@@ -301,7 +398,28 @@ EXTENSIONES VISUAL ESTUDIO
 %% Apendices
 \begin{umaappendices}
     \section{Manual de \\ Instalación}
+	\subsection{Requisitos Previos}
+	\subsection{Descargar el codigo fuente}
+	\subsection{Configuracion del archivo Dockercomose}
+	\subsubsection{Nginx reverse proxy}
+	\subsubsection{frontend}
+	\subsubsection{Repository Manager}
+	\subsubsection{UV Engine resolver}
+	\subsection{Construccion de los contenedores}
+	\subsubsection{Github API}
+	\subsection{Terminar el servicio}
+
+
+
     \section{Manual de Uso}
+	\subsection{Inicio de la aplicacion}
+	\subsection{Barra de Navegación}
+	\subsubsection{About Page}
+	\subsubsection{Help Page}
+	\subsection{Seleccionar plantilla}
+	\subsubsection{Seleccionar version de la platilla}
+
+
 \end{umaappendices}
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  16 OCT 2024 11:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  16 OCT 2024 13:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,13 +685,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
  [5
 
-] [6])
+] [6] [7])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [7] [8
-
-]
+ [8]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 112.0pt on input line 43.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
@@ -699,73 +697,70 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9] [10] [11
+ [9
+
+] [10] [11
 
 ] [12]
 Overfull \hbox (16.57365pt too wide) in paragraph at lines 109--113
 \T1/LinuxLibertineT-TLF/m/n/12 tu-ral em-plea-dos y de la ca-li-dad del promp de en-tra-da. co-mo https://magickpen.com/templates/128/
  []
 
-[13] [14]
+[13] [14] [15
+
+] [16] [17]
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 170.
+(blindtext)                 on input line 213.
 
+
+Overfull \hbox (52.68626pt too wide) in paragraph at lines 217--229
+\T1/LinuxLibertineT-TLF/m/n/12 Graphiz Inetrac-ti-ve Pre-view https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-
+ []
+
+
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+ [18] [19] [20
+
+]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 239.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15
+ [21] [22] [23] [24] [25
 
-]
-Overfull \vbox (151.1081pt too high) has occurred while \output is active []
+] [26
 
- [16]
-Overfull \hbox (37.12373pt too wide) in paragraph at lines 173--183
-[]\T1/LinuxLibertineT-TLF/m/n/12 EXTENSIONES VI-SUAL ES-TU-DIO -UVLS https://github.com/Universal-Variability-Language/uvl-
- []
-
-
-Overfull \hbox (4.06236pt too wide) in paragraph at lines 173--183
-\T1/LinuxLibertineT-TLF/m/n/12 lsp -Docker -Flama https://marketplace.visualstudio.com/items?itemName=diversolab.flamapy
- []
-
-
-Overfull \hbox (56.74226pt too wide) in paragraph at lines 173--183
-\T1/LinuxLibertineT-TLF/m/n/12 -Graphiz Inetrac-ti-ve Pre-view https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-
- []
-
-[17] [18
-
-] [19] [20
-
-] [21] [22
-
-] [23] [24
-
-] [25] [26
-
-]
-
-LaTeX Warning: Empty bibliography on input line 263.
-
-[27] [28
+] [27] [28
 
 ] [29] [30
 
+] [31] [32
+
+]
+
+LaTeX Warning: Empty bibliography on input line 360.
+
+[33] [34
+
+] [35] [36
+
 ]
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Portada-Titulo-Contraportada/backcover.pdf, id=168, 597.23125pt x 845.1575pt>
+<Portada-Titulo-Contraportada/backcover.pdf, id=187, 597.23125pt x 845.1575pt>
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 309.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 427.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 309.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 427.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
@@ -773,25 +768,25 @@ pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PD
 
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Portada-Titulo-Contraportada/backcover.pdf, id=171, page=1, 597.23125pt x 845.1575pt>
+<Portada-Titulo-Contraportada/backcover.pdf, id=190, page=1, 597.23125pt x 845.1575pt>
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 309.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 427.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-[31]
+[37]
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 309.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
-<use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 309.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 427.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 309.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 427.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [32
+File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/backcover.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 427.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+ [38
 
  <./Portada-Titulo-Contraportada/backcover.pdf>] (main.aux
 LaTeX Info: Redefining \sptext on input line 9.
@@ -807,17 +802,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14610 strings out of 474541
- 275563 string characters out of 5744425
+ 14618 strings out of 474541
+ 275695 string characters out of 5744425
  1935978 words of memory out of 5000000
- 36644 multiletter control sequences out of 15000+600000
- 602404 words of font info for 59 fonts, out of 8000000 for 9000
+ 36651 multiletter control sequences out of 15000+600000
+ 607667 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,93p,799b,1911s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,17n,93p,799b,1913s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb>
-Output written on main.pdf (32 pages, 519983 bytes).
+Output written on main.pdf (38 pages, 531200 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
+ 225 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
