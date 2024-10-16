@@ -10,12 +10,15 @@
 \contentsline {subsection}{\numberline {2.3}Docker}{11}{}%
 \contentsline {subsubsection}{\numberline {2.3.1}Dockerfile}{12}{}%
 \contentsline {subsubsection}{\numberline {2.3.2}Buenas Prácticas}{12}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}Problematica}{12}{}%
 \contentsline {subsection}{\numberline {2.4}Alternativas Actualmente Disponibles}{12}{}%
-\contentsline {subsubsection}{\numberline {2.4.1}Docker init , Docker Extension vscode1}{12}{}%
-\contentsline {subsubsection}{\numberline {2.4.2}https://magickpen.com/templates/128/}{12}{}%
-\contentsline {subsubsection}{\numberline {2.4.3}https://phpdocker.io/}{12}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Docker init}{12}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Docker Extension for Visual Studio Code}{13}{}%
+\contentsline {subsubsection}{\numberline {2.4.3}Inteligencia Artificial}{13}{}%
+\contentsline {subsubsection}{\numberline {2.4.4}phpdocker}{13}{}%
+\contentsline {subsubsection}{\numberline {2.4.5}Starter}{13}{}%
 \contentsline {subsection}{\numberline {2.5}Conclusiones}{13}{}%
-\contentsline {subsection}{\numberline {2.6}Que se aporta en este contexto:}{13}{}%
+\contentsline {subsection}{\numberline {2.6}Que se aporta en este contexto:}{14}{}%
 \contentsline {section}{\numberline {3}Tecnologías Empleadas}{16}{}%
 \contentsline {subsection}{\numberline {3.1}UVL}{16}{}%
 \contentsline {subsubsection}{\numberline {3.1.1}Feature Models}{16}{}%

@@ -94,17 +94,39 @@ A dicha imagen se añaden las instrucciones necesarias para instalar las depende
 \subsubsection{Buenas Prácticas}
 Para la creacion de los ficheros dockerfile es recomendable seguir una serie de buenas practicas para garantizar la eficiencia y la seguridad en el despliegue de servicios en Docker.
 Estas practicas se recojen en la documentacion oficial de Docker y en guias de buenas practicas de la comunidad de desarrolladores.
+\subsubsection{Problematica}
+La creacion de los ficheros dockerfile puede ser una tarea tediosa y propensa a errores, especialmente cuando se manejan múltiples servicios y configuraciones personalizadas.
 \subsection{Alternativas Actualmente Disponibles}
-\subsubsection{Docker init , Docker Extension vscode1}
-\subsubsection{https://magickpen.com/templates/128/}
-\subsubsection{https://phpdocker.io/}
-\blindtext
+En la actualidad existen varias alternativas para la generación de archivos de configuración para el despliegue de servicios en Docker (dockerfile)
+\subsubsection{Docker init}
+Docker init es el comando de Docker Desktop CITA que permite inicializar un proyecto con un archivo de configuración básico.
+su funcionamiento consta de elegir una plantilla de proyecto y seleccionar las opciones de configuración deseadas.
+Las opciones de configuracion se limitan a elegir el lenguaje de programacion y que comando se ejecutara al iniciar el contenedor.
+\subsubsection{Docker Extension for Visual Studio Code}
+La extension de Docker para visual estudio code CITA permite entre sus funcionalidades la generacion de los ficheros dockerfile y dockerignore.
+su comportamineto es similar al de Docker init, permitiendo elegir el lenguaje de desarrollo del proyecto y que comando se ejecutara al iniciar el contenedor.
+\subsubsection{Inteligencia Artificial}
+En la actualidad existen soluciones que se apoyan en la inteligacia Artificial 
+para la generacion de archivos de configuracion, y para la creacion 
+de los ficheros dockerfile y dockerignore. La calidad de estas soluciones es variable y depende de la calidad de los modelos de lenguaje natural empleados y de la calidad del promp de entrada.
+como https://magickpen.com/templates/128/ CITA o alternativas con propositito más general como chatgpt CITA
+\subsubsection{phpdocker}
+Tambien estan disponibles alternativas más epecificas como https://phpdocker.io/ CITA que permiten la generacion de archivos de configuracion para servicios en php.
+\subsubsection{Starter}
+herramienta open source como estarter CITA https://www.startwithdocker.com/ capaces de reconocer el lenguaje de programacion del proyecto y generar un archivo de configuracion basico.
+
 
 \subsection{Conclusiones}
-\blindtext
+En este estudio se han recogido algunas de las principales herramientas y tecnologías disponibles en la actualidad para la generación de archivos de configuración.
+Todas las herraminetas proponen mediante plantillas la generacion de los ficheros dockerfile y dockerignore, estas plantillas son limitadas y no permiten la personalizacion de las opciones de configuracion.
+No obstante suponen un punto de partida para el desarrollo de aplicaiones 
 
 \subsection{Que se aporta en este contexto:}
-\blindtext
+Las opciones actualemtne disponibles para la generacion de archivos de configuracion para el despliegue de servicios en Docker son limitadas y no permiten la personalizacion de las opciones de configuracion.
+Se deja de lado la variabilidad y las posibles opciones que existen a la hora de construir las imagenes 
+
+
+
 
 
 
