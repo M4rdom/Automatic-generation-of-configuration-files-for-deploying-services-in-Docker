@@ -44,7 +44,7 @@
 \contentsline {subsection}{\numberline {3.10}Visual Studio Code}{18}{}%
 \contentsline {subsubsection}{\numberline {3.10.1}UVLS extension}{19}{}%
 \contentsline {section}{\numberline {4}Metodologia del trabajo. (Fases) Implementación:}{21}{}%
-\contentsline {subsection}{\numberline {4.1}Enfoque}{21}{}%
+\contentsline {subsection}{\numberline {4.1}Introduction}{21}{}%
 \contentsline {subsection}{\numberline {4.2}Metodología del Desarrollo}{21}{}%
 \contentsline {subsubsection}{\numberline {4.2.1}Justificación}{22}{}%
 \contentsline {subsubsection}{\numberline {4.2.2}Procedimiento}{22}{}%
@@ -75,6 +75,7 @@
 \contentsline {section}{\numberline {8}Resultados}{31}{}%
 \contentsline {subsection}{\numberline {8.1}Resultados Obtenidos}{31}{}%
 \contentsline {subsection}{\numberline {8.2}Viabilidad del proyecto}{31}{}%
+\contentsline {subsection}{\numberline {8.3}Escalabilidad}{31}{}%
 \contentsline {section}{\numberline {9}Conclusiones y líneas Futuras }{33}{}%
 \contentsline {subsection}{\numberline {9.1}Conclusion Personal,}{33}{}%
 \contentsline {subsection}{\numberline {9.2}Conclusiones del Desarrollo del proyecto}{33}{}%
@@ -100,3 +101,6 @@
 \contentsline {subsubsection}{\numberline {B.2.2}Help Page}{37}{}%
 \contentsline {subsection}{\numberline {B.3}Seleccionar plantilla}{37}{}%
 \contentsline {subsubsection}{\numberline {B.3.1}Seleccionar version de la platilla}{37}{}%
+\contentsline {subsubsection}{\numberline {B.3.2}Cargar configuracion}{37}{}%
+\contentsline {subsubsection}{\numberline {B.3.3}Descargar Fichero Generado}{37}{}%
+\contentsline {subsubsection}{\numberline {B.3.4}Copiar Fichero Generado}{37}{}%
