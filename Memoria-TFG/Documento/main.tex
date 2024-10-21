@@ -6,6 +6,9 @@
 \addbibresource{bibliografia.bib} 
 \usepackage{subfiles}
 \usepackage{blindtext}
+\usepackage{verbatim}
+\usepackage{forest}
+\usetikzlibrary{arrows.meta}
 \graphicspath{ {./images/} }
 
 
@@ -43,7 +46,7 @@
 \section{Introduction}
 
 \subsection{Motivación}
-Las herramientas de automatización de tareas son fundamentales en el desarrollo de software permiten mejorar la eficiencia, la calidad y la consistencia en la producción de código.
+Las herramientas de automatización de tareas son fundamentales para la productividad en el desarrollo de software, permiten mejorar la eficiencia, la calidad y la consistencia en la producción de código.
 Al relegar tareas repetitivas y propensas a errores a herramientas automatizadas, los desarrolladores pueden centrarse en tareas más creativas y de mayor valor añadido.
 
 Parte del ciclo de vida en un desarrollo de software implica la configuración y el despliegue de servicios en entornos de producción y desarrollo.
@@ -60,7 +63,7 @@ se busca mejorar la eficiencia y la precisión en la configuración de entornos 
 
 \subsection{Objetivo}
 La meta principal de este proyecto es desarrollar una herramienta que permita la generación automática de archivos de configuración para el despliegue de servicios en Docker.
-Siguiendo las pautas recomendadas para la generacion de dichos archivos
+Siguiendo las pautas recomendadas para la generacion de dichos archivos, Mediante la creacion de plantillas que se generen deberan ser extendibles y adaptables a los cambios en un futuro sin necesidad de reescribir código.
  
 
 \subsection{Resultados Esperados}
@@ -90,16 +93,17 @@ Por definir
 
 %% Estado del Arte 
 \section{Estado del Arte}
-En este apartado se presentan los conceptos clave necesarios para comprender la situacion actual, asi como las soluciones existentes.
+En este apartado se presentan una introduccion a los conceptos clave necesarios para comprender la situacion actual y contextualizar la problematica, asi como las soluciones existentes.
 \subsection{Contenedores}
-Los contenedores son paquetes ligeros que incluyen el código de las aplicaciones junto con sus dependencias, como versiones concretas de entornos de ejecución de ciertos lenguajes de programación y bibliotecas para ejecutar los servicios de software.
+Los contenedores son paquetes software ligeros que incluyen el código de las aplicaciones junto con sus dependencias, como versiones concretas de entornos de ejecución de ciertos lenguajes de programación y bibliotecas para ejecutar los servicios de software.
 \subsubsection{Porque se usan los contenedores}
 Los contenedores constituyen un mecanismo de empaquetado lógico en el que las aplicaciones pueden extraerse del entorno en que realmente se ejecutan. 
 Esta desvinculación facilita el despliegue uniforme de las aplicaciones basadas en ellos con independencia de que el entorno sea un centro de datos privado, la nube pública o el portátil personal de un desarrollador.
+Es una solucion de facil aplicacion, alto rendimiento y extremadamente portable.
 \subsection{Imagenes}
-Las imágenes de contenedores son plantillas de solo lectura que contienen el código de la aplicación, las bibliotecas, las dependencias y otros archivos necesarios para ejecutar un contenedor.
+Las imágenes de contenedores son plantillas de solo lectura que contienen el código de la aplicación, las bibliotecas, las dependencias y otros archivos necesarios para ejecutar un contenedor. CITA 
 \subsection{Docker}
-Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos
+Docker CITA es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos
 Docker es una plataforma de código abierto que permite a los desarrolladores crear, desplegar y ejecutar aplicaciones en contenedores. 
 \subsubsection{Dockerfile}
 El archivo Dockerfile es un archivo de texto que contiene una serie de instrucciones que Docker utilizará para construir una imagen de contenedor.
@@ -109,7 +113,7 @@ A dicha imagen se añaden las instrucciones necesarias para instalar las depende
 Para la creacion de los ficheros dockerfile es recomendable seguir una serie de buenas practicas para garantizar la eficiencia y la seguridad en el despliegue de servicios en Docker.
 Estas practicas se recojen en la documentacion oficial de Docker CITA
 \subsection{Problematica}
-La dificultad para crear imagenes reside en la naturaleza de la aplicacion que queremos llevar a un contenedor, existen una gran cantidad de escenarios donde si bien la tarea es sencilla, esta puede escoder una complejidad implicita
+La dificultad de crear imagenes reside en la naturaleza de la aplicacion que queremos llevar a un contenedor, existen una gran cantidad de escenarios donde si bien la tarea es sencilla, esta puede escoder una complejidad implicita
 de la que el usuario no es consciente. 
 
 Estos apartados repercuten en el tiempo de compilación, tamaño de la imagen, mantenibilidad, seguridad y repetibilidad en las imagenes que se crean.
@@ -151,16 +155,26 @@ La herramienta es capaz de forma autonoma reconocer el contenido de un proyecto 
 
 \subsection{Conclusiones}
 En este estudio se han recogido algunas de las principales herramientas y tecnologías disponibles en la actualidad para la generación de archivos de configuración.
-Todas las herraminetas hacen uso de plantillas la generacion de los ficheros dockerfile y dockerignore, estas plantillas si bien son correctas son por naturaleza limitadas y no permiten la personalizacion más final de las opciones de configuracion.
+Todas las herraminetas (Salvo propiamente los Modelos de Texto Generativo) hacen uso de plantillas para la generacion de los ficheros dockerfile y dockerignore, estas plantillas si bien son correctas son por naturaleza limitadas y no permiten la personalizacion más final de las opciones de configuracion.
 No obstante suponen un punto de partida para el desarrollo de aplicaiones 
 
 \subsection{Que se aporta en este contexto:}
 Las opciones actualemtne disponibles para la generacion de archivos de configuracion para el despliegue de servicios en Docker son limitadas y no permiten la personalizacion de las opciones de configuracion.
 Se deja de lado la variabilidad y las posibles opciones que existen a la hora de construir las imagenes, el proyecto proporcinara una nueva forma de construir plantillas dotando capacidad al usuario de una personalizacion
 más profunda y detallada de las opciones de configuracion de los servicios en Docker.
+\subsubsection{Software Product Line SPL}
+El proyecto propone una solucion en linea con la implementacion de plantillas pero ...
+Una línea de productos software (SPL del inglés Software Product Line) es una familia de productos software 
+relacionados entre sí que comparten ciertas características comunes (similitudes) pero que también tienen 
+características variables. En un SPL, los sistemas se descomponen en características (features) que representan 
+funcionalidades o comportamientos del sistema. 
+El principal artefacto para modelar la variabilidad en SPL son los modelos de variabilidad. Existen muchos modelos 
+de variabilidad pero los más extendidos y usados en la práctica son los modelos de características (feature models). 
+Un feature model (FM) es un modelo para representar la variabilidad de una SPL en base a características comunes y 
+variables (véase Figura 1), especificando qué características se pueden seleccionar en una configuración para generar 
+un producto válido de la SPL. CITA 
 
-
-
+IMAGEN FEATURE MODEL 
 
 
 
@@ -176,88 +190,125 @@ más profunda y detallada de las opciones de configuracion de los servicios en D
 %% Tecnologías Empleadas
 \section{Tecnologías Empleadas}
 Este apartado describe las tecnologías y herramientas empleadas más relevantes para el desarrollo del proyecto, así como su función y su relación con el objetivo del proyecto.
-Para el interes del lector 
 
 \subsection{Universal Variability Language UVL}
 CITA 
 La Universal Variability Language (UVL) es un lenguaje de modelado diseñado específicamente para representar y manejar la variabilidad en sistemas software. 
 La variabilidad en software se refiere a las partes de un sistema que pueden personalizarse, configurarse o cambiarse para adaptarse a diferentes necesidades o contextos. 
 UVL se usa comúnmente en el contexto de ingeniería de líneas de productos de software (Software Product Line Engineering o SPLE), donde se trabaja con una familia de productos que comparten un núcleo común, pero pueden tener variaciones.
+todas las plantillas que se han desarrollado en este proyecto requieren de un archivo UVL para poder generar configuraciones validas.
 
 \subsubsection{Feature Models}
 CITA 
-El principal artefacto para modelar la variabilidad en SPL son los modelos de variabilidad. Existen muchos modelos 
-de variabilidad pero los más extendidos y usados en la práctica son los modelos de características (feature models). 
-Un feature model (FM) es un modelo para representar la variabilidad de una SPL en base a características comunes y 
-variables (véase Figura 1), especificando qué características se pueden seleccionar en una configuración para generar 
-un producto válido de la SPL
-\subsection{Docker}
-Con el objetivo de desarrollar una aplicaicon con animo de ejecutarse en contendores se ha optado por la tecnologia de Docker.
-\subsubsection{Docker Desktop}
-Para el manejo de los contenedores en el entorno de desarrollo se ha optado por la utilizacion de Docker Desktop.
+Un \textbf{Feature Model} es una representación de las características y variabilidad de un producto o sistema. En el caso de una aplicación de mensajería móvil, el modelo podría ser el siguiente:
 
-\subsection{Node}
+\subsection{Docker}
+La apliccion web tanto como todos sus servicios han sido desarrollados con el objetivo en mente de ser ejecutados dentro de contenedores
+Para el manejo de los contenedores en el entorno de desarrollo se ha optado por la utilizacion de Docker Desktop es complemento con la consola de comandos.
+Esta herremienta ayuda al proyecto en el momento en que lo hacer portable y facil de desplegar en cualquier entorno.
+\subsection{Node.js}
 CITA
-para el desarrollo de la aplicacion web se ha optado por la utilizacion de Node como entorno de ejecucion de JavaScript.
+para el desarrollo de la aplicacion web se ha optado por la utilizacion de Node.js como entorno de ejecucion de JavaScript para el desarrollo Frontend.
+Esta herramienta constituye una plataforma de desarrollo en tiempo de ejecución cuenta con la ventaja de contar con una extensa biblioteca de módulos que simplifican el desarrollo de aplicaciones web.
+Con npm (Node Package Manager), Node.js ofrece acceso a una vasta colección de paquetes y módulos que pueden ser fácilmente integrados en el proyecto, acelerando el desarrollo y reduciendo la necesidad de escribir código desde cero.
+Para el proyecto se emplea la version v22.10.0 y la version v10.9.0 del gestor de paquetes npm
 \subsection{Angular}
 CITA
-Para el desarrollo de la aplicacion web se ha optado por la utilizacion de Angular como framework de desarrollo de aplicaciones web.
+En cuanto al desarrollo de la aplicacion web se ha optado por la utilizacion de Angular como framework de desarrollo.
+El motivo de esta decision es la idea de emplear un framework moderno para emplear los metodos de desarrollo actuales y las mejores practicas en el desarrollo de aplicaciones web.
+Emplear otros framework de desarrollo como React o Vue.js tambien hubiera sido una opcion valida al existir una cierta convergencia entre ellos en cuanto a funcionalidades y caracteristicas.
+Para los requisitos del proyecto entendimos que Angular ya integra gran parte de las funcionalidades que requesia nuestra aplicacion ahorrando tiempo en la implementacion de las mismas.
 \subsubsection{Angular Material}
 CITA
-CITA Para el diseño de la interfaz grafica de la aplicacion web se ha optado por la utilizacion de Angular Material como libreria de componentes.
+CITA Para el diseño de la interfaz grafica de la aplicacion web se ha optado por la utilizacion los componentes provenientes de los modulos de Angular Material.
+Siguiendo la linea de diseño de Material Design, Angular Material proporciona una serie de componentes y directivas que facilitan la creacion de interfaces de usuario modernas y atractivas.
+Los componentes tienen una reaccion conocidad por el usuario y son faciles de implementar en la aplicacion web.
 \subsubsection{Monaco Editor}
 CITA Para la edicion de los archivos de configuracion se ha optado por la utilizacion de Monaco Editor como editor de codigo.
+Monaco Editor es un editor de codigo fuente basado en la web que se utiliza en varios proyectos de Microsoft, como Visual Studio Code, Azure DevOps y el editor de codigo de GitHub.
+cuenta con una serie de caracteristicas que lo hacen ideal para la edicion de archivos de configuracion, como la resaltado de sintaxis, el autocompletado y la verificacion de errores.
+tambien es altamente personalizable y extensible, lo que permite adaptarlo a las necesidades del proyecto.
 \subsubsection{ngx-json-viewer}
 CITA
-CITA Para la visualizacion de los archivos de configuracion se ha optado por la utilizacion de ngx-json-viewer como visor de archivos json.
+Para la visualizacion de los archivos de configuracion se ha optado por la utilizacion de ngx-json-viewer como visor de archivos json.
+ngx-json-viewer es un componente de Angular que permite visualizar archivos JSON en un formato legible y estructurado.
+es un proyecto de codigo abierto que se puede integrar facilmente en aplicaciones Angular y personalizar segun las necesidades del proyecto.
 
 \subsection{Nginx}
-CITA
-Para el despliegue de la aplicacion web se ha optado por la utilizacion de Nginx como servidor web.
-\subsubsection{Reverse Proxy}
-CITA
-Para el despliegue de la aplicacion y requerimientos adicionales se ha empleado Nginx como un proxy inverso.
-\subsubsection{Web Server}
-CITA
-Para el despliegue de la aplicacion web se ha optado por la utilizacion de Nginx como servidor web.
+CITA 
+Nginx es un servidor web de código abierto desarrollado en C que se utiliza para servir contenido web estático y dinámico, así como para actuar como proxy inverso y balanceador de carga.
+la ventaja de Nginx es principalmente la poca necesidad de configuracion que requiere para su correcto funcionamiento, ademas de ser un servidor web ligero y de alto rendimiento.
+Para las necesidades del proyecto se ha empleado en sus funciones de proxy inverso para redirigir las peticiones de la aplicacion web al servidor de backend.
+y como servidor web para servir el contenido estatico de la aplicacion web.
 
 \subsection{Python}
+CITA 
+Python es un lenguaje de programación de alto nivel, interpretado y de propósito general que se ha convertido en uno de los lenguajes más populares en la actualidad.
 Para el desarrollo de los servicios de backend se ha optado por la utilizacion de Python como lenguaje de programacion.
+Python es conocido por su sintaxis clara y legible, su amplia biblioteca estándar y su soporte para múltiples paradigmas de programación, como la programación orientada a objetos, la programación funcional y la programación imperativa.
 \subsubsection{Flask}
-Para el desarrollo de los servicios de backend se ha optado por la utilizacion de Flask como framework de desarrollo de aplicaciones web.
+CITA
+Flask es un microframework de Python para el desarrollo de aplicaciones web.
+Flask es conocido por su simplicidad y su facilidad de uso, lo que lo convierte en una excelente opción para el desarrollo de aplicaciones web pequeñas y medianas.
 \subsubsection{guinicorn}
-Para el despliegue de los servicios de backend se ha optado por la utilizacion de guinicorn como servidor web.
+CITA
+Gunicorn es un servidor HTTP WSGI para Python que se utiliza para servir aplicaciones web desarrolladas en Python. su objetivo es proporcionar un servidor web simple y eficiente que pueda manejar múltiples solicitudes simultáneamente.
+esta herraminta es necesaria para el despliegue de la aplicacion en un entorno de produccion.
 \subsubsection{Pypi}
-Para la gestion de dependencias se ha optado por la utilizacion de Pypi como repositorio de paquetes de Python.
+CITA
+El uso de Pypi como repositorio de paquetes de Python es necesario para la instalacion de las dependencias de la aplicacion.
+asi como ha sido empleado para subir paquetes diseñados para la aplicacion.
 
 \subsection{Jinja}
+CITA
+Jinja es un motor de plantillas para Python que se utiliza para generar archivos de texto dinámicos basados en plantillas. 
+
 \subsubsection{Jinja2}
+CITA
+Jinja2 es la versión más reciente de Jinja y se utiliza comúnmente en aplicaciones web de Python para generar contenido dinámico.
+Jinja2 es conocido por su sintaxis simple y legible, su capacidad para generar contenido dinámico y su integración con Python y otros marcos de desarrollo web.
+Jinja2 permite la generacion de archivos de texto dinamicos basados en plantillas, lo que facilita la creacion de archivos de configuracion personalizados y adaptables a las necesidades del usuario.
+Todas las plantillas desarrolladas han usando la sintaxis de Jinja2
+
 
 
 \subsection{Git}
+CITA 
 Para el control de versiones se ha optado por la utilizacion de Git como sistema de control de versiones.
 \subsection{GitHub}
-Para el almacenamiento de codigo se ha optado por la utilizacion de GitHub como plataforma de desarrollo colaborativo.
+CITA 
+GitHub es una plataforma de desarrollo colaborativo que se utiliza para alojar proyectos de código, realizar seguimiento de problemas y tareas, y colaborar con otros desarrolladores.
+Todo el proyecto es alojado en GitHub incluyendo plantillas, codigo ...
 \subsubsection{GitHub Public Api}
-Para la gestion de los repositorios de GitHub se ha optado por la utilizacion de la API publica de GitHub.
+CITA
+Para la gestion de las plantillas se ha empleado la API publica de GitHub para la obtencion de las plantillas disponibles.
+Esta desion se ha tomado por facilidad de uso, ya que la API de GitHub es ampliamente conocida y documentada, y permite acceder a una gran cantidad de información sobre los repositorios y las plantillas disponibles.
+Esto supone que las plantillas estan visibles y son accesibles y modificables por cualquier usuario de GitHub.
+Simplificando el proceso de creacion, mantenimiento y actualizacion de las plantillas. 
 \blindtext
 
 \subsection{Visual Studio Code}
-Para el desarrollo de la aplicacion se ha optado por la utilizacion de Visual Studio Code como entorno de desarrollo integrado.
+CITA 
+Visual Estudio Code es un editor de código fuente desarrollado por Microsoft que se utiliza para escribir, editar y depurar código.
+Su mencion se debe a que es el editor de codigo fuente que se ha empleado para el desarrollo del proyecto. Ademas de ser clave en el proceso de generador de ficheros de configuracion
+de los que la aplicacion hace uso.
 \subsubsection{UVLS extension}
-Para la edicion de los archivos de configuracion se ha optado por la utilizacion de la extension de UVLS para Visual Studio Code.
-ademas de las siguientes extensiones:
-EXTENSIONES VISUAL ESTUDIO
-	-UVLS https://github.com/Universal-Variability-Language/uvl-lsp
-	-Docker
-	-Flama https://marketplace.visualstudio.com/items?itemName=diversolab.flamapy
-	-Graphiz Inetractive Preview https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-interactive-preview
-	-Latex Worshop
-	-Pylance
-	-Python
-	-Python Debugger
-	-Better Jinja
+CITA
+UVLS es una extension de Visual Studio Code que proporciona soporte para la Universal Variability Language (UVL) en el editor de codigo.
+La extension UVLS proporciona resaltado de sintaxis, autocompletado, verificacion de errores y otras funcionalidades que facilitan la edicion de archivos de configuracion en UVL.
+ademas la clave más importante es que es la unica herramienta existente que permite crear una configuracion correcta partiendo desde un Feature Model
 
+
+Otras extensiones de menos importancia empleadas en \textit{VSCode} son:
+\begin{itemize}
+    \item \textbf{Docker Extesnion} CITA 
+    \item \textbf{Flama} CITA 
+    \item \textbf{Graphviz Interactive Preview}CITA 
+    \item \textbf{Latex Workshop} CITA 
+    \item \textbf{Pylance} CITA 
+    \item \textbf{Python Debugger} CITA 
+    \item \textbf{Better Jinja} CITA 
+\end{itemize}
 
 
 
@@ -266,17 +317,17 @@ EXTENSIONES VISUAL ESTUDIO
 %% Metodología
 \section{Metodologia del trabajo. (Fases) Implementación:}
 \subsection{Introduction}
-El enfoque se ha dado en desarrollo de este trabajo ha consistido en combinar un trabajo previo de analisis e investigacion con un desarrollo iterativo y agil.
-La investigacion y analisis previo teniea el objetivo de conocer en profundidad las tecnologias y herramientas empleadas
-para porstesiromete estudicar una posible aplicacion de estas ideas y conceptos en el desarrollo de las plantillas.
-una vez resuelta esta primera parte se ha procedido a una toma de requisitos y a la planificacion del desarrollo de la aplicacion.
+El enfoque se ha dado para abordar el desarrollo de este trabajo ha consistido en combinar un trabajo previo de analisis e investigacion con un desarrollo iterativo y agil.
+La investigacion y analisis tenia el objetivo de conocer en profundidad las tecnologias y herramientas empleadas 
+para porstesiromete estudiar una posible aplicacion de estas ideas y conceptos en el desarrollo de las plantillas.
+una vez resuelta esta primera parte se ha procedido a una toma de requisitos y a la planificacion de la implementacion de la aplicacion.
 para la implementacion de la aplicacion se ha optado por la utilizacion de una metodologia de desarrollo agil que permita la adaptacion a los cambios y la evolucion del proyecto.
 \subsection{Metodología del Desarrollo}
 Al encontrarnos ante un trabajo individual toda la responsabilidad y capacidad del desarrollo recae sobre una persona. 
 Para el desarrollo de código optaremos por una metodología Scrum simplificada. De forma iterativa se ejecutará un Sprint con 
 unos objetivos de desarrollo y planificación muy limitados. Con el objetivo de dar cabida a la complejidad del proyecto, 
 con animo de encajar nuevas ideas y revisiones que pudieran sucederse.
-Tras cada Sprint se evaluará la progresión y dirección del proyecto con el tutor. 
+Tras cada Sprint se evaluará la progresión y dirección del proyecto con el tutor.
 \subsubsection{Justificación}
 
 El desarrollo de las plantillas requiere un estudio con el fin de limitar las opciones de configuración y centrarse en los casos de uso más comunes y en las configuraciones más utilizadas en la práctica.
@@ -287,25 +338,36 @@ Tras cada Sprint se evaluará la progresión y dirección del proyecto con el tu
 El desarrollo de un proyecto de estas características requiere de una planificación y una metodología de trabajo adecuada.
 En este sentido, como se han identificado anteriormente una serie de limitaciones y restricciones que pueden afectar al desarrollo del proyecto.
 para el caso el desarrollo de las plantillas tiene que verse limitado en cuanto a formato y contenido, ya que no se puede abarcar todas las posibles opciones de configuracion.
-\subsubsection{Fases de Estudio}
+\subsection{Fases de Estudio}
 \subsection{Estudio del Estado del Arte :}
 En esta fase se realiza una revisión exhaustiva de la literatura y tecnologías existentes relacionadas con el tema del 
 proyecto. El objetivo es comprender el panorama actual, identificar tendencias, mejores prácticas y tecnologías 
 relevantes que puedan influir en el desarrollo del proyecto.
-\subsection{Investigación opciones de configuración para Docker}
-Esta fase implica investigar y evaluar las diferentes opciones de configuración disponibles en Docker para el desarrollo 
-y despliegue de aplicaciones. Se exploran las características, herramientas y técnicas que pueden optimizar el uso de 
-Docker en el proyecto [2].
+\subsection{Investigación dockefiles}
+Esta fase implica investigar y evaluar las diferentes opciones de configuracion que se presentan en el desarrollo de un fichero dockerfile en el 
+despliegue de aplicaciones. Se exploran las características, herramientas y técnicas que pueden optimizar el uso de 
+Docker en un proyecto software. Es necesario comprender el porque se justifica la exitencia de esta tecnologia y como se aplica a 
+proyectos reales como los recogidos a continucion CITA
 
-\subsection{Desarrollo Modelos plantillas dockerfile y dockerignore …}
+\subsection{Desarrollo de Modelos de plantillas}
 Esta fase implica la construcción el árbol de características y las restricciones textuales que orienten el espacio de 
-configuraciones posibles del fichero Dockerfile 
+configuraciones posibles del fichero Dockerfile. En este paso se pondran en practica todo el conocimiento adquirido en los pasos anteriores que 
+tendran como resultado el modelado de unas plantillas. Hemos de tener en cuenta las buenas practicas y las recomendaciones de la comunidad para la creacion de los ficheros dockerfile CITA. 
+Estas practicas tienes que estar presentes en el diseño de las plantillas desde el inicio, tambien hemos de generar test para mantener la consistencia de las implementaciones. 
+Este paso queda cubierto con más detalle en el Capitulo 5
+
 
 \subsection{Fase desarollo Scrum}
 \subsubsection{Requisitios de la aplicación }
 Aquí se definen y documentan los requisitos funcionales y no funcionales de la aplicación. Se recopilan y analizan las 
-necesidades de los posibles usuarios, los objetivos del proyecto y las restricciones técnicas para establecer una base 
-sólida para el desarrollo.
+necesidades de los posibles usos, los objetivos del proyecto y las restricciones técnicas para establecer una planificacon del desarrollo. 
+Los requisitos han cambiado conforme el proyecto avanzaba en sus etapas de desarrollo
+sin animo de ser exhaustivos las funcionalidades mínimas que se pretenden alcazar son en cuanto a la generacion de productos
+
+La aplicacion web debe permitir seleccionar la plantilla y la version con la que se desea trabajar 
+Las plantillas pueden recargarse en del repositorio 
+La aplicacion web debe generar un el producto en el momento en el que se aplique una configuracion valida 
+
 \subsubsection{Desarrollo del la aplicación de uvengine }
 En esta fase se desarrolla la aplicación de uvengine, que permite la generación automática de archivos de configuración
 \subsubsection{Desarrollo de la web}
@@ -323,45 +385,305 @@ En esta fase se redacta la memoria o informe final del proyecto, que documenta t
 planificación hasta la implementación y las lecciones aprendidas. La memoria incluirá el análisis de los resultados, 
 conclusiones y recomendaciones para trabajos futuros. 
 
+%% Modelado de las plantillas
+\section{Modelado de las plantillas}
+Este espacio pretende describir de forma detallada el modelado de las plantillas y a que necesidad responden en la contruccion de un fichero de configuracion
+\subsection{Introducción}
+Dar cabida a la gran cantidad escenarios y posibles caso de uso para la apliacion se ha descrito anteriormente como una tarea abrumadora.
+Aunque pudieramos crear una plantilla lo suficientemente expresiva para dar cabida a todos los escenarios de uso exitentes hasta la fecha, las plantillas quedarian desfasadas conforme se suceden cambios 
+en las metodologias, surgen nuevas imagenes base, otras quedan desactualizadas etc. La obra resultante llegaria a ser inpracticable en cuanto a la cantidad de opciones y configuraciones que se podrian dar.
+El objetivo del desarrollo todas las plantillas de este proyecto no pretende llegar a un nivel extremadamente avanzado de personalizacion, sino que sirvan como base para la creacion de plantillas más especificas y detalladas.
+
+\subsection{Componentes de las plantillas}
+Las plantillas se dividen en varios componentes 
+\subsubsection{Featuremodel(.uvl)}
+El archivo uvl es el archivo principal de la plantilla, contiene la descripcion de las caracteristicas y las restricciones de la plantilla.
+en este archivo dicta principalmente como se generera una configuracion valida que sea capaz de cumplir con las restricciones textuales IMAGEN  CITA 
+\subsubsection{Plantillas Jinja}
+Las plantillas Jinja son los archivos de plantilla que se utilizan para generar los productos a partir de una configuracion valida o no del modelo. CITA
+La idea es exponer estas plantillas ante una configuracion ya validadada con herramientas como UVLS CITA, Estas plantillas constituyen el nuecleo del funcionamiento, en ella se declaran de forma explicita las opciones de configuracion y las variables que se pueden modificar.
+Las plantillas tienen que tener la esctrutura necesaria como para Usando la Sintaxis de Jinja crear un producto valido para una configuracion existente
+\subsubsection{Mapping Model}
+Es el unico componente completamente Opcional IMAGEN
+Contiene la extructura de un fichero csv de tres con columnas. Las primeras columnas permiten mapear features sean estas booleanas o no a otros feature Boolenas que podran ser empleadas en las plantillas jinja, la tercera columna permite especificar una feature
+Este archivo permite renombrar features y hacerlas más comprensibles para las plantillas jinja. Tambien es el responsable de hacer funciar configuraciones sobre otras plantillas.
+\subsection{Plantilla dockerfile}
+Como hemos visto un fichero Dockefile es un archivo de texto que contiene una serie de instrucciones que Docker CITA utilizará para construir una imagen de contenedor.
+la plantilla para dockerfile cuenta con el modelo más grande del proyecto, La idea para crear estos modelso es subdividir el modelo en partes más pequeñas y manejables, de forma que se pueda trabajar con ellas de forma independiente.
+El criterio a la hora de hacer subdivisiones es similar al criterio que usan repositorios como Docker HUB CITA donde divide sus imagenes por categorias dependiendo de su funcion.
+En este contexto podemos construir una primera subdivision que represente el resultado final esperado, es decir la primera feature sera decidir si nuestra imagen 
+tiene el objetivo de desplegar un contenedor que albergue un Frontend, Backend, Base de datos, etc.
+\begin{figure}[ht]
+	\centering
+	  \includegraphics[width=0.5\textwidth]{dockerfile.uvl.png}
+	\caption{Captura de la primera subdivision para dockerfile.}
+\end{figure}
+
+Cada una de estas categorias contendra a su vez una serie de subcategorias que representen las opciones de configuracion que se pueden dar en cada una de ellas.
+Centremonos en el caso de uso de un Frontend, Comunmente al deplegar una imagen de frontend se sigue una estrategia de multi etapa CITA donde en una primera etapa compilamos la aplicacion 
+y en una posterior etapa la alojamos en un servidor web, esto con el objetivo de crear una imagen lo más pequeña posible al no contener ninguno de los ficheros fuente
+
+en este caso las subcategorias podrian ser el lenguaje, el puerto en el que se desplegara la aplicacion, el comando que se ejecutara al iniciar el contenedor, etc.
+Estos son elementos ya mecionados en la seccion de herramientas disponibles como pueden ser Docker Init CITA, Nuestro modelo permite recojer estas caracteristicas además de otras 
+como pueden ser el servidor web que queremos junto con su version, Podremos seleccionar el framework de desarrollo que se ha empleado, la version en la que compilara la aplicacion etc.
+Las posibilidades van mucho más alla de lo que se recoje en esta version del fichero dockerfile pero estas opciones ya expanden enormemente la capacidad de configuracion que tienen otras 
+herremientas. 
+  
+\begin{figure}[ht]
+	\centering
+	  \includegraphics[width=0.5\textwidth]{dockerfile.frontend.png}
+	\caption{Captura de la primera subdivision para dockerfile.}
+\end{figure}
+
+\subsubsection{Plantillas Jinja2}
+Una vez que contamos con el modelo de la plantilla, podemos proceder a la creacion de las plantillas Jinja2 que son quienes realmente aportan el contenido al producto.
+La sintaxis de Jinja2 nos permite aplicar cierta lógica a la hora de generar los ficheros de configuracion, por ejemplo podemos emplear condicionales para que ciertas partes del fichero se generen o no en funcion de la configuracion que se haya dado.
+Dividir las plantillas no solo es util porque las hace más manejables y faciles de mantener, sino que tambien permite la reutilizacion de las mismas, por ejemplo si tenemos una plantilla que se repite en varias plantillas, podemos extraerla a un fichero aparte y reutilizarla en todas las plantillas que lo necesiten.
+Para este caso podemos generar una plantilla para los metadatos y labels de la imagen 
+
+\begin{figure}[ht]
+	\centering
+	  \includegraphics[width=0.5\textwidth]{dockerfile.metadata.png}
+	\caption{Captura de la primera subdivision para dockerfile.}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	  \includegraphics[width=0.5\textwidth]{dockerfile.logica.plantillas.jinja.png}
+	\caption{Captura de la primera subdivision para dockerfile.}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	  \includegraphics[width=0.5\textwidth]{dockerfile.frontend.jinja.template.png}
+	\caption{Captura de la primera subdivision para dockerfile.}
+\end{figure}
+
+\subsubsection{Test sobre la Plantilla dockerfile}
+El diseño y construccion de las plantillas es un proceso incremental, debe comprobarse con regularidad si nuestra intencion a la hora de seguir desarrollar una plantilla es mantener 
+una coherencia con lo añadido hasta el momento. Con esta idea en mente la solucion propuesta consiste en la creacion de pruebas que validen la correcta construccion de productos segun la plantilla en la que estamos trabajado.
+Estas pruebas deben ser capaces de comprobar que las plantillas generan un producto correcto. para el caso del dockerfile estas pruebas deben componerse por cada configuracion 
+y un producto esperado, si nuetra plantilla es capaz dada lo configuracion de entrada generar el mismo producto la prueba sera considerada como exitosa. 
+
+\newpage
+
+\begin{figure}[ht]
+	\centering
+	  \includegraphics[width=0.5\textwidth]{dockerfile.configuracion-backend.png}
+	\caption{Conguracion Ejemplo 1 Backend.}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	  \includegraphics[width=1\textwidth]{dockerfile.backend.producto.png}
+	\caption{Producto Esperado.}
+\end{figure}
+
+\newpage
+
+es evidente que ciertos cambios más radicales plantean refactorizar algunos test. aun asi es aconsejable validar el diseño de los nuevos elementos de la plantilla solucionando estas incoherencias.
+En el contexto de esta plantilla dockerfile las pruebas se han realizado empleado las librerias de pytest CITA para la generacion de los productos esperados.
+para cada una de las primeras divisiones de las plantillas se generan ficheros de test para clasificar las configuraciones que se prueban y los productos esperados.
 
 
-%% Arquitectura y Modelado del sistema
-\section{Arquitectura y Modelado del sistema }
+\begin{figure}[ht]
+	\centering
+	  \includegraphics[width=0.2\textwidth]{organizacion.test.pytest.png}
+	\caption{Captura de la primera subdivision para dockerfile.}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%% Arquitectura y Descripcion del sistema
+\section{Arquitectura y Descripcion del sistema }
+Esta seccion describe la arquitectura y el modelado del sistema, incluyendo los componentes, la estructura y el diseño de la aplicación resultante.
 \subsection{Vision general de la arquitectura }
-\subsection{Arquitectura de backend}
-\subsection{Arquitectura de Frontend}
+La arquitectura de la aplicación se divide en dos partes principales: el backend y el frontend.
+El backend es responsable de la generación de los archivos de configuración a partir de las plantillas y de la comunicación con los repositorios de plantillas.
+El frontend es responsable de la interacción con el usuario y la visualización de los archivos de configuración generados.
+\subsection{Descripcion de servicios de backend}
+Para los servicios de backend estos se han dividido en varios servicios que se encargan de tareas especificas.
+La primera de ellos es Repository Manager CITA este servicio se encarga de servir traducir las peticiones que puede realizar el front end a la API de GitHub.
+Estas peticiones son descargar el archivo uvl de la plantilla y version seleccionada, descargar el listado de plantillas disponibles y descargar el listado de versiones disponibles para cada plantilla
+\subsubsection{Repository Manager}
+Esta aplicaicon esta desarrollada en Python y emplea el framework Flask para la creacion de la API, esta API se encarga de servir los archivos uvl de las plantillas y las versiones disponibles.
+para hacer funcionar esta API se emplea la api publica de github que permite acceder al contenido de repositorios. 
+En este caso el repositorio al que queremos acceder es el repositorio Templates CITA que contiene las plantillas disponibles.
+\subsubsection{UVEngine Resolver}
+
+La segunda de ellas es UV Engine Resolver CITA este servicio se encarga de resolver la variabilidad a partir de recibir como parametros Un fichero Json que contiene el nombre de la plantilla, la version a utilizar y la configuracion 
+el resultado de la funcion sera un producto
+\subsection{Descripcion de Frontend}
 
 
 
 %% Extesivilidad de la aplicación
 \section{Extensibilidad}
-\subsection{Plantillas}
-\subsubsection{Plantillas de Dockerfile}
-\subsubsection{Plantillas de Dockerignore}
+En esta seccion se pretende hacer incape en la extensibilidad de la aplicacion, como se ha mencionado anteriormente el proyecto tiene en mente que pueda adaptarse a las necesidades futuras.
+
+Al almacernar las plantillas en un repositorio publico de GitHub, se permite a cualquier usuario modificar, añadir o eliminar plantillas de forma sencilla.
+Esot permite que el desarrollo de plantillas se maneje de forma independiente al resto de la aplicacion y que se puedan añadir nuevas plantillas sin necesidad de modificar el codigo de la aplicacion.
+\subsection{Añadir Plantillas}
+Existiendo varias formas en las que se pudiera haber diseñado la forma con la que añadir nuevas plantillas a la aplicacion aprovechando caracteristicas de Github se ha optado por la solucion más sencilla y directa.
+Añadir una nueva plantilla es tan sencillo como añadir una nueva carpeta al repositorio de plantillas de GitHub.
+Esta carpeta debe contener una estructura de directorios especifica que contenga los archivos necesarios para la plantilla como son el archivo uvl, las plantillas Jinja2 y el archivo de Mapping Model, este ultimo archivo es opcional.
+Existen instucciones detalladas de como añadir una plantilla al respositorio de plantillas en CITA 
+
+\subsubsection{Ampliar la Plantilla Dockerfile}
+La Plantilla Dockerfile recoje alguna de las caracteristicas más interesantes que ya cubren otras herramientas pero queda claro que todavia existe mucho margen de mejora en cuanto a la personalizacion de las opciones de configuracion.
+La plantilla no es a dia de hoy capaz de cubrir todas las opciones de configuracion que se pueden dar en un fichero Dockerfile, pero tiene el potencial de ser ampliada y mejorada en el futuro.
+Ampliar esta plantilla es sencillo, se cuenta ya con un repositorio de desarrollo para la plantilla CITA que contiene la plantilla y los test necesarios para validarla.
+Una vez que se haya ampliado la plantilla, se puede añadir al repositorio de plantillas de GitHub y utilizarla para generar productos.
+
+
+
+
+
+
+
+
+
 
 
 %% Despliegue de la aplicación
-\section{Despliegue de la aplicación  }
+\section{Despliegue de la aplicación }
 \subsection{ Despliegue local }
+Para desplegar el proyecto y todas sus capas se hace uso de la herramienta Docker CITA, que permite la creación de contenedores ligeros y portables que pueden ejecutarse en cualquier entorno.
+Para el despliegue local se hace uso de Docker Compose CITA, que permite definir y ejecutar aplicaciones Docker multi-contenedor generando todos los servicios necesarios para el despliegue de la aplicación.
+Esto supone una abstracción de la infraestructura necesaria para el despliegue de la aplicación, permitiendo la creación de un entorno de desarrollo y pruebas aislado y reproducible.
+En el proyecto se encuentra el fichero docker-compose.yml que contiene la configuración necesaria para el despliegue de la aplicación en un entorno local.
+\begin{verbatim}
+	version: '3.8'
+
+	services:
+	  fronted:
+		build:
+		  context: ./Frontend
+		  dockerfile: dockerfile
+		container_name: frontend
+		ports:
+		  - "4200:80"
+	  
+	  repository-manager:
+		build:
+		  context: ./Repository-Manager
+		  dockerfile: dockerfile
+		container_name: repository-manager
+		ports:
+		  - "5000:5000"
+	
+	  uvengine-resolver:
+		build:
+		  context: ./UVEngine-Resolver
+		  dockerfile: dockerfile
+		container_name: uvengine-resolver
+		ports:
+		  - "5001:5001"
+		depends_on:
+		  - repository-manager
+	  
+	  nginx-reverse-proxy:
+		build:
+		  context: ./Nginx-Reverse-Proxy
+		  dockerfile: dockerfile
+		container_name: nginx-reverse-proxy
+		ports:
+		  - "80:80"
+	\end{verbatim}
+
+Como se observa el codigo se compone de 4 servicios 
+\begin{itemize}
+	\item Frontend: Servicio que se encarga de servir la aplicacion web
+	\item Repository Manager: Servicio que se encarga de servir los archivos uvl de las plantillas y las versiones disponibles
+	\item UVEngine Resolver: Servicio que se encarga de resolver la variabilidad a partir de recibir como parametros Un fichero Json que contiene el nombre de la plantilla, la version a utilizar y la configuracion 
+	\item Nginx Reverse Proxy: Servicio que se encarga de redirigir las peticiones de la aplicacion web al servidor de backend y fronte	
+\end{itemize}
+
+La instruccion dockercompse up creara los contendores en la configuracion ya escrita. La web sera accesible en la direccion localhost en el puerto 80
+
 \subsection{ Despliegue en la nube }
+Por definir 
+
+
+
 
 
 %% Resultados
 \section{Resultados}
+Esta parte del documento se centra en los resultados obtenidos durante el desarrollo del proyecto, incluyendo los resultados de las pruebas, la viabilidad del proyecto, la escalabilidad y las posibles mejoras futuras.
 \subsection{Resultados Obtenidos}
+La implementacion de la aplicacion aporta una forma agil de crear productos software a partir de ellas.
+Las plantillas para generar ficheros como dockerfiles recogen una un interesante número de posibilidades entre las que se encuentran las opciones más usuadas
+una vez generamos una configuracion podemos simplemente descargar el fichero generado o copiarlo al portapapeles y quedaria listo para su uso.
+El empleo de la extension uvls para generar una configuracion puede ser muy eficiente a la hora de generar productos con opciones de configuracion relacionadas entre si
+Ademas tenemos la posiblidad de editar el producto final antes.
+Las plantillas exitentes aportan unas funcionalidades interensates que pueden explotarse a la hora de genera productos como ficheros de Configuracion
+El repositorio es facilmente ampliable para abarcar nuevas plantillas y desarrollar nuevas funcionalidades
 \subsection{Viabilidad del proyecto}
-Estamos limitados por la generacion de los fiechors de configuracion que nos proporciona la extension uvls
+Como hemos recogido arriba el proyecto es potencialmente viable pero presenta algunas carencias que pueden ser corregidas.
+Es posible que el uso mandatorio de la extension uvls para generar los ficheros de configuracion sea un punto en contra para la viabilidad del proyecto, pese a que la extension es un proyecto de codigo abierto y seria posible su integracion en la aplicacion.
+Las soluciones actualmente actualemente disponibles son más comodas al detectar las features CITA del proyecto de forma autonoma sin necesidad de intervencion del usuario. Esto supone que esta solucion quede atras en cuanto a comodidad. Es conveniente que adaptar este sistema 
+para que sea capaz de detectar algunas de las features de forma autonoma y dejar otras para la personalizacion del usuario al menos en cuanto nos referimos a la generacion del fichero dockerfile.
 \subsection{Escalabilidad}
+Teniendo en cuenta que la escalabilidad de cualquier aplicacion depende en la capacidad de sus servicios de generar nuevas instacias es en un principio viable 
+escalar horizontalmente cada uno de los servicios. Sin embargo la escalabilidad de la aplicacion se ve limitada actualmente por el uso de API publica de github CITA 
+para el servicio de Repository manager CITA que limita el numero de peticiones que se pueden hacer en un periodo de tiempo.
+En el escenario en el que se quiera llevar la aplicacion a un entorno de produccion debe sortearse este problema bien por medio del uso de tokens de autenticacion.
+Actualmente el número de peticiones que puede realizarse a la api son 80 peticiones por minuto CITA esto es propenso a que cambien en un futuro.
+
+
+
+
+
+
+
+
+
 
 %% Conclusiones
 \section{Conclusiones y líneas Futuras }
-\subsection{Conclusion Personal,}
-\subsection{Conclusiones del Desarrollo del proyecto}
-\subsection{Contribuciones / Aplicaciones Prácticas}
-\subsection{Desarrollo de nuevas plantillas }
-\subsection{Continuación en el desarrollo de plantillas ya existentes}
-\subsection{Mejorar la experiencia del usuario }
 
+
+\subsection{Conclusiones del Desarrollo del proyecto}
+El desarrollo del proyecto ha permitido alcanzar los objetivos planteados inicialmente. Se ha logrado implementar una solución eficiente y potencialmente escalable que cumple con los requisitos funcionales y no funcionales establecidos. Además, se ha adquirido un conocimiento profundo sobre las tecnologías utilizadas y se han identificado áreas de mejora para futuros desarrollos.
+El desarrollo de las plantillas ha sido conservador y no se ha considerado explorar más que casos basicos de uso. Esto era algo esperado si asumimos la gran casuistica que tenemos, sin embargo se ha demostrado que la aplicacion es capaz de generar productos validos a partir de configuraciones validas. Dado el nivel de desarollo de las herramientas (uvls) y tecnologias de las que hace uso este proyecto se ha demostrado que es posible llevar a cabo un proyecto de estas caracteristicas.
+\subsection{Conclusion Personal}
+A nivel personal, el desarrollo de este proyecto me ha servido para introduccirme de lleno en la tecnologia de contenedores, como esta tecnologia se aplica en servicios y que implicaciones existen a nivel de rendimiento y seguridad. Considero que el proyecto tiene de base una serie de fortalezas que otra serie de herramientas no consigue ofrecer actualmente. Es posible que un proyecto más ambicioso y con más recursos pueda explotar estas fortalezas y llevar el diseño de productos por este camino.
+Sin duda el proyecto queda lejos de tener aplicaciones funcionales reales pero muestra un camino que puede ser explotado si se considera. 
+\subsection{Aplicaciones Prácticas}
+Ademas de contar con una forma intersante de generar dockerfiles pueden existir dinamicas para aprovechar configuraciones validas para generar otros ficheros necesarios, como por ejemplo podemos ficheros de configuracion para el servidor de Nginx CITA directamente a partir de la configuracion para generar un dockerfile. Esto es gracias a los ficheros Mapping Models y a un diseño inteligente de las plantillas
+\subsection{Desarrollo de nuevas plantillas }
+El proyecto esta preparado para recibir nuevas plantillas no solo para la generacion de ficheros dockerfile y algunos de los archivos de configuracion sino que se puede extender a otros tipos de ficheros, como por ejemplo ficheros de configuracion de Kubernetes CITA, ficheros de configuracion de Jenkins CITA, etc.
+Una vez añadidas plantillas al repositorio estan estaran disponibles de la misma forma en la que estan disponibles las plantillas existentes solo sera necesario recargar el listado de plantillas que se encuentra en el la barra de navegacion de la aplicacion web.
+\subsection{Continuación en el desarrollo de plantillas ya existentes}
+Las plantillas exitentes tienen un gran margen de mejora, En la situacion actual no soportan la gran mayoria de las opciones de configuracion que se pueden dar en un fichero Dockerfile. Además las opciones que se manejar son propensas a quedar obsoletas y se necesita de una continua revision de las plantillas en busca de problemas de diseño o seguridad.
+
+\subsection{Mejorar la experiencia del usuario }
+La generacion de la configuraciones estan ligadas al desarrollo de la extension uvls, la extension permite al usuario generar una configuracion valida deplegando el arbol de caracteristicas CITA pero para ello el usuario
+necesita contar con VSCode y la extension instalada. para ser capaz de generar configuraciones validas. La propuesta para este escenario seria la integracion de dicha funcionalidad dentro de la plantaforma web,
+la extension uvls es un proyecto de codigo abierto y su integracion en la aplicacion web podria ser un proyecto en si mismo. 
+
+En el desarrollo del trabajo se ha explorado esta posibiliddad ejecutando dicha extension en la version
+web del editor VS code pero el resultado en cuanto a rendimiento hace que esta opcion no sea viable.
+
+La propia aplicacion web puede ser mejorada en cuanto a la experiencia del usuario añadiendo más informacion al usuario para colocar más contexto a la hora de seleccionar una plantilla y las posiblidades de combianar configuraciones 
 
 
 

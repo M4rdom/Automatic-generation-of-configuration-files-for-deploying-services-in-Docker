@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  15 OCT 2024 18:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  17 OCT 2024 15:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento1/sections/resumen.tex
-(c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento1/sections/resumen.tex
+**c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/sections/resumen.tex
+(c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/sections/resumen.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.cls
@@ -12,7 +12,7 @@ Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
 Preamble taken from file `../main.tex'
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
 Package: import 2020/04/01  v 6.2
-) (c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento1\main.tex (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+) (c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento\main.tex (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
@@ -478,7 +478,7 @@ File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Lin
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 3.
- (c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento1\sections\resumen.aux
+ (c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento\sections\resumen.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 )
@@ -576,7 +576,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'resumen.bbl' found.
- (c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento1\sections\resumen.bbl)
+ (c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento\sections\resumen.bbl)
 Package biblatex Info: Reference section=0 on input line 3.
 Package biblatex Info: Reference segment=0 on input line 3.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
@@ -586,12 +586,12 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 48.0pt on input line 32.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 43.
+(Font)              scaled to size 12.0pt on input line 44.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 43.
+(Font)              scaled to size 14.4pt on input line 44.
  [1
 
-{C:/Users/marco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}] (c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento1\sections\resumen.aux
+{C:/Users/marco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}] (c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento\sections\resumen.aux
 LaTeX Info: Redefining \sptext on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -606,14 +606,14 @@ Package logreq Info: Writing requests to 'resumen.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  14539 strings out of 474541
- 273930 string characters out of 5744425
- 1929978 words of memory out of 5000000
+ 273913 string characters out of 5744425
+ 1925978 words of memory out of 5000000
  36585 multiletter control sequences out of 15000+600000
  589859 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,5n,110p,812b,1791s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,5n,110p,811b,1791s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb>
-Output written on c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento1\sections\resumen.pdf (1 page, 176890 bytes).
+Output written on c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento\sections\resumen.pdf (1 page, 165557 bytes).
 PDF statistics:
  18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
