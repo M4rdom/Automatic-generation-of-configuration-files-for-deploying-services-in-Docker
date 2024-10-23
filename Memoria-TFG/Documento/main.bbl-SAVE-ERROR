@@ -16,5 +16,495 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{awsdocker}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3eb2c1a57a8160029f036e3dcbf84bf1}{%
+           family={{Amazon Web Services}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3eb2c1a57a8160029f036e3dcbf84bf1}
+      \strng{fullhash}{3eb2c1a57a8160029f036e3dcbf84bf1}
+      \strng{bibnamehash}{3eb2c1a57a8160029f036e3dcbf84bf1}
+      \strng{authorbibnamehash}{3eb2c1a57a8160029f036e3dcbf84bf1}
+      \strng{authornamehash}{3eb2c1a57a8160029f036e3dcbf84bf1}
+      \strng{authorfullhash}{3eb2c1a57a8160029f036e3dcbf84bf1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-10-21}
+      \field{title}{The Difference Between Docker Images and Containers}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/es/compare/the-difference-between-docker-images-and-containers/#:~:text=Una%20imagen%20de%20Docker%2C%20o,el%20contenedor%20necesita%20para%20ejecutarse.
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/es/compare/the-difference-between-docker-images-and-containers/#:~:text=Una%20imagen%20de%20Docker%2C%20o,el%20contenedor%20necesita%20para%20ejecutarse.
+      \endverb
+    \endentry
+    \entry{angular}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c31c335ef37283c451b18ba0dd317de1}{%
+           family={Angular},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c31c335ef37283c451b18ba0dd317de1}
+      \strng{fullhash}{c31c335ef37283c451b18ba0dd317de1}
+      \strng{bibnamehash}{c31c335ef37283c451b18ba0dd317de1}
+      \strng{authorbibnamehash}{c31c335ef37283c451b18ba0dd317de1}
+      \strng{authornamehash}{c31c335ef37283c451b18ba0dd317de1}
+      \strng{authorfullhash}{c31c335ef37283c451b18ba0dd317de1}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Angular - The modern web developer’s platform}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://angular.dev/
+      \endverb
+      \verb{url}
+      \verb https://angular.dev/
+      \endverb
+    \endentry
+    \entry{angular_material}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c31c335ef37283c451b18ba0dd317de1}{%
+           family={Angular},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c31c335ef37283c451b18ba0dd317de1}
+      \strng{fullhash}{c31c335ef37283c451b18ba0dd317de1}
+      \strng{bibnamehash}{c31c335ef37283c451b18ba0dd317de1}
+      \strng{authorbibnamehash}{c31c335ef37283c451b18ba0dd317de1}
+      \strng{authornamehash}{c31c335ef37283c451b18ba0dd317de1}
+      \strng{authorfullhash}{c31c335ef37283c451b18ba0dd317de1}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Angular Material}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://material.angular.io/
+      \endverb
+      \verb{url}
+      \verb https://material.angular.io/
+      \endverb
+    \endentry
+    \entry{vscode_containers_overview}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=45d7b2d6db3e0da31a5f2f23fbc2faf9}{%
+           family={Code},
+           familyi={C\bibinitperiod},
+           given={Visual\bibnamedelima Studio},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{45d7b2d6db3e0da31a5f2f23fbc2faf9}
+      \strng{fullhash}{45d7b2d6db3e0da31a5f2f23fbc2faf9}
+      \strng{bibnamehash}{45d7b2d6db3e0da31a5f2f23fbc2faf9}
+      \strng{authorbibnamehash}{45d7b2d6db3e0da31a5f2f23fbc2faf9}
+      \strng{authornamehash}{45d7b2d6db3e0da31a5f2f23fbc2faf9}
+      \strng{authorfullhash}{45d7b2d6db3e0da31a5f2f23fbc2faf9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 21 de octubre de 2024}
+      \field{title}{Developing inside a Container}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://code.visualstudio.com/docs/containers/overview
+      \endverb
+      \verb{url}
+      \verb https://code.visualstudio.com/docs/containers/overview
+      \endverb
+    \endentry
+    \entry{uvl}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=08e2dd72291d6886a860061fc9b5864c}{%
+           family={Community},
+           familyi={C\bibinitperiod},
+           given={UVL},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{08e2dd72291d6886a860061fc9b5864c}
+      \strng{fullhash}{08e2dd72291d6886a860061fc9b5864c}
+      \strng{bibnamehash}{08e2dd72291d6886a860061fc9b5864c}
+      \strng{authorbibnamehash}{08e2dd72291d6886a860061fc9b5864c}
+      \strng{authornamehash}{08e2dd72291d6886a860061fc9b5864c}
+      \strng{authorfullhash}{08e2dd72291d6886a860061fc9b5864c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 21 de octubre de 2024}
+      \field{title}{Universal Variability Language (UVL)}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://universal-variability-language.github.io/
+      \endverb
+      \verb{url}
+      \verb https://universal-variability-language.github.io/
+      \endverb
+    \endentry
+    \entry{docker_desktop}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
+           family={Docker},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 21 de octubre de 2024}
+      \field{title}{Docker Desktop}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.docker.com/products/docker-desktop/
+      \endverb
+      \verb{url}
+      \verb https://www.docker.com/products/docker-desktop/
+      \endverb
+    \endentry
+    \entry{dockerfile_concepts}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4bd3b392874c74fba4ed57a24eae0ac1}{%
+           family={Docker},
+           familyi={D\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{fullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{bibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-10-21}
+      \field{title}{Dockerfile Concepts}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://docs.docker.com/build/concepts/dockerfile/
+      \endverb
+      \verb{url}
+      \verb https://docs.docker.com/build/concepts/dockerfile/
+      \endverb
+    \endentry
+    \entry{dockerfile_best_practices}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4bd3b392874c74fba4ed57a24eae0ac1}{%
+           family={Docker},
+           familyi={D\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{fullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{bibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \field{extraname}{3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-10-21}
+      \field{title}{Intro Guide to Dockerfile Best Practices}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/
+      \endverb
+      \verb{url}
+      \verb https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/
+      \endverb
+    \endentry
+    \entry{docker}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e6f3d214228cc5933c1a82019f7dc0e0}{%
+           family={{Docker, Inc.}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{fullhash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{bibnamehash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{authorbibnamehash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{authornamehash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \strng{authorfullhash}{e6f3d214228cc5933c1a82019f7dc0e0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-10-21}
+      \field{title}{Docker: Accelerate How You Build, Share, and Run Modern Applications}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.docker.com/
+      \endverb
+      \verb{url}
+      \verb https://www.docker.com/
+      \endverb
+    \endentry
+    \entry{googlecontainers}{online}{}
+      \name{author}{1}{}{%
+        {{hash=57f3af2a3d1051c172ab3c3db7d5409d}{%
+           family={{Google Cloud}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \strng{fullhash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \strng{bibnamehash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \strng{authorbibnamehash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \strng{authornamehash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \strng{authorfullhash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-10-21}
+      \field{title}{What are Containers?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://cloud.google.com/learn/what-are-containers?hl=es
+      \endverb
+      \verb{url}
+      \verb https://cloud.google.com/learn/what-are-containers?hl=es
+      \endverb
+    \endentry
+    \entry{ibm_container_orchestration}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 21 de octubre de 2024}
+      \field{title}{Orquestación de contenedores}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.ibm.com/es-es/topics/container-orchestration
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/es-es/topics/container-orchestration
+      \endverb
+    \endentry
+    \entry{panamericanlatam_prompt_ia}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=481369387aae5a94bf3a3d1a9381c92b}{%
+           family={Latam},
+           familyi={L\bibinitperiod},
+           given={Panamerican},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{481369387aae5a94bf3a3d1a9381c92b}
+      \strng{fullhash}{481369387aae5a94bf3a3d1a9381c92b}
+      \strng{bibnamehash}{481369387aae5a94bf3a3d1a9381c92b}
+      \strng{authorbibnamehash}{481369387aae5a94bf3a3d1a9381c92b}
+      \strng{authornamehash}{481369387aae5a94bf3a3d1a9381c92b}
+      \strng{authorfullhash}{481369387aae5a94bf3a3d1a9381c92b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 21 de octubre de 2024}
+      \field{title}{¿Qué es un prompt en IA y para qué sirve?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://panamericanlatam.com/que-es-un-prompt-en-ia-y-para-que-sirve/
+      \endverb
+      \verb{url}
+      \verb https://panamericanlatam.com/que-es-un-prompt-en-ia-y-para-que-sirve/
+      \endverb
+    \endentry
+    \entry{magickpen_dockerfile_template}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1afb21b287a93546bbdafba63411714f}{%
+           family={MagickPen},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1afb21b287a93546bbdafba63411714f}
+      \strng{fullhash}{1afb21b287a93546bbdafba63411714f}
+      \strng{bibnamehash}{1afb21b287a93546bbdafba63411714f}
+      \strng{authorbibnamehash}{1afb21b287a93546bbdafba63411714f}
+      \strng{authornamehash}{1afb21b287a93546bbdafba63411714f}
+      \strng{authorfullhash}{1afb21b287a93546bbdafba63411714f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 21 de octubre de 2024}
+      \field{title}{Plantilla para generar Dockerfiles}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://magickpen.com/templates/128/
+      \endverb
+      \verb{url}
+      \verb https://magickpen.com/templates/128/
+      \endverb
+    \endentry
+    \entry{nodejs}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4b00bbf4971bea7d45e4ee343c881d44}{%
+           family={Node.js},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \strng{fullhash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \strng{bibnamehash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \strng{authorbibnamehash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \strng{authornamehash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \strng{authorfullhash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Node.js}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://nodejs.org/en/
+      \endverb
+      \verb{url}
+      \verb https://nodejs.org/en/
+      \endverb
+    \endentry
+    \entry{npm}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e2cfd8e9f316432a25e3e470fad3acba}{%
+           family={npm},
+           familyi={n\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \strng{fullhash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \strng{bibnamehash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \strng{authorbibnamehash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \strng{authornamehash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \strng{authorfullhash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{npm}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.npmjs.com/
+      \endverb
+      \verb{url}
+      \verb https://www.npmjs.com/
+      \endverb
+    \endentry
+    \entry{chatgpt}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 21 de octubre de 2024}
+      \field{title}{ChatGPT}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://chatgpt.com/
+      \endverb
+      \verb{url}
+      \verb https://chatgpt.com/
+      \endverb
+    \endentry
+    \entry{podman}{online}{}
+      \name{author}{1}{}{%
+        {{hash=cb1c0a5381f20528beaa64a5a1ed5a23}{%
+           family={{Podman Project}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb1c0a5381f20528beaa64a5a1ed5a23}
+      \strng{fullhash}{cb1c0a5381f20528beaa64a5a1ed5a23}
+      \strng{bibnamehash}{cb1c0a5381f20528beaa64a5a1ed5a23}
+      \strng{authorbibnamehash}{cb1c0a5381f20528beaa64a5a1ed5a23}
+      \strng{authornamehash}{cb1c0a5381f20528beaa64a5a1ed5a23}
+      \strng{authorfullhash}{cb1c0a5381f20528beaa64a5a1ed5a23}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-10-21}
+      \field{title}{Podman: A Tool for Managing Containers and Pods}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://podman.io/
+      \endverb
+      \verb{url}
+      \verb https://podman.io/
+      \endverb
+    \endentry
+    \entry{wikipedia_feature_model}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 21 de octubre de 2024}
+      \field{title}{Feature Model}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Feature_model
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Feature_model
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
