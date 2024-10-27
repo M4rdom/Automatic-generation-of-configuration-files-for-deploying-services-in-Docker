@@ -53,7 +53,7 @@ Las herramientas de automatización de tareas son fundamentales para la producti
 Al relegar tareas repetitivas y propensas a errores a herramientas automatizadas, los desarrolladores pueden centrarse en tareas más creativas y de mayor valor añadido.
 
 Parte del ciclo de vida en un desarrollo de software implica la configuración y el despliegue de servicios en entornos de producción y desarrollo.
-La configuracion y despliegue requiere de la creación de archivos de configuración específicos, como son por ejemplo los archivos dockerfile \footnote{dockerfile} y .dockerignore \footnote{.dockerignore}, que definen cómo se construye la imagen de un contenedor en tecnologicas como Docker \footnote{ \hyperref[sec:Docker]{Docker}}
+La configuracion y despliegue requiere de la creación de archivos de configuración específicos, como son por ejemplo los archivos dockerfile \footnote{\hyperref[sec:Dockerfile]{Dockerfile}} y .dockerignore \footnote{\hyperref[sec:dockerignore]{dockerignore}}, que definen cómo se construye la imagen de un contenedor en tecnologicas como Docker \footnote{ \hyperref[sec:Docker]{Docker}}
 
 En el contexto de la tecnología de contenedores, Docker se ha convertido en una de las plataformas más populares para la creación, el despliegue y la gestión de aplicaciones en entornos contenerizados. 
 Sin embargo, la configuración de servicios en Docker puede ser una tarea compleja y propensa a errores, especialmente cuando se manejan múltiples servicios y configuraciones.
@@ -142,9 +142,13 @@ Docker \cite{docker} es un proyecto de código abierto que automatiza el desplie
 Docker es una plataforma de código abierto que permite a los desarrolladores crear, desplegar y ejecutar aplicaciones en contenedores. 
 \footnote{Existen alternativas a Docker como Podman \cite{podman} pero Docker es la más popular y ampliamente utilizada en la actualidad.}
 \subsubsection{Dockerfile}
+\label{sec:Dockerfile}
 El archivo Dockerfile \cite{dockerfile_concepts} es un archivo de texto que contiene una serie de instrucciones que Docker utilizará para construir una imagen de contenedor.
 Usualmente la construccion de un archivo de configuracion se realiza a partir de una imagen base, que puede ser una imagen oficial de Docker o una imagen personalizada creada por el usuario.
 A dicha imagen se añaden las instrucciones necesarias para instalar las dependencias y configurar el entorno de ejecución de la aplicación, lo que viene a representar el contenido de un archivo Dockerfile.
+\subsubsection{dockerignore}
+\label{sec:dockerignore}
+El fichero .dockerignore \cite{dockerignore} es un tipo de archivo que puede colocarse en el proyecto del usuario y que se utiliza con la función de ignorar ficheros y directorios durante el docker build, con el objetivo de evitar que estos se copien a la imagen de Docker 
 \newpage
 \subsubsection{Buenas Prácticas en la creacion de las imagenes}
 Para la creacion de los ficheros dockerfile es recomendable seguir una serie de buenas practicas para garantizar la eficiencia y la seguridad en el despliegue de servicios en Docker.
@@ -347,7 +351,7 @@ Python es conocido por su sintaxis clara y legible, su amplia biblioteca estánd
 \cite{flask}
 Flask es un microframework de Python para el desarrollo de aplicaciones web.
 Flask es conocido por su simplicidad y su facilidad de uso, lo que lo convierte en una excelente opción para el desarrollo de aplicaciones web pequeñas y medianas.
-\subsubsection{gunicorn}
+\subsubsection{Gunicorn}
 \cite{gunicorn}
 Gunicorn es un servidor HTTP WSGI para Python que se utiliza para servir aplicaciones web desarrolladas en Python. su objetivo es proporcionar un servidor web simple y eficiente que pueda manejar múltiples solicitudes simultáneamente.
 esta herraminta es necesaria para el despliegue de la aplicacion en un entorno de produccion.
@@ -381,7 +385,8 @@ Para la gestion de las plantillas se ha empleado la API publica de GitHub para l
 Esta desion se ha tomado por facilidad de uso, ya que la API de GitHub es ampliamente conocida y documentada, y permite acceder a una gran cantidad de información sobre los repositorios y las plantillas disponibles.
 Esto supone que las plantillas estan visibles y son accesibles y modificables por cualquier usuario de GitHub.
 Simplificando el proceso de creacion, mantenimiento y actualizacion de las plantillas. 
-\blindtext
+
+\newpage
 
 \subsection{Visual Studio Code}
 \cite{vscode}
@@ -410,32 +415,51 @@ Otras extensiones de menos importancia empleadas en \textit{VSCode} son:
 
 
 
+
+
+
+
+
 %% Metodología
 \section{Metodologia del trabajo}
 \label{sec:Metodologia}
 \subsection{Introduccion}
-El enfoque se ha dado para abordar el desarrollo de este trabajo ha consistido en combinar un trabajo previo de analisis e investigacion con un desarrollo iterativo y agil.
-La investigacion y analisis tenia el objetivo de conocer en profundidad las tecnologias y herramientas empleadas 
+El enfoque se ha dado para abordar el desarrollo de este trabajo ha consistido en combinar un trabajo previo de analisis e investigacion con una fase de desarrollo iterativo.
+\\La investigacion y analisis tenia el objetivo de conocer en profundidad las tecnologias y herramientas empleadas 
 para porstesiromete estudiar una posible aplicacion de estas ideas y conceptos en el desarrollo de las plantillas.
-una vez resuelta esta primera parte se ha procedido a una toma de requisitos y a la planificacion de la implementacion de la aplicacion.
-para la implementacion de la aplicacion se ha optado por la utilizacion de una metodologia de desarrollo agil que permita la adaptacion a los cambios y la evolucion del proyecto.
+una vez resuelta esta primera parte se ha procedido a una toma de requisitos y a la planificacion de la implementacion de la aplicacion,
+para la implementacion de la aplicacion se ha optado por la utilizacion de una metodologia de desarrollo que permita la evolucion del proyecto a un producto minimo viable en el menor tiempo posible.
 \subsection{Metodología del Desarrollo}
-Al encontrarnos ante un trabajo individual toda la responsabilidad y capacidad del desarrollo recae sobre una persona. 
-Para el desarrollo de código optaremos por una metodología Scrum simplificada. De forma iterativa se ejecutará un Sprint con 
-unos objetivos de desarrollo y planificación muy limitados. Con el objetivo de dar cabida a la complejidad del proyecto, 
-con animo de encajar nuevas ideas y revisiones que pudieran sucederse.
-Tras cada Sprint se evaluará la progresión y dirección del proyecto con el tutor.
+Para la implementacion del Proyecto se ha optado por un desarrollo en Cascada al tener una idea muy definida de lo que se quiere desarrollar y de las tecnologias empleadas.
+Los cambios más relevaten surgen en las plantillas es por ello que contamos con los mecanismos necesarios para adaptarnos a estos cambios sin que repercutan en el resto de la aplicacion.
+La implementacion en cascada propone una serie de fases que se deben seguir de forma secuencial, pero para este escenario cada fase se inicia sin la necesidad de que la anterior haya sido completada.
+Para adaptarnos a requerimientos no planeados y encajar nuevs ideas que puedieran sucederse. En todo momento el codigo es subcestible de cambios.
+
 \subsubsection{Justificación}
+Al encontrarnos ante un trabajo individual toda la responsabilidad y capacidad del desarrollo recae sobre una persona esto supone una limitacion en cuanto al contenido pero supone una ventaja 
+a la hora de adaptar cambios de la aplicacion al centralizar todo el desarrollo en una persona. \\ 
+El tiempo disponible es limitado por naturaleza y es vital simplificar todas las fases de la planificacion del desarrollo. por este motivo tenemos que 
+descartar metodologias de desarrollo iterativo como Scrum y centrarnos en metodologias más rigidas como un desarrollo en Cascada
 
 El desarrollo de las plantillas requiere un estudio con el fin de limitar las opciones de configuración y centrarse en los casos de uso más comunes y en las configuraciones más utilizadas en la práctica.
-De entrada aportar una solucion tecnica optima a un problema es extremadamente improbable, por lo que se opta por una metodologia de desarrollo agil que permita la adaptacion a los cambios y la evolucion del proyecto.
+
+\begin{figure}[ht]
+	\centering
+		\includegraphics[width=1\textwidth]{gantt.png}
+	\caption{Digrama de gantt} \footnote{Digrama generado por la herramienta https://www.plandemejora.com/crear-diagrama-de-gantt-online/}
+\end{figure}
 \subsubsection{Procedimiento}
-Tras cada Sprint se evaluará la progresión y dirección del proyecto con el tutor en el escenario de una reunión de revisión.
+Se evaluara con el tutor los momentos más relevates como los requititos de la aplicacion, Arquitectura y una evaluacion final para introduccir cambios que resulten necesarios en tanto en el proyecto como 
+en la documentacion.
+
 \subsubsection{Limitaciones}
 El desarrollo de un proyecto de estas características requiere de una planificación y una metodología de trabajo adecuada.
 En este sentido, como se han identificado anteriormente una serie de limitaciones y restricciones que pueden afectar al desarrollo del proyecto.
 para el caso el desarrollo de las plantillas tiene que verse limitado en cuanto a formato y contenido, ya que no se puede abarcar todas las posibles opciones de configuracion.
+\\El tiempo que se puede dedicar al proyecto tiene que estar dentro de unos limites razonables para un trabajo de estas caracteristicas y no se puede extender indefinidamente.
+
 \subsection{Fases de Estudio}
+
 \subsection{Estudio del Estado del Arte :}
 En esta fase se realiza una revisión exhaustiva de la literatura y tecnologías existentes relacionadas con el tema del 
 proyecto. El objetivo es comprender el panorama actual, identificar tendencias, mejores prácticas y tecnologías 
@@ -446,7 +470,7 @@ relevantes que puedan influir en el desarrollo del proyecto. Los puntos clave de
 	\item Completar la intruduccion al lenguaje uvl con \href{https://uvl.uni-ulm.de/}{UVL Playground} \cite{uvl_playground}
 \end{itemize}
 
-\subsection{Investigación dockefiles}
+\subsection{Investigación diseño de dockerfiles}
 Esta fase implica investigar y evaluar las diferentes opciones de configuracion que se presentan en el desarrollo de un fichero dockerfile en el 
 despliegue de aplicaciones. Se exploran las características, herramientas y técnicas que pueden optimizar el uso de 
 Docker en un proyecto software. 
@@ -458,29 +482,34 @@ Docker en un proyecto software.
 Es necesario conocer como se aplica a la practica la creacion de imagenes. para ello han estudiado entre otros los siguientes proyectos:
 
 
-\subsection{Desarrollo de Modelos de plantillas}
+\subsection{Desarrollo de Plantillas}
 Esta fase implica la construcción el árbol de características y las restricciones textuales que orienten el espacio de 
 configuraciones posibles del fichero Dockerfile. En este paso se pondran en practica todo el conocimiento adquirido en los pasos anteriores que 
-tendran como resultado el modelado de unas plantillas. Hemos de tener en cuenta las buenas practicas y las recomendaciones de la comunidad para la creacion de los ficheros dockerfile CITA. 
+tendran como resultado el modelado de unas plantillas. Hemos de tener en cuenta las buenas practicas y las recomendaciones de la comunidad para la creacion de los ficheros dockerfile \cite{dockerfile_concepts}. 
 Estas practicas tienes que estar presentes en el diseño de las plantillas desde el inicio, tambien hemos de generar test para mantener la consistencia de las implementaciones. 
-Este paso queda cubierto con más detalle en el Capitulo 5
+Esta fase queda cubierta con más detalle en el \hyperref[sec:Modelado de las plantillas]{Capitulo 5}.
 
 
-\subsection{Fase Implementacion Scrum}
+\subsection{Fase Implementacion Cascada}
 \subsubsection{Requisitios de la aplicación }
 Aquí se definen y documentan los requisitos funcionales y no funcionales de la aplicación. Se recopilan y analizan las 
 necesidades de los posibles usos, los objetivos del proyecto y las restricciones técnicas para establecer una planificacon del desarrollo. 
 Los requisitos han cambiado conforme el proyecto avanzaba en sus etapas de desarrollo
-sin animo de ser exhaustivos las funcionalidades mínimas que se pretenden alcazar son en cuanto a la generacion de productos
+sin animo de ser exhaustivos las funcionalidades mínimas que se pretenden alcazar son en cuanto a la generacion de productos.
+\begin{itemize}
+	\item La aplicacion web debe permitir seleccionar la plantilla y la version con la que se desea trabajar 
+	\item Las plantillas pueden recargarse del repositorio 
+	\item La aplicacion web debe generar un el producto en el momento en el que se aplique una configuracion valida 
+\end{itemize}
 
-La aplicacion web debe permitir seleccionar la plantilla y la version con la que se desea trabajar 
-Las plantillas pueden recargarse en del repositorio 
-La aplicacion web debe generar un el producto en el momento en el que se aplique una configuracion valida 
-
-\subsubsection{Desarrollo del la aplicación de uvengine }
-En esta fase se desarrolla la aplicación de uvengine, que permite la generación automática de archivos de configuración
-\subsubsection{Desarrollo de la web}
+\subsubsection{Desarrollo del Paquete uvengine }
+En esta fase se adapta el proyecto de la aplicación de uvengine \cite{uvengine_github}, que permite la generación automática de archivos de configuración.
+La adaptacion consiste en hacer opcional el fichero mapping model REFERENCIA a la hora de generar un producto, una vez adaptado se procede a la creacion de un paquete de python que se pueda instalar en cualquier entorno de desarrollo.
+como resultado tenemos el paquete uvengine \cite{uvengine_pypi} \footnote{El paquete es empleado en el proyecto UVEngine-Resolver y en los entornos de desarrollo de las plantillas}
+\subsubsection{Desarrollo Frontend de la web}
 En esta fase se desarrolla la aplicación web que permite la interacción con el usuario y la visualización de los archivos de configuración generados.
+La idea fundamental es permitir al usuario elegir entre un abanico de plantillas y versiones para que pueda decidir que producto generar en base a la configuracion que se aporte como entrada.
+Debe funcionar como una abstraccion de los servicios de Backend para permitir al usuario trabajar desde una interfaz web.
 \subsubsection{Desarrollo de los servicios de backend}
 En esta fase se desarrollan los servicios de backend que permiten la comunicación entre la aplicación web y la aplicación de uvengine y los repositorios.
 \subsubsection{Elaboración de la guía de uso}
@@ -489,10 +518,18 @@ Se elabora una guía detallada que describe cómo utilizar la aplicación, inclu
 de pantalla y ejemplos. 
 \subsubsection{Elaboración de un manual de instalación}
 En esta fase se elabora un manual de instalación que explica cómo instalar y configurar la aplicación en un entorno local.
+\subsubsection{Elaboración de un manual de desarrollo de plantillas}
+En esta fase se elabora un manual de desarrollo de plantillas que explica cómo crear y mantener plantillas para la aplicación.
 \subsection{Elaboración de la memoria}
 En esta fase se redacta la memoria o informe final del proyecto, que documenta todo el proceso de desarrollo, desde la 
 planificación hasta la implementación y las lecciones aprendidas. La memoria incluirá el análisis de los resultados, 
 conclusiones y recomendaciones para trabajos futuros. 
+
+
+
+
+
+
 
 
 

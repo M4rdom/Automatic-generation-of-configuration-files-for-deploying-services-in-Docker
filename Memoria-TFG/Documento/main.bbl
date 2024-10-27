@@ -457,6 +457,64 @@
       \verb https://gunicorn.org/
       \endverb
     \endentry
+    \entry{uvengine_github}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0cfb3b758cb36562f3be7698f8568662}{%
+           family={Horcas},
+           familyi={H\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{fullhash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{bibnamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authorbibnamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authornamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authorfullhash}{0cfb3b758cb36562f3be7698f8568662}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{UVEngine}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/jmhorcas/uvengine
+      \endverb
+      \verb{url}
+      \verb https://github.com/jmhorcas/uvengine
+      \endverb
+    \endentry
+    \entry{uvengine_pypi}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0cfb3b758cb36562f3be7698f8568662}{%
+           family={Horcas},
+           familyi={H\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{fullhash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{bibnamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authorbibnamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authornamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authorfullhash}{0cfb3b758cb36562f3be7698f8568662}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{UVEngine 1.0.0}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://pypi.org/project/uvengine/1.0.0/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/uvengine/1.0.0/
+      \endverb
+    \endentry
     \entry{ibm_container_orchestration}{misc}{}
       \name{author}{1}{}{%
         {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
@@ -481,6 +539,32 @@
       \endverb
       \verb{url}
       \verb https://www.ibm.com/es-es/topics/container-orchestration
+      \endverb
+    \endentry
+    \entry{dockerignore}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=26194352e0623a03d3f4d83606a425cf}{%
+           family={KeepCoding},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{26194352e0623a03d3f4d83606a425cf}
+      \strng{fullhash}{26194352e0623a03d3f4d83606a425cf}
+      \strng{bibnamehash}{26194352e0623a03d3f4d83606a425cf}
+      \strng{authorbibnamehash}{26194352e0623a03d3f4d83606a425cf}
+      \strng{authornamehash}{26194352e0623a03d3f4d83606a425cf}
+      \strng{authorfullhash}{26194352e0623a03d3f4d83606a425cf}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{¿Qué es el archivo .dockerignore?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://keepcoding.io/blog/que-es-archivo-dockerignore/
+      \endverb
+      \verb{url}
+      \verb https://keepcoding.io/blog/que-es-archivo-dockerignore/
       \endverb
     \endentry
     \entry{panamericanlatam_prompt_ia}{misc}{}

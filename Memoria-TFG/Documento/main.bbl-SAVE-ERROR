@@ -99,6 +99,32 @@
       \verb https://material.angular.io/
       \endverb
     \endentry
+    \entry{uvls_code}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e3972b4a3a2a74eda51c9c08b655cb62}{%
+           family={Caradhras},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3972b4a3a2a74eda51c9c08b655cb62}
+      \strng{fullhash}{e3972b4a3a2a74eda51c9c08b655cb62}
+      \strng{bibnamehash}{e3972b4a3a2a74eda51c9c08b655cb62}
+      \strng{authorbibnamehash}{e3972b4a3a2a74eda51c9c08b655cb62}
+      \strng{authornamehash}{e3972b4a3a2a74eda51c9c08b655cb62}
+      \strng{authorfullhash}{e3972b4a3a2a74eda51c9c08b655cb62}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{UVLS - Universal Variability Language Support}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://marketplace.visualstudio.com/items?itemName=caradhras.uvls-code
+      \endverb
+      \verb{url}
+      \verb https://marketplace.visualstudio.com/items?itemName=caradhras.uvls-code
+      \endverb
+    \endentry
     \entry{vscode_containers_overview}{misc}{}
       \name{author}{1}{}{%
         {{hash=45d7b2d6db3e0da31a5f2f23fbc2faf9}{%
@@ -182,6 +208,33 @@
       \verb https://www.docker.com/products/docker-desktop/
       \endverb
     \endentry
+    \entry{dockerfile_reference}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
+           family={Docker},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Dockerfile Reference}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://docs.docker.com/reference/dockerfile/
+      \endverb
+      \verb{url}
+      \verb https://docs.docker.com/reference/dockerfile/
+      \endverb
+    \endentry
     \entry{dockerfile_concepts}{online}{}
       \name{author}{1}{}{%
         {{hash=4bd3b392874c74fba4ed57a24eae0ac1}{%
@@ -196,7 +249,7 @@
       \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -225,7 +278,7 @@
       \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -266,6 +319,92 @@
       \verb https://www.docker.com/
       \endverb
     \endentry
+    \entry{python}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9688a568902e4b07b60557b566bdd820}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Python\bibnamedelima Software},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{fullhash}{9688a568902e4b07b60557b566bdd820}
+      \strng{bibnamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authorbibnamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authornamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authorfullhash}{9688a568902e4b07b60557b566bdd820}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Python}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.python.org/
+      \endverb
+      \verb{url}
+      \verb https://www.python.org/
+      \endverb
+    \endentry
+    \entry{github}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b79b798b2812cfe1c1431894a617897d}{%
+           family={GitHub},
+           familyi={G\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b79b798b2812cfe1c1431894a617897d}
+      \strng{fullhash}{b79b798b2812cfe1c1431894a617897d}
+      \strng{bibnamehash}{b79b798b2812cfe1c1431894a617897d}
+      \strng{authorbibnamehash}{b79b798b2812cfe1c1431894a617897d}
+      \strng{authornamehash}{b79b798b2812cfe1c1431894a617897d}
+      \strng{authorfullhash}{b79b798b2812cfe1c1431894a617897d}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{GitHub}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/
+      \endverb
+      \verb{url}
+      \verb https://github.com/
+      \endverb
+    \endentry
+    \entry{github_rest_api}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b79b798b2812cfe1c1431894a617897d}{%
+           family={GitHub},
+           familyi={G\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b79b798b2812cfe1c1431894a617897d}
+      \strng{fullhash}{b79b798b2812cfe1c1431894a617897d}
+      \strng{bibnamehash}{b79b798b2812cfe1c1431894a617897d}
+      \strng{authorbibnamehash}{b79b798b2812cfe1c1431894a617897d}
+      \strng{authornamehash}{b79b798b2812cfe1c1431894a617897d}
+      \strng{authorfullhash}{b79b798b2812cfe1c1431894a617897d}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{GitHub REST API Documentation}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://docs.github.com/en/rest?apiVersion=2022-11-28
+      \endverb
+      \verb{url}
+      \verb https://docs.github.com/en/rest?apiVersion=2022-11-28
+      \endverb
+    \endentry
     \entry{googlecontainers}{online}{}
       \name{author}{1}{}{%
         {{hash=57f3af2a3d1051c172ab3c3db7d5409d}{%
@@ -292,6 +431,32 @@
       \verb https://cloud.google.com/learn/what-are-containers?hl=es
       \endverb
     \endentry
+    \entry{gunicorn}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0921bf47dae2316d63685250715cb651}{%
+           family={Gunicorn},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0921bf47dae2316d63685250715cb651}
+      \strng{fullhash}{0921bf47dae2316d63685250715cb651}
+      \strng{bibnamehash}{0921bf47dae2316d63685250715cb651}
+      \strng{authorbibnamehash}{0921bf47dae2316d63685250715cb651}
+      \strng{authornamehash}{0921bf47dae2316d63685250715cb651}
+      \strng{authorfullhash}{0921bf47dae2316d63685250715cb651}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Gunicorn}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://gunicorn.org/
+      \endverb
+      \verb{url}
+      \verb https://gunicorn.org/
+      \endverb
+    \endentry
     \entry{ibm_container_orchestration}{misc}{}
       \name{author}{1}{}{%
         {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
@@ -316,6 +481,32 @@
       \endverb
       \verb{url}
       \verb https://www.ibm.com/es-es/topics/container-orchestration
+      \endverb
+    \endentry
+    \entry{dockerignore}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=26194352e0623a03d3f4d83606a425cf}{%
+           family={KeepCoding},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{26194352e0623a03d3f4d83606a425cf}
+      \strng{fullhash}{26194352e0623a03d3f4d83606a425cf}
+      \strng{bibnamehash}{26194352e0623a03d3f4d83606a425cf}
+      \strng{authorbibnamehash}{26194352e0623a03d3f4d83606a425cf}
+      \strng{authornamehash}{26194352e0623a03d3f4d83606a425cf}
+      \strng{authorfullhash}{26194352e0623a03d3f4d83606a425cf}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{¿Qué es el archivo .dockerignore?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://keepcoding.io/blog/que-es-archivo-dockerignore/
+      \endverb
+      \verb{url}
+      \verb https://keepcoding.io/blog/que-es-archivo-dockerignore/
       \endverb
     \endentry
     \entry{panamericanlatam_prompt_ia}{misc}{}
@@ -372,6 +563,116 @@
       \verb https://magickpen.com/templates/128/
       \endverb
     \endentry
+    \entry{docker_certified_associate}{book}{}
+      \name{author}{1}{}{%
+        {{hash=656497e9ade38895c0a8bbbe9b76cfa5}{%
+           family={Media},
+           familyi={M\bibinitperiod},
+           given={O'Reilly},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{656497e9ade38895c0a8bbbe9b76cfa5}
+      \strng{fullhash}{656497e9ade38895c0a8bbbe9b76cfa5}
+      \strng{bibnamehash}{656497e9ade38895c0a8bbbe9b76cfa5}
+      \strng{authorbibnamehash}{656497e9ade38895c0a8bbbe9b76cfa5}
+      \strng{authornamehash}{656497e9ade38895c0a8bbbe9b76cfa5}
+      \strng{authorfullhash}{656497e9ade38895c0a8bbbe9b76cfa5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Docker Certified Associate}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.oreilly.com/library/view/docker-certified-associate/9781839211898/c5ecd7bc-b7ed-4303-89a8-e487c6a220ed.xhtml#uuid-1a5da664-fb76-4e56-bdb0-83255dde9e78
+      \endverb
+      \verb{url}
+      \verb https://www.oreilly.com/library/view/docker-certified-associate/9781839211898/c5ecd7bc-b7ed-4303-89a8-e487c6a220ed.xhtml#uuid-1a5da664-fb76-4e56-bdb0-83255dde9e78
+      \endverb
+    \endentry
+    \entry{monaco_editor}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Monaco Editor}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://microsoft.github.io/monaco-editor/
+      \endverb
+      \verb{url}
+      \verb https://microsoft.github.io/monaco-editor/
+      \endverb
+    \endentry
+    \entry{vscode}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Visual Studio Code}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://code.visualstudio.com/
+      \endverb
+      \verb{url}
+      \verb https://code.visualstudio.com/
+      \endverb
+    \endentry
+    \entry{nginx}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a629e814c18278bdba34f0aac7ca042f}{%
+           family={Nginx},
+           familyi={N\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a629e814c18278bdba34f0aac7ca042f}
+      \strng{fullhash}{a629e814c18278bdba34f0aac7ca042f}
+      \strng{bibnamehash}{a629e814c18278bdba34f0aac7ca042f}
+      \strng{authorbibnamehash}{a629e814c18278bdba34f0aac7ca042f}
+      \strng{authornamehash}{a629e814c18278bdba34f0aac7ca042f}
+      \strng{authorfullhash}{a629e814c18278bdba34f0aac7ca042f}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Nginx}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://nginx.org/en/
+      \endverb
+      \verb{url}
+      \verb https://nginx.org/en/
+      \endverb
+    \endentry
     \entry{nodejs}{misc}{}
       \name{author}{1}{}{%
         {{hash=4b00bbf4971bea7d45e4ee343c881d44}{%
@@ -398,6 +699,35 @@
       \verb https://nodejs.org/en/
       \endverb
     \endentry
+    \entry{ngx_json_viewer}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e2cfd8e9f316432a25e3e470fad3acba}{%
+           family={npm},
+           familyi={n\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \strng{fullhash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \strng{bibnamehash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \strng{authorbibnamehash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \strng{authornamehash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \strng{authorfullhash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \field{extraname}{1}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{ngx-json-viewer}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.npmjs.com/package/ngx-json-viewer
+      \endverb
+      \verb{url}
+      \verb https://www.npmjs.com/package/ngx-json-viewer
+      \endverb
+    \endentry
     \entry{npm}{misc}{}
       \name{author}{1}{}{%
         {{hash=e2cfd8e9f316432a25e3e470fad3acba}{%
@@ -412,6 +742,7 @@
       \strng{authorbibnamehash}{e2cfd8e9f316432a25e3e470fad3acba}
       \strng{authornamehash}{e2cfd8e9f316432a25e3e470fad3acba}
       \strng{authorfullhash}{e2cfd8e9f316432a25e3e470fad3acba}
+      \field{extraname}{2}
       \field{sortinit}{n}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
@@ -476,6 +807,132 @@
       \endverb
       \verb{url}
       \verb https://podman.io/
+      \endverb
+    \endentry
+    \entry{flask}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f4ce5f0c86b5e556d86b2a917c5c42fe}{%
+           family={Projects},
+           familyi={P\bibinitperiod},
+           given={Pallets},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{fullhash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{bibnamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{authorbibnamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{authornamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{authorfullhash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Flask Documentation (3.0.x)}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://flask.palletsprojects.com/en/3.0.x/
+      \endverb
+      \verb{url}
+      \verb https://flask.palletsprojects.com/en/3.0.x/
+      \endverb
+    \endentry
+    \entry{jinja}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f4ce5f0c86b5e556d86b2a917c5c42fe}{%
+           family={Projects},
+           familyi={P\bibinitperiod},
+           given={Pallets},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{fullhash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{bibnamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{authorbibnamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{authornamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{authorfullhash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Jinja Documentation (3.1.x)}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://jinja.palletsprojects.com/en/3.1.x/
+      \endverb
+      \verb{url}
+      \verb https://jinja.palletsprojects.com/en/3.1.x/
+      \endverb
+    \endentry
+    \entry{pypi}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9fcce10c03dc2eaada4c361c508c4ebe}{%
+           family={PyPI},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9fcce10c03dc2eaada4c361c508c4ebe}
+      \strng{fullhash}{9fcce10c03dc2eaada4c361c508c4ebe}
+      \strng{bibnamehash}{9fcce10c03dc2eaada4c361c508c4ebe}
+      \strng{authorbibnamehash}{9fcce10c03dc2eaada4c361c508c4ebe}
+      \strng{authornamehash}{9fcce10c03dc2eaada4c361c508c4ebe}
+      \strng{authorfullhash}{9fcce10c03dc2eaada4c361c508c4ebe}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Python Package Index}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://pypi.org/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/
+      \endverb
+    \endentry
+    \entry{git}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=13ee3292cf584f7737af9da7d18af925}{%
+           family={SCM},
+           familyi={S\bibinitperiod},
+           given={Git},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{13ee3292cf584f7737af9da7d18af925}
+      \strng{fullhash}{13ee3292cf584f7737af9da7d18af925}
+      \strng{bibnamehash}{13ee3292cf584f7737af9da7d18af925}
+      \strng{authorbibnamehash}{13ee3292cf584f7737af9da7d18af925}
+      \strng{authornamehash}{13ee3292cf584f7737af9da7d18af925}
+      \strng{authorfullhash}{13ee3292cf584f7737af9da7d18af925}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Git}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://git-scm.com/
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/
+      \endverb
+    \endentry
+    \entry{uvl_playground}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{UVL Playground}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://uvl.uni-ulm.de/
+      \endverb
+      \verb{url}
+      \verb https://uvl.uni-ulm.de/
       \endverb
     \endentry
     \entry{wikipedia_feature_model}{misc}{}

@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber sections/resumen"] 1729707116.8285 "sections/resumen.bcf" "sections/resumen.bbl" "sections/resumen" 1729708357.539 0
-  "sections/resumen.bcf" 1729708357 107353 06d816b7a4fae3a5aae244cf5cf86b11 "pdflatex"
+["biber sections/abstract"] 1729708467.29839 "sections/abstract.bcf" "sections/abstract.bbl" "sections/abstract" 1729708476.27547 0
+  "sections/abstract.bcf" 1729708475 107353 06d816b7a4fae3a5aae244cf5cf86b11 "pdflatex"
   (generated)
-  "sections/resumen.bbl"
-  "sections/resumen.blg"
+  "sections/abstract.bbl"
+  "sections/abstract.blg"
   (rewritten before read)
-["pdflatex"] 1729708354.39473 "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/sections/resumen.tex" "sections/resumen.pdf" "resumen" 1729708357.54012 0
+["pdflatex"] 1729708473.19362 "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/sections/abstract.tex" "sections/abstract.pdf" "abstract" 1729708476.2766 0
   "C:/Users/marco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1729519486 145878 e6812506e79acb857d15ab982aacc14c ""
   "C:/Users/marco/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1708092790 24210828 c3deb5dff1e30ee191890ce89d7a0041 ""
   "C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1497089888 2933 9ad527ce78d7c5fa0a642dead095f172 ""
@@ -203,20 +203,20 @@
   "C:/Users/marco/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/marco/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/marco/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/sections/resumen.tex" 1729708352 5071 e88c2bd4d451bdc9b155deb82ad813ac ""
+  "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/sections/abstract.tex" 1729708463 1714 6b6b60e1a484edaa4c9ac5463ee14b4b ""
   "main.tex" 1729700418 67082 ff59cf9c01aa6f00414ebf2773186d5e ""
   "sections/../main.tex" 1729700418 67082 ff59cf9c01aa6f00414ebf2773186d5e ""
-  "sections/resumen.aux" 1729708357 433 cbf6564173787d2ff4acdef4d64950e7 "pdflatex"
-  "sections/resumen.bbl" 1729707125 486 ee04f40f768daeed26442158e95aba61 "biber sections/resumen"
-  "sections/resumen.out" 1729708356 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sections/resumen.run.xml" 1729708357 2328 727e4a864ca990dd24c6188ebf5f99db "pdflatex"
-  "sections/resumen.tex" 1729708352 5071 e88c2bd4d451bdc9b155deb82ad813ac ""
+  "sections/abstract.aux" 1729708475 433 cbf6564173787d2ff4acdef4d64950e7 "pdflatex"
+  "sections/abstract.bbl" 1729708470 486 ee04f40f768daeed26442158e95aba61 "biber sections/abstract"
+  "sections/abstract.out" 1729708475 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sections/abstract.run.xml" 1729708475 2335 9015b3f751210bbf45c14d41ccc95e0d "pdflatex"
+  "sections/abstract.tex" 1729708463 1714 6b6b60e1a484edaa4c9ac5463ee14b4b ""
   "umatfgspanish.sty" 1728982935 1480 eeda30aeaa473f18b0eea84cd32b4d36 ""
   (generated)
-  "sections/resumen.aux"
-  "sections/resumen.bcf"
-  "sections/resumen.log"
-  "sections/resumen.out"
-  "sections/resumen.pdf"
-  "sections/resumen.run.xml"
+  "sections/abstract.aux"
+  "sections/abstract.bcf"
+  "sections/abstract.log"
+  "sections/abstract.out"
+  "sections/abstract.pdf"
+  "sections/abstract.run.xml"
   (rewritten before read)

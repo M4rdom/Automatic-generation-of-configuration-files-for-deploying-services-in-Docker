@@ -31,9 +31,21 @@
 %% end abstract format
 \begin{abstract}
 
-  Por revisar 
+  Este trabajo busca aportar un nuevo metodo para la generacion de ficheros de configuracion para la contruccion de contenedores software.
+  El fin del proyecto es generar una herramienta que permita a los desarrolladores definir una configuracion y obtener un producto personalizado como pueder ser un fichero dockerfile.
+  Utilizando plantillas podemos aplicar sin concimiento previo del desarrollador las practicas recomendadas para la construccion de estos ficheros.
+  Para lograr este objetivo se parte de la construccion de plantillas empleando la sintaxis de jinja y el motor de resolucion de variablidad uvengine.
+  La herramienta proporcionada es una aplicacion web que permite a los desarrolladores selecionar una plantilla y version de la misma para resolver la variabilidad y obtener un producto.
+  Actualmente, los desarrolladores pueden definir la configuracion haciendo uso de la extension UVLS en vscode y seleccionar las caracteristicas del servicio que desean desplegar.
+  El proyecto mantiene un repositorio para almacenar las plantillas con el objetivo de que estas puedan ser actualizadas o bien dar cabida a nuevas plantillas.
+  El sistema se ha dividio en componentes para facilitar el mantenimiento del mismo. En conclusion el esfuerzo realizado permite generar plantillas de ficheros de configuracion con un alto grado de personalizacion
+  en comparacion con otros métodos existentes. 
+  %Este trabajo busca aportar un nuevo metodo para la creacion de plantillas de ficheros de configuracion.  necesarios para la construccion de ficheros dockerfiles, con el fin de desplegar servicios en contenedores Docker. 
+  %La herramienta pretende la generación automática de dichos archivos de configuración a partir de la creacion de configuracion validas , lo que permite a los desarrolladores definir las características de su servicio y obtener una configuración personalizada de forma rápida y sencilla.
+
+  %Para lograr este objetivo, se ha utilizado una metodología de Línea de Productos de Software (SPL) para modelar las características de los servicios y generar los archivos de configuración correspondientes. La herramienta desarrollada permite a los desarrolladores definir las características de su servicio a través de un archivo de modelo y obtener una configuración personalizada de cada fichero como puede ser un dockerfile 
   %En la actualidad, el desarrollo de software y la implementación de servicios en la nube han experimentado un crecimiento exponencial. Las empresas buscan constantemente mejorar sus procesos de desarrollo y despliegue para ofrecer productos y servicios de alta calidad en el menor tiempo posible. En este contexto, herramientas como Docker y metodologías como la Integración Continua (CI) se han convertido en componentes esenciales para lograr estos objetivos.
-%
+
   %Docker permite la creación de contenedores que encapsulan aplicaciones y sus dependencias, asegurando que el software se ejecute de manera consistente en cualquier entorno. Por otro lado, la Integración Continua facilita la detección temprana de errores mediante la automatización de pruebas y despliegues, lo que contribuye a un ciclo de desarrollo más ágil y eficiente.
   %
   %Este trabajo de fin de grado se centra en la generación automática de archivos de configuración para el despliegue de servicios en Docker. El objetivo principal es desarrollar una herramienta que simplifique y automatice el proceso de configuración, permitiendo a los desarrolladores centrarse en la creación de funcionalidades y mejoras en lugar de en tareas repetitivas y propensas a errores.
@@ -41,7 +53,7 @@
   %A lo largo de este documento, se presentará una revisión de la literatura relacionada con Docker, Integración Continua y generación automática de configuraciones. Además, se describirá el diseño y la implementación de la herramienta propuesta, así como los resultados obtenidos y las conclusiones derivadas del proyecto.
   
 
-\bfseries{\large{Palabras clave:}} SPL, Docker , Despliegues Servicios , Desarrollo web, Integración Continua , Configuración , feature models , Linea de Productos 
+\bfseries{\large{Palabras clave:}} SPL, Docker , Despliegues Servicios , Desarrollo web, Configuración , feature models , Linea de Productos 
 
 \end{abstract}
 \end{document}
