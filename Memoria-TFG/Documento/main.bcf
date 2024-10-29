@@ -2401,6 +2401,19 @@
     <bcf:citekey order="38" intorder="1">dockerfile_concepts</bcf:citekey>
     <bcf:citekey order="39" intorder="1">uvengine_github</bcf:citekey>
     <bcf:citekey order="40" intorder="1">uvengine_pypi</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">uvls_code</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">uvl</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">uvls_code</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">docker</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">docker_hub</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">docker_multistage</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">docker_desktop</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">pytest_docs</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">dockerfile_template_dev</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">dockerfile_template_dev</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">github_rest_api</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">nginx</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">ansible</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

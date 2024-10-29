@@ -272,7 +272,7 @@ de variabilidad pero los más extendidos y usados en la práctica son los modelo
 
 Un feature model (FM) \cite{wikipedia_feature_model} es un modelo para representar la variabilidad de una SPL en base a características comunes y 
 variables (véase Figura 1), especificando qué características se pueden seleccionar en una configuración para generar 
-un producto válido de la SPL. CITA 
+un producto válido de la SPL.  
 
 \begin{figure}[ht]
 	\centering
@@ -395,7 +395,7 @@ Su mencion se debe a que es el editor de codigo fuente que se ha empleado para e
 de los que la aplicacion hace uso.
 \subsubsection{UVLS extension}
 \cite{uvls_code}
-UVLS es una extension de Visual Studio Code que proporciona soporte para la Universal Variability Language (UVL) en el editor de codigo.
+UVLS es una extension de Visual Studio Code que proporciona soporte para la Universal Variability Language en adelante UVL en el editor de codigo.
 La extension UVLS proporciona resaltado de sintaxis, autocompletado, verificacion de errores y otras funcionalidades que facilitan la edicion de archivos de configuracion en UVL.
 ademas la clave más importante es que es la unica herramienta existente que permite crear una configuracion correcta partiendo desde un Feature Model
 
@@ -410,6 +410,10 @@ Otras extensiones de menos importancia empleadas en \textit{VSCode} son:
     \item \textbf{Python Debugger}
     \item \textbf{Better Jinja}
 \end{itemize}
+
+
+
+
 
 
 
@@ -479,8 +483,6 @@ Docker en un proyecto software.
 	\item Para compreder la importacia de las buenas practicas en la creacion de imagenes fue necesario la lectura de la documentacion oficial de Docker \href{https://docs.docker.com/reference/dockerfile/}{Dockerfile reference} \cite{dockerfile_reference}
 \end{itemize}
 
-Es necesario conocer como se aplica a la practica la creacion de imagenes. para ello han estudiado entre otros los siguientes proyectos:
-
 
 \subsection{Desarrollo de Plantillas}
 Esta fase implica la construcción el árbol de características y las restricciones textuales que orienten el espacio de 
@@ -490,7 +492,7 @@ Estas practicas tienes que estar presentes en el diseño de las plantillas desde
 Esta fase queda cubierta con más detalle en el \hyperref[sec:Modelado de las plantillas]{Capitulo 5}.
 
 
-\subsection{Fase Implementacion Cascada}
+\subsection{Fase Implementacion}
 \subsubsection{Requisitios de la aplicación }
 Aquí se definen y documentan los requisitos funcionales y no funcionales de la aplicación. Se recopilan y analizan las 
 necesidades de los posibles usos, los objetivos del proyecto y las restricciones técnicas para establecer una planificacon del desarrollo. 
@@ -498,20 +500,26 @@ Los requisitos han cambiado conforme el proyecto avanzaba en sus etapas de desar
 sin animo de ser exhaustivos las funcionalidades mínimas que se pretenden alcazar son en cuanto a la generacion de productos.
 \begin{itemize}
 	\item La aplicacion web debe permitir seleccionar la plantilla y la version con la que se desea trabajar 
-	\item Las plantillas pueden recargarse del repositorio 
+	\item Dentro de la aplicacion se podra recargar con nuevas plantillas que configuremos en el repositorio
 	\item La aplicacion web debe generar un el producto en el momento en el que se aplique una configuracion valida 
 \end{itemize}
 
 \subsubsection{Desarrollo del Paquete uvengine }
 En esta fase se adapta el proyecto de la aplicación de uvengine \cite{uvengine_github}, que permite la generación automática de archivos de configuración.
-La adaptacion consiste en hacer opcional el fichero mapping model REFERENCIA a la hora de generar un producto, una vez adaptado se procede a la creacion de un paquete de python que se pueda instalar en cualquier entorno de desarrollo.
+La adaptacion consiste en hacer opcional el fichero mapping model \footnote{Mapping model:\hyperref[sec:Mapping Model]{Capitulo 5}} a la hora de generar un producto, una vez adaptado se procede a la creacion de un paquete de python que se pueda instalar en cualquier entorno de desarrollo.
 como resultado tenemos el paquete uvengine \cite{uvengine_pypi} \footnote{El paquete es empleado en el proyecto UVEngine-Resolver y en los entornos de desarrollo de las plantillas}
 \subsubsection{Desarrollo Frontend de la web}
 En esta fase se desarrolla la aplicación web que permite la interacción con el usuario y la visualización de los archivos de configuración generados.
 La idea fundamental es permitir al usuario elegir entre un abanico de plantillas y versiones para que pueda decidir que producto generar en base a la configuracion que se aporte como entrada.
 Debe funcionar como una abstraccion de los servicios de Backend para permitir al usuario trabajar desde una interfaz web.
 \subsubsection{Desarrollo de los servicios de backend}
+\label{sec:Desarrollo de los servicios de backend}
 En esta fase se desarrollan los servicios de backend que permiten la comunicación entre la aplicación web y la aplicación de uvengine y los repositorios.
+El primer servidor de backend que vamos a generar sera un servidor para gestionar las peticiones sobre las plantillas, a este servio lo llamaremos Repository Manager. 
+Cosiste en un servicio flask que traduce las peticiones a la API de GitHub y las devuelve a la aplicacion web. Desde este servicio tendremos acceso a la lista de plantillas y la lista de versiones.
+Ademas aportamos al siguiente servicio un metodo para la descarga de las plantillas. El siguiente servicio es el encargado de resolver la variabilidad de una configuracion y generar un producto, a este servicio lo llamaremos UVEngine-Resolver.
+Este servicio se encarga de la generacion de productos a partir de una configuracion valida, para ello se apoya en el paquete uvengine que hemos desarrollado en la fase anterior.
+
 \subsubsection{Elaboración de la guía de uso}
 En esta fase se elabora una guía de uso que explica cómo utilizar la aplicación y las funcionalidades disponibles.
 Se elabora una guía detallada que describe cómo utilizar la aplicación, incluyendo instrucciones paso a paso, capturas 
@@ -519,7 +527,7 @@ de pantalla y ejemplos.
 \subsubsection{Elaboración de un manual de instalación}
 En esta fase se elabora un manual de instalación que explica cómo instalar y configurar la aplicación en un entorno local.
 \subsubsection{Elaboración de un manual de desarrollo de plantillas}
-En esta fase se elabora un manual de desarrollo de plantillas que explica cómo crear y mantener plantillas para la aplicación.
+En esta fase se elabora un manual de desarrollo de plantillas que explica cómo crear y mantener plantillas en el repositorio \footnote{\href{https://github.com/M4rdom/Templates}{https://github.com/M4rdom/Templates}}
 \subsection{Elaboración de la memoria}
 En esta fase se redacta la memoria o informe final del proyecto, que documenta todo el proceso de desarrollo, desde la 
 planificación hasta la implementación y las lecciones aprendidas. La memoria incluirá el análisis de los resultados, 
@@ -553,103 +561,160 @@ Aunque pudieramos crear una plantilla lo suficientemente expresiva para dar cabi
 en las metodologias, surgen nuevas imagenes base, otras quedan desactualizadas etc. La obra resultante llegaria a ser inpracticable en cuanto a la cantidad de opciones y configuraciones que se podrian dar.
 El objetivo del desarrollo todas las plantillas de este proyecto no pretende llegar a un nivel extremadamente avanzado de personalizacion, sino que sirvan como base para la creacion de plantillas más especificas y detalladas.
 
+\newpage
+
 \subsection{Componentes de las plantillas}
-Las plantillas se dividen en varios componentes 
-\subsubsection{Featuremodel(.uvl)}
-El archivo uvl es el archivo principal de la plantilla, contiene la descripcion de las caracteristicas y las restricciones de la plantilla.
-en este archivo dicta principalmente como se generera una configuracion valida que sea capaz de cumplir con las restricciones textuales IMAGEN  CITA 
+\subsubsection{Feature model}
+El archivo .uvl es el archivo principal de la plantilla, contiene la descripcion de las caracteristicas y las restricciones de la plantilla.
+este archivo lo usara la extension UVLS \cite{uvls_code} para generar una configuracion valida que cumpla con las restricicones textulaees que dictemos en archivo, de este modo nos aseguramos que estamos aplicando una configuracion valida.
+\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.5\textwidth]{text.feature_model.png}
+	\caption{Representacion de un Feature model en lenguaje uvl \cite{uvl}}
+\end{figure}
+
+
 \subsubsection{Plantillas Jinja}
-Las plantillas Jinja son los archivos de plantilla que se utilizan para generar los productos a partir de una configuracion valida o no del modelo. CITA
-La idea es exponer estas plantillas ante una configuracion ya validadada con herramientas como UVLS CITA, Estas plantillas constituyen el nuecleo del funcionamiento, en ella se declaran de forma explicita las opciones de configuracion y las variables que se pueden modificar.
-Las plantillas tienen que tener la esctrutura necesaria como para Usando la Sintaxis de Jinja crear un producto valido para una configuracion existente
+Las plantillas Jinja son los archivos de plantilla que se utilizan para generar los productos a partir de una configuracion valida o no del modelo.
+La idea es exponer estas plantillas ante una configuracion ya validadada usando UVLS \cite{uvls_code}, Estas plantillas constituyen el nucleo del funcionamiento, en ella se declaran de forma explicita las opciones de configuracion y las variables que se pueden modificar.
+\newpage
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=1\textwidth]{jinja_template_database_mongodb.png}
+	\caption{Ejemplo Plantilla Para la configuracion de un servicio de base de Datos para Mongodb}
+\end{figure}
+
+Las plantillas tienen que tener la esctrutura necesaria de modo que usando la Sintaxis de Jinja, el motor de plantillas sea capaz de crear un producto funcional para una configuracion valido. La imagen de arriba puede ser parte de un solo componente de la plantilla.
+Dividir las plantillas en componentes nos permite esctructurar la plantilla esto puede verse con un ejemplo en la seccion \hyperref[sec:Plantilla dockerfile]{Plantilla Dockerfile}.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=1\textwidth]{dockerfile.logica.plantillas.jinja.png}
+	\caption{Ejemplo de division de por componentes}
+\end{figure}
+
+
+\newpage
 \subsubsection{Mapping Model}
-Es el unico componente completamente Opcional IMAGEN
+\label{sec:Mapping Model}
+Es el unico componente completamente opcional a la hora de resolver la variabilidad, tampoco es necesario crearlo para el desarrollo de la plantillas.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=1\textwidth]{mapping_model_screenshot.png}
+	\caption{Ejemplo Mapping Model}
+\end{figure}
+
 Contiene la extructura de un fichero csv de tres con columnas. Las primeras columnas permiten mapear features sean estas booleanas o no a otros feature Boolenas que podran ser empleadas en las plantillas jinja, la tercera columna permite especificar una feature
 Este archivo permite renombrar features y hacerlas más comprensibles para las plantillas jinja. Tambien es el responsable de hacer funciar configuraciones sobre otras plantillas.
+
+\newpage
 \subsection{Plantilla dockerfile}
-Como hemos visto un fichero Dockefile es un archivo de texto que contiene una serie de instrucciones que Docker CITA utilizará para construir una imagen de contenedor.
-la plantilla para dockerfile cuenta con el modelo más grande del proyecto, La idea para crear estos modelso es subdividir el modelo en partes más pequeñas y manejables, de forma que se pueda trabajar con ellas de forma independiente.
-El criterio a la hora de hacer subdivisiones es similar al criterio que usan repositorios como Docker HUB CITA donde divide sus imagenes por categorias dependiendo de su funcion.
+\label{sec:Plantilla dockerfile}
+Como hemos visto un fichero Dockefile es un archivo de texto que contiene una serie de instrucciones que Docker \cite{docker} utilizará para construir una imagen de contenedor.
+\subsubsection{Feature model}
+
+la plantilla dockerfile cuenta con el modelo más grande del proyecto, La idea para crear estos modelos de plantilla es subdividir el modelo en partes más pequeñas y manejables, de forma que se pueda trabajar con ellas de forma independiente.
+El criterio a la hora de hacer subdivisiones es similar al criterio que usan repositorios como Docker HUB \cite{docker_hub} donde divide sus imagenes por categorias dependiendo de su función.
 En este contexto podemos construir una primera subdivision que represente el resultado final esperado, es decir la primera feature sera decidir si nuestra imagen 
-tiene el objetivo de desplegar un contenedor que albergue un Frontend, Backend, Base de datos, etc.
-\begin{figure}[ht]
+tiene el objetivo de desplegar un contenedor que albergue un servicio de Frontend, Backend, Base de datos, etc.
+
+\begin{figure}[h]
 	\centering
 	  \includegraphics[width=0.5\textwidth]{dockerfile.uvl.png}
 	\caption{Captura de la primera subdivision para dockerfile.}
 \end{figure}
 
 Cada una de estas categorias contendra a su vez una serie de subcategorias que representen las opciones de configuracion que se pueden dar en cada una de ellas.
-Centremonos en el caso de uso de un Frontend, Comunmente al deplegar una imagen de frontend se sigue una estrategia de multi etapa CITA donde en una primera etapa compilamos la aplicacion 
+\\Centremonos en el caso de uso de un Frontend.Comunmente al deplegar una imagen de frontend se sigue una estrategia de multi etapa \cite{docker_multistage} donde en una primera etapa compilamos la aplicacion 
 y en una posterior etapa la alojamos en un servidor web, esto con el objetivo de crear una imagen lo más pequeña posible al no contener ninguno de los ficheros fuente
 
-en este caso las subcategorias podrian ser el lenguaje, el puerto en el que se desplegara la aplicacion, el comando que se ejecutara al iniciar el contenedor, etc.
-Estos son elementos ya mecionados en la seccion de herramientas disponibles como pueden ser Docker Init CITA, Nuestro modelo permite recojer estas caracteristicas además de otras 
-como pueden ser el servidor web que queremos junto con su version, Podremos seleccionar el framework de desarrollo que se ha empleado, la version en la que compilara la aplicacion etc.
-Las posibilidades van mucho más alla de lo que se recoje en esta version del fichero dockerfile pero estas opciones ya expanden enormemente la capacidad de configuracion que tienen otras 
-herremientas. 
-  
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	  \includegraphics[width=0.5\textwidth]{dockerfile.frontend.png}
-	\caption{Captura de la primera subdivision para dockerfile.}
+	\caption{Captura de las opciones de configuracion para frontend.}
 \end{figure}
+
+En este caso las subcategorias podrian ser el lenguaje, el puerto en el que se desplegara la aplicacion, el comando que se ejecutara al iniciar el contenedor, etc.
+Estos son elementos ya mecionados en la seccion de herramientas disponibles como pueden ser las acciones del comando docker init en Docker Desktop \cite{docker_desktop}. 
+herremientas. 
+  
+
+Nuestro modelo permite recojer estas caracteristicas además de otras 
+como pueden ser el servidor web (Nginx, Apache ...) que queremos junto con su version, Podremos seleccionar el framework de desarrollo que se ha empleado, la version en la que compilara la aplicacion etc.
+Las posibilidades van mucho más alla de lo que se recoje en esta version del fichero dockerfile pero estas opciones ya expanden enormemente la capacidad de configuracion que tienen otras 
+
+
 
 \subsubsection{Plantillas Jinja2}
 Una vez que contamos con el modelo de la plantilla, podemos proceder a la creacion de las plantillas Jinja2 que son quienes realmente aportan el contenido al producto.
+
+\begin{figure}[h]
+	\centering
+	  \includegraphics[width=0.5\textwidth]{dockerfile.frontend.jinja.template.png}
+	\caption{Captura Plantilla } Dockerfile  \footnote{Podemos ver cómo la instrucción \texttt{EXPOSE} aparece en la plantilla Dockerfile a la hora de generar un producto con una configuración de frontend} 
+\end{figure}
+
 La sintaxis de Jinja2 nos permite aplicar cierta lógica a la hora de generar los ficheros de configuracion, por ejemplo podemos emplear condicionales para que ciertas partes del fichero se generen o no en funcion de la configuracion que se haya dado.
+\begin{figure}[h]
+	\centering
+	  \includegraphics[width=0.5\textwidth]{dockerfile.logica.plantillas.jinja.png}
+	\caption{Captura de la primera subdivision de la plantilla dockerfile.}
+\end{figure}
+
+\newpage
 Dividir las plantillas no solo es util porque las hace más manejables y faciles de mantener, sino que tambien permite la reutilizacion de las mismas, por ejemplo si tenemos una plantilla que se repite en varias plantillas, podemos extraerla a un fichero aparte y reutilizarla en todas las plantillas que lo necesiten.
 Para este caso podemos generar una plantilla para los metadatos y labels de la imagen 
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	  \includegraphics[width=0.5\textwidth]{dockerfile.metadata.png}
 	\caption{Captura de la primera subdivision para dockerfile.}
 \end{figure}
 
-\begin{figure}[ht]
+\newpage
+
+\subsubsection{Mapping Model}
+El mapping model es un componente opcional que permite mapear features a otras features, esto es util cuando queremos renombrar features o hacerlas más comprensibles para las plantillas jinja.
+En este caso aplicamos dicha funcionalidad para paliar las restricciones del lenguaje uvl \footnote{En UVL no podemos emplear nombres de features que contengan espacios o caracteres especiales o bien tampoco podemos repetir nombres de features en varias partes del modelo}
+\begin{figure}[h]
 	\centering
-	  \includegraphics[width=0.5\textwidth]{dockerfile.logica.plantillas.jinja.png}
-	\caption{Captura de la primera subdivision para dockerfile.}
+	  \includegraphics[width=0.5\textwidth]{mapping_model_screenshot.png}
+	\caption{Mapping Model plantilla Dockerfile.}
 \end{figure}
 
-\begin{figure}[ht]
-	\centering
-	  \includegraphics[width=0.5\textwidth]{dockerfile.frontend.jinja.template.png}
-	\caption{Captura de la primera subdivision para dockerfile.}
-\end{figure}
 
-\subsubsection{Test sobre la Plantilla dockerfile}
-El diseño y construccion de las plantillas es un proceso incremental, debe comprobarse con regularidad si nuestra intencion a la hora de seguir desarrollar una plantilla es mantener 
-una coherencia con lo añadido hasta el momento. Con esta idea en mente la solucion propuesta consiste en la creacion de pruebas que validen la correcta construccion de productos segun la plantilla en la que estamos trabajado.
-Estas pruebas deben ser capaces de comprobar que las plantillas generan un producto correcto. para el caso del dockerfile estas pruebas deben componerse por cada configuracion 
-y un producto esperado, si nuetra plantilla es capaz dada lo configuracion de entrada generar el mismo producto la prueba sera considerada como exitosa. 
+
+
+
+
 
 \newpage
 
-\begin{figure}[ht]
+\subsubsection{Tests sobre la Plantilla dockerfile}
+El diseño y construccion de las plantillas es un proceso incremental, debe comprobarse con regularidad si nuestra intencion a la hora de seguir desarrollar una plantilla es mantener una coherencia con lo añadido hasta el momento. 
+
+Con esta idea en mente la solucion propuesta consiste en la creacion de pruebas que validen la correcta construccion de productos segun la plantilla en la que estamos trabajado.
+
+Estas pruebas deben ser capaces de comprobar que las plantillas generan un producto correcto. para el caso del dockerfile estas pruebas deben componerse por cada configuracion 
+y un producto esperado, si nuetra plantilla es capaz dada lo configuracion de entrada generar el mismo producto la prueba sera considerada como exitosa. 
+
+\begin{figure}[h]
 	\centering
-	  \includegraphics[width=0.5\textwidth]{dockerfile.configuracion-backend.png}
+	  \includegraphics[width=0.75\textwidth]{dockerfile.configuracion-backend.png}
 	\caption{Conguracion Ejemplo 1 Backend.}
 \end{figure}
 
-\begin{figure}[ht]
+\newpage 
+
+\begin{figure}[h]
 	\centering
 	  \includegraphics[width=1\textwidth]{dockerfile.backend.producto.png}
 	\caption{Producto Esperado.}
 \end{figure}
 
-\newpage
-
-es evidente que ciertos cambios más radicales plantean refactorizar algunos test. aun asi es aconsejable validar el diseño de los nuevos elementos de la plantilla solucionando estas incoherencias.
-En el contexto de esta plantilla dockerfile las pruebas se han realizado empleado las librerias de pytest CITA para la generacion de los productos esperados.
-para cada una de las primeras divisiones de las plantillas se generan ficheros de test para clasificar las configuraciones que se prueban y los productos esperados.
-
-
-\begin{figure}[ht]
-	\centering
-	  \includegraphics[width=0.2\textwidth]{organizacion.test.pytest.png}
-	\caption{Captura de la primera subdivision para dockerfile.}
-\end{figure}
+Es evidente que ciertos cambios más radicales plantean refactorizar algunos test. aun asi es aconsejable validar el diseño de los nuevos elementos de la plantilla solucionando estas incoherencias.
+En el contexto de esta plantilla dockerfile las pruebas se han realizado empleado las librerias de pytest \cite{pytest_docs} para la generacion de los productos esperados. Estos test pueden encontrarse en el repositorio para el desarrollo de la plantilla dockerifle \cite{dockerfile_template_dev}
 
 
 
@@ -667,30 +732,49 @@ para cada una de las primeras divisiones de las plantillas se generan ficheros d
 
 
 
-
-
-
-%% Arquitectura y Descripcion del sistema
-\section{Arquitectura y Descripcion del sistema }
-\label{sec:Arquitectura y Descripcion del sistema}
+%% Arquitectura y Descripción del sistema
+\section{Arquitectura y Descripción del sistema }
+\label{sec:Arquitectura y Descripción del sistema}
 Esta seccion describe la arquitectura y el modelado del sistema, incluyendo los componentes, la estructura y el diseño de la aplicación resultante.
 \subsection{Vision general de la arquitectura }
 La arquitectura de la aplicación se divide en dos partes principales: el backend y el frontend.
-El backend es responsable de la generación de los archivos de configuración a partir de las plantillas y de la comunicación con los repositorios de plantillas.
+El backend es responsable de la generación de los archivos de configuración a partir de las plantillas y de la comunicación con el repositorio de las plantillas.
 El frontend es responsable de la interacción con el usuario y la visualización de los archivos de configuración generados.
 \subsection{Descripcion de servicios de backend}
 Para los servicios de backend estos se han dividido en varios servicios que se encargan de tareas especificas.
-La primera de ellos es Repository Manager CITA este servicio se encarga de servir traducir las peticiones que puede realizar el front end a la API de GitHub.
+La primera de ellos es Repository-Manager  este servicio se encarga de servir traducir las peticiones que puede realizar el front end a la API de GitHub.
 Estas peticiones son descargar el archivo uvl de la plantilla y version seleccionada, descargar el listado de plantillas disponibles y descargar el listado de versiones disponibles para cada plantilla
-\subsubsection{Repository Manager}
+\newpage
+\subsubsection{Repository-Manager}
 Esta aplicaicon esta desarrollada en Python y emplea el framework Flask para la creacion de la API, esta API se encarga de servir los archivos uvl de las plantillas y las versiones disponibles.
-para hacer funcionar esta API se emplea la api publica de github que permite acceder al contenido de repositorios. 
-En este caso el repositorio al que queremos acceder es el repositorio Templates CITA que contiene las plantillas disponibles.
-\subsubsection{UVEngine Resolver}
+\\Para hacer funcionar esta API se emplea la api publica de github que permite acceder al contenido de repositorios. 
+En este caso el repositorio al que queremos acceder es el repositorio Templates que contiene las plantillas disponibles.
 
-La segunda de ellas es UV Engine Resolver CITA este servicio se encarga de resolver la variabilidad a partir de recibir como parametros Un fichero Json que contiene el nombre de la plantilla, la version a utilizar y la configuracion 
-el resultado de la funcion sera un producto
+\newpage
+\subsubsection{UVEngine-Resolver}
+
+La segunda de ellas es UVEngine-Resolver este servicio se encarga de resolver la variabilidad a partir de recibir como parametros Un fichero Json que contiene el nombre de la plantilla, la version a utilizar y la configuracion 
+el resultado de la funcion sera un json que contiene el producto generado a partir de la configuracion dada. 
+\begin{figure}[h]
+	\centering
+	  \includegraphics[width=1\textwidth]{Peticion POST uvengine-resolver.png}
+	\caption{Ejemplo de una Peticion POST a uvengine-resolver}
+\end{figure}
+Tambien contamos con algunos EndPoints cuyo objetivo es descargar y mantener las plantillas actualizadas
+\newpage
 \subsection{Descripcion de Frontend}
+Como hemos comentado Anteriormente el Frontend es la parte de la aplicacion que se encarga de la interaccion con el usuario y la visualizacion de los archivos de configuracion generados.
+Se trata de una aplicacion web desarrollada en Angular que permite al usuario seleccionar una plantilla y una version y generar un producto a partir de una configuracion valida.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -700,21 +784,27 @@ el resultado de la funcion sera un producto
 En esta seccion se pretende hacer incape en la extensibilidad de la aplicacion, como se ha mencionado anteriormente el proyecto tiene en mente que pueda adaptarse a las necesidades futuras.
 
 Al almacernar las plantillas en un repositorio publico de GitHub, se permite a cualquier usuario modificar, añadir o eliminar plantillas de forma sencilla.
-Esot permite que el desarrollo de plantillas se maneje de forma independiente al resto de la aplicacion y que se puedan añadir nuevas plantillas sin necesidad de modificar el codigo de la aplicacion.
+Esto permite que el desarrollo de plantillas se maneje de forma independiente al resto de la aplicacion y que se puedan añadir nuevas funcionalidades sin necesidad de modificar el codigo de la aplicacion.
 \subsection{Añadir Plantillas}
 Existiendo varias formas en las que se pudiera haber diseñado la forma con la que añadir nuevas plantillas a la aplicacion aprovechando caracteristicas de Github se ha optado por la solucion más sencilla y directa.
 Añadir una nueva plantilla es tan sencillo como añadir una nueva carpeta al repositorio de plantillas de GitHub.
-Esta carpeta debe contener una estructura de directorios especifica que contenga los archivos necesarios para la plantilla como son el archivo uvl, las plantillas Jinja2 y el archivo de Mapping Model, este ultimo archivo es opcional.
-Existen instucciones detalladas de como añadir una plantilla al respositorio de plantillas en CITA 
+Esta carpeta debe contener una estructura de directorios especifica que contenga los archivos necesarios para la plantilla como son el Feature Model uvl, las plantillas Jinja2 y el archivo de Mapping Model, este ultimo archivo es opcional.
+Existen instucciones detalladas de como añadir una plantilla al respositorio de plantillas \footnote{Repositorio de plantillas:https://github.com/M4rdom/Templates} o bien en el apendice \hyperref[sec:Manual de Desarrollo]{Manual de Desarrollo}
+
+\newpage
 
 \subsubsection{Ampliar la Plantilla Dockerfile}
 La Plantilla Dockerfile recoje alguna de las caracteristicas más interesantes que ya cubren otras herramientas pero queda claro que todavia existe mucho margen de mejora en cuanto a la personalizacion de las opciones de configuracion.
-La plantilla no es a dia de hoy capaz de cubrir todas las opciones de configuracion que se pueden dar en un fichero Dockerfile, pero tiene el potencial de ser ampliada y mejorada en el futuro.
-Ampliar esta plantilla es sencillo, se cuenta ya con un repositorio de desarrollo para la plantilla CITA que contiene la plantilla y los test necesarios para validarla.
+\\La plantilla no es a dia de hoy capaz de cubrir todas las opciones de configuracion que se pueden dar en un fichero Dockerfile, pero tiene el potencial de ser ampliada y mejorada en el futuro.
+Ampliar esta plantilla es sencillo, se cuenta ya con un repositorio de desarrollo para la plantilla \footnote{Repositorio para el desarrollo de la Plantilla Dockerfile https://github.com/M4rdom/Dockerfile-Template-Dev \cite{dockerfile_template_dev}} que contiene la plantilla y los test necesarios para validarla.
 Una vez que se haya ampliado la plantilla, se puede añadir al repositorio de plantillas de GitHub y utilizarla para generar productos.
+\\Al selecionar una feature que no ha sido desarrollada el producto resultante (en este caso el fichero dockerfile) contendra el siguiente mensaje de error
 
-
-
+\begin{figure}[h]
+	\centering
+	  \includegraphics[width=1\textwidth]{unupportedfeature.png}
+	\caption{Mensaje de Error en el Producto Final}
+\end{figure}
 
 
 
@@ -727,7 +817,7 @@ Una vez que se haya ampliado la plantilla, se puede añadir al repositorio de pl
 \section{Despliegue de la aplicación }
 \label{sec:Despliegue de la aplicación}
 \subsection{ Despliegue local }
-Para desplegar el proyecto y todas sus capas se hace uso de la herramienta Docker CITA, que permite la creación de contenedores ligeros y portables que pueden ejecutarse en cualquier entorno.
+Para desplegar el proyecto y todas sus capas se hace uso de la herramienta Docker, que permite la creación de contenedores ligeros y portables que pueden ejecutarse en cualquier entorno.
 Para el despliegue local se hace uso de Docker Compose CITA, que permite definir y ejecutar aplicaciones Docker multi-contenedor generando todos los servicios necesarios para el despliegue de la aplicación.
 Esto supone una abstracción de la infraestructura necesaria para el despliegue de la aplicación, permitiendo la creación de un entorno de desarrollo y pruebas aislado y reproducible.
 En el proyecto se encuentra el fichero docker-compose.yml que contiene la configuración necesaria para el despliegue de la aplicación en un entorno local.
@@ -818,7 +908,7 @@ Resumen de los desarrollos resultantes del proyecto:
 	\item Se adaptado el uso del proyecto uvengine que permite la generación automática de archivos de configuración a partir de plantillas adaptandola a las necesidades del proyecto.
 	\item Se ha desarrollado una aplicación de Repository Manager que permite la comunicación con los repositorios de plantillas en GiHub CITA .
 	\item Se ha desarrollado una aplicación de UVEngine Resolver que permite la resolución de la variabilidad a partir de una configuración.
-	\item Se ha creado la plantilla para la generación de ficheros Dockerfile a partir de una configuración.
+	\item Se ha creado la plantilla para la generación de ficheros Dockerfile a partir de una configuración además de un entorno de desarrollo para la misma.
 	\item Se ha desarrollado la plantilla auxiliares para ficheros de configuracion Nginx, dockerignore, etc.
 	\item Se han desarrollado pruebas para validar la correcta construcción de los productos a partir de las plantillas dockerfile.
 	\item Se ha aportado todo el código fuente y la documentación necesaria para la replicación del proyecto.
@@ -828,20 +918,22 @@ Resumen de los desarrollos resultantes del proyecto:
 
 \subsection{Viabilidad del proyecto}
 Como hemos recogido arriba el proyecto es potencialmente viable pero presenta algunas carencias que pueden ser corregidas.
-Es posible que el uso mandatorio de la extension uvls para generar los ficheros de configuracion sea un punto en contra para la viabilidad del proyecto, pese a que la extension es un proyecto de codigo abierto y seria posible su integracion en la aplicacion.
-Las soluciones actualmente actualemente disponibles son más comodas al detectar las features CITA del proyecto de forma autonoma sin necesidad de intervencion del usuario. Esto supone que esta solucion quede atras en cuanto a comodidad. Es conveniente que adaptar este sistema 
-para que sea capaz de detectar algunas de las features de forma autonoma y dejar otras para la personalizacion del usuario al menos en cuanto nos referimos a la generacion del fichero dockerfile.
+Es posible que el uso mandatorio de la extension uvls para generar los ficheros de configuracion sea un punto en contra para la viabilidad del proyecto, 
+El uso de la herramienta de configuracion puede no estar a la altura en cuanto a comodidad de uso de otras herramientas de generacion automatica de archivos.
+Las soluciones actualmente actualemente disponibles son más comodas al detectar las features del proyecto de forma autonoma sin necesidad de intervencion del usuario. Esto supone que esta solucion quede atras en cuanto a comodidad. 
+Es conveniente que adaptar este sistema para que sea capaz de detectar algunas de las features de forma autonoma y dejar otras para la personalizacion del usuario al menos en cuanto nos referimos a la generacion del fichero dockerfile.
+
 \subsection{Escalabilidad}
 Teniendo en cuenta que la escalabilidad de cualquier aplicacion depende en la capacidad de sus servicios de generar nuevas instacias es en un principio viable 
-escalar horizontalmente cada uno de los servicios. Sin embargo la escalabilidad de la aplicacion se ve limitada actualmente por el uso de API publica de github CITA 
-para el servicio de Repository manager CITA que limita el numero de peticiones que se pueden hacer en un periodo de tiempo.
+escalar horizontalmente cada uno de los servicios. Sin embargo la escalabilidad de la aplicacion se ve limitada actualmente por el uso de API publica de github \cite{github_rest_api} 
+para el servicio de Repository-manager visto en el \hyperref[sec:Desarrollo de los servicios de backend]{Capitulo 6} que limita el numero de peticiones que se pueden hacer en un periodo de tiempo.
 \footnote{Actualmente el número de peticiones que puede realizarse a la api son 80 peticiones por minuto CITA esto es propenso a que cambien en un futuro.}
 En el escenario en el que se quiera llevar la aplicacion a un entorno de produccion debe sortearse este problema bien por medio del uso de tokens de autenticacion.
 Existe la posbilidad de que el usario aporte un token personal de una cuenta de gitHub a la hora de desplegar el servicio o bien emplear un token propio desde Github.
 
 En el escenario de superar dicho limite desde la aplicacion no se podra descargar modelos uvl ni se podra recargar el listado de plantillas y ni versiones de las mismas.
-No obstante se podra resolver la variabilidad de las plantillas que ya se han descargado y se podra generar productos a partir de ellas si se encuentran disponibles en los servicios 
-uvengine-resolver CITA 
+No obstante se podra resolver la variabilidad de las plantillas que ya se han descargado y se podra generar productos a partir de ellas si se encuentran disponibles en el servidor de backend.
+uvengine-resolver. 
 
 
 
@@ -858,22 +950,24 @@ uvengine-resolver CITA
 
 \subsection{Conclusiones del Desarrollo del proyecto}
 El desarrollo del proyecto ha permitido alcanzar los objetivos planteados inicialmente. Se ha logrado implementar una solución eficiente y potencialmente escalable que cumple con los requisitos funcionales y no funcionales establecidos. Además, se ha adquirido un conocimiento profundo sobre las tecnologías utilizadas y se han identificado áreas de mejora para futuros desarrollos.
-El desarrollo de las plantillas ha sido conservador y no se ha considerado explorar más que casos basicos de uso. Esto era algo esperado si asumimos la gran casuistica que tenemos, sin embargo se ha demostrado que la aplicacion es capaz de generar productos validos a partir de configuraciones validas. Dado el nivel de desarollo de las herramientas (uvls) y tecnologias de las que hace uso este proyecto se ha demostrado que es posible llevar a cabo un proyecto de estas caracteristicas.
+El desarrollo de las plantillas ha sido conservador y no se ha considerado explorar más que casos basicos de uso. Esto era algo esperado si asumimos la gran casuistica que tenemos, sin embargo se ha demostrado que la aplicacion es capaz de generar productos validos a partir de configuraciones validas. Dado el nivel de desarollo de las herramientas (UVLS) y tecnologias de las que hace uso este trabajo se ha demostrado que es posible llevar a cabo un proyecto de estas caracteristicas.
 \subsection{Conclusion Personal}
-A nivel personal, el desarrollo de este proyecto me ha servido para introduccirme de lleno en la tecnologia de contenedores, como esta tecnologia se aplica en servicios y que implicaciones existen a nivel de rendimiento y seguridad. Considero que el proyecto tiene de base una serie de fortalezas que otra serie de herramientas no consigue ofrecer actualmente. Es posible que un proyecto más ambicioso y con más recursos pueda explotar estas fortalezas y llevar el diseño de productos por este camino.
+A nivel personal, el desarrollo de este trabajo me ha servido para introduccirme de lleno en la tecnologia de contenedores, como esta tecnologia se aplica en servicios y que implicaciones existen a nivel de rendimiento y seguridad. Considero que el proyecto tiene de base una serie de fortalezas que otra serie de herramientas no consigue ofrecer actualmente. Es posible que un proyecto más ambicioso y con más recursos pueda explotar estas fortalezas y llevar el diseño de productos por este camino.
 Sin duda el proyecto queda lejos de tener aplicaciones funcionales reales pero muestra un camino que puede ser explotado si se considera. 
 \subsection{Aplicaciones Prácticas}
-Ademas de contar con una forma intersante de generar dockerfiles pueden existir dinamicas para aprovechar configuraciones validas para generar otros ficheros necesarios, como por ejemplo podemos ficheros de configuracion para el servidor de Nginx CITA directamente a partir de la configuracion para generar un dockerfile. Esto es gracias a los ficheros Mapping Models y a un diseño inteligente de las plantillas
-\subsection{Desarrollo de nuevas plantillas }
-El proyecto esta preparado para recibir nuevas plantillas no solo para la generacion de ficheros dockerfile y algunos de los archivos de configuracion sino que se puede extender a otros tipos de ficheros, como por ejemplo ficheros de configuracion de Kubernetes CITA, ficheros de configuracion de Jenkins CITA, etc.
-Una vez añadidas plantillas al repositorio estan estaran disponibles de la misma forma en la que estan disponibles las plantillas existentes solo sera necesario recargar el listado de plantillas que se encuentra en el la barra de navegacion de la aplicacion web.
-\subsection{Continuación en el desarrollo de plantillas ya existentes}
-Las plantillas exitentes tienen un gran margen de mejora, En la situacion actual no soportan la gran mayoria de las opciones de configuracion que se pueden dar en un fichero Dockerfile. Además las opciones que se manejar son propensas a quedar obsoletas y se necesita de una continua revision de las plantillas en busca de problemas de diseño o seguridad.
+Ademas de contar con una forma intersante de generar dockerfiles pueden existir dinamicas para aprovechar configuraciones validas para generar otros ficheros necesarios, como por ejemplo podemos ficheros de configuracion para el servidor de Nginx \cite{nginx} directamente a partir de la configuracion para generar un dockerfile. 
+Esto es gracias a los ficheros Mapping Models y a un diseño inteligente de las plantillas.
+\subsection{Desarrollo de Nuevas plantillas }
+El proyecto esta preparado para recibir nuevas plantillas manteniendo las existentes, por ejemplo pueden agregarse todo tipo de plantillas que requieran de la salida de un fichero de configuracion como pueden ser en el caso de herramientas como Ansibl \cite{ansible}	 
+Una vez añadidas plantillas al repositorio estan estaran disponibles de la misma forma en la que estan disponibles las plantillas existentes solo sera necesario recargar el listado de plantillas que se encuentra en el la barra de navegacion de la aplicacion web.	
+\subsection{Continuación en el desarrollo de plantillasya existentes}
+Las plantillas exitentes tienen un gran margen de mejora, En la situacion actual no soportan la gran mayoria de las opciones de configuracion que se pueden dar en un fichero Dockerfile. Además las opciones que se manejar son propensas a quedar obsoletas y se necesita de una continua revision de las plantillas en busca de problemas de diseño o seguridad.4
+Estos son problemas que padecen otras herramientas que nos permiten generar el ficheros dockerfile de forma automatica.
 
 \subsection{Mejorar la experiencia del usuario }
-La generacion de la configuraciones estan ligadas al desarrollo de la extension uvls, la extension permite al usuario generar una configuracion valida deplegando el arbol de caracteristicas CITA pero para ello el usuario
-necesita contar con VSCode y la extension instalada. para ser capaz de generar configuraciones validas. La propuesta para este escenario seria la integracion de dicha funcionalidad dentro de la plantaforma web,
-la extension uvls es un proyecto de codigo abierto y su integracion en la aplicacion web podria ser un proyecto en si mismo. 
+La generacion de la configuraciones estan ligadas al desarrollo de la extension UVLS, la extension permite al usuario generar una configuracion valida deplegando el arbol de caracteristicas pero para ello el usuario
+necesita contar con VSCode y la extension instalada para ser capaz de generar configuraciones validas. La propuesta para este escenario seria la integracion de dicha funcionalidad dentro de la plantaforma web,
+la extension UVLS es un proyecto de codigo abierto y su integracion en la aplicacion web podria ser un proyecto en si mismo. 
 
 En el desarrollo del trabajo se ha explorado esta posibiliddad ejecutando dicha extension en la version
 web del editor VS code pero el resultado en cuanto a rendimiento hace que esta opcion no sea viable.

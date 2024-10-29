@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1729700340.81816 "main.bcf" "main.bbl" "main" 1729708487.59611 0
-  "bibliografia.bib" 1729699733 8567 e13cc09b0a447781f1727a32828ec76d ""
-  "main.bcf" 1729708487 110460 14449fb6e7e8495b45c8a596b01c7390 "pdflatex"
+["biber main"] 1730224687.23859 "main.bcf" "main.bbl" "main" 1730224858.30035 0
+  "bibliografia.bib" 1730222875 10091 a0f1ca88544f85f5b122905465091e6c ""
+  "main.bcf" 1730224857 111340 835da9c1e32b474485c6dc388d4c871c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1729708482.1371 "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex" "main.pdf" "main" 1729708487.59714 0
+["pdflatex"] 1730224851.3584 "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex" "main.pdf" "main" 1730224858.3018 0
   "C:/Users/marco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1729519486 145878 e6812506e79acb857d15ab982aacc14c ""
   "C:/Users/marco/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1708092790 24210828 c3deb5dff1e30ee191890ce89d7a0041 ""
   "C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1497089888 2933 9ad527ce78d7c5fa0a642dead095f172 ""
@@ -234,10 +234,11 @@
   "Portada-Titulo-Contraportada/backcover.pdf" 1728900613 71145 170ec07017f71f9da995785d1d2acb05 ""
   "Portada-Titulo-Contraportada/cover.pdf" 1728900613 110675 8caeea4302027bd64e979b5ec7f8041f ""
   "Portada-Titulo-Contraportada/title.pdf" 1728900613 134375 d9d0384e08b052664e226d09479ecb39 ""
-  "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex" 1729700418 67082 ff59cf9c01aa6f00414ebf2773186d5e ""
+  "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex" 1730224845 71758 9191876f28c6739f50b00182531b603d ""
   "images/Docker Init.png" 1729065047 33355 cf58993e374832e1b4aacdeecc617a57 ""
   "images/Docker.extension.vscode.png" 1729525755 12968 d6f66d55d27b5eae1368c5d0e5c7a74c ""
   "images/MagickPen.png" 1729093772 75655 f7f5d03caa41e46e52e1c783d78ad4b4 ""
+  "images/Peticion POST uvengine-resolver.png" 1730224577 49618 ba6b5e2cc09c2000f42f2c05f8300726 ""
   "images/docker.extension.vscode.dockerfile.png" 1729526725 47930 e0fa98edf4a96e6eeead241dfe728df3 ""
   "images/dockerfile.backend.producto.png" 1729238361 68654 6b54a768a9618d2e65e456f35bc6d96b ""
   "images/dockerfile.configuracion-backend.png" 1729238322 19283 7d801a9988c9f0911be38d3c47193794 ""
@@ -248,15 +249,18 @@
   "images/dockerfile.uvl.png" 1729173941 23284 e0f846f9b838cccbc1d22c997d550af1 ""
   "images/fm.example.jpg" 1729605611 18115 ec9b5390dded9a8e593bf264a9842a89 ""
   "images/gantt.png" 1729695034 142693 7ae136b764ad1dbbe063ecbfe6911e2a ""
-  "images/organizacion.test.pytest.png" 1729239801 14974 d5f20a6fcd7df19e30f284018235bfc3 ""
-  "main.aux" 1729708486 25172 dc2547c96398f5c521b15729b4874f49 "pdflatex"
-  "main.bbl" 1729700344 41072 67bbaf6c6b16397a95258709fe55e86f "biber main"
-  "main.out" 1729708487 20953 640240a4e6537c0fcab54931f587e803 "pdflatex"
-  "main.run.xml" 1729708487 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
-  "main.tex" 1729700418 67082 ff59cf9c01aa6f00414ebf2773186d5e ""
-  "main.toc" 1729708487 11041 efbc9fee3878f1316b6e49ed3f960fe5 "pdflatex"
-  "sections/abstract.tex" 1729708463 1714 6b6b60e1a484edaa4c9ac5463ee14b4b ""
-  "sections/resumen.tex" 1729708352 5071 e88c2bd4d451bdc9b155deb82ad813ac ""
+  "images/jinja_template_database_mongodb.png" 1730029285 37781 0422880d655657ffa2155009b87a4884 ""
+  "images/mapping_model_screenshot.png" 1730029624 35012 43ad7365f194ada98cc241600b264336 ""
+  "images/text.feature_model.png" 1730023955 7423 4369a2e276077d0dfb39a02ba57598a8 ""
+  "images/unupportedfeature.png" 1730221087 13271 11f04a560ac2402d8785b86ffd72e35c ""
+  "main.aux" 1730224857 27887 09ce698e448dae7ab990851bf37226e8 "pdflatex"
+  "main.bbl" 1730224691 46697 1ff4b6aaaa81215b887a5a005ce85777 "biber main"
+  "main.out" 1730224857 21150 e35904872a1aaa9f2b25fcf18ae64207 "pdflatex"
+  "main.run.xml" 1730224857 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.tex" 1730224845 71758 9191876f28c6739f50b00182531b603d ""
+  "main.toc" 1730224857 11209 41d3866cd21dab09d474d5df3af23703 "pdflatex"
+  "sections/abstract.tex" 1730019989 1745 c67234ef9055cc275c6f051338c4b7e2 ""
+  "sections/resumen.tex" 1730020010 5096 8cc5b1c3c450819bd0d8cac69d83ddb4 ""
   "umatfgspanish.sty" 1728982935 1480 eeda30aeaa473f18b0eea84cd32b4d36 ""
   (generated)
   "main.aux"

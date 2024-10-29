@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  23 OCT 2024 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  27 OCT 2024 10:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1014,13 +1014,13 @@ Package logreq Info: Writing requests to 'abstract.run.xml'.
 Here is how much of TeX's memory you used:
  40919 strings out of 474541
  892187 string characters out of 5744425
- 1929978 words of memory out of 5000000
+ 1930978 words of memory out of 5000000
  62603 multiletter control sequences out of 15000+600000
  589859 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  118i,5n,118p,1803b,1834s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb>
-Output written on c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento\sections\abstract.pdf (1 page, 170683 bytes).
+Output written on c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento\sections\abstract.pdf (1 page, 170460 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

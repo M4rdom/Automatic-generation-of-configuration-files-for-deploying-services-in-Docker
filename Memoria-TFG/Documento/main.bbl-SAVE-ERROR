@@ -181,6 +181,34 @@
       \verb https://universal-variability-language.github.io/
       \endverb
     \endentry
+    \entry{pytest_docs}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7a133b4a09f98bc1240dc3e108f59ab9}{%
+           family={Development\bibnamedelima Team},
+           familyi={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={pytest},
+           prefixi={p\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a133b4a09f98bc1240dc3e108f59ab9}
+      \strng{fullhash}{7a133b4a09f98bc1240dc3e108f59ab9}
+      \strng{bibnamehash}{7a133b4a09f98bc1240dc3e108f59ab9}
+      \strng{authorbibnamehash}{7a133b4a09f98bc1240dc3e108f59ab9}
+      \strng{authornamehash}{7a133b4a09f98bc1240dc3e108f59ab9}
+      \strng{authorfullhash}{7a133b4a09f98bc1240dc3e108f59ab9}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Pytest Documentation}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://docs.pytest.org/en/stable/
+      \endverb
+      \verb{url}
+      \verb https://docs.pytest.org/en/stable/
+      \endverb
+    \endentry
     \entry{docker_desktop}{misc}{}
       \name{author}{1}{}{%
         {{hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
@@ -235,7 +263,7 @@
       \verb https://docs.docker.com/reference/dockerfile/
       \endverb
     \endentry
-    \entry{dockerfile_concepts}{online}{}
+    \entry{docker_hub}{misc}{}
       \name{author}{1}{}{%
         {{hash=4bd3b392874c74fba4ed57a24eae0ac1}{%
            family={Docker},
@@ -250,6 +278,35 @@
       \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \field{extraname}{3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Docker Hub}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://hub.docker.com/
+      \endverb
+      \verb{url}
+      \verb https://hub.docker.com/
+      \endverb
+    \endentry
+    \entry{dockerfile_concepts}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4bd3b392874c74fba4ed57a24eae0ac1}{%
+           family={Docker},
+           familyi={D\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{fullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{bibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \field{extraname}{4}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -278,7 +335,7 @@
       \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -291,6 +348,35 @@
       \endverb
       \verb{url}
       \verb https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/
+      \endverb
+    \endentry
+    \entry{docker_multistage}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4bd3b392874c74fba4ed57a24eae0ac1}{%
+           family={Docker},
+           familyi={D\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{fullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{bibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
+      \field{extraname}{6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Use multi-stage builds}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://docs.docker.com/build/building/multi-stage/
+      \endverb
+      \verb{url}
+      \verb https://docs.docker.com/build/building/multi-stage/
       \endverb
     \endentry
     \entry{docker}{online}{}
@@ -457,6 +543,64 @@
       \verb https://gunicorn.org/
       \endverb
     \endentry
+    \entry{uvengine_github}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0cfb3b758cb36562f3be7698f8568662}{%
+           family={Horcas},
+           familyi={H\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{fullhash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{bibnamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authorbibnamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authornamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authorfullhash}{0cfb3b758cb36562f3be7698f8568662}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{UVEngine}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/jmhorcas/uvengine
+      \endverb
+      \verb{url}
+      \verb https://github.com/jmhorcas/uvengine
+      \endverb
+    \endentry
+    \entry{uvengine_pypi}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0cfb3b758cb36562f3be7698f8568662}{%
+           family={Horcas},
+           familyi={H\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{fullhash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{bibnamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authorbibnamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authornamehash}{0cfb3b758cb36562f3be7698f8568662}
+      \strng{authorfullhash}{0cfb3b758cb36562f3be7698f8568662}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{UVEngine 1.0.0}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://pypi.org/project/uvengine/1.0.0/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/uvengine/1.0.0/
+      \endverb
+    \endentry
     \entry{ibm_container_orchestration}{misc}{}
       \name{author}{1}{}{%
         {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
@@ -535,6 +679,32 @@
       \endverb
       \verb{url}
       \verb https://panamericanlatam.com/que-es-un-prompt-en-ia-y-para-que-sirve/
+      \endverb
+    \endentry
+    \entry{dockerfile_template_dev}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a10213b496d3cbc7eed816be1c616c0e}{%
+           family={M4rdom},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{fullhash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{bibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authorbibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authornamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authorfullhash}{a10213b496d3cbc7eed816be1c616c0e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Dockerfile-Template-Dev}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/M4rdom/Dockerfile-Template-Dev
+      \endverb
+      \verb{url}
+      \verb https://github.com/M4rdom/Dockerfile-Template-Dev
       \endverb
     \endentry
     \entry{magickpen_dockerfile_template}{misc}{}
@@ -891,6 +1061,34 @@
       \endverb
       \verb{url}
       \verb https://pypi.org/
+      \endverb
+    \endentry
+    \entry{ansible}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b808c1e04088c1e6fdeb47da7cf72728}{%
+           family={Red\bibnamedelima Hat},
+           familyi={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b808c1e04088c1e6fdeb47da7cf72728}
+      \strng{fullhash}{b808c1e04088c1e6fdeb47da7cf72728}
+      \strng{bibnamehash}{b808c1e04088c1e6fdeb47da7cf72728}
+      \strng{authorbibnamehash}{b808c1e04088c1e6fdeb47da7cf72728}
+      \strng{authornamehash}{b808c1e04088c1e6fdeb47da7cf72728}
+      \strng{authorfullhash}{b808c1e04088c1e6fdeb47da7cf72728}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Ansible Automation Platform}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.ansible.com/
+      \endverb
+      \verb{url}
+      \verb https://www.ansible.com/
       \endverb
     \endentry
     \entry{git}{misc}{}
