@@ -405,6 +405,32 @@
       \verb https://www.docker.com/
       \endverb
     \endentry
+    \entry{electron}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0df2da9cf88450e6758356da45b4d04f}{%
+           family={Electron},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0df2da9cf88450e6758356da45b4d04f}
+      \strng{fullhash}{0df2da9cf88450e6758356da45b4d04f}
+      \strng{bibnamehash}{0df2da9cf88450e6758356da45b4d04f}
+      \strng{authorbibnamehash}{0df2da9cf88450e6758356da45b4d04f}
+      \strng{authornamehash}{0df2da9cf88450e6758356da45b4d04f}
+      \strng{authorfullhash}{0df2da9cf88450e6758356da45b4d04f}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Electron: Desarrolla aplicaciones de escritorio con JavaScript, HTML y CSS}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.electronjs.org/es/
+      \endverb
+      \verb{url}
+      \verb https://www.electronjs.org/es/
+      \endverb
+    \endentry
     \entry{python}{misc}{}
       \name{author}{1}{}{%
         {{hash=9688a568902e4b07b60557b566bdd820}{%
@@ -433,6 +459,33 @@
       \verb https://www.python.org/
       \endverb
     \endentry
+    \entry{github_tokens}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d3b7c913cd04ebfec0e9ec32cb6fd58c}{%
+           family={GitHub},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{fullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{bibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorbibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authornamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorfullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{GitHub Personal Access Tokens}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/settings/tokens
+      \endverb
+      \verb{url}
+      \verb https://github.com/settings/tokens
+      \endverb
+    \endentry
     \entry{github}{misc}{}
       \name{author}{1}{}{%
         {{hash=b79b798b2812cfe1c1431894a617897d}{%
@@ -447,7 +500,7 @@
       \strng{authorbibnamehash}{b79b798b2812cfe1c1431894a617897d}
       \strng{authornamehash}{b79b798b2812cfe1c1431894a617897d}
       \strng{authorfullhash}{b79b798b2812cfe1c1431894a617897d}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
@@ -476,7 +529,7 @@
       \strng{authorbibnamehash}{b79b798b2812cfe1c1431894a617897d}
       \strng{authornamehash}{b79b798b2812cfe1c1431894a617897d}
       \strng{authorfullhash}{b79b798b2812cfe1c1431894a617897d}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
@@ -681,6 +734,33 @@
       \verb https://panamericanlatam.com/que-es-un-prompt-en-ia-y-para-que-sirve/
       \endverb
     \endentry
+    \entry{m4rdom_project_repository}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a10213b496d3cbc7eed816be1c616c0e}{%
+           family={M4rdom},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{fullhash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{bibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authorbibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authornamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authorfullhash}{a10213b496d3cbc7eed816be1c616c0e}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Automatic Generation of Configuration Files for Deploying Services in Docker}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/M4rdom/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker
+      \endverb
+      \verb{url}
+      \verb https://github.com/M4rdom/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker
+      \endverb
+    \endentry
     \entry{dockerfile_template_dev}{misc}{}
       \name{author}{1}{}{%
         {{hash=a10213b496d3cbc7eed816be1c616c0e}{%
@@ -693,6 +773,7 @@
       \strng{authorbibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
       \strng{authornamehash}{a10213b496d3cbc7eed816be1c616c0e}
       \strng{authorfullhash}{a10213b496d3cbc7eed816be1c616c0e}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -705,6 +786,60 @@
       \endverb
       \verb{url}
       \verb https://github.com/M4rdom/Dockerfile-Template-Dev
+      \endverb
+    \endentry
+    \entry{m4rdom_frontend}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a10213b496d3cbc7eed816be1c616c0e}{%
+           family={M4rdom},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{fullhash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{bibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authorbibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authornamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authorfullhash}{a10213b496d3cbc7eed816be1c616c0e}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Frontend}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/M4rdom/Frontend
+      \endverb
+      \verb{url}
+      \verb https://github.com/M4rdom/Frontend
+      \endverb
+    \endentry
+    \entry{m4rdom_templates}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a10213b496d3cbc7eed816be1c616c0e}{%
+           family={M4rdom},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{fullhash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{bibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authorbibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authornamehash}{a10213b496d3cbc7eed816be1c616c0e}
+      \strng{authorfullhash}{a10213b496d3cbc7eed816be1c616c0e}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Templates}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/M4rdom/Templates
+      \endverb
+      \verb{url}
+      \verb https://github.com/M4rdom/Templates
       \endverb
     \endentry
     \entry{magickpen_dockerfile_template}{misc}{}
@@ -1117,6 +1252,32 @@
       \endverb
       \verb{url}
       \verb https://git-scm.com/
+      \endverb
+    \endentry
+    \entry{starter}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ee6085db6c9b85f45fd9b9b31b020f8d}{%
+           family={Starter},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee6085db6c9b85f45fd9b9b31b020f8d}
+      \strng{fullhash}{ee6085db6c9b85f45fd9b9b31b020f8d}
+      \strng{bibnamehash}{ee6085db6c9b85f45fd9b9b31b020f8d}
+      \strng{authorbibnamehash}{ee6085db6c9b85f45fd9b9b31b020f8d}
+      \strng{authornamehash}{ee6085db6c9b85f45fd9b9b31b020f8d}
+      \strng{authorfullhash}{ee6085db6c9b85f45fd9b9b31b020f8d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 22 de octubre de 2024}
+      \field{title}{Starter: Herramienta de desarrollo}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://ww1.startwithdocker.com/?usid=15&utid=31190731855
+      \endverb
+      \verb{url}
+      \verb https://ww1.startwithdocker.com/?usid=15&utid=31190731855
       \endverb
     \endentry
     \entry{uvl_playground}{misc}{}

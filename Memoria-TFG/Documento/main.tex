@@ -10,6 +10,7 @@
 \usepackage{forest} % Para árboles
 \usepackage{enumitem} % Para listas con símbolos personalizados
 \usepackage{hyperref} % Para enlaces
+\usepackage{dirtree} % Para estructura de directorios
 \usetikzlibrary{arrows.meta}
 \graphicspath{ {./images/} }
 
@@ -94,15 +95,15 @@ Los desarrollos de los servicios resultantes de la implementacion no tendran el 
 	\item El \hyperref[sec:Estado del Arte]{Capitulo 2 } presenta una brebe introduccion a los contenidos, al estado del arte, soluciones existentes y que se aporta en este contexto.
 	\item El \hyperref[sec:Tecnologias Empleadas]{Capitulo 3 } describe las tecnologías y herramientas empleadas en el desarrollo del proyecto.
 	\item El \hyperref[sec:Metodologia]{Capitulo 4 } describe la metodología de trabajo empleada en el desarrollo del proyecto.
-	\item El \hyperref[sec:Modelado de las plantillas]{Capitulo 5 } describe el modelado de las plantillas.
-	\item El \hyperref[sec:Arquitectura y Descripcion del sistema]{Capitulo 6 } describe la arquitectura del proyecto y junto con la descripcion de los servicios
+	\item El \hyperref[sec:Modelado de las plantillas]{Capitulo 5 } desarrolla el modelado de las plantillas.
+	\item El \hyperref[sec:Arquitectura y Descripción del sistema]{Capitulo 6 } define la arquitectura del proyecto y junto con la descripcion de los servicios
 	\item El \hyperref[sec:Extensibilidad]{Capitulo 7 } es un capitulo dedicado a la extensibilidad de las plantillas
 	\item El \hyperref[sec:Despliegue de la aplicación]{Capitulo 8 }  describe el despliegue de la aplicación en un entorno no orientado a producción.
 	\item El \hyperref[sec:Resultados]{Capitulo 9 } presenta los resultados obtenidos en el desarrollo del proyecto.
 	\item El \hyperref[sec:Conclusiones]{Capitulo 10 } incluye las conclusiones del trabajo y las recomendaciones para trabajos futuros.
-	\item El \hyperref[sec:Manual de Instalación]{Apendice A} Es un manual de Instalacion de la aplicacion
-	\item El \hyperref[sec:Manual de Uso]{Apendice B} Es un manual de Uso de la aplicacion
-	\item El \hyperref[sec:Manual de Desarrollo]{Apendice C} Es una guia para el desarrollo de plantillas.
+	\item El \hyperref[sec:Manual de Instalación]{Apendice A} Es un manual de Instalacion de la aplicacion usando contenedores Docker
+	\item El \hyperref[sec:Manual de Uso]{Apendice B} Es un manual de Uso de la aplicacion web
+	\item El \hyperref[sec:Manual de Desarrollo]{Apendice C} Es una guia para el desarrollo de plantillas, nuevas y existentes.
 \end{itemize}
 
 
@@ -122,7 +123,7 @@ Los desarrollos de los servicios resultantes de la implementacion no tendran el 
 %% Estado del Arte 
 \section{Estado del Arte}
 \label{sec:Estado del Arte}
-Para comprender el sentido de este proyecto y su problematica es necesario contextualizar algunos conceptos previos que son necesarios para comprender la situacion actual y contextualizar la problematica.
+Para comprender el sentido de este proyecto y su problematica es necesario contextualizar algunos conceptos previos que son necesarios para comprender la situacion actual y reconocer las posibles problematicas.
 A continuacion se introducen dichos conceptos de manera escalonada, abordaremos la problematica de la generacion de archivos de configuracion en Docker, las tecnologias empleadas en la generacion de dichos archivos y las soluciones actualmente disponibles.
 
 \subsection{Contenedores}
@@ -161,7 +162,7 @@ En la documentacion se abordan una serie de recomendaciones para la creacion de 
         \item Estas imágenes suelen estar optimizadas para un rendimiento eficiente y son ampliamente documentadas.
     \end{itemize}
     
-    \item Crea ficheros de configuracion dockerfile Multietapa:
+    \item Crea ficheros de configuracion Multietapa:
     \begin{itemize}
         \item Crear imágenes en varias etapas permiten dividir la construcción de la imagen, lo que puede mejorar el rendimiento
         \item Esto ayuda a reducir el tamaño final de la imagen al incluir solo los archivos necesarios para la ejecución de la aplicación.
@@ -184,9 +185,9 @@ En la documentacion se abordan una serie de recomendaciones para la creacion de 
         \item Durante el proceso de construcción, es importante eliminar cualquier archivo temporal o innecesario para mantener la imagen lo más pequeña posible.
     \end{itemize}
     
-    \item Evitar el uso de la etiqueta `latest`:
+    \item Evitar el uso de la etiqueta \textit{latest}:
     \begin{itemize}
-        \item La etiqueta `latest` puede ser ambigua y llevar a problemas de consistencia y reproducibilidad.
+        \item La etiqueta \textit{latest} puede ser ambigua y llevar a problemas de consistencia y reproducibilidad.
         \item Es mejor especificar una versión concreta de la imagen para asegurar que se está utilizando la versión correcta.
     \end{itemize}
     
@@ -261,10 +262,10 @@ Las opciones actualemtne disponibles para la generacion de archivos de configura
 Se deja de lado la variabilidad y las posibles opciones que existen a la hora de construir las imagenes, el proyecto proporcinara una nueva forma de construir plantillas dotando capacidad al usuario de una personalizacion
 más profunda y detallada de las opciones de configuracion de los servicios en Docker.
 \subsubsection{Software Product Line SPL}
-El proyecto propone una solucion en linea con la implementacion de plantillas pero enfocando estas plantillas como si formaran parte de una linea de productos software.
+En el proyecto tendremos que construir nuestras propias plantillas que formaran parte de una linea de productos software.
 Una línea de productos software (SPL del inglés Software Product Line) es una familia de productos software 
 relacionados entre sí que comparten ciertas características comunes (similitudes) pero que también tienen 
-características variables. CITA Documentacion
+características variables.
 
 En un SPL, los sistemas se descomponen en características (features) que representan funcionalidades o comportamientos del sistema. 
 El principal artefacto para modelar la variabilidad en SPL son los modelos de variabilidad. Existen muchos modelos 
@@ -276,7 +277,7 @@ un producto válido de la SPL.
 
 \begin{figure}[ht]
 	\centering
-		\includegraphics[width=1\textwidth]{fm.example.jpg}
+		\includegraphics[width=0.75\textwidth]{fm.example.jpg}
 	\caption{Ejemplo Represantcion Grafia de un feature model \cite{wikipedia_feature_model}}
 \end{figure}
 
@@ -298,9 +299,9 @@ Este apartado describe las tecnologías y herramientas empleadas más relevantes
 
 \subsection{Universal Variability Language UVL}
 
-La Universal Variability Language (UVL) \cite{uvl} es un lenguaje de modelado diseñado específicamente para representar y manejar la variabilidad en sistemas software. 
+Universal Variability Language en adelante UVL \cite{uvl} es un lenguaje de modelado diseñado específicamente para representar y manejar la variabilidad. 
 La variabilidad en software se refiere a las partes de un sistema que pueden personalizarse, configurarse o cambiarse para adaptarse a diferentes necesidades o contextos. 
-UVL se usa comúnmente en el contexto de ingeniería de líneas de productos de software (Software Product Line Engineering o SPLE), donde se trabaja con una familia de productos que comparten un núcleo común, pero pueden tener variaciones.
+UVL se usa comúnmente en el contexto de ingeniería de líneas de productos de software, donde se trabaja con una familia de productos que comparten un núcleo común, pero pueden tener variaciones.
 todas las plantillas que se han desarrollado en este proyecto requieren de un archivo UVL para poder generar configuraciones validas.
 
 \subsection{Docker}
@@ -449,12 +450,13 @@ El desarrollo de las plantillas requiere un estudio con el fin de limitar las op
 
 \begin{figure}[ht]
 	\centering
-		\includegraphics[width=1\textwidth]{gantt.png}
-	\caption{Digrama de gantt} \footnote{Digrama generado por la herramienta https://www.plandemejora.com/crear-diagrama-de-gantt-online/}
+		\includegraphics[width=1\textwidth]{gantt.png} 
+	\caption{Diagrama de gantt} 
 \end{figure}
-\subsubsection{Procedimiento}
+\footnote{Diagrama generado por la herramienta https://www.plandemejora.com/crear-diagrama-de-gantt-online/}
+\subsubsection{Notas del Procedimiento}
 Se evaluara con el tutor los momentos más relevates como los requititos de la aplicacion, Arquitectura y una evaluacion final para introduccir cambios que resulten necesarios en tanto en el proyecto como 
-en la documentacion.
+en la documentacion y plantillas.
 
 \subsubsection{Limitaciones}
 El desarrollo de un proyecto de estas características requiere de una planificación y una metodología de trabajo adecuada.
@@ -488,30 +490,56 @@ Docker en un proyecto software.
 Esta fase implica la construcción el árbol de características y las restricciones textuales que orienten el espacio de 
 configuraciones posibles del fichero Dockerfile. En este paso se pondran en practica todo el conocimiento adquirido en los pasos anteriores que 
 tendran como resultado el modelado de unas plantillas. Hemos de tener en cuenta las buenas practicas y las recomendaciones de la comunidad para la creacion de los ficheros dockerfile \cite{dockerfile_concepts}. 
-Estas practicas tienes que estar presentes en el diseño de las plantillas desde el inicio, tambien hemos de generar test para mantener la consistencia de las implementaciones. 
+Estas practicas tienen que estar presentes en el diseño de las plantillas desde el inicio, tambien hemos de generar test para mantener la consistencia de las implementaciones. 
 Esta fase queda cubierta con más detalle en el \hyperref[sec:Modelado de las plantillas]{Capitulo 5}.
 
 
 \subsection{Fase Implementacion}
 \subsubsection{Requisitios de la aplicación }
-Aquí se definen y documentan los requisitos funcionales y no funcionales de la aplicación. Se recopilan y analizan las 
-necesidades de los posibles usos, los objetivos del proyecto y las restricciones técnicas para establecer una planificacon del desarrollo. 
-Los requisitos han cambiado conforme el proyecto avanzaba en sus etapas de desarrollo
-sin animo de ser exhaustivos las funcionalidades mínimas que se pretenden alcazar son en cuanto a la generacion de productos.
+En esta seccion se documentan los requisitos funcionales de la aplicacion obviando los requisitos no funcionales. Los requisitos han cambiado conforme el proyecto avanzaba en sus etapas de desarrollo
+sin animo de ser exhaustivos las funcionalidades mínimas que se pretenden alcazar en cuanto a la generacion de productos son:
 \begin{itemize}
-	\item La aplicacion web debe permitir seleccionar la plantilla y la version con la que se desea trabajar 
-	\item Dentro de la aplicacion se podra recargar con nuevas plantillas que configuremos en el repositorio
-	\item La aplicacion web debe generar un el producto en el momento en el que se aplique una configuracion valida 
+	\item La herramienta debe permitir seleccionar la plantilla y la version con la que se desea trabajar 
+	\item Dentro de la aplicacion se podra recargar con nuevas plantillas que configuremos en un repositorio
+	\item La herramienta debe generar un el producto en el momento en el que se aplique una configuracion valida 
+	\item La herramienta debe permitir la descarga o copia al portapapeles del producto generado
+	\item La herramienta debe permitir la visualizacion de los archivos de configuracion generados
+	\item La herramienta debe permitir la edicion de los archivos de configuracion generados
+	\item La herramienta debe de ser una solucion portable.
 \end{itemize}
 
+\newpage 
+\subsubsection{Diseño de la aplicación}
+En esta fase se diseña la arquitectura de la aplicación, se definen los componentes y módulos que la componen y se establecen las relaciones entre ellos. 
+En esta imagen se resume los componentes de la aplicacion. una explicacion más detallada puede encotrase en el \hyperref[sec:Arquitectura y Descripción del sistema]{Capitulo 6}
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=1\textwidth]{Arquitectura Contenedores.png}
+	\caption{Diagrama de infraestructura } 
+\end{figure}
 \subsubsection{Desarrollo del Paquete uvengine }
 En esta fase se adapta el proyecto de la aplicación de uvengine \cite{uvengine_github}, que permite la generación automática de archivos de configuración.
 La adaptacion consiste en hacer opcional el fichero mapping model \footnote{Mapping model:\hyperref[sec:Mapping Model]{Capitulo 5}} a la hora de generar un producto, una vez adaptado se procede a la creacion de un paquete de python que se pueda instalar en cualquier entorno de desarrollo.
 como resultado tenemos el paquete uvengine \cite{uvengine_pypi} \footnote{El paquete es empleado en el proyecto UVEngine-Resolver y en los entornos de desarrollo de las plantillas}
-\subsubsection{Desarrollo Frontend de la web}
-En esta fase se desarrolla la aplicación web que permite la interacción con el usuario y la visualización de los archivos de configuración generados.
+\subsubsection{Desarrollo aplicacion Frontend Angular}
+En esta fase se desarrolla la aplicación web que permite la interacción con el usuario y la visualización de los archivos de configuración generados. Como hemos mencionado anteriormente consta de un proyecto Angular presente en el siguiente repositorio Github \cite{m4rdom_frontend}
 La idea fundamental es permitir al usuario elegir entre un abanico de plantillas y versiones para que pueda decidir que producto generar en base a la configuracion que se aporte como entrada.
 Debe funcionar como una abstraccion de los servicios de Backend para permitir al usuario trabajar desde una interfaz web.
+Angular utiliza un enfoque basado en componentes para la construcción de aplicaciones web, los componentes más relevantes son:
+\begin{itemize}
+	\item Common Compoenets/ contiene los componentes que se emplean en toda la aplicacion
+	\item Pages/ contiene los componentes que representan las paginas de la aplicacion
+	\item Services/ contiene los servicios que se emplean en la aplicacion
+	\item Shared Components/ contiene los componentes que se emplean especificamente para la integracion con el editor de mocano
+	\item Structure/ contiene los componentes que representan la estructura de la aplicacion
+\end{itemize}
+
+No olvidemos que gran parte de la logica de la aplicacion se encuentra desarrollada como servicios de la aplicacion bajo el directorio 
+
+\begin{itemize}
+	\item Services/ contiene los servicios que se emplean en la aplicacion, como manejar las peticiones a backend y reescribir por pantalla los resultados.
+\end{itemize}
+
 \subsubsection{Desarrollo de los servicios de backend}
 \label{sec:Desarrollo de los servicios de backend}
 En esta fase se desarrollan los servicios de backend que permiten la comunicación entre la aplicación web y la aplicación de uvengine y los repositorios.
@@ -525,9 +553,9 @@ En esta fase se elabora una guía de uso que explica cómo utilizar la aplicaci�
 Se elabora una guía detallada que describe cómo utilizar la aplicación, incluyendo instrucciones paso a paso, capturas 
 de pantalla y ejemplos. 
 \subsubsection{Elaboración de un manual de instalación}
-En esta fase se elabora un manual de instalación que explica cómo instalar y configurar la aplicación en un entorno local.
+En esta seccion se crea un manual de instalación que explica cómo instalar y configurar la aplicación en un entorno local.
 \subsubsection{Elaboración de un manual de desarrollo de plantillas}
-En esta fase se elabora un manual de desarrollo de plantillas que explica cómo crear y mantener plantillas en el repositorio \footnote{\href{https://github.com/M4rdom/Templates}{https://github.com/M4rdom/Templates}}
+En esta parte se crea un manual de desarrollo de plantillas que explica cómo crear y mantener plantillas en el repositorio \footnote{\href{https://github.com/M4rdom/Templates}{https://github.com/M4rdom/Templates}}
 \subsection{Elaboración de la memoria}
 En esta fase se redacta la memoria o informe final del proyecto, que documenta todo el proceso de desarrollo, desde la 
 planificación hasta la implementación y las lecciones aprendidas. La memoria incluirá el análisis de los resultados, 
@@ -566,31 +594,32 @@ El objetivo del desarrollo todas las plantillas de este proyecto no pretende lle
 \subsection{Componentes de las plantillas}
 \subsubsection{Feature model}
 El archivo .uvl es el archivo principal de la plantilla, contiene la descripcion de las caracteristicas y las restricciones de la plantilla.
-este archivo lo usara la extension UVLS \cite{uvls_code} para generar una configuracion valida que cumpla con las restricicones textulaees que dictemos en archivo, de este modo nos aseguramos que estamos aplicando una configuracion valida.
+este archivo lo usara la extension UVLS \cite{uvls_code} para generar una configuracion valida que cumpla con las restricicones textuales que dictemos en el archivo, de este modo nos aseguramos que estamos aplicando una configuracion valida.
 \begin{figure}[ht]
 	\centering
 		\includegraphics[width=0.5\textwidth]{text.feature_model.png}
 	\caption{Representacion de un Feature model en lenguaje uvl \cite{uvl}}
 \end{figure}
 
+\newpage
 
 \subsubsection{Plantillas Jinja}
 Las plantillas Jinja son los archivos de plantilla que se utilizan para generar los productos a partir de una configuracion valida o no del modelo.
 La idea es exponer estas plantillas ante una configuracion ya validadada usando UVLS \cite{uvls_code}, Estas plantillas constituyen el nucleo del funcionamiento, en ella se declaran de forma explicita las opciones de configuracion y las variables que se pueden modificar.
-\newpage
+
 \begin{figure}[h]
 	\centering
-		\includegraphics[width=1\textwidth]{jinja_template_database_mongodb.png}
+		\includegraphics[width=0.75\textwidth]{jinja_template_database_mongodb.png}
 	\caption{Ejemplo Plantilla Para la configuracion de un servicio de base de Datos para Mongodb}
 \end{figure}
 
 Las plantillas tienen que tener la esctrutura necesaria de modo que usando la Sintaxis de Jinja, el motor de plantillas sea capaz de crear un producto funcional para una configuracion valido. La imagen de arriba puede ser parte de un solo componente de la plantilla.
-Dividir las plantillas en componentes nos permite esctructurar la plantilla esto puede verse con un ejemplo en la seccion \hyperref[sec:Plantilla dockerfile]{Plantilla Dockerfile}.
+Dividir las plantillas en componentes \footnote{Los componentes de una plantilla no son más que importar otros ficheros .jinja para dar estructura y evitar manejar un archivo gigante que recojan todas la opciones de configuracion} nos permite esctructurar la plantilla esto puede verse con un ejemplo en la subseccion \hyperref[sec:Plantilla dockerfile]{Plantilla Dockerfile}.
 
 \begin{figure}[h]
 	\centering
-		\includegraphics[width=1\textwidth]{dockerfile.logica.plantillas.jinja.png}
-	\caption{Ejemplo de division de por componentes}
+		\includegraphics[width=0.75\textwidth]{dockerfile.logica.plantillas.jinja.png}
+	\caption{Ejemplo de division por componentes}
 \end{figure}
 
 
@@ -601,7 +630,7 @@ Es el unico componente completamente opcional a la hora de resolver la variabili
 
 \begin{figure}[h]
 	\centering
-		\includegraphics[width=1\textwidth]{mapping_model_screenshot.png}
+		\includegraphics[width=0.75\textwidth]{mapping_model_screenshot.png}
 	\caption{Ejemplo Mapping Model}
 \end{figure}
 
@@ -652,9 +681,9 @@ Una vez que contamos con el modelo de la plantilla, podemos proceder a la creaci
 \begin{figure}[h]
 	\centering
 	  \includegraphics[width=0.5\textwidth]{dockerfile.frontend.jinja.template.png}
-	\caption{Captura Plantilla } Dockerfile  \footnote{Podemos ver cómo la instrucción \texttt{EXPOSE} aparece en la plantilla Dockerfile a la hora de generar un producto con una configuración de frontend} 
+	\caption{Captura Seccion de la Plantilla Dockerfile}   
 \end{figure}
-
+\footnote{Podemos ver cómo la instrucción \texttt{EXPOSE} aparece en la plantilla Dockerfile a la hora de generar un producto con una configuración para exponer un servicio de frontend} 
 La sintaxis de Jinja2 nos permite aplicar cierta lógica a la hora de generar los ficheros de configuracion, por ejemplo podemos emplear condicionales para que ciertas partes del fichero se generen o no en funcion de la configuracion que se haya dado.
 \begin{figure}[h]
 	\centering
@@ -680,14 +709,8 @@ En este caso aplicamos dicha funcionalidad para paliar las restricciones del len
 \begin{figure}[h]
 	\centering
 	  \includegraphics[width=0.5\textwidth]{mapping_model_screenshot.png}
-	\caption{Mapping Model plantilla Dockerfile.}
+	\caption{Captura de una seccion del fichero Mapping Model plantilla Dockerfile.}
 \end{figure}
-
-
-
-
-
-
 
 \newpage
 
@@ -710,12 +733,16 @@ y un producto esperado, si nuetra plantilla es capaz dada lo configuracion de en
 \begin{figure}[h]
 	\centering
 	  \includegraphics[width=1\textwidth]{dockerfile.backend.producto.png}
-	\caption{Producto Esperado.}
+	\caption{Producto Esperado para la configuracion de la Figura 18}
 \end{figure}
 
 Es evidente que ciertos cambios más radicales plantean refactorizar algunos test. aun asi es aconsejable validar el diseño de los nuevos elementos de la plantilla solucionando estas incoherencias.
 En el contexto de esta plantilla dockerfile las pruebas se han realizado empleado las librerias de pytest \cite{pytest_docs} para la generacion de los productos esperados. Estos test pueden encontrarse en el repositorio para el desarrollo de la plantilla dockerifle \cite{dockerfile_template_dev}
 
+\newpage
+\subsubsection{Resto de Plantillas}
+El proceso de creacion de plantillas es similar para el resto de plantillas, la diferencia radica en la complejidad de las plantillas y en la cantidad de opciones de configuracion que se pueden dar.
+Estas plantillas pueden encontrarse en el repositorio \cite{m4rdom_templates}
 
 
 
@@ -730,41 +757,61 @@ En el contexto de esta plantilla dockerfile las pruebas se han realizado emplead
 
 
 
-
-
-%% Arquitectura y Descripción del sistema
+%% Arquitectura y Descripción del sistema Capitulo 6
 \section{Arquitectura y Descripción del sistema }
 \label{sec:Arquitectura y Descripción del sistema}
-Esta seccion describe la arquitectura y el modelado del sistema, incluyendo los componentes, la estructura y el diseño de la aplicación resultante.
+Esta seccion describe la arquitectura y el modelado del sistema, incluyendo los componentes, la estructura y el diseño de la aplicación resultante en una imagen.
 \subsection{Vision general de la arquitectura }
-La arquitectura de la aplicación se divide en dos partes principales: el backend y el frontend.
-El backend es responsable de la generación de los archivos de configuración a partir de las plantillas y de la comunicación con el repositorio de las plantillas.
+La arquitectura de la aplicación se divide en contenedores para manejar cada uno de los servicios de los que hace uso.
+La aplicación se divide en 4 servicios principales: Repository-Manager, UVEngine-Resolver, Frontend y una instancia de nginx que hace de reverse proxy.
+Podemos agrupar los contenedores de Repositoriy-Manager y UVEngine-Resolver como el backend de nuestra aplicacion.
+Nuestro backend es responsable de la generación de los archivos de configuración a partir de las plantillas y de la comunicación con el repositorio de las plantillas.
+Por otra parte contamos con un servidor de nginx que ofrece nuestra aplicacion Angular a esta parte la llamaremos Frontend.
 El frontend es responsable de la interacción con el usuario y la visualización de los archivos de configuración generados.
-\subsection{Descripcion de servicios de backend}
-Para los servicios de backend estos se han dividido en varios servicios que se encargan de tareas especificas.
-La primera de ellos es Repository-Manager  este servicio se encarga de servir traducir las peticiones que puede realizar el front end a la API de GitHub.
-Estas peticiones son descargar el archivo uvl de la plantilla y version seleccionada, descargar el listado de plantillas disponibles y descargar el listado de versiones disponibles para cada plantilla
+Como hemos mencionando anteriormente tambien contamos con una instacia de Nginx que actua como reverse proxy y que se encarga de enrutar las peticiones a los servicios de backend y frontend por comodidad en el desarrollo. 
+
+\newpage 
+\subsubsection{Diagrama de infraestructura}
+
+\begin{figure}[h]
+	\centering
+	  \includegraphics[width=1\textwidth]{Arquitectura Contenedores.png}
+	\caption{Diagrama infraestructura Contenedores}
+\end{figure}
+
 \newpage
+\subsection{Descripcion de servicios de backend} 
+Para el backend de nuestra aplicacion se ha dividido en dos servicios independientes con el objetivo de simplificar el desarrollo de la aplicacion.
+Al contar con dos servicios independientes podemos escalarlos de forma independiente y mantenerlos de forma independiente en un futuro si fuera necesario.
+
+
 \subsubsection{Repository-Manager}
+Este servicio se encarga de servir traducir las peticiones que puede realizar el cliente o UVEngine-Resolver a la API de GitHub.
+Estas peticiones son obtener el archivo .uvl de la plantilla selecionada, obtener el listado de plantillas disponibles y obtener el listado de versiones disponibles para cada plantilla
 Esta aplicaicon esta desarrollada en Python y emplea el framework Flask para la creacion de la API, esta API se encarga de servir los archivos uvl de las plantillas y las versiones disponibles.
-\\Para hacer funcionar esta API se emplea la api publica de github que permite acceder al contenido de repositorios. 
-En este caso el repositorio al que queremos acceder es el repositorio Templates que contiene las plantillas disponibles.
+Para hacer funcionar esta API se emplea la api publica de github que permite acceder al contenido de repositorios. 
+En este caso el repositorio al que queremos acceder es el repositorio Templates \cite{m4rdom_templates} que contiene las plantillas disponibles.
+Tambien contamos con un endpoint para descargar todo el contenido de las plantillas del repositorio, este endpoint es util para mantener actualizadas las plantillas en el servidor UVengine Resolver \footnote{En este momento es más eficiente descagar todo el repositorio de plantillas en una unica peticion para no abusar de la API publica de GitHub}
 
 \newpage
 \subsubsection{UVEngine-Resolver}
 
-La segunda de ellas es UVEngine-Resolver este servicio se encarga de resolver la variabilidad a partir de recibir como parametros Un fichero Json que contiene el nombre de la plantilla, la version a utilizar y la configuracion 
+La segunda de ellas es UVEngine-Resolver este servicio se encarga de resolver la variabilidad a partir de recibir como parametros un Json que contiene el nombre de la plantilla, la version a utilizar y la configuracion 
 el resultado de la funcion sera un json que contiene el producto generado a partir de la configuracion dada. 
 \begin{figure}[h]
 	\centering
 	  \includegraphics[width=1\textwidth]{Peticion POST uvengine-resolver.png}
 	\caption{Ejemplo de una Peticion POST a uvengine-resolver}
 \end{figure}
-Tambien contamos con algunos EndPoints cuyo objetivo es descargar y mantener las plantillas actualizadas
+\\
+Tambien contamos con algunos EndPoints que pueden recibirse tanto desde el cliente como el Servicio Repository-Manager para actualizar las plantillas.
 \newpage
 \subsection{Descripcion de Frontend}
 Como hemos comentado Anteriormente el Frontend es la parte de la aplicacion que se encarga de la interaccion con el usuario y la visualizacion de los archivos de configuracion generados.
 Se trata de una aplicacion web desarrollada en Angular que permite al usuario seleccionar una plantilla y una version y generar un producto a partir de una configuracion valida.
+
+Esta Aplicacion queda alojada en un contenedor de Docker que se encarga de servir la aplicacion web en el puerto 80, este contenedor se comunica con el servicio Repository-Manager para obtener las plantillas y versiones disponibles a traves de peticiones del cliente.
+Para servir la aplicacion usamos el servidor web Nginx
 
 
 
@@ -783,7 +830,7 @@ Se trata de una aplicacion web desarrollada en Angular que permite al usuario se
 \label{sec:Extensibilidad}
 En esta seccion se pretende hacer incape en la extensibilidad de la aplicacion, como se ha mencionado anteriormente el proyecto tiene en mente que pueda adaptarse a las necesidades futuras.
 
-Al almacernar las plantillas en un repositorio publico de GitHub, se permite a cualquier usuario modificar, añadir o eliminar plantillas de forma sencilla.
+Al almacernar las plantillas en un repositorio publico de GitHub, permite a cualquier usuario modificar, añadir o eliminar plantillas de forma sencilla y ordenada.
 Esto permite que el desarrollo de plantillas se maneje de forma independiente al resto de la aplicacion y que se puedan añadir nuevas funcionalidades sin necesidad de modificar el codigo de la aplicacion.
 \subsection{Añadir Plantillas}
 Existiendo varias formas en las que se pudiera haber diseñado la forma con la que añadir nuevas plantillas a la aplicacion aprovechando caracteristicas de Github se ha optado por la solucion más sencilla y directa.
@@ -818,7 +865,7 @@ Una vez que se haya ampliado la plantilla, se puede añadir al repositorio de pl
 \label{sec:Despliegue de la aplicación}
 \subsection{ Despliegue local }
 Para desplegar el proyecto y todas sus capas se hace uso de la herramienta Docker, que permite la creación de contenedores ligeros y portables que pueden ejecutarse en cualquier entorno.
-Para el despliegue local se hace uso de Docker Compose CITA, que permite definir y ejecutar aplicaciones Docker multi-contenedor generando todos los servicios necesarios para el despliegue de la aplicación.
+Para el despliegue local se hace uso de Docker Compose \cite{docker_desktop}, que permite definir y ejecutar aplicaciones Docker multi-contenedor generando todos los servicios necesarios para el despliegue de la aplicación.
 Esto supone una abstracción de la infraestructura necesaria para el despliegue de la aplicación, permitiendo la creación de un entorno de desarrollo y pruebas aislado y reproducible.
 En el proyecto se encuentra el fichero docker-compose.yml que contiene la configuración necesaria para el despliegue de la aplicación en un entorno local.
 \begin{verbatim}
@@ -870,9 +917,6 @@ Como se observa el codigo se compone de 4 servicios
 
 La instruccion dockercompse up creara los contendores en la configuracion ya escrita. La web sera accesible en la direccion localhost en el puerto 80
 
-\subsection{ Despliegue en la nube }
-Por definir 
-
 
 
 
@@ -906,7 +950,7 @@ Resumen de los desarrollos resultantes del proyecto:
 \begin{itemize}
 	\item Se ha desarrollado una aplicación web que permite la interacción con el usuario y la visualización de los archivos de configuración generados.
 	\item Se adaptado el uso del proyecto uvengine que permite la generación automática de archivos de configuración a partir de plantillas adaptandola a las necesidades del proyecto.
-	\item Se ha desarrollado una aplicación de Repository Manager que permite la comunicación con los repositorios de plantillas en GiHub CITA .
+	\item Se ha desarrollado una aplicación de Repository Manager que permite la comunicación con el repositorio de plantillas de GitHub \cite{m4rdom_templates} .
 	\item Se ha desarrollado una aplicación de UVEngine Resolver que permite la resolución de la variabilidad a partir de una configuración.
 	\item Se ha creado la plantilla para la generación de ficheros Dockerfile a partir de una configuración además de un entorno de desarrollo para la misma.
 	\item Se ha desarrollado la plantilla auxiliares para ficheros de configuracion Nginx, dockerignore, etc.
@@ -927,7 +971,7 @@ Es conveniente que adaptar este sistema para que sea capaz de detectar algunas d
 Teniendo en cuenta que la escalabilidad de cualquier aplicacion depende en la capacidad de sus servicios de generar nuevas instacias es en un principio viable 
 escalar horizontalmente cada uno de los servicios. Sin embargo la escalabilidad de la aplicacion se ve limitada actualmente por el uso de API publica de github \cite{github_rest_api} 
 para el servicio de Repository-manager visto en el \hyperref[sec:Desarrollo de los servicios de backend]{Capitulo 6} que limita el numero de peticiones que se pueden hacer en un periodo de tiempo.
-\footnote{Actualmente el número de peticiones que puede realizarse a la api son 80 peticiones por minuto CITA esto es propenso a que cambien en un futuro.}
+\footnote{Actualmente el número de peticiones que puede realizarse a la api son 80 peticiones por minuto esto es propenso a que cambien en un futuro.}
 En el escenario en el que se quiera llevar la aplicacion a un entorno de produccion debe sortearse este problema bien por medio del uso de tokens de autenticacion.
 Existe la posbilidad de que el usario aporte un token personal de una cuenta de gitHub a la hora de desplegar el servicio o bien emplear un token propio desde Github.
 
@@ -960,7 +1004,7 @@ Esto es gracias a los ficheros Mapping Models y a un diseño inteligente de las 
 \subsection{Desarrollo de Nuevas plantillas }
 El proyecto esta preparado para recibir nuevas plantillas manteniendo las existentes, por ejemplo pueden agregarse todo tipo de plantillas que requieran de la salida de un fichero de configuracion como pueden ser en el caso de herramientas como Ansibl \cite{ansible}	 
 Una vez añadidas plantillas al repositorio estan estaran disponibles de la misma forma en la que estan disponibles las plantillas existentes solo sera necesario recargar el listado de plantillas que se encuentra en el la barra de navegacion de la aplicacion web.	
-\subsection{Continuación en el desarrollo de plantillasya existentes}
+\subsection{Continuación en el desarrollo de plantillas ya existentes}
 Las plantillas exitentes tienen un gran margen de mejora, En la situacion actual no soportan la gran mayoria de las opciones de configuracion que se pueden dar en un fichero Dockerfile. Además las opciones que se manejar son propensas a quedar obsoletas y se necesita de una continua revision de las plantillas en busca de problemas de diseño o seguridad.4
 Estos son problemas que padecen otras herramientas que nos permiten generar el ficheros dockerfile de forma automatica.
 
@@ -974,6 +1018,13 @@ web del editor VS code pero el resultado en cuanto a rendimiento hace que esta o
 
 La propia aplicacion web puede ser mejorada en cuanto a la experiencia del usuario añadiendo más informacion al usuario para colocar más contexto a la hora de seleccionar una plantilla y las posiblidades de combianar configuraciones 
 
+otras opciones que pueden explorarse serian llevar la aplicacion a un entorno de escritorio empleando Electron \cite{electron}.
+
+Otras mejoras que supondrian una gran aportacion seria desarrollar herremientas que permitan la generacion de configuraciones de forma automatica reconociendo las necesidades del proyecto, como hacen otras aplicaciones como Starter \cite{starter}
+
+\subsection{Mejorar la escalabilidad de la aplicacion}
+La escalabilidad de la aplicacion se ve limitada por el uso de la API publica de Github para el servicio de Repository-manager.
+por tanto adaptar la aplicacion a peticiones autorizadas a la API de Github es una mejora necesaria para llevar la aplicacion a un entorno de produccion.
 
 
 
@@ -1047,44 +1098,191 @@ La propia aplicacion web puede ser mejorada en cuanto a la experiencia del usuar
     \section{Manual de \\ Instalación}
 	\label{sec:Manual de Instalación}
 	\subsection{Requisitos Previos}
+	Para lanzar la aplicacion en un entorno local debemos contar con los siguientes requisitos previos:
+	\begin{itemize}
+		\item Navegador Web
+		\item Docker
+		\item Visual Studio Code con la extensio UVLS \cite{uvls_code} instalada.
+		\item Git
+	\end{itemize}
+
 	\subsection{Descargar el codigo fuente}
-	\subsection{Configuracion del archivo Dockercomose}
-	\subsubsection{Nginx reverse proxy}
-	\subsubsection{frontend}
-	\subsubsection{Repository Manager}
-	\subsubsection{UV Engine resolver}
-	\subsection{Construccion de los contenedores}
+	Para descargar el codigo fuente de la aplicacion debemos clonar el repositorio de GitHub \cite{m4rdom_project_repository} \footnote{https://github.com/M4rdom/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker} en un directorio local.
+	usando la instruccion git clone o bien descargar el repositorio en formato zip.
+	\subsection{Despliegue del Servicio}
+	Para desplegar el servicio debemos situarnos en la raiz del proyecto y ejecutar el siguiente comando
+	\begin{verbatim}
+		docker-compose up
+	\end{verbatim}
+	\subsection{Acceso a la aplicacion}
+	Una vez que los servicios se hayan desplegado correctamente podremos acceder a la aplicacion web en la direccion localhost en el puerto 80
+	\begin{figure}[ht]
+		\centering
+			\includegraphics[width=0.5\textwidth]{frontpage.png}
+		\caption{Pagina Principal}
+	\end{figure}
 	\subsubsection{Github API}
+	Debemos recordar que la aplicacion hace uso de la API publica de GitHub \cite{github_rest_api} para el servicio de Repository-manager, por lo que es posible que se alcance el limite de peticiones permitidas por la API.
+	Para superar este limite se puede emplear un token de autenticacion de GitHub \cite{github_tokens} para aumentar el numero de peticiones permitidas.
+	Para un uso estadar no es necesario emplear un token de autenticacion.
 	\subsection{Terminar el servicio}
+	Para terminar el servicio debemos ejecutar el siguiente comando en la raiz del proyecto
+	\begin{verbatim}
+		docker-compose down
+	\end{verbatim}
 
 
 
     \section{Manual de Uso}
 	\label{sec:Manual de Uso}
 	\subsection{Inicio de la aplicacion}
+	Para iniciar la aplicacion debemos acceder a la direccion localhost en el puerto 80
+	\begin{figure}[ht]
+		\centering
+			\includegraphics[width=1\textwidth]{frontpage.png}
+		\caption{Pagina Principal}
+	\end{figure}
 	\subsection{Barra de Navegación}
-	\subsubsection{About Page}
-	\subsubsection{Help Page}
+	La barra de navegacion de la aplicacion web contiene las siguientes opciones
+	\begin{figure}[ht]
+		\centering
+			\includegraphics[width=1\textwidth]{navpage.png}
+		\caption{Pagina Principal}
+	\end{figure}
+	\begin{itemize}
+		\item 	New Configuration: Permite al usuario seleccionar una plantilla y una version y generar un producto a partir de una configuracion valida.
+		\item 	dockerfile: Permite al usuario crear un dockerfile a partir de una configuracion valida.
+		\item 	.dockerignore: Permite al usuario crear un fichero .dockerignore a partir de una configuracion valida.
+		\item 	SPL: Automatic Generation of Configuration Files for Deploying Services in Docker: Permite al usuario acceder a la pagina principal.
+		\item 	Github: Link a la pagina de GitHub del proyecto.
+		\item 	UVLS: Link a la extension UVLS en el Visual Studio Code Marketplace.
+		\item 	About: Pagina con informacion sobre el proyecto.
+		\item 	Help: Pagina con informacion sobre como usar la aplicacion.
+	
+	\end{itemize}
+
+	
+
 	\subsection{Seleccionar plantilla}
+	Para seleccionar una plantilla debemos acceder a la pagina New Configuration y seleccionar una plantilla de la lista desplegable
+
+	\begin{figure}[h]
+		\centering
+			\includegraphics[width=1\textwidth]{selectTemplatePage.png}
+		\caption{Barra Desplegable Selector de Plantillas}
+	\end{figure}
+	\newpage
 	\subsubsection{Seleccionar version de la platilla}
+	Para seleccionar al version de la plantilla abrimos el desplegable en Version por defecto tiene el valor de Latest
+	\begin{figure}[h]
+		\centering
+			\includegraphics[width=0.75\textwidth]{selectionVersion.png}
+		\caption{Captura Versiones Disponibles} \footnote{En la imagen se muestra unicamente la version Latest, Otras plantillas pueden contener más versiones que esta}
+	\end{figure}
+
+	\newpage
+
+	\subsubsection{Refrescar Plantillas}
+	\label{sec:Actualizar Plantillas}
+	En la pagina de arriba tendremos la opcion de actualizar la lista de plantillas disponibles haciendo click en el boton Reload
+
+	\begin{figure}[h]
+		\centering
+			\includegraphics[width=0.4\textwidth]{RefreshTemplates.png}
+		\caption{Captura Versiones Disponibles}
+	\end{figure}
+
 	\subsubsection{Cargar configuracion}
+	Para cargar una configuracion debemos hacer click en el boton Load Configuration y copiar en el editor un fichero de configuracion valido
+	Opcinalmente podemos pegar la configuracion desde el portapapeles
+	\begin{figure}[h]
+		\centering
+			\includegraphics[width=0.75\textwidth]{loadconfiguration.png}
+		\caption{Editor para cargar configuracion}
+	\end{figure}
+	\newpage
+
 	\subsubsection{Descargar Fichero Generado}
-	\subsubsection{Copiar Fichero Generado}
+	Una vez que hemos cargado la configuracion y seleccionado una plantilla y una version podemos descargar el fichero generado haciendo click en el boton Download File y opcionalemte añadiendo un nombre al fichero de salida. O bien simplemente copiamos al portapapeles
+	\begin{figure}[h]
+		\centering
+			\includegraphics[width=1\textwidth]{donwloadToolbar.png}
+		\caption{Editor para guardar Configuracion}
+	\end{figure}
+
+
+	\newpage
+	\subsubsection{About Page}
+	About Page contiene informacion sobre el proyecto, el motivo de su existencia, los objetivos que pretende alcanzar y su desarrollador
+	\begin{figure}[h]
+		\centering
+			\includegraphics[width=1\textwidth]{Aboutpage.png}
+		\caption{Pagina Principal}
+	\end{figure}
+
+	\subsubsection{Help Page}
+	Help Page contine informacion sobre la terminilogia del proyecto 
+	\begin{figure}[h]
+		\centering
+			\includegraphics[width=1\textwidth]{HelpPage.png}
+		\caption{Captura Pagina de ayuda}
+	\end{figure}
 
 
 
 
-	\section{Manual de Desarrollo}
+	\section{Manual Desarrollo de Plantillas}
 	\label{sec:Manual de Desarrollo}
-	\subsection{Manual de Desarrollo de Plantillas}
+	\subsection{Introducción}
+	Este manual describe los pasos necesarios tanto para añadir nuevas plantillas al repositorio de plantillas \cite{m4rdom_templates} como para modificar las plantillas existentes.
+	una vez añadidas las plantillas al repositorio sera necesario actualizar la lista de plantillas dentro de la aplicacion vease el \hyperref[sec:Actualizar Plantillas]{Mnaual de Uso}.
 	\subsubsection{Como añadir nuevas plantillas al repositorio}
+	Para añadir una nueva plantilla al repositorio de plantillas debemos seguir los siguientes pasos:
+	\begin{itemize}
+		\item Generar la Extructura de directorios apropiada para la plantilla:
+		\begin{itemize}
+			\item Crear una carpeta con el nombre de la plantilla
+			\item Dentro de la Carpeta, Crear una carpeta con el nombre de la version
+			\item Dentro del nuevo Directorio Crear las Carpetas Feature Model, Jinja Templates y opcionalmente Mapping Model
+		\end{itemize}
+		\item Añadir el archivo con nombre \"<Nombre de la Plantilla>\_fm.uvl" dentro del directorio Feauture Model
+		\item Añadir las plantillas Jinja a la carpeta Jinja Templates, la plantilla principal debe estar bajo el nombre \"<Nombre de la Plantilla>.jinja"
+		\item (Opcional) Añadir el archivo de Mapping Model  a la carpeta Mapping Model bajo el nombre \"<Nombre de la Plantilla>\_mapping\_model.csv"
+		\item Subir la plantilla al repositorio de plantillas haciendo push al repositorio
+		\item Actualizar la lista de plantillas en la aplicacion web
+	\end{itemize}
+	\subsubsection{Estructura de Directorios}
+	 A modo de resumen la esctructura de directorios de una plantilla debe ser la siguiente:
+
+	\dirtree{%
+	.1 /Template\_Name.
+	.2 /Version\_Name.
+	.3 /Feature Model.
+	.4 Template\_Name\_fm.uvl.
+	.3 Jinja Templates.
+	.4 /More Jinja Templates (Optinal).
+	.4 Template\_Name.jinja.
+	.3 /Mapping Model (Optinal).
+	.4 Template\_Name\_mapping\_model.csv.
+}
+
+
 	\subsubsection{Como modificar las plantillas del repositorio}
+	En el caso de que queramos modificar una plantilla ya existente en el repositorio de plantillas debemos seguir los siguientes pasos:
+	\begin{itemize}
+		\item Modificar los archivos de la plantilla que queremos modificar respentado la estructura y nombres de la plantilla.
+		\item Solicitar Pull Request al repositorio de plantillas
+		\item Actualizar la lista de plantillas en la aplicacion web
+	\end{itemize}
+
+	Es recomendable generar estas plantillas a partir de un repositorio de desarrollo \cite{dockerfile_template_dev} para asegurar que las plantillas generan productos validos realizando pruebas.
+	Una vez que tengamos una plantilla lista, es solo cuestion de subirla al repositorio respetando la extrcutura original modificando unicamente la unica plantilla que se desea modificar.
+	Estas Instrucciones pueden verse con más detalle en el repositiorio de plantillas \cite{m4rdom_templates}
 
 
 
 
 \end{umaappendices}
-
 
 %% Back Cover
 \includepdf[noautoscale=true, width=\paperwidth]{Portada-Titulo-Contraportada/backcover.pdf}

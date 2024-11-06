@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  27 OCT 2024 10:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  6 NOV 2024 18:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -855,19 +855,38 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip78
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/dirtree\dirtree.sty
+Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/dirtree\dirtree.tex `dirtree' v0.32, 2012/12/11 (jcc)
+\DT@offset=\dimen281
+\DT@width=\dimen282
+\DT@sep=\dimen283
+\DT@all=\dimen284
+\DT@rulewidth=\dimen285
+\DT@dotwidth=\dimen286
+\DTbaselineskip=\dimen287
+\DT@counti=\count485
+\DT@countii=\count486
+\DT@countiii=\count487
+\DT@countiv=\count488
+\DT@indent=\dimen288
+\DT@parskip=\dimen289
+\DT@baselineskip=\dimen290
+)
+File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 ) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen281
-\pgfarrowlength=\dimen282
-\pgfarrowwidth=\dimen283
-\pgfarrowlinewidth=\dimen284
+\pgfarrowinset=\dimen291
+\pgfarrowlength=\dimen292
+\pgfarrowwidth=\dimen293
+\pgfarrowlinewidth=\dimen294
 )))
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count485
-\@quotereset=\count486
+\@quotelevel=\count489
+\@quotereset=\count490
 LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF on input line 3.
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibertinet-tlf.fd
 File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxLibertineT-TLF.
@@ -898,8 +917,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-\c@mv@tabular=\count487
-\c@mv@boldtabular=\count488
+\c@mv@tabular=\count491
+\c@mv@boldtabular=\count492
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -937,16 +956,16 @@ LaTeX Font Info:    ... okay on input line 3.
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count489
-\scratchdimen=\dimen285
+\scratchcounter=\count493
+\scratchdimen=\dimen295
 \scratchbox=\box88
-\nofMPsegments=\count490
-\nofMParguments=\count491
+\nofMPsegments=\count494
+\nofMParguments=\count495
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count492
-\MPscratchDim=\dimen286
-\MPnumerator=\count493
-\makeMPintoPDFobject=\count494
+\MPscratchCnt=\count496
+\MPscratchDim=\dimen296
+\MPnumerator=\count497
+\makeMPintoPDFobject=\count498
 \everyMPtoPDFconversion=\toks59
 ) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1012,15 +1031,15 @@ Package logreq Info: Writing requests to 'abstract.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40919 strings out of 474541
- 892187 string characters out of 5744425
+ 40975 strings out of 474541
+ 893356 string characters out of 5744425
  1930978 words of memory out of 5000000
- 62603 multiletter control sequences out of 15000+600000
+ 62652 multiletter control sequences out of 15000+600000
  589859 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  118i,5n,118p,1803b,1834s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb>
-Output written on c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento\sections\abstract.pdf (1 page, 170460 bytes).
+Output written on c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-deploying-services-in-Docker\Memoria-TFG\Documento\sections\abstract.pdf (1 page, 176239 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

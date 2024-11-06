@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  29 OCT 2024 19:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  6 NOV 2024 18:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -852,51 +852,70 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip78
+) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/dirtree\dirtree.sty
+Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/dirtree\dirtree.tex `dirtree' v0.32, 2012/12/11 (jcc)
+\DT@offset=\dimen281
+\DT@width=\dimen282
+\DT@sep=\dimen283
+\DT@all=\dimen284
+\DT@rulewidth=\dimen285
+\DT@dotwidth=\dimen286
+\DTbaselineskip=\dimen287
+\DT@counti=\count485
+\DT@countii=\count486
+\DT@countiii=\count487
+\DT@countiv=\count488
+\DT@indent=\dimen288
+\DT@parskip=\dimen289
+\DT@baselineskip=\dimen290
+)
+File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 ) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen281
-\pgfarrowlength=\dimen282
-\pgfarrowwidth=\dimen283
-\pgfarrowlinewidth=\dimen284
+\pgfarrowinset=\dimen291
+\pgfarrowlength=\dimen292
+\pgfarrowwidth=\dimen293
+\pgfarrowlinewidth=\dimen294
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count485
-\@quotereset=\count486
-LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF on input line 18.
+\@quotelevel=\count489
+\@quotereset=\count490
+LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF on input line 19.
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibertinet-tlf.fd
 File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 18.
+(Font)              scaled to size 12.0pt on input line 19.
  (main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-\c@mv@tabular=\count487
-\c@mv@boldtabular=\count488
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+\c@mv@tabular=\count491
+\c@mv@boldtabular=\count492
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -934,16 +953,16 @@ LaTeX Font Info:    ... okay on input line 18.
 
 (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count489
-\scratchdimen=\dimen285
+\scratchcounter=\count493
+\scratchdimen=\dimen295
 \scratchbox=\box88
-\nofMPsegments=\count490
-\nofMParguments=\count491
+\nofMPsegments=\count494
+\nofMParguments=\count495
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count492
-\MPscratchDim=\dimen286
-\MPnumerator=\count493
-\makeMPintoPDFobject=\count494
+\MPscratchCnt=\count496
+\MPscratchDim=\dimen296
+\MPnumerator=\count497
+\makeMPintoPDFobject=\count498
 \everyMPtoPDFconversion=\toks59
 ) (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -959,8 +978,8 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
  (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.lbx
@@ -974,9 +993,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 18.
-Package biblatex Info: Reference segment=0 on input line 18.
-Package hyperref Info: Link coloring OFF on input line 18.
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
+Package hyperref Info: Link coloring OFF on input line 19.
  (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -987,14 +1006,14 @@ pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/cover.pdf): PDF in
 <Portada-Titulo-Contraportada/cover.pdf, id=482, 597.19112pt x 845.19763pt>
 File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/cover.pdf>
-Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf  used on input line 22.
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf  used on input line 23.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/cover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/cover.pdf>
-Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf  used on input line 22.
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf  used on input line 23.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 
 
@@ -1005,19 +1024,19 @@ pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/cover.pdf): PDF in
 <Portada-Titulo-Contraportada/cover.pdf, id=485, page=1, 597.19112pt x 845.19763pt>
 File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/cover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 22.
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 23.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/cover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 22.
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 23.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/cover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 22.
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 23.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 File: Portada-Titulo-Contraportada/cover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/cover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 22.
+Package pdftex.def Info: Portada-Titulo-Contraportada/cover.pdf , page1 used on input line 23.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 [1
 
@@ -1028,14 +1047,14 @@ pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/title.pdf): PDF in
 <Portada-Titulo-Contraportada/title.pdf, id=512, 597.19112pt x 845.19763pt>
 File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/title.pdf>
-Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf  used on input line 26.
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf  used on input line 27.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/title.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/title.pdf>
-Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf  used on input line 26.
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf  used on input line 27.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 
 
@@ -1046,19 +1065,19 @@ pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/title.pdf): PDF in
 <Portada-Titulo-Contraportada/title.pdf, id=515, page=1, 597.19112pt x 845.19763pt>
 File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/title.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 26.
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 27.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/title.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 26.
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 27.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/title.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 26.
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 27.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 File: Portada-Titulo-Contraportada/title.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/title.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 26.
+Package pdftex.def Info: Portada-Titulo-Contraportada/title.pdf , page1 used on input line 27.
 (pdftex.def)             Requested size: 597.18967pt x 845.19557pt.
 [2
 
@@ -1093,261 +1112,341 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 112.0pt on input line 48.
+(Font)              scaled to size 112.0pt on input line 49.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 51.
+(Font)              scaled to size 14.4pt on input line 52.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 56.
+(Font)              scaled to size 8.0pt on input line 57.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 56.
+(Font)              scaled to size 10.0pt on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 56.
+(Font)              <7> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 56.
+(Font)              <5> on input line 57.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 56.
+(Font)              scaled to size 7.0pt on input line 57.
  [11]
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
+Underfull \hbox (badness 10000) in paragraph at lines 69--74
 
  []
 
 [12]
-LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 93.
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 94.
  (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ts1linuxlibertinet-tlf.fd
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 93.
+(Font)              scaled to size 12.0pt on input line 94.
+ [13{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_naooyc.enc}] [14] [15
 
-
-LaTeX Warning: Hyper reference `sec:Arquitectura y Descripcion del sistema' on page 13 undefined on input line 98.
-
-[13{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_naooyc.enc}] [14] [15
-
-] [16] [17] [18]
-<./images/Docker Init.png, id=802, 639.13782pt x 265.74281pt>
+] [16] [17]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 188.
+ [18{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
+<./images/Docker Init.png, id=804, 639.13782pt x 265.74281pt>
 File: ./images/Docker Init.png Graphic file (type png)
 <use ./images/Docker Init.png>
-Package pdftex.def Info: ./images/Docker Init.png  used on input line 220.
+Package pdftex.def Info: ./images/Docker Init.png  used on input line 221.
 (pdftex.def)             Requested size: 454.67433pt x 189.0477pt.
  [19]
-<./images/Docker.extension.vscode.png, id=813, 454.69875pt x 241.65282pt>
+<./images/Docker.extension.vscode.png, id=815, 454.69875pt x 241.65282pt>
 File: ./images/Docker.extension.vscode.png Graphic file (type png)
 <use ./images/Docker.extension.vscode.png>
-Package pdftex.def Info: ./images/Docker.extension.vscode.png  used on input line 231.
+Package pdftex.def Info: ./images/Docker.extension.vscode.png  used on input line 232.
 (pdftex.def)             Requested size: 454.67433pt x 241.64484pt.
-<./images/docker.extension.vscode.dockerfile.png, id=814, 571.38469pt x 385.44pt>
+<./images/docker.extension.vscode.dockerfile.png, id=816, 571.38469pt x 385.44pt>
 File: ./images/docker.extension.vscode.dockerfile.png Graphic file (type png)
 <use ./images/docker.extension.vscode.dockerfile.png>
-Package pdftex.def Info: ./images/docker.extension.vscode.dockerfile.png  used on input line 237.
+Package pdftex.def Info: ./images/docker.extension.vscode.dockerfile.png  used on input line 238.
 (pdftex.def)             Requested size: 454.67433pt x 306.71152pt.
  [20 <./images/Docker Init.png> <./images/Docker.extension.vscode.png>]
-<./images/MagickPen.png, id=832, 895.09406pt x 535.2497pt>
+<./images/MagickPen.png, id=834, 895.09406pt x 535.2497pt>
 File: ./images/MagickPen.png Graphic file (type png)
 <use ./images/MagickPen.png>
-Package pdftex.def Info: ./images/MagickPen.png  used on input line 248.
+Package pdftex.def Info: ./images/MagickPen.png  used on input line 249.
 (pdftex.def)             Requested size: 454.67433pt x 271.89565pt.
  [21 <./images/docker.extension.vscode.dockerfile.png>] [22 <./images/MagickPen.png>]
-<./images/fm.example.jpg, id=852, 357.58594pt x 184.43906pt>
+<./images/fm.example.jpg, id=854, 357.58594pt x 184.43906pt>
 File: ./images/fm.example.jpg Graphic file (type jpg)
 <use ./images/fm.example.jpg>
-Package pdftex.def Info: ./images/fm.example.jpg  used on input line 279.
-(pdftex.def)             Requested size: 454.67433pt x 234.53049pt.
+Package pdftex.def Info: ./images/fm.example.jpg  used on input line 280.
+(pdftex.def)             Requested size: 341.00574pt x 175.89716pt.
  [23 <./images/fm.example.jpg>] [24
 
 ]
 Underfull \vbox (badness 2334) has occurred while \output is active []
 
- [25] [26] [27] [28] [29]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 403.
- [30{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}] [31
+ [25] [26] [27] [28] [29] [30] [31
 
 ]
-<./images/gantt.png, id=938, 3930.43407pt x 1023.825pt>
+<./images/gantt.png, id=939, 3930.43407pt x 1023.825pt>
 File: ./images/gantt.png Graphic file (type png)
 <use ./images/gantt.png>
-Package pdftex.def Info: ./images/gantt.png  used on input line 452.
+Package pdftex.def Info: ./images/gantt.png  used on input line 453.
 (pdftex.def)             Requested size: 454.67433pt x 118.43259pt.
- [32 <./images/gantt.png>] [33] [34] [35] [36] [37
 
-]
-<./images/text.feature_model.png, id=993, 229.60782pt x 217.5628pt>
+Underfull \vbox (badness 3219) has occurred while \output is active []
+
+ [32 <./images/gantt.png>] [33] [34]
+<./images/Arquitectura Contenedores.png, id=969, 951.555pt x 603.25375pt>
+File: ./images/Arquitectura Contenedores.png Graphic file (type png)
+<use ./images/Arquitectura Contenedores.png>
+Package pdftex.def Info: ./images/Arquitectura Contenedores.png  used on input line 517.
+(pdftex.def)             Requested size: 454.67433pt x 288.2514pt.
+ [35 <./images/Arquitectura Contenedores.png>] [36] [37] [38
+
+] [39]
+<./images/text.feature_model.png, id=1009, 229.60782pt x 217.5628pt>
 File: ./images/text.feature_model.png Graphic file (type png)
 <use ./images/text.feature_model.png>
-Package pdftex.def Info: ./images/text.feature_model.png  used on input line 572.
+Package pdftex.def Info: ./images/text.feature_model.png  used on input line 600.
 (pdftex.def)             Requested size: 227.33716pt x 215.42104pt.
- [38 <./images/text.feature_model.png>]
-<./images/jinja_template_database_mongodb.png, id=1002, 490.83376pt x 321.45094pt>
+ [40 <./images/text.feature_model.png>]
+<./images/jinja_template_database_mongodb.png, id=1018, 490.83376pt x 321.45094pt>
 File: ./images/jinja_template_database_mongodb.png Graphic file (type png)
 <use ./images/jinja_template_database_mongodb.png>
-Package pdftex.def Info: ./images/jinja_template_database_mongodb.png  used on input line 583.
-(pdftex.def)             Requested size: 454.67433pt x 297.7789pt.
-<./images/dockerfile.logica.plantillas.jinja.png, id=1004, 329.73187pt x 189.70876pt>
+Package pdftex.def Info: ./images/jinja_template_database_mongodb.png  used on input line 612.
+(pdftex.def)             Requested size: 341.00574pt x 223.33173pt.
+<./images/dockerfile.logica.plantillas.jinja.png, id=1021, 329.73187pt x 189.70876pt>
 File: ./images/dockerfile.logica.plantillas.jinja.png Graphic file (type png)
 <use ./images/dockerfile.logica.plantillas.jinja.png>
-Package pdftex.def Info: ./images/dockerfile.logica.plantillas.jinja.png  used on input line 592.
-(pdftex.def)             Requested size: 454.67433pt x 261.6015pt.
+Package pdftex.def Info: ./images/dockerfile.logica.plantillas.jinja.png  used on input line 621.
+(pdftex.def)             Requested size: 341.00574pt x 196.20113pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39 <./images/jinja_template_database_mongodb.png>]
-<./images/mapping_model_screenshot.png, id=1011, 392.21532pt x 335.00156pt>
+[41 <./images/jinja_template_database_mongodb.png>]
+<./images/mapping_model_screenshot.png, id=1029, 392.21532pt x 335.00156pt>
 File: ./images/mapping_model_screenshot.png Graphic file (type png)
 <use ./images/mapping_model_screenshot.png>
-Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input line 604.
-(pdftex.def)             Requested size: 454.67433pt x 388.37204pt.
+Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input line 633.
+(pdftex.def)             Requested size: 341.00574pt x 291.2803pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40 <./images/dockerfile.logica.plantillas.jinja.png>] [41 <./images/mapping_model_screenshot.png>]
-<./images/dockerfile.uvl.png, id=1027, 385.44pt x 217.5628pt>
+[42 <./images/dockerfile.logica.plantillas.jinja.png>]
+<./images/dockerfile.uvl.png, id=1038, 385.44pt x 217.5628pt>
 File: ./images/dockerfile.uvl.png Graphic file (type png)
 <use ./images/dockerfile.uvl.png>
-Package pdftex.def Info: ./images/dockerfile.uvl.png  used on input line 624.
+Package pdftex.def Info: ./images/dockerfile.uvl.png  used on input line 653.
 (pdftex.def)             Requested size: 227.33716pt x 128.3211pt.
-<./images/dockerfile.frontend.png, id=1029, 411.78844pt x 402.75468pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43 <./images/mapping_model_screenshot.png>]
+<./images/dockerfile.frontend.png, id=1048, 411.78844pt x 402.75468pt>
 File: ./images/dockerfile.frontend.png Graphic file (type png)
 <use ./images/dockerfile.frontend.png>
-Package pdftex.def Info: ./images/dockerfile.frontend.png  used on input line 634.
+Package pdftex.def Info: ./images/dockerfile.frontend.png  used on input line 663.
 (pdftex.def)             Requested size: 227.33716pt x 222.35155pt.
- [42 <./images/dockerfile.uvl.png> <./images/dockerfile.frontend.png>]
-<./images/dockerfile.frontend.jinja.template.png, id=1040, 387.69844pt x 228.10219pt>
+ [44 <./images/dockerfile.uvl.png> <./images/dockerfile.frontend.png>]
+<./images/dockerfile.frontend.jinja.template.png, id=1059, 387.69844pt x 228.10219pt>
 File: ./images/dockerfile.frontend.jinja.template.png Graphic file (type png)
 <use ./images/dockerfile.frontend.jinja.template.png>
-Package pdftex.def Info: ./images/dockerfile.frontend.jinja.template.png  used on input line 654.
+Package pdftex.def Info: ./images/dockerfile.frontend.jinja.template.png  used on input line 683.
 (pdftex.def)             Requested size: 227.33716pt x 133.75421pt.
-LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineMonoT-TLF on input line 655.
+LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineMonoT-TLF on input line 686.
  (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibertinemonot-tlf.fd
 File: T1LinuxLibertineMonoT-TLF.fd 2019/05/20 (autoinst) Font definitions for T1/LinuxLibertineMonoT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <10> not available
-(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 655.
+(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 686.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 655.
+(Font)              scaled to size 10.0pt on input line 686.
 File: ./images/dockerfile.logica.plantillas.jinja.png Graphic file (type png)
 <use ./images/dockerfile.logica.plantillas.jinja.png>
-Package pdftex.def Info: ./images/dockerfile.logica.plantillas.jinja.png  used on input line 661.
+Package pdftex.def Info: ./images/dockerfile.logica.plantillas.jinja.png  used on input line 690.
 (pdftex.def)             Requested size: 227.33716pt x 130.80075pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[43 <./images/dockerfile.frontend.jinja.template.png>]
-<./images/dockerfile.metadata.png, id=1050, 516.42938pt x 511.15968pt>
+ [45{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc} <./images/dockerfile.frontend.jinja.template.png>]
+<./images/dockerfile.metadata.png, id=1070, 516.42938pt x 511.15968pt>
 File: ./images/dockerfile.metadata.png Graphic file (type png)
 <use ./images/dockerfile.metadata.png>
-Package pdftex.def Info: ./images/dockerfile.metadata.png  used on input line 671.
+Package pdftex.def Info: ./images/dockerfile.metadata.png  used on input line 700.
 (pdftex.def)             Requested size: 227.33716pt x 225.01234pt.
- [44 <./images/dockerfile.metadata.png>]
+ [46 <./images/dockerfile.metadata.png>]
 File: ./images/mapping_model_screenshot.png Graphic file (type png)
 <use ./images/mapping_model_screenshot.png>
-Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input line 682.
+Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input line 711.
 (pdftex.def)             Requested size: 227.33716pt x 194.17834pt.
- [45]
-<./images/dockerfile.configuracion-backend.png, id=1065, 281.55188pt x 251.43938pt>
+ [47]
+<./images/dockerfile.configuracion-backend.png, id=1084, 281.55188pt x 251.43938pt>
 File: ./images/dockerfile.configuracion-backend.png Graphic file (type png)
 <use ./images/dockerfile.configuracion-backend.png>
-Package pdftex.def Info: ./images/dockerfile.configuracion-backend.png  used on input line 704.
+Package pdftex.def Info: ./images/dockerfile.configuracion-backend.png  used on input line 727.
 (pdftex.def)             Requested size: 341.00574pt x 304.55334pt.
- [46 <./images/dockerfile.configuracion-backend.png>]
-<./images/dockerfile.backend.producto.png, id=1072, 630.85687pt x 574.39594pt>
+ [48 <./images/dockerfile.configuracion-backend.png>]
+<./images/dockerfile.backend.producto.png, id=1091, 630.85687pt x 574.39594pt>
 File: ./images/dockerfile.backend.producto.png Graphic file (type png)
 <use ./images/dockerfile.backend.producto.png>
-Package pdftex.def Info: ./images/dockerfile.backend.producto.png  used on input line 712.
+Package pdftex.def Info: ./images/dockerfile.backend.producto.png  used on input line 735.
 (pdftex.def)             Requested size: 454.67433pt x 413.98544pt.
- [47 <./images/dockerfile.backend.producto.png>] [48
-
-] [49] [50]
-<./images/Peticion POST uvengine-resolver.png, id=1096, 509.65407pt x 442.65375pt>
-File: ./images/Peticion POST uvengine-resolver.png Graphic file (type png)
-<use ./images/Peticion POST uvengine-resolver.png>
-Package pdftex.def Info: ./images/Peticion POST uvengine-resolver.png  used on input line 760.
-(pdftex.def)             Requested size: 454.67433pt x 394.9197pt.
- [51 <./images/Peticion POST uvengine-resolver.png>] [52] [53
+ [49 <./images/dockerfile.backend.producto.png>] [50] [51
 
 ]
-<./images/unupportedfeature.png, id=1116, 688.82344pt x 204.01219pt>
+File: ./images/Arquitectura Contenedores.png Graphic file (type png)
+<use ./images/Arquitectura Contenedores.png>
+Package pdftex.def Info: ./images/Arquitectura Contenedores.png  used on input line 778.
+(pdftex.def)             Requested size: 454.67433pt x 288.2514pt.
+ [52] [53]
+<./images/Peticion POST uvengine-resolver.png, id=1125, 509.65407pt x 442.65375pt>
+File: ./images/Peticion POST uvengine-resolver.png Graphic file (type png)
+<use ./images/Peticion POST uvengine-resolver.png>
+Package pdftex.def Info: ./images/Peticion POST uvengine-resolver.png  used on input line 803.
+(pdftex.def)             Requested size: 454.67433pt x 394.9197pt.
+ [54 <./images/Peticion POST uvengine-resolver.png>] [55] [56
+
+] [57]
+<./images/unupportedfeature.png, id=1150, 688.82344pt x 204.01219pt>
 File: ./images/unupportedfeature.png Graphic file (type png)
 <use ./images/unupportedfeature.png>
-Package pdftex.def Info: ./images/unupportedfeature.png  used on input line 805.
+Package pdftex.def Info: ./images/unupportedfeature.png  used on input line 852.
 (pdftex.def)             Requested size: 454.67433pt x 134.66402pt.
- [54 <./images/unupportedfeature.png>]
+ [58 <./images/unupportedfeature.png>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <12> not available
-(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 824.
+(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 871.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 824.
- [55
+(Font)              scaled to size 12.0pt on input line 871.
+ [59
 
-{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc}] [56] [57] [58
+] [60] [61] [62
 
-] [59] [60] [61] [62
+] [63] [64] [65] [66
 
 ]
 Underfull \vbox (badness 1052) has occurred while \output is active []
 
- [63] [64] [65] [66
+ [67] [68] [69] [70
 
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 1006.
+(Font)              scaled to size 12.0pt on input line 1057.
 
-Overfull \hbox (8.04533pt too wide) in paragraph at lines 1007--1007
+Overfull \hbox (8.04533pt too wide) in paragraph at lines 1058--1058
 \T1/LinuxLibertineT-TLF/m/n/12 2024. 2024. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https : / / universal -[] variability -[] language . github .
  []
 
-[67{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}]
-Overfull \hbox (10.89384pt too wide) in paragraph at lines 1007--1007
+[71{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}]
+Overfull \hbox (10.89384pt too wide) in paragraph at lines 1058--1058
 []\T1/LinuxLibertineT-TLF/m/n/12 Python Soft-wa-re Foun-da-tion. \T1/LinuxLibertineT-TLF/m/it/12 Python\T1/LinuxLibertineT-TLF/m/n/12 . Ac-ce-di-do: 22 de oc-tu-bre de 2024. 2024. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https :
  []
 
 
-Overfull \hbox (13.70908pt too wide) in paragraph at lines 1007--1007
+Overfull \hbox (13.70908pt too wide) in paragraph at lines 1058--1058
 []\T1/LinuxLibertineT-TLF/m/n/12 Gunicorn. \T1/LinuxLibertineT-TLF/m/it/12 Gu-ni-corn\T1/LinuxLibertineT-TLF/m/n/12 . Ac-ce-di-do: 22 de oc-tu-bre de 2024. 2024. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https : / / gunicorn .
  []
 
 
-Overfull \hbox (4.73428pt too wide) in paragraph at lines 1007--1007
+Overfull \hbox (4.73428pt too wide) in paragraph at lines 1058--1058
 []\T1/LinuxLibertineT-TLF/m/n/12 José Ma-nuel Hor-cas. \T1/LinuxLibertineT-TLF/m/it/12 UVEn-gi-ne 1.0.0\T1/LinuxLibertineT-TLF/m/n/12 . Ac-ce-di-do: 22 de oc-tu-bre de 2024. 2024. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https :
  []
 
-
-Overfull \hbox (26.3725pt too wide) in paragraph at lines 1007--1007
+[72]
+Overfull \hbox (26.3725pt too wide) in paragraph at lines 1058--1058
 \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https : / / keepcoding . io / blog / que -[] es -[] archivo -[] dockerignore/$[]\T1/LinuxLibertineT-TLF/m/n/12 . 
  []
 
-[68]
-Overfull \hbox (47.25908pt too wide) in paragraph at lines 1007--1007
+
+Overfull \hbox (25.7191pt too wide) in paragraph at lines 1058--1058
+\T1/LinuxLibertineMonoT-TLF/regular/n/12 Automatic -[] generation -[] of -[] configuration -[] files -[] for -[] deploying -[]
+ []
+
+
+Overfull \hbox (47.25908pt too wide) in paragraph at lines 1058--1058
 \T1/LinuxLibertineMonoT-TLF/regular/n/12 associate / 9781839211898 / c5ecd7bc -[] b7ed -[] 4303 -[] 89a8 -[] e487c6a220ed .
  []
 
-[69] [70]
+[73]
+Overfull \hbox (17.17911pt too wide) in paragraph at lines 1058--1058
+[]$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https : / / ww1 . startwithdocker . com / ?usid = 15 & utid = 31190731855$[]\T1/LinuxLibertineT-TLF/m/n/12 . 
+ []
+
+[74]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 1047.
+(hyperref)                removing `\\' on input line 1098.
 
-[71
+<./images/frontpage.png, id=1332, 1443.89438pt x 689.57625pt>
+File: ./images/frontpage.png Graphic file (type png)
+<use ./images/frontpage.png>
+Package pdftex.def Info: ./images/frontpage.png  used on input line 1121.
+(pdftex.def)             Requested size: 227.33716pt x 108.56674pt.
+[75
 
-] [72
+] [76 <./images/frontpage.png>]
+File: ./images/frontpage.png Graphic file (type png)
+<use ./images/frontpage.png>
+Package pdftex.def Info: ./images/frontpage.png  used on input line 1142.
+(pdftex.def)             Requested size: 454.67433pt x 217.14401pt.
+<./images/navpage.png, id=1346, 1434.10782pt x 46.67438pt>
+File: ./images/navpage.png Graphic file (type png)
+<use ./images/navpage.png>
+Package pdftex.def Info: ./images/navpage.png  used on input line 1149.
+(pdftex.def)             Requested size: 454.67433pt x 14.79721pt.
+ [77
 
-] [73] [74
+ <./images/navpage.png>]
+<./images/selectTemplatePage.png, id=1354, 1444.64719pt x 690.32906pt>
+File: ./images/selectTemplatePage.png Graphic file (type png)
+<use ./images/selectTemplatePage.png>
+Package pdftex.def Info: ./images/selectTemplatePage.png  used on input line 1171.
+(pdftex.def)             Requested size: 454.67433pt x 217.2652pt.
+ [78 <./images/selectTemplatePage.png>]
+<./images/selectionVersion.png, id=1361, 519.44063pt x 448.67625pt>
+File: ./images/selectionVersion.png Graphic file (type png)
+<use ./images/selectionVersion.png>
+Package pdftex.def Info: ./images/selectionVersion.png  used on input line 1179.
+(pdftex.def)             Requested size: 341.00574pt x 294.54576pt.
+ [79 <./images/selectionVersion.png>]
+<./images/RefreshTemplates.png, id=1371, 331.99031pt x 619.56468pt>
+File: ./images/RefreshTemplates.png Graphic file (type png)
+<use ./images/RefreshTemplates.png>
+Package pdftex.def Info: ./images/RefreshTemplates.png  used on input line 1191.
+(pdftex.def)             Requested size: 181.86694pt x 339.40027pt.
+<./images/loadconfiguration.png, id=1372, 531.48563pt x 303.38344pt>
+File: ./images/loadconfiguration.png Graphic file (type png)
+<use ./images/loadconfiguration.png>
+Package pdftex.def Info: ./images/loadconfiguration.png  used on input line 1200.
+(pdftex.def)             Requested size: 341.00574pt x 194.65543pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[80 <./images/RefreshTemplates.png>]
+<./images/donwloadToolbar.png, id=1379, 906.38625pt x 249.18094pt>
+File: ./images/donwloadToolbar.png Graphic file (type png)
+<use ./images/donwloadToolbar.png>
+Package pdftex.def Info: ./images/donwloadToolbar.png  used on input line 1209.
+(pdftex.def)             Requested size: 454.67433pt x 124.99698pt.
+ [81 <./images/loadconfiguration.png> <./images/donwloadToolbar.png>]
+<./images/Aboutpage.png, id=1388, 1438.6247pt x 514.17094pt>
+File: ./images/Aboutpage.png Graphic file (type png)
+<use ./images/Aboutpage.png>
+Package pdftex.def Info: ./images/Aboutpage.png  used on input line 1219.
+(pdftex.def)             Requested size: 454.67433pt x 162.4982pt.
+<./images/HelpPage.png, id=1389, 1443.14156pt x 689.57625pt>
+File: ./images/HelpPage.png Graphic file (type png)
+<use ./images/HelpPage.png>
+Package pdftex.def Info: ./images/HelpPage.png  used on input line 1227.
+(pdftex.def)             Requested size: 454.67433pt x 217.24922pt.
+ [82 <./images/Aboutpage.png> <./images/HelpPage.png>] [83
 
 ]
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Portada-Titulo-Contraportada/backcover.pdf, id=1295, 597.23125pt x 845.1575pt>
+<Portada-Titulo-Contraportada/backcover.pdf, id=1406, 597.23125pt x 845.1575pt>
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 1090.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 1288.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 1090.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 1288.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
@@ -1355,25 +1454,25 @@ pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PD
 
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Portada-Titulo-Contraportada/backcover.pdf, id=1298, page=1, 597.23125pt x 845.1575pt>
+<Portada-Titulo-Contraportada/backcover.pdf, id=1409, page=1, 597.23125pt x 845.1575pt>
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1090.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1288.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-[75]
+[84]
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1090.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
-<use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1090.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1288.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1090.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1288.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [76
+File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
+<use Portada-Titulo-Contraportada/backcover.pdf, page 1>
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1288.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+ [85
 
  <./Portada-Titulo-Contraportada/backcover.pdf>] (main.aux
 LaTeX Info: Redefining \sptext on input line 12.
@@ -1384,34 +1483,27 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E35904872A1AAA9F2B25FCF18AE64207;21150.
+(rerunfilecheck)             Checksum: 0817FE4FF6CA26E0F0050FE0B3C3C863;21254.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42013 strings out of 474541
- 919756 string characters out of 5744425
- 1938978 words of memory out of 5000000
- 63384 multiletter control sequences out of 15000+600000
- 629468 words of font info for 74 fonts, out of 8000000 for 9000
+ 42254 strings out of 474541
+ 925452 string characters out of 5744425
+ 1939978 words of memory out of 5000000
+ 63586 multiletter control sequences out of 15000+600000
+ 629769 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,17n,101p,1766b,2307s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineMT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on main.pdf (76 pages, 1319417 bytes).
+Output written on main.pdf (85 pages, 1815597 bytes).
 PDF statistics:
- 1411 PDF objects out of 1440 (max. 8388607)
- 282 named destinations out of 1000 (max. 500000)
- 1115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1530 PDF objects out of 1728 (max. 8388607)
+ 313 named destinations out of 1000 (max. 500000)
+ 1165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
