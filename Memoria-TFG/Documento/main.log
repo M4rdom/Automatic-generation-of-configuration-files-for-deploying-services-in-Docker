@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  6 NOV 2024 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  18 NOV 2024 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1115,338 +1115,863 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 112.0pt on input line 49.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 52.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 57.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 57.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 57.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 57.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 57.
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 57.
+ [11{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
 
  []
 
 [12]
-LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 94.
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 93.
  (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ts1linuxlibertinet-tlf.fd
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 94.
- [13{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_naooyc.enc}] [14] [15
-
-] [16] [17]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 188.
- [18{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
-<./images/Docker Init.png, id=804, 639.13782pt x 265.74281pt>
-File: ./images/Docker Init.png Graphic file (type png)
-<use ./images/Docker Init.png>
-Package pdftex.def Info: ./images/Docker Init.png  used on input line 221.
-(pdftex.def)             Requested size: 454.67433pt x 189.0477pt.
- [19]
-<./images/Docker.extension.vscode.png, id=815, 454.69875pt x 241.65282pt>
-File: ./images/Docker.extension.vscode.png Graphic file (type png)
-<use ./images/Docker.extension.vscode.png>
-Package pdftex.def Info: ./images/Docker.extension.vscode.png  used on input line 232.
-(pdftex.def)             Requested size: 454.67433pt x 241.64484pt.
-<./images/docker.extension.vscode.dockerfile.png, id=816, 571.38469pt x 385.44pt>
-File: ./images/docker.extension.vscode.dockerfile.png Graphic file (type png)
-<use ./images/docker.extension.vscode.dockerfile.png>
-Package pdftex.def Info: ./images/docker.extension.vscode.dockerfile.png  used on input line 238.
-(pdftex.def)             Requested size: 454.67433pt x 306.71152pt.
- [20 <./images/Docker Init.png> <./images/Docker.extension.vscode.png>]
-<./images/MagickPen.png, id=834, 895.09406pt x 535.2497pt>
-File: ./images/MagickPen.png Graphic file (type png)
-<use ./images/MagickPen.png>
-Package pdftex.def Info: ./images/MagickPen.png  used on input line 249.
-(pdftex.def)             Requested size: 454.67433pt x 271.89565pt.
- [21 <./images/docker.extension.vscode.dockerfile.png>] [22 <./images/MagickPen.png>]
-<./images/fm.example.jpg, id=854, 357.58594pt x 184.43906pt>
-File: ./images/fm.example.jpg Graphic file (type jpg)
-<use ./images/fm.example.jpg>
-Package pdftex.def Info: ./images/fm.example.jpg  used on input line 280.
-(pdftex.def)             Requested size: 341.00574pt x 175.89716pt.
- [23 <./images/fm.example.jpg>] [24
+(Font)              scaled to size 12.0pt on input line 93.
+ [13{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_naooyc.enc}] [14]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 133.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 133.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 133.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 133.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 133.
+ [15
 
 ]
-Underfull \vbox (badness 2334) has occurred while \output is active []
 
- [25] [26] [27] [28] [29] [30] [31
+LaTeX Warning: Citation 'Dockerfile_concepts' on page 16 undefined on input line 144.
 
-]
-<./images/gantt.png, id=939, 3930.43407pt x 1023.825pt>
-File: ./images/gantt.png Graphic file (type png)
-<use ./images/gantt.png>
-Package pdftex.def Info: ./images/gantt.png  used on input line 453.
-(pdftex.def)             Requested size: 454.67433pt x 118.43259pt.
-
-Underfull \vbox (badness 3219) has occurred while \output is active []
-
- [32 <./images/gantt.png>] [33] [34]
-<./images/Arquitectura Contenedores.png, id=969, 951.555pt x 603.25375pt>
-File: ./images/Arquitectura Contenedores.png Graphic file (type png)
-<use ./images/Arquitectura Contenedores.png>
-Package pdftex.def Info: ./images/Arquitectura Contenedores.png  used on input line 517.
-(pdftex.def)             Requested size: 454.67433pt x 288.2514pt.
- [35 <./images/Arquitectura Contenedores.png>] [36] [37] [38
-
-] [39]
-<./images/text.feature_model.png, id=1009, 229.60782pt x 217.5628pt>
-File: ./images/text.feature_model.png Graphic file (type png)
-<use ./images/text.feature_model.png>
-Package pdftex.def Info: ./images/text.feature_model.png  used on input line 600.
-(pdftex.def)             Requested size: 227.33716pt x 215.42104pt.
- [40 <./images/text.feature_model.png>]
-<./images/jinja_template_database_mongodb.png, id=1018, 490.83376pt x 321.45094pt>
-File: ./images/jinja_template_database_mongodb.png Graphic file (type png)
-<use ./images/jinja_template_database_mongodb.png>
-Package pdftex.def Info: ./images/jinja_template_database_mongodb.png  used on input line 612.
-(pdftex.def)             Requested size: 341.00574pt x 223.33173pt.
-<./images/dockerfile.logica.plantillas.jinja.png, id=1021, 329.73187pt x 189.70876pt>
-File: ./images/dockerfile.logica.plantillas.jinja.png Graphic file (type png)
-<use ./images/dockerfile.logica.plantillas.jinja.png>
-Package pdftex.def Info: ./images/dockerfile.logica.plantillas.jinja.png  used on input line 621.
-(pdftex.def)             Requested size: 341.00574pt x 196.20113pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[41 <./images/jinja_template_database_mongodb.png>]
-<./images/mapping_model_screenshot.png, id=1029, 392.21532pt x 335.00156pt>
-File: ./images/mapping_model_screenshot.png Graphic file (type png)
-<use ./images/mapping_model_screenshot.png>
-Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input line 633.
-(pdftex.def)             Requested size: 341.00574pt x 291.2803pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[42 <./images/dockerfile.logica.plantillas.jinja.png>]
-<./images/dockerfile.uvl.png, id=1038, 385.44pt x 217.5628pt>
-File: ./images/dockerfile.uvl.png Graphic file (type png)
-<use ./images/dockerfile.uvl.png>
-Package pdftex.def Info: ./images/dockerfile.uvl.png  used on input line 653.
-(pdftex.def)             Requested size: 227.33716pt x 128.3211pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[43 <./images/mapping_model_screenshot.png>]
-<./images/dockerfile.frontend.png, id=1048, 411.78844pt x 402.75468pt>
-File: ./images/dockerfile.frontend.png Graphic file (type png)
-<use ./images/dockerfile.frontend.png>
-Package pdftex.def Info: ./images/dockerfile.frontend.png  used on input line 663.
-(pdftex.def)             Requested size: 227.33716pt x 222.35155pt.
- [44 <./images/dockerfile.uvl.png> <./images/dockerfile.frontend.png>]
-<./images/dockerfile.frontend.jinja.template.png, id=1059, 387.69844pt x 228.10219pt>
-File: ./images/dockerfile.frontend.jinja.template.png Graphic file (type png)
-<use ./images/dockerfile.frontend.jinja.template.png>
-Package pdftex.def Info: ./images/dockerfile.frontend.jinja.template.png  used on input line 683.
-(pdftex.def)             Requested size: 227.33716pt x 133.75421pt.
-LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineMonoT-TLF on input line 686.
- (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibertinemonot-tlf.fd
+LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineMonoT-TLF on input line 149.
+(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibertinemonot-tlf.fd
 File: T1LinuxLibertineMonoT-TLF.fd 2019/05/20 (autoinst) Font definitions for T1/LinuxLibertineMonoT-TLF.
 )
-LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <10> not available
-(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 686.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <12> not available
+(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 149.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 686.
-File: ./images/dockerfile.logica.plantillas.jinja.png Graphic file (type png)
-<use ./images/dockerfile.logica.plantillas.jinja.png>
-Package pdftex.def Info: ./images/dockerfile.logica.plantillas.jinja.png  used on input line 690.
-(pdftex.def)             Requested size: 227.33716pt x 130.80075pt.
- [45{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc} <./images/dockerfile.frontend.jinja.template.png>]
-<./images/dockerfile.metadata.png, id=1070, 516.42938pt x 511.15968pt>
-File: ./images/dockerfile.metadata.png Graphic file (type png)
-<use ./images/dockerfile.metadata.png>
-Package pdftex.def Info: ./images/dockerfile.metadata.png  used on input line 700.
-(pdftex.def)             Requested size: 227.33716pt x 225.01234pt.
- [46 <./images/dockerfile.metadata.png>]
-File: ./images/mapping_model_screenshot.png Graphic file (type png)
-<use ./images/mapping_model_screenshot.png>
-Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input line 711.
-(pdftex.def)             Requested size: 227.33716pt x 194.17834pt.
- [47]
-<./images/dockerfile.configuracion-backend.png, id=1084, 281.55188pt x 251.43938pt>
-File: ./images/dockerfile.configuracion-backend.png Graphic file (type png)
-<use ./images/dockerfile.configuracion-backend.png>
-Package pdftex.def Info: ./images/dockerfile.configuracion-backend.png  used on input line 727.
-(pdftex.def)             Requested size: 341.00574pt x 304.55334pt.
- [48 <./images/dockerfile.configuracion-backend.png>]
-<./images/dockerfile.backend.producto.png, id=1091, 630.85687pt x 574.39594pt>
-File: ./images/dockerfile.backend.producto.png Graphic file (type png)
-<use ./images/dockerfile.backend.producto.png>
-Package pdftex.def Info: ./images/dockerfile.backend.producto.png  used on input line 735.
-(pdftex.def)             Requested size: 454.67433pt x 413.98544pt.
- [49 <./images/dockerfile.backend.producto.png>] [50] [51
+(Font)              scaled to size 12.0pt on input line 149.
+ [16{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc}]
 
-]
+LaTeX Warning: Citation 'Dockerfile_best_practices' on page 17 undefined on input line 153.
+
+[17]
+Overfull \hbox (67.24767pt too wide) in paragraph at lines 194--195
+[]\T1/LinuxLibertineT-TLF/m/n/12 Utilizar co-man-dos co-mo \T1/LinuxLibertineMonoT-TLF/regular/n/12 `apt-get clean' \T1/LinuxLibertineT-TLF/m/n/12 y \T1/LinuxLibertineMonoT-TLF/regular/n/12 `rm -rf /var/lib/apt/lists/*'
+ []
+
+[18]
+<./images/Docker Init.png, id=795, 639.13782pt x 265.74281pt>
+File: ./images/Docker Init.png Graphic file (type png)
+<use ./images/Docker Init.png>
+Package pdftex.def Info: ./images/Docker Init.png  used on input line 217.
+(pdftex.def)             Requested size: 454.67433pt x 189.0477pt.
+ [19]
+<./images/Docker.extension.vscode.png, id=806, 454.69875pt x 241.65282pt>
+File: ./images/Docker.extension.vscode.png Graphic file (type png)
+<use ./images/Docker.extension.vscode.png>
+Package pdftex.def Info: ./images/Docker.extension.vscode.png  used on input line 228.
+(pdftex.def)             Requested size: 454.67433pt x 241.64484pt.
+<./images/docker.extension.vscode.Dockerfile.png, id=807, 571.38469pt x 385.44pt>
+File: ./images/docker.extension.vscode.Dockerfile.png Graphic file (type png)
+<use ./images/docker.extension.vscode.Dockerfile.png>
+Package pdftex.def Info: ./images/docker.extension.vscode.Dockerfile.png  used on input line 234.
+(pdftex.def)             Requested size: 454.67433pt x 306.71152pt.
+
+
+LaTeX Warning: Citation 'magickpen_Dockerfile_template' on page 20 undefined on input line 240.
+
+
+Overfull \hbox (37.77565pt too wide) in paragraph at lines 239--241
+\T1/LinuxLibertineT-TLF/m/n/12 plea-dos y de la ca-li-dad del \T1/LinuxLibertineT-TLF/m/it/12 prompt\T1/LinuxLibertineT-TLF/m/n/12 .[][][] de en-tra-da co-mo \T1/LinuxLibertineT-TLF/m/it/12 ma-gick-pen \T1/LinuxLibertineT-TLF/m/n/12 [[]][][][]
+ []
+
+[20 <./images/Docker Init.png> <./images/Docker.extension.vscode.png>]
+<./images/MagickPen.png, id=824, 895.09406pt x 535.2497pt>
+File: ./images/MagickPen.png Graphic file (type png)
+<use ./images/MagickPen.png>
+Package pdftex.def Info: ./images/MagickPen.png  used on input line 244.
+(pdftex.def)             Requested size: 454.67433pt x 271.89565pt.
+ [21 <./images/docker.extension.vscode.Dockerfile.png>] [22 <./images/MagickPen.png>]
+
+LaTeX Warning: Citation 'Kang1990_FODA' on page 23 undefined on input line 266.
+
+<./images/fm.example.jpg, id=843, 357.58594pt x 184.43906pt>
+File: ./images/fm.example.jpg Graphic file (type jpg)
+<use ./images/fm.example.jpg>
+Package pdftex.def Info: ./images/fm.example.jpg  used on input line 271.
+(pdftex.def)             Requested size: 341.00574pt x 175.89716pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Universal Va-ria-bi-lity Lan-gua-ge UVL|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Docker|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Node.js|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Angular|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Angular Ma-te-rial|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Monaco Edi-tor|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+|[]\T1/LinuxLibertineT-TLF/b/n/12 ngx-json-viewer|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Nginx|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Python|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Flask|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Gunicorn|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Pypi|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Jinja|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Jinja2|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Git|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 GitHub|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+|[]\T1/LinuxLibertineT-TLF/b/n/12 GitHub Pu-blic Api|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Visual Stu-dio Co-de|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+|[]\T1/LinuxLibertineT-TLF/b/n/12 UVLS ex-ten-sion|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Introduccion|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Metodología del De-sa-rro-llo|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Justificación|
+ []
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:427: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.427 \begin{figure}[ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/gantt.png, id=866, 3930.43407pt x 1023.825pt>
+File: ./images/gantt.png Graphic file (type png)
+<use ./images/gantt.png>
+Package pdftex.def Info: ./images/gantt.png  used on input line 429.
+(pdftex.def)             Requested size: 454.67433pt x 118.43259pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Notas del Pro-ce-di-mien-to|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Limitaciones|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Fases de Es-tu-dio|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Estudio del Es-ta-do del Ar-te :|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Investigación di-se-ño de doc-ker-fi-les|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Desarrollo de Plan-ti-llas|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--473
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Fase Im-ple-men-ta-cion|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Requisitios de la apli-ca-ción |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Diseño de la apli-ca-ción|
+ []
+
+<./images/Arquitectura Contenedores.png, id=877, 951.555pt x 603.25375pt>
 File: ./images/Arquitectura Contenedores.png Graphic file (type png)
 <use ./images/Arquitectura Contenedores.png>
-Package pdftex.def Info: ./images/Arquitectura Contenedores.png  used on input line 778.
+Package pdftex.def Info: ./images/Arquitectura Contenedores.png  used on input line 493.
 (pdftex.def)             Requested size: 454.67433pt x 288.2514pt.
- [52] [53]
-<./images/Peticion POST uvengine-resolver.png, id=1125, 509.65407pt x 442.65375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Desarrollo del Pa-que-te uven-gi-ne |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Desarrollo apli-ca-cion Fron-tend An-gu-lar|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Desarrollo de los ser-vi-cios de bac-kend|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Elaboración de la guía de uso|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Elaboración de un ma-nual de ins-ta-la-ción|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Elaboración de un ma-nual de de-sa-rro-llo de plan-ti-llas|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Elaboración de la me-mo-ria|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Introducción|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Componentes de las plan-ti-llas|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--571
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Feature mo-del|
+ []
+
+<./images/text.feature_model.png, id=887, 229.60782pt x 217.5628pt>
+File: ./images/text.feature_model.png Graphic file (type png)
+<use ./images/text.feature_model.png>
+Package pdftex.def Info: ./images/text.feature_model.png  used on input line 576.
+(pdftex.def)             Requested size: 227.33716pt x 215.42104pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Plantillas Jin-ja|
+ []
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:586: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.586 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/jinja_template_database_mongodb.png, id=890, 490.83376pt x 321.45094pt>
+File: ./images/jinja_template_database_mongodb.png Graphic file (type png)
+<use ./images/jinja_template_database_mongodb.png>
+Package pdftex.def Info: ./images/jinja_template_database_mongodb.png  used on input line 588.
+(pdftex.def)             Requested size: 341.00574pt x 223.33173pt.
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:595: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.595 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/dockerfile.logica.plantillas.jinja.png, id=893, 329.73187pt x 189.70876pt>
+File: ./images/dockerfile.logica.plantillas.jinja.png Graphic file (type png)
+<use ./images/dockerfile.logica.plantillas.jinja.png>
+Package pdftex.def Info: ./images/dockerfile.logica.plantillas.jinja.png  used on input line 597.
+(pdftex.def)             Requested size: 341.00574pt x 196.20113pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Mapping Mo-del|
+ []
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:607: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.607 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/mapping_model_screenshot.png, id=894, 392.21532pt x 335.00156pt>
+File: ./images/mapping_model_screenshot.png Graphic file (type png)
+<use ./images/mapping_model_screenshot.png>
+Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input line 609.
+(pdftex.def)             Requested size: 341.00574pt x 291.2803pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Plantilla doc-ker-fi-le|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--620
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Feature mo-del|
+ []
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:627: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.627 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/dockerfile.uvl.png, id=897, 385.44pt x 217.5628pt>
+File: ./images/dockerfile.uvl.png Graphic file (type png)
+<use ./images/dockerfile.uvl.png>
+Package pdftex.def Info: ./images/dockerfile.uvl.png  used on input line 629.
+(pdftex.def)             Requested size: 227.33716pt x 128.3211pt.
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:637: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.637 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/dockerfile.frontend.png, id=899, 411.78844pt x 402.75468pt>
+File: ./images/dockerfile.frontend.png Graphic file (type png)
+<use ./images/dockerfile.frontend.png>
+Package pdftex.def Info: ./images/dockerfile.frontend.png  used on input line 639.
+(pdftex.def)             Requested size: 227.33716pt x 222.35155pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--654
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Plantillas Jin-ja2|
+ []
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:657: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/dockerfile.frontend.jinja.template.png, id=901, 387.69844pt x 228.10219pt>
+File: ./images/dockerfile.frontend.jinja.template.png Graphic file (type png)
+<use ./images/dockerfile.frontend.jinja.template.png>
+Package pdftex.def Info: ./images/dockerfile.frontend.jinja.template.png  used on input line 659.
+(pdftex.def)             Requested size: 227.33716pt x 133.75421pt.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <10> not available
+(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 662.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 662.
+File: ./images/dockerfile.logica.plantillas.jinja.png Graphic file (type png)
+<use ./images/dockerfile.logica.plantillas.jinja.png>
+Package pdftex.def Info: ./images/dockerfile.logica.plantillas.jinja.png  used on input line 666.
+(pdftex.def)             Requested size: 227.33716pt x 130.80075pt.
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:674: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.674 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/dockerfile.metadata.png, id=903, 516.42938pt x 511.15968pt>
+File: ./images/dockerfile.metadata.png Graphic file (type png)
+<use ./images/dockerfile.metadata.png>
+Package pdftex.def Info: ./images/dockerfile.metadata.png  used on input line 676.
+(pdftex.def)             Requested size: 227.33716pt x 225.01234pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Mapping Mo-del|
+ []
+
+File: ./images/mapping_model_screenshot.png Graphic file (type png)
+<use ./images/mapping_model_screenshot.png>
+Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input line 687.
+(pdftex.def)             Requested size: 227.33716pt x 194.17834pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--693
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Tests so-bre la Plan-ti-lla doc-ker-fi-le|
+ []
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:701: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.701 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/dockerfile.configuracion-backend.png, id=905, 281.55188pt x 251.43938pt>
+File: ./images/dockerfile.configuracion-backend.png Graphic file (type png)
+<use ./images/dockerfile.configuracion-backend.png>
+Package pdftex.def Info: ./images/dockerfile.configuracion-backend.png  used on input line 703.
+(pdftex.def)             Requested size: 341.00574pt x 304.55334pt.
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:709: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.709 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/dockerfile.backend.producto.png, id=906, 630.85687pt x 574.39594pt>
+File: ./images/dockerfile.backend.producto.png Graphic file (type png)
+<use ./images/dockerfile.backend.producto.png>
+Package pdftex.def Info: ./images/dockerfile.backend.producto.png  used on input line 711.
+(pdftex.def)             Requested size: 454.67433pt x 413.98544pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Resto de Plan-ti-llas|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--740
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Vision ge-ne-ral de la ar-qui-tec-tu-ra |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 750--750
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Diagrama de in-fra-es-truc-tu-ra|
+ []
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:752: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: ./images/Arquitectura Contenedores.png Graphic file (type png)
+<use ./images/Arquitectura Contenedores.png>
+Package pdftex.def Info: ./images/Arquitectura Contenedores.png  used on input line 754.
+(pdftex.def)             Requested size: 454.67433pt x 288.2514pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--759
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Descripcion de ser-vi-cios de bac-kend|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--764
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Repository-Manager|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
+|[]\T1/LinuxLibertineT-TLF/b/n/12 UVEngine-Resolver|
+ []
+
+<./images/Peticion POST uvengine-resolver.png, id=912, 509.65407pt x 442.65375pt>
 File: ./images/Peticion POST uvengine-resolver.png Graphic file (type png)
 <use ./images/Peticion POST uvengine-resolver.png>
-Package pdftex.def Info: ./images/Peticion POST uvengine-resolver.png  used on input line 803.
+Package pdftex.def Info: ./images/Peticion POST uvengine-resolver.png  used on input line 779.
 (pdftex.def)             Requested size: 454.67433pt x 394.9197pt.
- [54 <./images/Peticion POST uvengine-resolver.png>] [55] [56
 
-] [57]
-<./images/unupportedfeature.png, id=1150, 688.82344pt x 204.01219pt>
+Underfull \hbox (badness 10000) in paragraph at lines 785--785
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Descripcion de Fron-tend|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 811--811
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Añadir Plan-ti-llas|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 819--819
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Ampliar la Plan-ti-lla Doc-ker-fi-le|
+ []
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:826: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.826 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/unupportedfeature.png, id=917, 688.82344pt x 204.01219pt>
 File: ./images/unupportedfeature.png Graphic file (type png)
 <use ./images/unupportedfeature.png>
-Package pdftex.def Info: ./images/unupportedfeature.png  used on input line 852.
+Package pdftex.def Info: ./images/unupportedfeature.png  used on input line 828.
 (pdftex.def)             Requested size: 454.67433pt x 134.66402pt.
- [58 <./images/unupportedfeature.png>]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <12> not available
-(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 871.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 871.
- [59
 
-] [60] [61] [62
+Underfull \hbox (badness 10000) in paragraph at lines 842--842
+|[] \T1/LinuxLibertineT-TLF/b/n/14.4 Des-plie-gue lo-cal |
+ []
 
-] [63] [64] [65] [66
 
-]
-Underfull \vbox (badness 1052) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 904--904
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Resultados Ob-te-ni-dos|
+ []
 
- [67] [68] [69] [70
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Viabilidad del pro-yec-to|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 946--946
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Escalabilidad|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 971--971
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Conclusiones del De-sa-rro-llo del pro-yec-to|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--974
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Conclusion Per-so-nal|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 977--977
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Aplicaciones Prác-ti-cas|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--980
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Desarrollo de Nue-vas plan-ti-llas |
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 983--983
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Continuación en el de-sa-rro-llo de plan-ti-llas ya exis-ten-tes|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 987--987
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Mejorar la ex-pe-rien-cia del usua-rio |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1001
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Mejorar la es-ca-la-bi-li-dad de la apli-ca-cion|
+ []
+
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 1057.
+(Font)              scaled to size 12.0pt on input line 1033.
 
-Overfull \hbox (8.04533pt too wide) in paragraph at lines 1058--1058
-\T1/LinuxLibertineT-TLF/m/n/12 2024. 2024. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https : / / universal -[] variability -[] language . github .
- []
-
-[71{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}]
-Overfull \hbox (10.89384pt too wide) in paragraph at lines 1058--1058
-[]\T1/LinuxLibertineT-TLF/m/n/12 Python Soft-wa-re Foun-da-tion. \T1/LinuxLibertineT-TLF/m/it/12 Python\T1/LinuxLibertineT-TLF/m/n/12 . Ac-ce-di-do: 22 de oc-tu-bre de 2024. 2024. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https :
+Underfull \hbox (badness 1005) in paragraph at lines 1034--1034
+[]\T1/LinuxLibertineT-TLF/m/n/12 Gunicorn. \T1/LinuxLibertineT-TLF/m/it/12 Gu-ni-corn\T1/LinuxLibertineT-TLF/m/n/12 . Ac-ce-di-do: 22 de oc-tu-bre de 2024. 2024. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https : / /
  []
 
 
-Overfull \hbox (13.70908pt too wide) in paragraph at lines 1058--1058
-[]\T1/LinuxLibertineT-TLF/m/n/12 Gunicorn. \T1/LinuxLibertineT-TLF/m/it/12 Gu-ni-corn\T1/LinuxLibertineT-TLF/m/n/12 . Ac-ce-di-do: 22 de oc-tu-bre de 2024. 2024. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https : / / gunicorn .
+Underfull \hbox (badness 1215) in paragraph at lines 1034--1034
+[]\T1/LinuxLibertineT-TLF/m/n/12 KeepCoding. \T1/LinuxLibertineT-TLF/m/it/12 ¾Qué es el ar-chi-vo .doc-ke-rig-no-re? \T1/LinuxLibertineT-TLF/m/n/12 Ac-ce-di-do: 22 de oc-tu-bre de 2024.
  []
 
-
-Overfull \hbox (4.73428pt too wide) in paragraph at lines 1058--1058
-[]\T1/LinuxLibertineT-TLF/m/n/12 José Ma-nuel Hor-cas. \T1/LinuxLibertineT-TLF/m/it/12 UVEn-gi-ne 1.0.0\T1/LinuxLibertineT-TLF/m/n/12 . Ac-ce-di-do: 22 de oc-tu-bre de 2024. 2024. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https :
- []
-
-[72]
-Overfull \hbox (26.3725pt too wide) in paragraph at lines 1058--1058
-\T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https : / / keepcoding . io / blog / que -[] es -[] archivo -[] dockerignore/$[]\T1/LinuxLibertineT-TLF/m/n/12 . 
- []
-
-
-Overfull \hbox (25.7191pt too wide) in paragraph at lines 1058--1058
-\T1/LinuxLibertineMonoT-TLF/regular/n/12 Automatic -[] generation -[] of -[] configuration -[] files -[] for -[] deploying -[]
- []
-
-
-Overfull \hbox (47.25908pt too wide) in paragraph at lines 1058--1058
-\T1/LinuxLibertineMonoT-TLF/regular/n/12 associate / 9781839211898 / c5ecd7bc -[] b7ed -[] 4303 -[] 89a8 -[] e487c6a220ed .
- []
-
-[73]
-Overfull \hbox (17.17911pt too wide) in paragraph at lines 1058--1058
-[]$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https : / / ww1 . startwithdocker . com / ?usid = 15 & utid = 31190731855$[]\T1/LinuxLibertineT-TLF/m/n/12 . 
- []
-
-[74]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 1098.
+(hyperref)                removing `\\' on input line 1074.
 
-<./images/frontpage.png, id=1332, 1443.89438pt x 689.57625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1076
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Requisitos Pre-vios|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Descargar el co-di-go fuen-te|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1088
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Despliegue del Ser-vi-cio|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Acceso a la apli-ca-cion|
+ []
+
+<./images/frontpage.png, id=978, 1443.89438pt x 689.57625pt>
 File: ./images/frontpage.png Graphic file (type png)
 <use ./images/frontpage.png>
-Package pdftex.def Info: ./images/frontpage.png  used on input line 1121.
+Package pdftex.def Info: ./images/frontpage.png  used on input line 1097.
 (pdftex.def)             Requested size: 227.33716pt x 108.56674pt.
-[75
 
-] [76 <./images/frontpage.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1100--1100
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Github API|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1104
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Terminar el ser-vi-cio|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1114
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Inicio de la apli-ca-cion|
+ []
+
 File: ./images/frontpage.png Graphic file (type png)
 <use ./images/frontpage.png>
-Package pdftex.def Info: ./images/frontpage.png  used on input line 1142.
+Package pdftex.def Info: ./images/frontpage.png  used on input line 1118.
 (pdftex.def)             Requested size: 454.67433pt x 217.14401pt.
-<./images/navpage.png, id=1346, 1434.10782pt x 46.67438pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1121
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Barra de Na-ve-ga-ción|
+ []
+
+<./images/navpage.png, id=981, 1434.10782pt x 46.67438pt>
 File: ./images/navpage.png Graphic file (type png)
 <use ./images/navpage.png>
-Package pdftex.def Info: ./images/navpage.png  used on input line 1149.
+Package pdftex.def Info: ./images/navpage.png  used on input line 1125.
 (pdftex.def)             Requested size: 454.67433pt x 14.79721pt.
- [77
 
- <./images/navpage.png>]
-<./images/selectTemplatePage.png, id=1354, 1444.64719pt x 690.32906pt>
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1142
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Seleccionar plan-ti-lla|
+ []
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:1145: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1145 	\begin{figure}[h]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/selectTemplatePage.png, id=982, 1444.64719pt x 690.32906pt>
 File: ./images/selectTemplatePage.png Graphic file (type png)
 <use ./images/selectTemplatePage.png>
-Package pdftex.def Info: ./images/selectTemplatePage.png  used on input line 1171.
+Package pdftex.def Info: ./images/selectTemplatePage.png  used on input line 1147.
 (pdftex.def)             Requested size: 454.67433pt x 217.2652pt.
- [78 <./images/selectTemplatePage.png>]
-<./images/selectionVersion.png, id=1361, 519.44063pt x 448.67625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1151--1151
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Seleccionar ver-sion de la pla-ti-lla|
+ []
+
+<./images/selectionVersion.png, id=983, 519.44063pt x 448.67625pt>
 File: ./images/selectionVersion.png Graphic file (type png)
 <use ./images/selectionVersion.png>
-Package pdftex.def Info: ./images/selectionVersion.png  used on input line 1179.
+Package pdftex.def Info: ./images/selectionVersion.png  used on input line 1155.
 (pdftex.def)             Requested size: 341.00574pt x 294.54576pt.
- [79 <./images/selectionVersion.png>]
-<./images/RefreshTemplates.png, id=1371, 331.99031pt x 619.56468pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1161--1161
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Refrescar Plan-ti-llas|
+ []
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:1165: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1165 	\begin{figure}[h]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/RefreshTemplates.png, id=985, 331.99031pt x 619.56468pt>
 File: ./images/RefreshTemplates.png Graphic file (type png)
 <use ./images/RefreshTemplates.png>
-Package pdftex.def Info: ./images/RefreshTemplates.png  used on input line 1191.
+Package pdftex.def Info: ./images/RefreshTemplates.png  used on input line 1167.
 (pdftex.def)             Requested size: 181.86694pt x 339.40027pt.
-<./images/loadconfiguration.png, id=1372, 531.48563pt x 303.38344pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1171--1171
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Cargar con-fi-gu-ra-cion|
+ []
+
+<./images/loadconfiguration.png, id=986, 531.48563pt x 303.38344pt>
 File: ./images/loadconfiguration.png Graphic file (type png)
 <use ./images/loadconfiguration.png>
-Package pdftex.def Info: ./images/loadconfiguration.png  used on input line 1200.
+Package pdftex.def Info: ./images/loadconfiguration.png  used on input line 1176.
 (pdftex.def)             Requested size: 341.00574pt x 194.65543pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1181
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Descargar Fi-che-ro Ge-ne-ra-do|
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[80 <./images/RefreshTemplates.png>]
-<./images/donwloadToolbar.png, id=1379, 906.38625pt x 249.18094pt>
+<./images/donwloadToolbar.png, id=987, 906.38625pt x 249.18094pt>
 File: ./images/donwloadToolbar.png Graphic file (type png)
 <use ./images/donwloadToolbar.png>
-Package pdftex.def Info: ./images/donwloadToolbar.png  used on input line 1209.
+Package pdftex.def Info: ./images/donwloadToolbar.png  used on input line 1185.
 (pdftex.def)             Requested size: 454.67433pt x 124.99698pt.
- [81 <./images/loadconfiguration.png> <./images/donwloadToolbar.png>]
-<./images/Aboutpage.png, id=1388, 1438.6247pt x 514.17094pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1191--1191
+|[]\T1/LinuxLibertineT-TLF/b/n/12 About Pa-ge|
+ []
+
+<./images/Aboutpage.png, id=988, 1438.6247pt x 514.17094pt>
 File: ./images/Aboutpage.png Graphic file (type png)
 <use ./images/Aboutpage.png>
-Package pdftex.def Info: ./images/Aboutpage.png  used on input line 1219.
+Package pdftex.def Info: ./images/Aboutpage.png  used on input line 1195.
 (pdftex.def)             Requested size: 454.67433pt x 162.4982pt.
-<./images/HelpPage.png, id=1389, 1443.14156pt x 689.57625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1199--1199
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Help Pa-ge|
+ []
+
+<./images/HelpPage.png, id=989, 1443.14156pt x 689.57625pt>
 File: ./images/HelpPage.png Graphic file (type png)
 <use ./images/HelpPage.png>
-Package pdftex.def Info: ./images/HelpPage.png  used on input line 1227.
+Package pdftex.def Info: ./images/HelpPage.png  used on input line 1203.
 (pdftex.def)             Requested size: 454.67433pt x 217.24922pt.
- [82 <./images/Aboutpage.png> <./images/HelpPage.png>] [83
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 1212--1212
+|[]\T1/LinuxLibertineT-TLF/b/n/14.4 Introducción|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1215
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Como aña-dir nue-vas plan-ti-llas al re-po-si-to-rio|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Estructura de Di-rec-to-rios|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1246
+|[]\T1/LinuxLibertineT-TLF/b/n/12 Como mo-di-fi-car las plan-ti-llas del re-po-si-to-rio|
+ []
+
+
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Portada-Titulo-Contraportada/backcover.pdf, id=1406, 597.23125pt x 845.1575pt>
+<Portada-Titulo-Contraportada/backcover.pdf, id=994, 597.23125pt x 845.1575pt>
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 1288.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 1264.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 1288.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 1264.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
@@ -1454,27 +1979,33 @@ pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PD
 
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Portada-Titulo-Contraportada/backcover.pdf, id=1409, page=1, 597.23125pt x 845.1575pt>
+<Portada-Titulo-Contraportada/backcover.pdf, id=997, page=1, 597.23125pt x 845.1575pt>
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1288.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-[84]
-File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
-<use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1288.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1264.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1288.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1264.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf, page 1>
-Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1288.
+Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1264.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [85
 
- <./Portada-Titulo-Contraportada/backcover.pdf>] (main.aux
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:1265: LaTeX Error: \begin{figure} on input line 269 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1265 \end{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(main.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -1483,27 +2014,129 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0817FE4FF6CA26E0F0050FE0B3C3C863;21254.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 0817FE4FF6CA26E0F0050FE0B3C3C863;21254
+(rerunfilecheck)             After:  9F448F37A3E5990B03E33A5AA3742BDD;3251.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- ) 
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:1265: You can't use `\end' in internal vertical mode.
+\enddocument ...cument/end}\deadcycles \z@ \@@end 
+                                                  
+l.1265 \end{document}
+                     
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:1265: LaTeX Error: \begin{figure} on input line 269 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1265 \end{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:1265: Missing } inserted.
+<inserted text> 
+                }
+l.1265 \end{document}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:1269: LaTeX Error: \begin{figure} on input line 269 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1269 \end{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\gdef \@abspage@last{22}
+(main.aux
+LaTeX Info: Redefining \sptext on input line 12.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+)
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:1269: You can't use `\end' in internal vertical mode.
+\enddocument ...cument/end}\deadcycles \z@ \@@end 
+                                                  
+l.1269 \end{document}
+                     
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:1269: LaTeX Error: \begin{figure} on input line 269 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1269 \end{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex:1269: Missing } inserted.
+<inserted text> 
+                }
+l.1269 \end{document}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+! Emergency stop.
+<*> ...es-in-Docker/Memoria-TFG/Documento/main.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 42254 strings out of 474541
- 925452 string characters out of 5744425
- 1939978 words of memory out of 5000000
- 63586 multiletter control sequences out of 15000+600000
- 629769 words of font info for 75 fonts, out of 8000000 for 9000
+ 42107 strings out of 474541
+ 923898 string characters out of 5744425
+ 2054978 words of memory out of 5000000
+ 63588 multiletter control sequences out of 15000+600000
+ 629067 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,17n,101p,1766b,2307s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not exist, replaced by a fixed one
-
-<C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineMT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on main.pdf (85 pages, 1815597 bytes).
-PDF statistics:
- 1530 PDF objects out of 1728 (max. 8388607)
- 313 named destinations out of 1000 (max. 500000)
- 1165 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 98i,17n,101p,1766b,2544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

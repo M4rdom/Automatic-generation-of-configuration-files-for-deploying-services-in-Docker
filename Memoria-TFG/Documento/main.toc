@@ -1,5 +1,5 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introduccion}{11}{section.1}%
+\contentsline {section}{\numberline {1}Introducción}{11}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Motivación}{11}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Objetivo}{12}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Resultados Esperados}{13}{subsection.1.3}%
@@ -7,114 +7,36 @@
 \contentsline {section}{\numberline {2}Estado del Arte}{15}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Contenedores}{15}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Porque se usan los contenedores}{15}{subsubsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.2}Imagenes}{16}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Imágenes}{16}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Docker}{16}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Dockerfile}{16}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}dockerignore}{16}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2}Dockerignore}{16}{subsubsection.2.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3}Buenas Prácticas en la creacion de las imagenes}{17}{subsubsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.4}Problematica}{19}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Problemática}{19}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Soluciones Actualmente Disponibles}{19}{subsection.2.5}%
 \contentsline {subsubsection}{\numberline {2.5.1}Docker init}{19}{subsubsection.2.5.1}%
 \contentsline {subsubsection}{\numberline {2.5.2}Docker Extension for Visual Studio Code}{20}{subsubsection.2.5.2}%
 \contentsline {subsubsection}{\numberline {2.5.3}Inteligencia Artificial}{21}{subsubsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.6}Conclusiones Preliminares}{22}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Que se aporta en este contexto:}{22}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Software Product Line SPL}{23}{subsubsection.2.7.1}%
-\contentsline {section}{\numberline {3}Tecnologías Empleadas}{25}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Universal Variability Language UVL}{25}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Docker}{25}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Node.js}{26}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Angular}{26}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Angular Material}{26}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Monaco Editor}{27}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}ngx-json-viewer}{27}{subsubsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.5}Nginx}{27}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Python}{27}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Flask}{28}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Gunicorn}{28}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Pypi}{28}{subsubsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.7}Jinja}{28}{subsection.3.7}%
-\contentsline {subsubsection}{\numberline {3.7.1}Jinja2}{28}{subsubsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.8}Git}{29}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}GitHub}{29}{subsection.3.9}%
-\contentsline {subsubsection}{\numberline {3.9.1}GitHub Public Api}{29}{subsubsection.3.9.1}%
-\contentsline {subsection}{\numberline {3.10}Visual Studio Code}{30}{subsection.3.10}%
-\contentsline {subsubsection}{\numberline {3.10.1}UVLS extension}{30}{subsubsection.3.10.1}%
-\contentsline {section}{\numberline {4}Metodologia del trabajo}{31}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Introduccion}{31}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Metodología del Desarrollo}{31}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Justificación}{32}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Notas del Procedimiento}{32}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Limitaciones}{33}{subsubsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.3}Fases de Estudio}{33}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Estudio del Estado del Arte :}{33}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Investigación diseño de dockerfiles}{33}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Desarrollo de Plantillas}{34}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Fase Implementacion}{34}{subsection.4.7}%
-\contentsline {subsubsection}{\numberline {4.7.1}Requisitios de la aplicación }{34}{subsubsection.4.7.1}%
-\contentsline {subsubsection}{\numberline {4.7.2}Diseño de la aplicación}{35}{subsubsection.4.7.2}%
-\contentsline {subsubsection}{\numberline {4.7.3}Desarrollo del Paquete uvengine }{35}{subsubsection.4.7.3}%
-\contentsline {subsubsection}{\numberline {4.7.4}Desarrollo aplicacion Frontend Angular}{36}{subsubsection.4.7.4}%
-\contentsline {subsubsection}{\numberline {4.7.5}Desarrollo de los servicios de backend}{36}{subsubsection.4.7.5}%
-\contentsline {subsubsection}{\numberline {4.7.6}Elaboración de la guía de uso}{37}{subsubsection.4.7.6}%
-\contentsline {subsubsection}{\numberline {4.7.7}Elaboración de un manual de instalación}{37}{subsubsection.4.7.7}%
-\contentsline {subsubsection}{\numberline {4.7.8}Elaboración de un manual de desarrollo de plantillas}{37}{subsubsection.4.7.8}%
-\contentsline {subsection}{\numberline {4.8}Elaboración de la memoria}{37}{subsection.4.8}%
-\contentsline {section}{\numberline {5}Modelado de las plantillas}{39}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Introducción}{39}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Componentes de las plantillas}{40}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Feature model}{40}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Plantillas Jinja}{41}{subsubsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.3}Mapping Model}{42}{subsubsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.3}Plantilla dockerfile}{43}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Feature model}{43}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Plantillas Jinja2}{45}{subsubsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.3}Mapping Model}{47}{subsubsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.4}Tests sobre la Plantilla dockerfile}{48}{subsubsection.5.3.4}%
-\contentsline {subsubsection}{\numberline {5.3.5}Resto de Plantillas}{50}{subsubsection.5.3.5}%
-\contentsline {section}{\numberline {6}Arquitectura y Descripción del sistema }{51}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Vision general de la arquitectura }{51}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Diagrama de infraestructura}{52}{subsubsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.2}Descripcion de servicios de backend}{53}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Repository-Manager}{53}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}UVEngine-Resolver}{54}{subsubsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.3}Descripcion de Frontend}{55}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Extensibilidad}{57}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Añadir Plantillas}{57}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Ampliar la Plantilla Dockerfile}{58}{subsubsection.7.1.1}%
-\contentsline {section}{\numberline {8}Despliegue de la aplicación }{59}{section.8}%
-\contentsline {subsection}{\numberline {8.1} Despliegue local }{59}{subsection.8.1}%
-\contentsline {section}{\numberline {9}Resultados}{63}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Resultados Obtenidos}{63}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Viabilidad del proyecto}{64}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Escalabilidad}{65}{subsection.9.3}%
-\contentsline {section}{\numberline {10}Conclusiones y líneas Futuras }{67}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Conclusiones del Desarrollo del proyecto}{67}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Conclusion Personal}{67}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Aplicaciones Prácticas}{68}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Desarrollo de Nuevas plantillas }{68}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}Continuación en el desarrollo de plantillas ya existentes}{68}{subsection.10.5}%
-\contentsline {subsection}{\numberline {10.6}Mejorar la experiencia del usuario }{68}{subsection.10.6}%
-\contentsline {subsection}{\numberline {10.7}Mejorar la escalabilidad de la aplicacion}{69}{subsection.10.7}%
-\contentsline {section}{Ap\'{e}ndice \numberline {A}Manual de \\ Instalación}{75}{appendix.alph1.Alph1}%
-\contentsline {subsection}{\numberline {A.1}Requisitos Previos}{75}{subsection.alph1.Alph1.1}%
-\contentsline {subsection}{\numberline {A.2}Descargar el codigo fuente}{75}{subsection.alph1.Alph1.2}%
-\contentsline {subsection}{\numberline {A.3}Despliegue del Servicio}{75}{subsection.alph1.Alph1.3}%
-\contentsline {subsection}{\numberline {A.4}Acceso a la aplicacion}{76}{subsection.alph1.Alph1.4}%
-\contentsline {subsubsection}{\numberline {A.4.1}Github API}{76}{subsubsection.alph1.Alph1.4.1}%
-\contentsline {subsection}{\numberline {A.5}Terminar el servicio}{76}{subsection.alph1.Alph1.5}%
-\contentsline {section}{Ap\'{e}ndice \numberline {B}Manual de Uso}{77}{appendix.alph1.Alph2}%
-\contentsline {subsection}{\numberline {B.1}Inicio de la aplicacion}{77}{subsection.alph1.Alph2.1}%
-\contentsline {subsection}{\numberline {B.2}Barra de Navegación}{77}{subsection.alph1.Alph2.2}%
-\contentsline {subsection}{\numberline {B.3}Seleccionar plantilla}{78}{subsection.alph1.Alph2.3}%
-\contentsline {subsubsection}{\numberline {B.3.1}Seleccionar version de la platilla}{79}{subsubsection.alph1.Alph2.3.1}%
-\contentsline {subsubsection}{\numberline {B.3.2}Refrescar Plantillas}{80}{subsubsection.alph1.Alph2.3.2}%
-\contentsline {subsubsection}{\numberline {B.3.3}Cargar configuracion}{80}{subsubsection.alph1.Alph2.3.3}%
-\contentsline {subsubsection}{\numberline {B.3.4}Descargar Fichero Generado}{81}{subsubsection.alph1.Alph2.3.4}%
-\contentsline {subsubsection}{\numberline {B.3.5}About Page}{82}{subsubsection.alph1.Alph2.3.5}%
-\contentsline {subsubsection}{\numberline {B.3.6}Help Page}{82}{subsubsection.alph1.Alph2.3.6}%
-\contentsline {section}{Ap\'{e}ndice \numberline {C}Manual Desarrollo de Plantillas}{83}{appendix.alph1.Alph3}%
-\contentsline {subsection}{\numberline {C.1}Introducción}{83}{subsection.alph1.Alph3.1}%
-\contentsline {subsubsection}{\numberline {C.1.1}Como añadir nuevas plantillas al repositorio}{83}{subsubsection.alph1.Alph3.1.1}%
-\contentsline {subsubsection}{\numberline {C.1.2}Estructura de Directorios}{84}{subsubsection.alph1.Alph3.1.2}%
-\contentsline {subsubsection}{\numberline {C.1.3}Como modificar las plantillas del repositorio}{84}{subsubsection.alph1.Alph3.1.3}%
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{11}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Motivación}{11}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objetivo}{12}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Resultados Esperados}{13}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Estructura del documento}{13}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Estado del Arte}{15}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Contenedores}{15}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Porque se usan los contenedores}{15}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Imágenes}{16}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Docker}{16}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Dockerfile}{16}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Dockerignore}{16}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Buenas Prácticas en la creacion de las imagenes}{17}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Problemática}{19}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Soluciones Actualmente Disponibles}{19}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Docker init}{19}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Docker Extension for Visual Studio Code}{20}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Inteligencia Artificial}{21}{subsubsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.6}Conclusiones Preliminares}{22}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Que se aporta en este contexto:}{22}{subsection.2.7}%
