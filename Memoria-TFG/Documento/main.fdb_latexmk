@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1731941341.51599 "main.bcf" "main.bbl" "main" 1731952736.90887 0
+["biber main"] 1731941341.51599 "main.bcf" "main.bbl" "main" 1732125067.03664 0
   "bibliografia.bib" 1730908476 11316 962f9e21df683b2fe52210ffb1db221b ""
-  "main.bcf" 1731952736 112402 9d88ac19bd0c769059f5434c69c45202 "pdflatex"
+  "main.bcf" 1732125066 112402 9d88ac19bd0c769059f5434c69c45202 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1731952731.478 "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex" "main.pdf" "main" 1731952736.90977 0
+["pdflatex"] 1732125061.53035 "c:/Users/marco/Desktop/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker/Memoria-TFG/Documento/main.tex" "main.pdf" "main" 1732125067.0376 0
   "C:/Users/marco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1730732087 145878 e6812506e79acb857d15ab982aacc14c ""
   "C:/Users/marco/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1708092790 24210828 c3deb5dff1e30ee191890ce89d7a0041 ""
   "C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1497089888 2933 9ad527ce78d7c5fa0a642dead095f172 ""
@@ -265,14 +265,14 @@
   "images/selectionVersion.png" 1730544654 25700 5ced1d7eb2cb0c5f1c6095900565759a ""
   "images/text.feature_model.png" 1730023955 7423 4369a2e276077d0dfb39a02ba57598a8 ""
   "images/unupportedfeature.png" 1730221087 13271 11f04a560ac2402d8785b86ffd72e35c ""
-  "main.aux" 1731952736 31293 b0203ebb3a11473a8219668ec23c4e69 "pdflatex"
+  "main.aux" 1732125066 31293 b0203ebb3a11473a8219668ec23c4e69 "pdflatex"
   "main.bbl" 1731941345 47912 0835a514b55224d3d6a92095281d8f26 "biber main"
-  "main.out" 1731952736 21366 c020e7b9a45c7ff95b8199f74afa471f "pdflatex"
-  "main.run.xml" 1731952736 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.out" 1732125066 21366 c020e7b9a45c7ff95b8199f74afa471f "pdflatex"
+  "main.run.xml" 1732125066 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
   "main.tex" 1731952731 85702 fe63ffc11228fd4d99d7d0ffa782a630 ""
-  "main.toc" 1731952736 11246 568ef4857636965fa075a80ed391a66e "pdflatex"
+  "main.toc" 1732125066 11246 568ef4857636965fa075a80ed391a66e "pdflatex"
   "sections/abstract.tex" 1731945821 1871 ec57479658067e5b98b212a75734d8bc ""
-  "sections/resumen.tex" 1731945177 5139 c3c93d1f18604c9ad0a92af48204d8b3 ""
+  "sections/resumen.tex" 1732125060 5200 c3c93d1f18604c9ad0a92af48204d8b3 ""
   "umatfgspanish.sty" 1728982935 1480 eeda30aeaa473f18b0eea84cd32b4d36 ""
   (generated)
   "main.aux"
