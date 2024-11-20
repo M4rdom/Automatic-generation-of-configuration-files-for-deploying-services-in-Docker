@@ -236,33 +236,6 @@
       \verb https://www.docker.com/products/docker-desktop/
       \endverb
     \endentry
-    \entry{dockerfile_reference}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
-           family={Docker},
-           familyi={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \field{extraname}{2}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accedido: 22 de octubre de 2024}
-      \field{title}{Dockerfile Reference}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://docs.docker.com/reference/dockerfile/
-      \endverb
-      \verb{url}
-      \verb https://docs.docker.com/reference/dockerfile/
-      \endverb
-    \endentry
     \entry{docker_hub}{misc}{}
       \name{author}{1}{}{%
         {{hash=4bd3b392874c74fba4ed57a24eae0ac1}{%
@@ -277,7 +250,7 @@
       \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -290,64 +263,6 @@
       \endverb
       \verb{url}
       \verb https://hub.docker.com/
-      \endverb
-    \endentry
-    \entry{dockerfile_concepts}{online}{}
-      \name{author}{1}{}{%
-        {{hash=4bd3b392874c74fba4ed57a24eae0ac1}{%
-           family={Docker},
-           familyi={D\bibinitperiod},
-           given={Inc.},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \strng{fullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \strng{bibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \field{extraname}{4}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: 2024-10-21}
-      \field{title}{Dockerfile Concepts}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://docs.docker.com/build/concepts/dockerfile/
-      \endverb
-      \verb{url}
-      \verb https://docs.docker.com/build/concepts/dockerfile/
-      \endverb
-    \endentry
-    \entry{dockerfile_best_practices}{online}{}
-      \name{author}{1}{}{%
-        {{hash=4bd3b392874c74fba4ed57a24eae0ac1}{%
-           family={Docker},
-           familyi={D\bibinitperiod},
-           given={Inc.},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \strng{fullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \strng{bibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \field{extraname}{5}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: 2024-10-21}
-      \field{title}{Intro Guide to Dockerfile Best Practices}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/
-      \endverb
-      \verb{url}
-      \verb https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/
       \endverb
     \endentry
     \entry{docker_multistage}{misc}{}
@@ -364,7 +279,7 @@
       \strng{authorbibnamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authornamehash}{4bd3b392874c74fba4ed57a24eae0ac1}
       \strng{authorfullhash}{4bd3b392874c74fba4ed57a24eae0ac1}
-      \field{extraname}{6}
+      \field{extraname}{3}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -761,33 +676,6 @@
       \verb https://github.com/M4rdom/Automatic-generation-of-configuration-files-for-deploying-services-in-Docker
       \endverb
     \endentry
-    \entry{dockerfile_template_dev}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=a10213b496d3cbc7eed816be1c616c0e}{%
-           family={M4rdom},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{a10213b496d3cbc7eed816be1c616c0e}
-      \strng{fullhash}{a10213b496d3cbc7eed816be1c616c0e}
-      \strng{bibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
-      \strng{authorbibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
-      \strng{authornamehash}{a10213b496d3cbc7eed816be1c616c0e}
-      \strng{authorfullhash}{a10213b496d3cbc7eed816be1c616c0e}
-      \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accedido: 22 de octubre de 2024}
-      \field{title}{Dockerfile-Template-Dev}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://github.com/M4rdom/Dockerfile-Template-Dev
-      \endverb
-      \verb{url}
-      \verb https://github.com/M4rdom/Dockerfile-Template-Dev
-      \endverb
-    \endentry
     \entry{m4rdom_frontend}{misc}{}
       \name{author}{1}{}{%
         {{hash=a10213b496d3cbc7eed816be1c616c0e}{%
@@ -800,7 +688,7 @@
       \strng{authorbibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
       \strng{authornamehash}{a10213b496d3cbc7eed816be1c616c0e}
       \strng{authorfullhash}{a10213b496d3cbc7eed816be1c616c0e}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -827,7 +715,7 @@
       \strng{authorbibnamehash}{a10213b496d3cbc7eed816be1c616c0e}
       \strng{authornamehash}{a10213b496d3cbc7eed816be1c616c0e}
       \strng{authorfullhash}{a10213b496d3cbc7eed816be1c616c0e}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -840,32 +728,6 @@
       \endverb
       \verb{url}
       \verb https://github.com/M4rdom/Templates
-      \endverb
-    \endentry
-    \entry{magickpen_dockerfile_template}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=1afb21b287a93546bbdafba63411714f}{%
-           family={MagickPen},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{1afb21b287a93546bbdafba63411714f}
-      \strng{fullhash}{1afb21b287a93546bbdafba63411714f}
-      \strng{bibnamehash}{1afb21b287a93546bbdafba63411714f}
-      \strng{authorbibnamehash}{1afb21b287a93546bbdafba63411714f}
-      \strng{authornamehash}{1afb21b287a93546bbdafba63411714f}
-      \strng{authorfullhash}{1afb21b287a93546bbdafba63411714f}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accedido: 21 de octubre de 2024}
-      \field{title}{Plantilla para generar Dockerfiles}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://magickpen.com/templates/128/
-      \endverb
-      \verb{url}
-      \verb https://magickpen.com/templates/128/
       \endverb
     \endentry
     \entry{docker_certified_associate}{book}{}
@@ -1321,6 +1183,12 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Dockerfile_best_practices}
+  \missing{Dockerfile_concepts}
+  \missing{Dockerfile_reference}
+  \missing{Dockerfile_template_dev}
+  \missing{Kang1990_FODA}
+  \missing{magickpen_Dockerfile_template}
 \endrefsection
 \endinput
 

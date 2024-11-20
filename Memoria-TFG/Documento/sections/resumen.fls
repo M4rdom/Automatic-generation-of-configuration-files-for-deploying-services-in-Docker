@@ -346,6 +346,11 @@ INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\reru
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\latex\dirtree\dirtree.sty
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\generic\dirtree\dirtree.tex
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\generic\dirtree\dirtree.tex
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\generic\dirtree\dirtree.tex
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
@@ -391,6 +396,7 @@ OUTPUT c:\Users\marco\Desktop\Automatic-generation-of-configuration-files-for-de
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTB-tlf-t1.vf
@@ -400,6 +406,9 @@ INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertine\lbt
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineT-tlf-t1.vf
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-t1--base.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertine\lbtn_76gpa5.enc
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTI-tlf-t1.vf
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1--base.tfm
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertine\lbtn_7grukw.enc
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTB-tlf-t1.vf
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1--base.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTB-tlf-t1.vf
@@ -413,3 +422,5 @@ INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineT.pfb
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTB.pfb
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTB.pfb
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTI.pfb
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTI.pfb

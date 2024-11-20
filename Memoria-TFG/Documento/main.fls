@@ -429,6 +429,7 @@ INPUT sections\abstract.tex
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTB-tlf-t1.vf
@@ -438,6 +439,9 @@ INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertine\lbt
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineT-tlf-t1.vf
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-t1--base.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertine\lbtn_76gpa5.enc
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTI-tlf-t1.vf
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1--base.tfm
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertine\lbtn_7grukw.enc
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTB-tlf-t1.vf
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1--base.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTB-tlf-t1.vf
@@ -462,12 +466,8 @@ INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 OUTPUT main.toc
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-t1.tfm
-INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTB-tlf-t1.vf
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1--base.tfm
-INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTI-tlf-t1.vf
-INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1--base.tfm
-INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertine\lbtn_7grukw.enc
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\latex\libertine\ts1linuxlibertinet-tlf.fd
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\latex\libertine\ts1linuxlibertinet-tlf.fd
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\tex\latex\libertine\ts1linuxlibertinet-tlf.fd
@@ -545,77 +545,85 @@ INPUT .\images\jinja_template_database_mongodb.png
 INPUT .\images\jinja_template_database_mongodb.png
 INPUT .\images\jinja_template_database_mongodb.png
 INPUT .\images\jinja_template_database_mongodb.png
-INPUT .\images\dockerfile.logica.plantillas.jinja.png
-INPUT .\images\dockerfile.logica.plantillas.jinja.png
-INPUT .\images\dockerfile.logica.plantillas.jinja.png
-INPUT .\images\dockerfile.logica.plantillas.jinja.png
-INPUT .\images\dockerfile.logica.plantillas.jinja.png
-INPUT .\images\dockerfile.logica.plantillas.jinja.png
+INPUT .\images\Dockerfile.logica.plantillas.jinja.png
+INPUT .\images\Dockerfile.logica.plantillas.jinja.png
+INPUT .\images\Dockerfile.logica.plantillas.jinja.png
+INPUT .\images\Dockerfile.logica.plantillas.jinja.png
+INPUT .\images\Dockerfile.logica.plantillas.jinja.png
+INPUT .\images\Dockerfile.logica.plantillas.jinja.png
 INPUT .\images\mapping_model_screenshot.png
 INPUT .\images\mapping_model_screenshot.png
 INPUT .\images\mapping_model_screenshot.png
 INPUT .\images\mapping_model_screenshot.png
 INPUT .\images\mapping_model_screenshot.png
 INPUT .\images\mapping_model_screenshot.png
-INPUT .\images\dockerfile.uvl.png
-INPUT .\images\dockerfile.uvl.png
-INPUT .\images\dockerfile.uvl.png
-INPUT .\images\dockerfile.uvl.png
-INPUT .\images\dockerfile.uvl.png
-INPUT .\images\dockerfile.uvl.png
-INPUT .\images\dockerfile.frontend.png
-INPUT .\images\dockerfile.frontend.png
-INPUT .\images\dockerfile.frontend.png
-INPUT .\images\dockerfile.frontend.png
-INPUT .\images\dockerfile.frontend.png
-INPUT .\images\dockerfile.frontend.png
-INPUT .\images\dockerfile.frontend.jinja.template.png
-INPUT .\images\dockerfile.frontend.jinja.template.png
-INPUT .\images\dockerfile.frontend.jinja.template.png
-INPUT .\images\dockerfile.frontend.jinja.template.png
-INPUT .\images\dockerfile.frontend.jinja.template.png
-INPUT .\images\dockerfile.frontend.jinja.template.png
+INPUT .\images\Dockerfile.uvl.png
+INPUT .\images\Dockerfile.uvl.png
+INPUT .\images\Dockerfile.uvl.png
+INPUT .\images\Dockerfile.uvl.png
+INPUT .\images\Dockerfile.uvl.png
+INPUT .\images\Dockerfile.uvl.png
+INPUT .\images\Dockerfile.frontend.png
+INPUT .\images\Dockerfile.frontend.png
+INPUT .\images\Dockerfile.frontend.png
+INPUT .\images\Dockerfile.frontend.png
+INPUT .\images\Dockerfile.frontend.png
+INPUT .\images\Dockerfile.frontend.png
+INPUT .\images\Dockerfile.frontend.jinja.template.png
+INPUT .\images\Dockerfile.frontend.jinja.template.png
+INPUT .\images\Dockerfile.frontend.jinja.template.png
+INPUT .\images\Dockerfile.frontend.jinja.template.png
+INPUT .\images\Dockerfile.frontend.jinja.template.png
+INPUT .\images\Dockerfile.frontend.jinja.template.png
+INPUT .\images\Dockerfile.logica.plantillas.jinja.png
+INPUT .\images\Dockerfile.logica.plantillas.jinja.png
+INPUT .\images\Dockerfile.logica.plantillas.jinja.png
+INPUT .\images\Dockerfile.metadata.png
+INPUT .\images\Dockerfile.metadata.png
+INPUT .\images\Dockerfile.metadata.png
+INPUT .\images\Dockerfile.metadata.png
+INPUT .\images\Dockerfile.metadata.png
+INPUT .\images\Dockerfile.metadata.png
+INPUT .\images\mapping_model_screenshot.png
+INPUT .\images\mapping_model_screenshot.png
+INPUT .\images\mapping_model_screenshot.png
+INPUT .\images\Dockerfile.configuracion-backend.png
+INPUT .\images\Dockerfile.configuracion-backend.png
+INPUT .\images\Dockerfile.configuracion-backend.png
+INPUT .\images\Dockerfile.configuracion-backend.png
+INPUT .\images\Dockerfile.configuracion-backend.png
+INPUT .\images\Dockerfile.configuracion-backend.png
+INPUT .\images\Dockerfile.backend.producto.png
+INPUT .\images\Dockerfile.backend.producto.png
+INPUT .\images\Dockerfile.backend.producto.png
+INPUT .\images\Dockerfile.backend.producto.png
+INPUT .\images\Dockerfile.backend.producto.png
+INPUT .\images\Dockerfile.backend.producto.png
+INPUT .\images\Arquitectura Contenedores.png
+INPUT .\images\Arquitectura Contenedores.png
+INPUT .\images\Arquitectura Contenedores.png
+INPUT .\images\Peticion POST uvengine-resolver.png
+INPUT .\images\Peticion POST uvengine-resolver.png
+INPUT .\images\Peticion POST uvengine-resolver.png
+INPUT .\images\Peticion POST uvengine-resolver.png
+INPUT .\images\Peticion POST uvengine-resolver.png
+INPUT .\images\Peticion POST uvengine-resolver.png
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineMT-tlf-t1.tfm
-INPUT .\images\dockerfile.logica.plantillas.jinja.png
-INPUT .\images\dockerfile.logica.plantillas.jinja.png
-INPUT .\images\dockerfile.logica.plantillas.jinja.png
-INPUT .\images\dockerfile.metadata.png
-INPUT .\images\dockerfile.metadata.png
-INPUT .\images\dockerfile.metadata.png
-INPUT .\images\dockerfile.metadata.png
-INPUT .\images\dockerfile.metadata.png
-INPUT .\images\dockerfile.metadata.png
-INPUT .\images\mapping_model_screenshot.png
-INPUT .\images\mapping_model_screenshot.png
-INPUT .\images\mapping_model_screenshot.png
-INPUT .\images\dockerfile.configuracion-backend.png
-INPUT .\images\dockerfile.configuracion-backend.png
-INPUT .\images\dockerfile.configuracion-backend.png
-INPUT .\images\dockerfile.configuracion-backend.png
-INPUT .\images\dockerfile.configuracion-backend.png
-INPUT .\images\dockerfile.configuracion-backend.png
-INPUT .\images\dockerfile.backend.producto.png
-INPUT .\images\dockerfile.backend.producto.png
-INPUT .\images\dockerfile.backend.producto.png
-INPUT .\images\dockerfile.backend.producto.png
-INPUT .\images\dockerfile.backend.producto.png
-INPUT .\images\dockerfile.backend.producto.png
-INPUT .\images\Arquitectura Contenedores.png
-INPUT .\images\Arquitectura Contenedores.png
-INPUT .\images\Arquitectura Contenedores.png
-INPUT .\images\Peticion POST uvengine-resolver.png
-INPUT .\images\Peticion POST uvengine-resolver.png
-INPUT .\images\Peticion POST uvengine-resolver.png
-INPUT .\images\Peticion POST uvengine-resolver.png
-INPUT .\images\Peticion POST uvengine-resolver.png
-INPUT .\images\Peticion POST uvengine-resolver.png
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineMT-tlf-t1.vf
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineMT-tlf-t1--base.tfm
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
 INPUT .\images\unupportedfeature.png
 INPUT .\images\unupportedfeature.png
 INPUT .\images\unupportedfeature.png
 INPUT .\images\unupportedfeature.png
 INPUT .\images\unupportedfeature.png
 INPUT .\images\unupportedfeature.png
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTB-tlf-t1.vf
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1--base.tfm
 INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-sc-t1.tfm
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineT-tlf-sc-t1.vf
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-sc-t1--base.tfm
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertine\lbtn_ncsllp.enc
 INPUT .\images\frontpage.png
 INPUT .\images\frontpage.png
 INPUT .\images\frontpage.png
@@ -673,6 +681,7 @@ INPUT .\images\HelpPage.png
 INPUT .\images\HelpPage.png
 INPUT .\images\HelpPage.png
 INPUT .\images\HelpPage.png
+INPUT .\Portada-Titulo-Contraportada\backcover.pdf
 INPUT .\Portada-Titulo-Contraportada\backcover.pdf
 INPUT .\Portada-Titulo-Contraportada\backcover.pdf
 INPUT .\Portada-Titulo-Contraportada\backcover.pdf
@@ -693,4 +702,11 @@ INPUT .\main.out
 INPUT .\main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
-INPUT main.aux
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineMT.pfb
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineMT.pfb
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineT.pfb
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineT.pfb
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTB.pfb
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTB.pfb
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTI.pfb
+INPUT C:\Users\marco\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTI.pfb
