@@ -1,0 +1,12 @@
+# Windows requires the host OS version to match the container OS version. If you want to run a container based on a newer Windows build, 
+# make sure you have an equivalent host build.
+
+{% if Windows_LTS %}
+{% include 'OperatingSystem/Windows/Windows_LTS/Windows_LTS.jinja'%}
+{% elif Windows_NanoServer %}
+{% include 'OperatingSystem/Windows/Windows_NanoServer/Windows_NanoServer.jinja' %}
+{% elif Windows_Server %}
+{% include 'OperatingSystem/Windows/Windows_Server/Windows_Server.jinja' %}
+{% elif Windows_ServerCore %}
+{% include 'OperatingSystem/Windows/Windows_ServerCore/Windows_ServerCore.jinja' %}
+{% endif %}

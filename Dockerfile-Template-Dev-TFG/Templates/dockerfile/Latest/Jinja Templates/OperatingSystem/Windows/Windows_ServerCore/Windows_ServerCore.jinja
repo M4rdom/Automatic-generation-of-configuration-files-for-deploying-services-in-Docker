@@ -1,0 +1,8 @@
+{% if Windows_Version_Tag %}
+FROM mcr.microsoft.com/windows/servercore{{Windows_Version_Tag}}
+{% elif Windows_Version_Digest %}
+FROM mcr.microsoft.com/windows/servercore:{{Windows_Version_Digest}}
+{% else %}
+# This repo does not publish or maintain a latest tag. Please declare a specific tag when pulling or referencing images from this repo.
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
+{% endif %}

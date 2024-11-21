@@ -1,0 +1,12 @@
+{% include 'Common Templates/Metadata.jinja' %}
+{% if Frontend %}
+{% include 'Frontend/Frontend.jinja' %}
+{% elif Backend %}
+{% include 'BackEnd/BackEnd.jinja' %}
+{% elif DataBase %}
+{% include 'Database/Database.jinja' %}
+{% elif DataBaseAdmin %}
+{% include 'DataBaseAdmin/DataBaseAdmin.jinja' %}
+{% elif OperatingSystem %}
+{% include 'OperatingSystem/OperatingSystem.jinja' %}
+{% endif %}

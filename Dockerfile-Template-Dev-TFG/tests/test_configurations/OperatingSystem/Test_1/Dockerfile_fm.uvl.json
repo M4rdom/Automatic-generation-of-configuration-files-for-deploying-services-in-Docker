@@ -1,0 +1,9 @@
+{
+  "file": "Dockerfile_fm.uvl",
+  "config": {
+    "OperatingSystem": true,
+    "Unix_Linux": false,
+    "Windows": true,
+    "Windows_LTS": true
+  }
+}

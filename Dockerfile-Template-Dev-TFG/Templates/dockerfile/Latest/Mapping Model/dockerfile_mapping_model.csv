@@ -1,0 +1,31 @@
+Feature, Handler, Value
+
+
+# WebServer Version Parameters
+Custom_WebServer_Frontend_Version, WebServer_Version_Tag,
+WebServer_Frontend_Version_Tag, WebServer_Version_Tag
+WebServer_Frontend_Version_Digest, WebServer_Version_Digest,
+
+# Frontend WebServer
+Apache_WebServer_Frontend, Apache
+Nginx_WebServer_Frontend, Nginx
+Node_WebServer_Frontend, Node
+
+# WSGI Gunicorn Parameters
+parameter, value
+interface_Gunicorn, interface
+workers_Gunicorn, workers
+module_Gunicorn, module
+callable_Gunicorn, callable
+
+# WSGI uWSGI Parameters
+interface_uWSGI, interface
+workers_uWSGI, workers
+module_uWSGI, module
+callable_uWSGI, callable
+
+# Phpmyadmin Parameters
+PMA_ARBITRARY_phpMyAdmin, PMA_ARBITRARY
+PMA_HOST_phpMyAdmin, PMA_HOST
+PMA_PORT_phpMyAdmin, PMA_PORT
+PMA_VERBOSE_phpMyAdmin, PMA_VERBOSE

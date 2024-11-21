@@ -1,0 +1,8 @@
+{% if Windows_Version_Tag %}
+FROM mcr.microsoft.com/windows/nanoserver:{{Windows_Version_Tag}}
+{% elif Windows_Version_Digest %}
+FROM mcr.microsoft.com/windows/nanoserver:{{Windows_Version_Digest}}
+{% else %}
+# This repo does not publish or maintain a latest tag. Please declare a specific tag when pulling or referencing images from this repo.
+FROM mcr.microsoft.com/windows/nanoserver:ltsc2019
+{% endif %}

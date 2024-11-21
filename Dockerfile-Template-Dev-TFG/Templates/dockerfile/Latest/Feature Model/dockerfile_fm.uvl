@@ -1,0 +1,209 @@
+features
+    Dockerfile {abstract}
+        alternative
+            Frontend {abstract}
+                mandatory
+                    Framework {abstract}
+                        alternative
+                            Angular
+                            React
+                            Vue
+                        optional
+                            Custom_Compiled_Version
+                                alternative
+                                    String Compiled_Version_Tag
+                                    String Compiled_Version_Digest
+                    WebServer_Frontend {abstract}
+                        alternative
+                            Apache_WebServer_Frontend
+                                optional
+                                    Custom_apache_config_file_Frontend
+                            Nginx_WebServer_Frontend
+                                optional
+                                    Custom_nginx_config_file_Frontend
+                            NodeJs_WebServer_Frontend
+                                optional
+                                    Custom_nodeJs_config_file_Frontend
+                        optional 
+                            Custom_WebServer_Frontend_Version 
+                                alternative
+                                    String WebServer_Frontend_Version_Tag
+                                    String WebServer_Frontend_Version_Digest
+            DataBase {abstract}
+                alternative
+                    MySQL {abstract}
+                        optional
+                            Custom_config_file_MySQL
+                                mandatory
+                                    String name_of_config_file_MySQL
+                            Environment_Variables_MySQL
+                                optional
+                                    String MYSQL_ROOT_PASSWORD
+                                    String MYSQL_DATABASE
+                                    String MYSQL_USER
+                                    String MYSQL_PASSWORD
+                    PostgreSQL {abstract}
+                        optional
+                            Custom_config_file_PostgreSQL
+                                mandatory
+                                    String name_of_config_file_PostgreSQL
+                            String POSTGRES_PASSWORD
+                            String POSTGRES_USER
+                            String POSTGRES_DB    
+                    MongoDB {abstract}
+                        optional
+                            Custom_config_file_MongoDB
+                                mandatory
+                                    String name_of_config_file_MongoDB
+                            String MONGO_INITDB_ROOT_USERNAME
+                            String MONGO_INITDB_ROOT_PASSWORD
+                            String MONGO_INITDB_DATABASE
+                optional
+                    Custom_Database_Version
+                        alternative
+                            String Database_Version_Tag
+                            String Database_Version_Digest
+            DataBaseAdmin {abstract}
+                alternative
+                    PhpMyAdmin
+                        optional
+                            Custom_config_file_phpMyAdmin
+                            Boolean PMA_ARBITRARY_phpMyAdmin
+                            String PMA_HOST_phpMyAdmin
+                            String PMA_PORT_phpMyAdmin 
+                            String PMA_VERBOSE_phpMyAdmin
+                    pgAdmin
+                        optional
+                            Custom_config_file_pgAdmin
+                    MongoExpress
+                        optional
+                            Custom_config_file_MongoExpress
+                optional
+                        Custom_DatabaseAdmin_Version
+                            alternative
+                                String DatabaseAdmin_Version_Tag
+                                String DatabaseAdmin_Version_Digest
+            Backend {abstract}
+                mandatory
+                    Programing_Language {abstract}
+                        alternative
+                            Python
+                                alternative
+                                    Flask
+                                    Django
+                                optional
+                                    Custom_Python_Version
+                                        alternative
+                                            String Python_Version_Tag
+                                            String Python_Version_Digest
+                                    Install_Python_Requirements
+                                    WSGI
+                                        alternative 
+                                            Gunicorn {abstract}
+                                                mandatory
+                                                    String interface_Gunicorn
+                                                    String workers_Gunicorn
+                                                    String module_Gunicorn
+                                                    String callable_Gunicorn
+                                                optional
+                                                    Gunicorn_Install
+                                                        optional 
+                                                            Custom_Gunicorn_Version
+                                                                mandatory
+                                                                    String Gunicorn_Version
+                                            uWSGI {abstract}
+                                                mandatory
+                                                    String interface_uWSGI
+                                                    String workers_uWSGI
+                                                    String module_uWSGI
+                                                    String callable_uWSGI
+                                                optional
+                                                    uWSGI_Install
+                                                        optional 
+                                                            Custom_uWSGI_Version
+                                                                mandatory
+                                                                    String uWSGI_Version
+                            Java
+                                alternative
+                                    Spring
+                                    JavaEE
+                                optional
+                                    Custom_Java_Version
+                                        alternative
+                                            String Java_Version_Tag
+                                            String Java_Version_Digest
+            WebServer {abstract}
+                alternative
+                    Nginx
+                        mandatory
+                            Usage
+                                alternative
+                                    Web_Server_Aplicaction
+                                    Reverse_Proxy
+                                    Load_Balancer
+                        optional
+                            Custom_nginx_config_file
+                    Apache
+                        optional
+                            Custom_apache_config_file
+                optional 
+                    Custom_WebServer_Version 
+                        alternative
+                            String WebServer_Version_Tag
+                            String WebServer_Version_Digest
+            OperatingSystem {abstract}
+                alternative
+                    Unix_Linux {abstract}
+                        alternative
+                            busybox
+                            alpine
+                            ubuntu
+                        optional
+                            Custom_Linux_Version
+                                alternative
+                                    String Linux_Version_Tag
+                                    String Linux_Version_Digest
+                    Windows
+                        alternative
+                            Windows_LTS
+                            Windows_Server
+                            Windows_ServerCore
+                            Windows_NanoServer
+                        optional
+                            Custom_Windows_Version
+                                alternative
+                                    String Windows_Version_Tag
+                                    String Windows_Version_Digest
+        optional
+            Metadata
+                optional
+                    Header
+                    Dockerfile_Metadata
+                        or
+                            String maintainer
+                            String version
+                            String description
+                            ProjectName
+                                mandatory
+                                    String projectName
+                            String license
+                            String build_date
+                            String author
+                            String email
+                            String repository
+            Custom_Exposed_Port
+                mandatory
+                    String Port
+constraints
+
+    //Frontend Restrictions
+   Frontend => Framework
+   Frontend => WebServer_Frontend
+
+   //Backend
+   WSGI => uWSGI | Gunicorn
+
+   Custom_apache_config_file => ProjectName
+   Custom_nginx_config_file => ProjectName
+   Gunicorn => Custom_Exposed_Port
+   uWSGI => Custom_Exposed_Port

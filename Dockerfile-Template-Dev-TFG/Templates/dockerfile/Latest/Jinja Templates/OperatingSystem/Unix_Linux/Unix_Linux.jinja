@@ -1,0 +1,7 @@
+{% if alpine %}
+{% include 'OperatingSystem/Unix_Linux/Alpine/Alpine.jinja'%}
+{% elif busybox %}
+{% include 'OperatingSystem/Unix_Linux/Busybox/Busybox.jinja'%}
+{% elif ubuntu %}
+{% include 'OperatingSystem/Unix_Linux/Ubuntu/Ubuntu.jinja'%}
+{% endif %}

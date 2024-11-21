@@ -1,0 +1,16 @@
+{
+  "config": {
+    "Backend": true,
+    "Programing_Language": true,
+    "Python": true,
+    "Flask": true,
+    "Install_Python_Requirements": true,
+    "WSGI": true,
+    "Gunicorn": true,
+    "interface_Gunicorn": "0.0.0.0",
+    "workers_Gunicorn": "4",
+    "module_Gunicorn": "holamundo.py",
+    "callable_Gunicorn": "app",
+    "Gunicorn_Install": true
+  }
+}

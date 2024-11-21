@@ -1,0 +1,21 @@
+# Node.js WebServer Dockerfile
+
+{% if WebServer_Version_Tag %}
+FROM node:{{WebServer_Version_Tag}} AS prod
+{% elif WebServer_Version_Digest %}
+FROM node@{{WebServer_Version_Digest}} AS prod
+{% else %}
+# Avoid using latest tag in production
+FROM node AS prod 
+{% endif %}
+
+WORKDIR /app/
+
+RUN npm install express
+
+COPY --from=build /app/dist/ /app/dist/
+
+COPY server.js ./
+
+CMD ["NODE_ENV=production","node", "server.js"]
+

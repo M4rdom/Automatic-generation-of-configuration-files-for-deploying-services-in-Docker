@@ -1,0 +1,10 @@
+{% if Linux_Version_Tag %}
+FROM alpine:{{Linux_Version_Tag}}
+{% elif Linux_Version_Digest %}
+FROM alpine@{{Linux_Version_Digest}}
+{% else %}
+# Avoid using latest tag in production
+FROM alpine:latest
+{% endif %}
+
+{% include 'Common Templates/UnsupportedFeature.jinja' %}

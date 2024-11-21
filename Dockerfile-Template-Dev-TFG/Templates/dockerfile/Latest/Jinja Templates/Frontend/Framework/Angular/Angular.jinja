@@ -1,0 +1,20 @@
+# Angular Aplication Dockerfile
+
+{% if Compiled_Version_Tag %}
+FROM node:{{Compiled_Version_Tag}} AS build
+{% elif Compiled_Version_Digest %}
+FROM node@{{Compiled_Version_Digest}} AS build
+{% else %}
+# Avoid using latest tag in production
+FROM node:latest AS build 
+{% endif %}
+
+WORKDIR /app/
+
+COPY package*.json ./ 
+
+RUN --mount=type=cache,target=/root/.npm npm install 
+
+COPY . .
+
+RUN npm run build 
