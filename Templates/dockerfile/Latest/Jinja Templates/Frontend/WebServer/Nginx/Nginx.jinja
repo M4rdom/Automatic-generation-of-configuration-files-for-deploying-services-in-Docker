@@ -1,0 +1,46 @@
+# Nginx WebServer Dockerfile
+
+{% if WebServer_Version_Tag %}
+FROM nginx:{{WebServer_Version_Tag}} AS prod
+{% elif WebServer_Version_Digest %}
+FROM nginx@{{WebServer_Version_Digest}} AS prod
+{% else %}
+# Avoid using latest tag in production
+FROM nginx:latest AS prod 
+{% endif %}
+
+
+
+{%- if projectName is defined %}
+{% set PROJECT_NAME = projectName %}
+{% else %}
+{% set PROJECT_NAME = "YOUR_PROYECT_NAME_HERE"%}
+{% endif %}
+
+{%- if React %}
+
+COPY --from=build /app/build/ /usr/share/nginx/html/
+
+{%- elif Angular%}
+
+COPY --from=build /app/dist/{{PROJECT_NAME}}/browser /usr/share/nginx/html/
+
+{%- elif Vue%}ç
+
+COPY --from=build /app/dist/{{PROJECT_NAME}}/browser /usr/share/nginx/html/
+
+{% endif %}
+
+
+
+
+
+
+
+{%- if Custom_nginx_config_file %}
+COPY nginx.conf /etc/nginx/nginx.conf
+
+RUN service nginx restart
+{% else %}
+
+{% endif %}

@@ -1,0 +1,15 @@
+# ------------------ Build Stage -----------------------#
+
+{% include 'Frontend/Framework/Framework.jinja'%}
+
+# ------------------ Production Stage ------------------#
+
+{% include 'Frontend/WebServer/WebServer.jinja'%}
+
+{%- if Port is defined %}
+
+EXPOSE {{Port}}
+{% else %}
+
+EXPOSE 80
+{% endif %}

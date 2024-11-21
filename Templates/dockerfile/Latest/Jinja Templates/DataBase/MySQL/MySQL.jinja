@@ -1,0 +1,40 @@
+{%- if Database_Version_Tag is defined %}
+FROM mysql:{{Database_Version_Tag}}
+{%- elif Database_Version_Digest is defined %}
+FROM mysql@{{Database_Version_Digest}}
+{%- else %}
+FROM mysql:latest
+{% endif %}
+
+{%if Custom_config_file_MySQL%}
+# Use .cnf format file for MySQL configuration
+COPY ./{{name_of_config_file_MySQL}} /etc/mysql/conf.d/
+{% endif %}
+
+{% if MYSQL_ROOT_PASSWORD is defined %}
+# Set the password for the default postgres user DO NOT USE IN PRODUCTION
+ENV MYSQL_ROOT_PASSWORD=postgres
+{% endif %}
+{% if MYSQL_DATABASE is defined %}
+# Set the default database name DO NOT USE IN PRODUCTION
+ENV MYSQL_DATABASE=postgres
+{% endif %}
+{% if MYSQL_USER is defined %}
+# Set the default user for the database DO NOT USE IN PRODUCTION
+ENV MYSQL_USER=postgres
+{% endif %}
+{% if MYSQL_PASSWORD is defined %}
+# Set the password for the default postgres user DO NOT USE IN PRODUCTION
+ENV MYSQL_PASSWORD=postgres
+{% endif %}
+
+
+
+
+{%- if Port %}
+
+EXPOSE {{Port}}
+{%- else %}
+
+EXPOSE 3306
+{% endif %}

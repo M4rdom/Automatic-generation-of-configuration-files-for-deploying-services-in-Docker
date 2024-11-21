@@ -1,0 +1,7 @@
+{% if PhpMyAdmin %}
+{% include 'DataBaseAdmin/PhpMyAdmin/PhpMyAdmin.jinja'%}
+{% elif pgAdmin %}
+{% include 'DataBaseAdmin/pgAdmin/pgAdmin.jinja'%}
+{% elif MongoExpress %}
+{% include 'DataBaseAdmin/MongoExpress/MongoExpress.jinja'%}
+{% endif %}

@@ -1,0 +1,32 @@
+# Ignorar archivos de configuración de entorno
+.venv
+
+# Ignorar pycache
+__pycache__
+
+# Ignorar pytest cache
+.pytest_cache
+
+# Ignorar archivos con Extension .dot
+*.dot
+
+# Ingorar .vscode
+.vscode
+
+# Ingorar .github
+.github
+
+# Ingorar Carpeta dist
+dist
+
+# Ignorar Entorno de desarrollo
+.env
+
+# Ignorar Carpeta 
+Configurations/
+
+# Ignorar Produto de la compilación
+Dockerfile_fm.uvl.json
+
+# Ignorar el archivo grafico
+dockerfile_fm.dot

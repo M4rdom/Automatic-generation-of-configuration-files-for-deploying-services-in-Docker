@@ -1,0 +1,22 @@
+{% if Gunicorn_Install %}
+
+# Install Gunicorn This is not recommended for production, requirements.txt should be used instead
+{% if Custom_Gunicorn_Version %}
+
+RUN pip install --no-cache-dir gunicorn=={{Gunicorn_Version}}
+
+{% else %}
+
+RUN pip install --no-cache-dir gunicorn
+
+{% endif %}
+{% endif -%}
+
+USER appuser
+
+# Run the application using Gunicorn
+{% if Custom_Exposed_Port %}
+CMD ["gunicorn", "-w", "{{workers}}", "-b", "{{interface}}:{{Port}}", "{{module}}:{{callable}}"]
+{% else %}
+CMD ["gunicorn", "-w", "{{workers}}", "-b", "{{interface}}:80", "{{module}}:{{callable}}"]
+{% endif -%}

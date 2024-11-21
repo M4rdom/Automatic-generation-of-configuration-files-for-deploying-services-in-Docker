@@ -1,0 +1,38 @@
+{%- if Compiled_Version_Tag is defined %}
+FROM postgres:{{Compiled_Version_Tag}}
+{%- elif Compiled_Version_Digest is defined %}
+FROM postgres@{{Compiled_Version_Digest}}
+{%- else %}
+FROM postgres:latest
+{%- endif %}
+
+
+
+
+
+
+{%- if POSTGRES_PASSWORD is defined %}
+
+# Set the password for the default postgres user DO NOT USE IN PRODUCTION
+ENV POSTGRES_PASSWORD=postgres
+{%- endif %}
+
+
+
+
+
+{%- if POSTGRES_USER is defined %}
+
+# Set the default user for the database DO NOT USE IN PRODUCTION
+ENV POSTGRES_USER=postgresç
+{%- endif %}
+
+
+
+
+
+{%- if POSTGRES_DB is defined %}
+
+# Set the default database name DO NOT USE IN PRODUCTION
+ENV POSTGRES_DB=postgres
+{%- endif %}

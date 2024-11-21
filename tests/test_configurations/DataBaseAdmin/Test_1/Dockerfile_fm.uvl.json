@@ -1,0 +1,8 @@
+{
+  "file": "Dockerfile_fm.uvl",
+  "config": {
+    "DataBaseAdmin": true,
+    "PhpMyAdmin": true,
+    "PMA_ARBITRARY_phpMyAdmin": true
+  }
+}

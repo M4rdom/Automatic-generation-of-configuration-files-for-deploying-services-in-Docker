@@ -1,0 +1,8 @@
+{% if Linux_Version_Tag %}
+FROM ubuntu:{{Linux_Version_Tag}}
+{% elif Linux_Version_Digest %}
+FROM ubuntu@{{Linux_Version_Digest}}
+{% else %}
+# Avoid using latest tag in production
+FROM ubuntu:latest
+{% endif %}
