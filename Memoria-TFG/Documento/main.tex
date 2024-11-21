@@ -176,14 +176,14 @@ En la documentación se abordan una serie de recomendaciones para la creación d
     
     \item Usar una imagen base ligera:
     \begin{itemize}
-        \item Utilizar imágenes base ligeras, como \texttt{`alpine'}, puede reducir significativamente el tamaño de la imagen Docker.
+        \item Utilizar imágenes base ligeras, como \texttt{'alpine'}, puede reducir significativamente el tamaño de la imagen Docker.
         \item Las imágenes ligeras también suelen tener menos vulnerabilidades de seguridad debido a su menor superficie de ataque.
     \end{itemize}
     
     \item Reducir el número de capas:
     \begin{itemize}
         \item Cada instrucción en un Dockerfile crea una nueva capa en la imagen. Reducir el número de capas puede mejorar el rendimiento y reducir el tamaño de la imagen.
-        \item Combinar múltiples comandos en una sola instrucción \texttt{`RUN'} puede ayudar a minimizar el número de capas.
+        \item Combinar múltiples comandos en una sola instrucción \texttt{'RUN'} puede ayudar a minimizar el número de capas.
     \end{itemize}
     
     \item Eliminar archivos innecesarios:
@@ -191,9 +191,9 @@ En la documentación se abordan una serie de recomendaciones para la creación d
         \item Durante el proceso de construcción, es importante eliminar cualquier archivo temporal o innecesario para mantener la imagen lo más pequeña posible.
     \end{itemize}
     
-    \item Evitar el uso de la etiqueta \texttt{latest}:
+    \item Evitar el uso de la etiqueta \texttt{'latest'}:
     \begin{itemize}
-        \item La etiqueta \texttt{latest} puede ser ambigua y llevar a problemas de consistencia y reproducibilidad.
+        \item La etiqueta \texttt{'latest'} puede ser ambigua y llevar a problemas de consistencia y reproducibilidad.
         \item Es mejor especificar una versión concreta de la imagen para asegurar que se está utilizando la versión correcta.
     \end{itemize}
     
@@ -1222,7 +1222,7 @@ Por tanto, adaptar la aplicación a peticiones autorizadas a la API de GitHub es
 	\subsection{Introducción}
 	Este manual describe los pasos necesarios tanto para añadir nuevas plantillas al repositorio de plantillas \cite{m4rdom_templates} como para modificar las plantillas existentes.
 	una vez añadidas las plantillas al repositorio, será necesario actualizar la lista de plantillas dentro de la aplicación; véase el \hyperref[sec:Actualizar Plantillas]{Manual de Uso}.
-	\subsubsection{Como añadir nuevas plantillas al repositorio}
+	\subsubsection{Añadir nuevas plantillas al repositorio}
 	Para añadir una nueva plantilla al repositorio de plantillas debemos seguir los siguientes pasos:
 	\begin{itemize}
 		\item Generar la Estructura de directorios apropiada para la plantilla:
