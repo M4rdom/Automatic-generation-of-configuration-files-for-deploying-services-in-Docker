@@ -64,7 +64,7 @@ En el contexto de la tecnología de contenedores, Docker se ha convertido en una
 Sin embargo, la configuración de servicios en Docker puede ser una tarea compleja y propensa a errores, especialmente cuando se manejan múltiples servicios y configuraciones.
 
 La motivación para realizar este proyecto surge de la necesidad de simplificar y automatizar el proceso de generación de archivos de configuración para el despliegue de servicios en Docker. 
-En la actualidad, la creación manual de estos archivos Dockerfile puede ser una tarea repetitiva y susceptible a fallos al no conocer el usuario de toda la información necesaria para la correcta configuración de los servicios.
+En la actualidad, la creación manual de estos archivos Dockerfile puede ser una tarea repetitiva y susceptible a fallos al no conocer el usuario toda la información necesaria para la correcta configuración de los servicios.
 
 Al desarrollar una herramienta que automatice este proceso, se busca mejorar la eficiencia y la precisión en la configuración de entornos de contenedores, facilitando así el trabajo de desarrollo y administración. 
 
@@ -89,7 +89,7 @@ El primero de ellos es la magnitud de las opciones de configuración disponibles
 dar una cobertura a todos los escenarios posibles es una tarea inabarcable, por lo que se ha optado por centrarse en los casos de uso más comunes y en las configuraciones más utilizadas en la práctica.
 Sin embargo, se espera que la herramienta sea lo suficientemente flexible y extensible como para permitir la incorporación de nuevas plantillas y configuraciones en el futuro.
 
-Los desarrollos de los servicios resultantes de la implementación no tendrán el objetivo de alcanzar un estado de producción sino de servir como base para futuras implementaciones y desarrollos orientados a ello. 
+Los desarrollos de los servicios resultantes de la implementación no tendrán el objetivo de alcanzar un estado de producción, sino de servir como base para futuras implementaciones y desarrollos orientados a ello. 
 
 \subsection{Estructura del documento}
 
@@ -132,10 +132,10 @@ Los desarrollos de los servicios resultantes de la implementación no tendrán e
 \section{Estado del Arte}
 \label{sec:Estado del Arte}
 Para comprender el sentido de este proyecto y su problemática es necesario contextualizar algunos conceptos previos que son necesarios para comprender la situación actual y reconocer los posibles problemas.
-A continuación se introducen dichos conceptos de manera escalonada, abordaremos la problemática de la generación de archivos de configuración en Docker, las tecnologías empleadas en la generación de dichos archivos y las soluciones actualmente disponibles.
+A continuación, se introducen dichos conceptos de manera escalonada, abordaremos la problemática de la generación de archivos de configuración en Docker, las tecnologías empleadas en la generación de dichos archivos y las soluciones actualmente disponibles.
 
 \subsection{Contenedores}
-Los contenedores son paquetes software ligeros que incluyen el código de las aplicaciones junto con sus dependencias, como versiones concretas de entornos de ejecución de ciertos lenguajes de programación y bibliotecas para ejecutar los servicios de software~\cite{googlecontainers}.
+Los contenedores son paquetes de software ligeros que incluyen el código de las aplicaciones junto con sus dependencias, como versiones concretas de entornos de ejecución de ciertos lenguajes de programación y bibliotecas para ejecutar los servicios de software~\cite{googlecontainers}.
 \subsubsection{¿Por qué se usan los contenedores?}
 Los contenedores constituyen un mecanismo de empaquetado lógico en el que las aplicaciones pueden extraerse del entorno en que realmente se ejecutan. 
 Esta desvinculación facilita el despliegue uniforme de las aplicaciones basadas en ellos con independencia de que el entorno sea un centro de datos privado, la nube pública o el portátil personal de un desarrollador~\cite{googlecontainers}.
@@ -150,7 +150,7 @@ No necesariamente necesitamos de una imagen para construir un contenedor\footnot
 Docker \cite{docker} es una plataforma de código abierto que permite a los desarrolladores crear, desplegar y ejecutar aplicaciones en contenedores. Docker automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.\footnote{Existen alternativas a Docker como Podman \cite{podman} pero Docker es la más popular y ampliamente utilizada en la actualidad.}
 \subsubsection{Dockerfile}
 \label{sec:Dockerfile}
-El archivo Dockerfile \cite{Dockerfile_concepts} es un archivo de texto que contiene una serie de instrucciones que Docker utilizará para construir una imagen de contenedor.
+El archivo Dockerfile \cite{dockerfile_concepts} es un archivo de texto que contiene una serie de instrucciones que Docker utilizará para construir una imagen de contenedor.
 Usualmente, la construcción de un archivo de configuración se realiza a partir de una imagen base, que puede ser una imagen oficial de Docker o una imagen personalizada creada por el usuario.
 A dicha imagen se le añaden las instrucciones necesarias para instalar las dependencias y configurar el entorno de ejecución de la aplicación, lo que viene a representar el contenido de un archivo Dockerfile.
 \subsubsection{Dockerignore}
@@ -159,7 +159,7 @@ El fichero .dockerignore \cite{dockerignore} es un tipo de archivo que puede col
 \newpage
 \subsubsection{Buenas Prácticas en la creación de las imágenes}
 Para la creación de los ficheros Dockerfile es recomendable seguir una serie de buenas prácticas para garantizar la eficiencia y la seguridad en el despliegue de servicios en Docker.
-Estas prácticas se recogen en la documentación oficial de Docker \cite{Dockerfile_best_practices}
+Estas prácticas se recogen en la documentación oficial de Docker \cite{dockerfile_best_practices}
 En la documentación se abordan una serie de recomendaciones para la creación de imágenes de contenedores en Docker, entre las que se incluyen:
 \begin{itemize}
     \item Utilizar imágenes oficiales de Docker:
@@ -219,7 +219,7 @@ En la actualidad hay disponibles varias soluciones para disminuir la complejidad
 \subsubsection{Docker init}
 Docker init es el comando de Docker Desktop \cite{docker_desktop} que permite inicializar un proyecto con un archivo de configuración básico.
 Su funcionamiento consta de elegir una plantilla de proyecto y seleccionar entre las opciones de configuración.
-Las opciones de configuración se limitan a elegir el lenguaje de programación, puerto en el que despliega la aplicación y que comando se ejecutara al iniciar el contenedor.
+Las opciones de configuración se limitan a elegir el lenguaje de programación, puerto en el que despliega la aplicación y qué comando se ejecutará al iniciar el contenedor.
 Las plantillas son creadas y mantenidas por la comunidad.\footnote{En este proyecto se reutilizan y se recogen ideas de varias de las plantillas que incluye Docker Init}
 \begin{figure}[ht]
   \centering
@@ -229,7 +229,7 @@ Las plantillas son creadas y mantenidas por la comunidad.\footnote{En este proye
 
 \newpage
 \subsubsection{Docker Extension for Visual Studio Code}
-La extensión de Docker para Visual Studio Code \cite{vscode_containers_overview} permite entre otras muchas de sus funcionalidades, la generación del fichero Dockerfile entre otros.
+La extensión de Docker para Visual Studio Code \cite{vscode_containers_overview} permite, entre otras muchas de sus funcionalidades, la generación del fichero Dockerfile entre otros.
 Su comportamiento es similar al de Docker init, permitiendo, entre otras opciones, elegir el lenguaje de desarrollo del proyecto y qué comando se ejecutará al iniciar el contenedor.
 
 \begin{figure}[ht]
@@ -246,7 +246,7 @@ Su comportamiento es similar al de Docker init, permitiendo, entre otras opcione
 
 \subsubsection{Inteligencia Artificial}
 En la actualidad existen soluciones que se apoyan en la Inteligencia Artificial (IA) para la generación de archivos de configuración y para la creación de los ficheros Dockerfile. 
-La calidad de estas soluciones es variable y depende de la calidad de los modelos de lenguaje natural empleados y de la calidad del \emph{prompt}.\footnote{Instrucción o texto inicial proporcionado a una herramienta generativa de IA para dirigir la generación de respuestas o resultados específicos \cite{panamericanlatam_prompt_ia}.} de entrada como \emph{magickpen} \cite{magickpen_Dockerfile_template}\footnote{\href{https://magickpen.com/templates/128/}{magickpen: https://magickpen.com/templates/128/}.} o alternativas con propósito más general como \emph{chatgpt} \cite{chatgpt} \footnote{\href{https://chat.openai.com/}{chatgpt: https://chat.openai.com/}.}
+La calidad de estas soluciones es variable y depende de la calidad de los modelos de lenguaje natural empleados y de la calidad del \emph{prompt}.\footnote{Instrucción o texto inicial proporcionado a una herramienta generativa de IA para dirigir la generación de respuestas o resultados específicos \cite{panamericanlatam_prompt_ia}.} de entrada como \emph{magickpen} \cite{magickpen_dockerfile_template}\footnote{\href{https://magickpen.com/templates/128/}{magickpen: https://magickpen.com/templates/128/}.} o alternativas con propósito más general como \emph{chatgpt}. \cite{chatgpt} \footnote{\href{https://chat.openai.com/}{chatgpt: https://chat.openai.com/}.}
 
 \begin{figure}[ht]
 	\centering
@@ -263,7 +263,7 @@ No obstante, suponen un punto de partida para el desarrollo de aplicaciones cont
 
 \subsection{¿Qué se aporta en este contexto?}
 Las opciones actualmente disponibles para la generación de archivos de configuración para el despliegue de servicios en Docker son limitadas y no permiten la personalización de las opciones de configuración.
-Se modela de forma separada la variabilidad y las posibles opciones que existen a la hora de construir las imágenes. El proyecto proporciona una nueva forma de construir plantillas dotando capacidad al usuario de una personalización más profunda y detallada de las opciones de configuración de los servicios en Docker.
+Se modela de forma separada la variabilidad y las posibles opciones que existen a la hora de construir las imágenes. El proyecto proporciona una nueva forma de construir plantillas, dotando capacidad al usuario de una personalización más profunda y detallada de las opciones de configuración de los servicios en Docker.
 \subsubsection{Líneas de Producto Software (SPL)}
 En el proyecto tendremos que construir nuestras propias plantillas que formarán parte de una línea de productos software.
 Una línea de productos software (SPL del inglés \emph{Software Product Line}) es una familia de productos software relacionados entre sí que comparten ciertas características comunes (similitudes) pero que también tienen características variables.
@@ -272,7 +272,7 @@ En una SPL, los sistemas se descomponen en características (\emph{features}) qu
 El principal artefacto para modelar la variabilidad en SPLs son los modelos de variabilidad. Existen muchos modelos 
 de variabilidad, pero los más extendidos y usados en la práctica son los modelos de características (\emph{feature models}). 
 
-Un \emph{feature model} (FM) \cite{Kang1990_FODA,wikipedia_feature_model} es un modelo para representar la variabilidad de una SPL en base a características comunes y variables (véase Figura 1), especificando qué características se pueden seleccionar en una configuración para generar 
+Un \emph{feature model} (FM) \cite{wikipedia_feature_model} es un modelo para representar la variabilidad de una SPL en base a características comunes y variables (véase Figura 1), especificando qué características se pueden seleccionar en una configuración para generar 
 un producto válido de la SPL.  
 
 \begin{figure}[ht]
@@ -313,13 +313,13 @@ Esta herramienta permite al proyecto hacerlo portable y fácil de desplegar en c
 para el desarrollo de la aplicación web, se ha optado por la utilización de Node.js como entorno de ejecución de JavaScript para el desarrollo del Frontend.
 Esta herramienta constituye una plataforma de desarrollo en tiempo de ejecución que tiene la ventaja de contar con una extensa biblioteca de módulos que simplifican el desarrollo de aplicaciones web.
 Con npm (Node Package Manager) \cite{npm}, Node.js ofrece acceso a una vasta colección de paquetes y módulos que pueden ser fácilmente integrados en el proyecto, acelerando el desarrollo y reduciendo la necesidad de escribir código desde cero.
-Para el proyecto se emplea la versión v22.10.0 y la versión v10.9.0 del gestor de paquetes npm
+Para el proyecto se emplea la versión v22.10.0 y la versión v10.9.0 del gestor de paquetes npm.
 \subsection{Angular}
 \cite{angular}
 En cuanto al desarrollo de la aplicación web, se ha optado por la utilización de Angular como framework de desarrollo.
 El motivo de esta decisión es la idea de emplear un framework moderno que se usa con los métodos de desarrollo actuales y las mejores prácticas en el desarrollo de aplicaciones web.
 Emplear otros frameworks de desarrollo como React o Vue.js también hubiera sido una opción válida al existir una cierta convergencia entre ellos en cuanto a funcionalidades y características.
-Para los requisitos del proyecto entendimos que Angular ya integra gran parte de las funcionalidades que requería nuestra aplicación ahorrando tiempo en la implementación de las mismas. La versión empleada es Angular v18.\footnote{Angular 18 no es la última versión disponible, pero al depender de otros desarrollos, se ha optado por la utilización de esta versión.}
+Para los requisitos del proyecto, entendimos que Angular ya integra gran parte de las funcionalidades que requería nuestra aplicación ahorrando tiempo en la implementación de las mismas. La versión empleada es Angular v18.\footnote{Angular 18 no es la última versión disponible, pero al depender de otros desarrollos, se ha optado por la utilización de esta versión.}
 \subsubsection{Angular Material}
 \cite{angular_material}
 Para el diseño de la interfaz gráfica de la aplicación web se ha optado por la utilización de los componentes provenientes de los módulos de Angular Material.
@@ -397,7 +397,7 @@ La extensión UVLS proporciona resaltado de sintaxis, autocompletado, verificaci
 Además, la clave más importante es que es la única herramienta existente que permite crear una configuración correcta partiendo desde un \emph{feature model}.
 
 
-Otras extensiones de menos importancia empleadas en \textit{VSCode} son:
+Otras extensiones de menos importancia empleadas en \textit{VS Code} son:
 \begin{itemize}
     \item \textbf{Docker Extension}
     \item \textbf{Flama}
@@ -427,7 +427,7 @@ Otras extensiones de menos importancia empleadas en \textit{VSCode} son:
 \subsection{Introducción}
 El enfoque que se ha dado para abordar el desarrollo de este trabajo ha consistido en combinar un trabajo previo de análisis e investigación con una fase de desarrollo iterativo.
 
-La investigación y análisis tenía el objetivo de conocer en profundidad las tecnologías y herramientas empleadas 
+La investigación y análisis tenía el objetivo de conocer en profundidad las tecnologías y herramientas empleadas,
 para posteriormente estudiar una posible aplicación de estas ideas y conceptos en el desarrollo de las plantillas.
 Una vez resuelta esta primera parte, se ha procedido a una toma de requisitos y a la planificación de la implementación de la aplicación. Para la implementación de la aplicación, se ha optado por la utilización de una metodología de desarrollo que permita la evolución del proyecto a un producto mínimo viable en el menor tiempo posible.
 \subsection{Metodología del Desarrollo}
@@ -449,7 +449,7 @@ El desarrollo de las plantillas requiere un estudio con el fin de limitar las op
 \end{figure}
 
 \subsubsection{Notas del Procedimiento}
-Se evaluaron con el tutor los momentos más relevantes, como los requisitos de la aplicación, arquitectura y una evaluación final, para introducir cambios que resultaron necesarios en tanto en el proyecto como en la documentación y en las plantillas.
+Se evaluaron con el tutor los momentos más relevantes, como los requisitos de la aplicación, arquitectura y una evaluación final, para introducir cambios que resultaron necesarios tanto en el proyecto como en la documentación y en las plantillas.
 
 \subsubsection{Limitaciones}
 El desarrollo de un proyecto de estas características requiere de una planificación y una metodología de trabajo adecuadas.
@@ -475,14 +475,14 @@ despliegue de aplicaciones. Se exploran las características, herramientas y té
 Docker en un proyecto software. 
 
 \begin{itemize}
-	\item Para comprender la importancia de las buenas prácticas en la creación de imágenes, fue necesario la lectura de la documentación oficial de Docker \href{https://docs.docker.com/reference/Dockerfile/}{Dockerfile reference} \cite{Dockerfile_reference}.
+	\item Para comprender la importancia de las buenas prácticas en la creación de imágenes, fue necesario la lectura de la documentación oficial de Docker \href{https://docs.docker.com/reference/Dockerfile/}{Dockerfile reference} \cite{dockerfile_reference}.
 \end{itemize}
 
 
 \subsection{Desarrollo de Plantillas}
 Esta fase implica la construcción del árbol de características y las restricciones textuales que orienten el espacio de 
 configuraciones posibles del fichero Dockerfile. En este paso se ponen en práctica todo el conocimiento adquirido en los pasos anteriores que 
-y como resultado se obtiene el modelado de unas plantillas. Hemos de tener en cuenta las buenas prácticas y las recomendaciones de la comunidad para la creación de los ficheros Dockerfile \cite{Dockerfile_concepts}. 
+como resultado se obtiene el modelado de unas plantillas. Hemos de tener en cuenta las buenas prácticas y las recomendaciones de la comunidad para la creación de los ficheros Dockerfile \cite{dockerfile_concepts}. 
 Estas prácticas tienen que estar presentes en el diseño de las plantillas desde el inicio, también hemos de generar test para mantener la consistencia de las implementaciones. 
 Esta fase queda cubierta con más detalle en el \hyperref[sec:Modelado de las plantillas]{Capítulo 5}.
 
@@ -490,7 +490,7 @@ Esta fase queda cubierta con más detalle en el \hyperref[sec:Modelado de las pl
 \subsection{Fase Implementación}
 \subsubsection{Requisitos de la aplicación }
 En esta sección se documentan los requisitos funcionales de la aplicación, obviando los requisitos no funcionales. Los requisitos han cambiado conforme el proyecto avanzaba en sus etapas de desarrollo
-sin ánimo de ser exhaustivos las funcionalidades mínimas que se pretenden alcanzar en cuanto a la generación de productos son:
+sin ánimo de ser exhaustivos, las funcionalidades mínimas que se pretenden alcanzar en cuanto a la generación de productos son:
 \begin{itemize}
 	\item La herramienta debe permitir seleccionar la plantilla y la versión con la que se desea trabajar. 
 	\item Dentro de la aplicación se podrá recargar con nuevas plantillas que configuremos en un repositorio.
@@ -513,10 +513,10 @@ En esta imagen se resumen los componentes de la aplicación. Una explicación m�
 \subsubsection{Desarrollo del Paquete UVEngine}
 En esta fase se adapta el proyecto de la aplicación de UVEngine \cite{uvengine_github}, que permite la generación automática de archivos de configuración.
 La adaptación consiste en hacer opcional el fichero mapping model \footnote{Mapping model:\hyperref[sec:Mapping Model]{Capítulo 5}} a la hora de generar un producto. Una vez adaptado, se procede a la creación de un paquete de Python que se pueda instalar en cualquier entorno de desarrollo.
-como resultado, tenemos el paquete UVEngine \cite{uvengine_pypi}\footnote{El paquete es empleado en el proyecto UVEngine-Resolver y en los entornos de desarrollo de las plantillas.}
+como resultado, tenemos el paquete UVEngine. \cite{uvengine_pypi}\footnote{El paquete es empleado en el proyecto UVEngine-Resolver y en los entornos de desarrollo de las plantillas.}
 \subsubsection{Desarrollo aplicación Frontend Angular}
 En esta fase se desarrolla la aplicación web que permite la interacción con el usuario y la visualización de los archivos de configuración generados. Como hemos mencionado anteriormente, consta de un proyecto Angular presente en el siguiente repositorio GitHub \cite{m4rdom_frontend}.
-La idea fundamental es permitir al usuario elegir entre un abanico de plantillas y versiones para que pueda decidir que producto generar en base a la configuración que se aporte como entrada.
+La idea fundamental es permitir al usuario elegir entre un abanico de plantillas y versiones para que pueda decidir qué producto generar en base a la configuración que se aporte como entrada.
 Debe funcionar como una abstracción de los servicios de Backend para permitir al usuario trabajar desde una interfaz web.
 Angular utiliza un enfoque basado en componentes para la construcción de aplicaciones web, los componentes más relevantes son:
 \begin{itemize}
@@ -536,9 +536,9 @@ No olvidemos que gran parte de la lógica de la aplicación se encuentra desarro
 \subsubsection{Desarrollo de los servicios de backend}
 \label{sec:Desarrollo de los servicios de backend}
 En esta fase se desarrollan los servicios de backend que permiten la comunicación entre la aplicación web y la aplicación de UVEngine y los repositorios.
-El primer servidor de backend que vamos a generar será un servidor para gestionar las peticiones sobre las plantillas, a este servicio lo llamaremos \texttt{Repository Manager}. 
+El primer servidor de backend que vamos a generar será un servidor para gestionar las peticiones sobre las plantillas, a este servicio lo llamaremos \texttt{Repository-Manager}. 
 Consiste en un servicio Flask que traduce las peticiones a la API de GitHub y las devuelve a la aplicación web. Desde este servicio tendremos acceso a la lista de plantillas y la lista de versiones.
-Además, aportamos al siguiente servicio un método para la descarga de las plantillas. El siguiente servicio es el encargado de resolver la variabilidad de una configuración y generar un producto, a este servicio lo llamaremos UVEngine-Resolver.
+Además, aportamos al siguiente servicio un método para la descarga de las plantillas. El siguiente servicio es el encargado de resolver la variabilidad de una configuración y generar un producto, a este servicio lo llamaremos \texttt{UVEngine-Resolver}.
 Este servicio se encarga de la generación de productos a partir de una configuración válida; para ello se apoya en el paquete UVEngine que hemos desarrollado en la fase anterior.
 
 \subsubsection{Elaboración de la guía de uso}
@@ -607,7 +607,7 @@ La idea es exponer estas plantillas ante una configuración ya validada usando U
 \end{figure}
 
 Las plantillas tienen que tener la estructura necesaria de modo que, usando la Sintaxis de Jinja, el motor de plantillas sea capaz de crear un producto funcional para una configuración válida. La imagen de arriba puede ser parte de un solo componente de la plantilla.
-Dividir las plantillas en componentes\footnote{Los componentes de una plantilla no son más que importar otros ficheros .jinja para dar estructura y evitar manejar un archivo gigante que recojan todas la opciones de configuración.} nos permite estructurar la plantilla; esto puede verse con un ejemplo en la Subsección \hyperref[sec:Plantilla Dockerfile]{Plantilla Dockerfile}.
+Dividir las plantillas en componentes\footnote{Los componentes de una plantilla no son más que importar otros ficheros .jinja para dar estructura y evitar manejar un archivo gigante que recoja todas las opciones de configuración.} nos permite estructurar la plantilla; esto puede verse con un ejemplo en la Subsección \hyperref[sec:Plantilla Dockerfile]{Plantilla Dockerfile}.
 
 \begin{figure}[h]
 	\centering
@@ -647,7 +647,7 @@ En este contexto podemos construir una primera subdivisión que represente el re
 \end{figure}
 
 Cada una de estas categorías contendrá a su vez una serie de subcategorías que representen las opciones de configuración que se pueden dar en cada una de ellas.
-\\Centrémonos en el caso de uso de un Frontend. Comúnmente, al desplegar una imagen de frontend se sigue una estrategia de multi etapa \cite{docker_multistage} donde en una primera etapa compilamos la aplicación 
+\\Centrémonos en el caso de uso de un Frontend. Comúnmente, al desplegar una imagen de Frontend, se sigue una estrategia de multietapa \cite{docker_multistage} donde en una primera etapa compilamos la aplicación 
 y en una posterior etapa la alojamos en un servidor web, esto con el objetivo de crear una imagen lo más pequeña posible al no contener ninguno de los ficheros fuente.
 
 \begin{figure}[h]
@@ -660,7 +660,7 @@ En este caso las subcategorías podrían ser el lenguaje, el puerto en el que se
 Estos son elementos ya mencionados en la sección de herramientas disponibles, como pueden ser las acciones del comando docker init en Docker Desktop \cite{docker_desktop}.  
 
 Nuestro modelo permite recoger estas características además de otras,
-como pueden ser el servidor web (Nginx, Apache, \ldots) que queremos junto con su versión, Podremos seleccionar el framework de desarrollo que se ha empleado, la versión en la que compilará la aplicación, etc.
+como pueden ser el servidor web (Nginx, Apache, \ldots) que queremos junto con su versión, Podremos seleccionar el framework de desarrollo que se ha empleando, la versión en la que compilará la aplicación, etc.
 Las posibilidades van mucho más allá de lo que se recoge en esta versión del fichero Dockerfile, pero estas opciones ya expanden enormemente la capacidad de configuración que tienen otras herramientas. 
 
 
@@ -695,7 +695,7 @@ Para este caso podemos generar una plantilla para los metadatos y labels\footnot
 
 \subsubsection{Mapping Model}
 El mapping model es un componente opcional que permite mapear features a otras features, esto es útil cuando queremos renombrar features o hacerlas más comprensibles para las plantillas Jinja.
-En este caso aplicamos dicha funcionalidad para paliar las restricciones actuales del parser existente del lenguaje UVL\footnote{En UVL no podemos emplear nombres de features que contengan espacios o caracteres especiales o bien tampoco podemos repetir nombres de features en varias partes del modelo}.
+En este caso, aplicamos dicha funcionalidad para paliar las restricciones actuales del parser existente del lenguaje UVL\footnote{En UVL no podemos emplear nombres de features que contengan espacios o caracteres especiales o bien tampoco podemos repetir nombres de features en varias partes del modelo}.
 \begin{figure}[h]
 	\centering
 	  \includegraphics[width=0.5\textwidth]{mapping_model_screenshot.png}
@@ -727,7 +727,7 @@ Estas pruebas deben ser capaces de comprobar que las plantillas generan un produ
 
 Es evidente que ciertos cambios más radicales plantean refactorizar algunos test. 
 Aun así, es aconsejable validar el diseño de los nuevos elementos de la plantilla solucionando estas incoherencias.
-En el contexto de esta plantilla Dockerfile las pruebas se han realizado empleado las librerías de pytest \cite{pytest_docs} para la generación de los productos esperados. Estos test pueden encontrarse en el repositorio para el desarrollo de la plantilla dockerifle \cite{Dockerfile_template_dev}.
+En el contexto de esta plantilla Dockerfile las pruebas se han realizado empleado las librerías de pytest \cite{pytest_docs} para la generación de los productos esperados. Estos test pueden encontrarse en el repositorio para el desarrollo de la plantilla dockerifle \cite{dockerfile_template_dev}.
 
 \newpage
 \subsubsection{Resto de Plantillas}
@@ -826,7 +826,7 @@ Esto permite que el desarrollo de plantillas se maneje de forma independiente al
 \subsection{Añadir Plantillas}
 Existiendo varias formas en las que se pudiera haber diseñado la forma con la que añadir nuevas plantillas a la aplicación aprovechando características de GitHub, se ha optado por la solución más sencilla y directa.
 Añadir una nueva plantilla es tan sencillo como añadir una nueva carpeta al repositorio de plantillas de GitHub,
-Esta carpeta debe contener una estructura de directorios específica que contenga los archivos necesarios para la plantilla, como son el Feature Model en UVL, las plantillas Jinja2 y el archivo de Mapping Model, este último archivo es opcional.
+Esta carpeta debe contener una estructura de directorios específica que contenga los archivos necesarios para la plantilla, como son el Feature Model en UVL, las plantillas Jinja2 y el archivo de Mapping Model; este último archivo es opcional.
 Existen instrucciones detalladas de cómo añadir una plantilla al repositorio de plantillas.\footnote{Repositorio de plantillas: \url{https://github.com/M4rdom/Templates}.} o bien en el Apéndice \hyperref[sec:Manual de Desarrollo]{Manual de Desarrollo}.
 
 \newpage
@@ -834,7 +834,7 @@ Existen instrucciones detalladas de cómo añadir una plantilla al repositorio d
 \subsubsection{Ampliar la Plantilla Dockerfile}
 La plantilla Dockerfile recoge alguna de las características más interesantes que ya cubren otras herramientas, pero queda claro que todavía existe mucho margen de mejora en cuanto a la personalización de las opciones de configuración.
 \\La plantilla no es a día de hoy capaz de cubrir todas las opciones de configuración que se pueden dar en un fichero Dockerfile, pero tiene el potencial de ser ampliada y mejorada en el futuro.
-Ampliar esta plantilla es sencillo, se cuenta ya con un repositorio de desarrollo para la plantilla\footnote{Repositorio para el desarrollo de la Plantilla Dockerfile \url{https://github.com/M4rdom/Dockerfile-Template-Dev} \cite{Dockerfile_template_dev}.} que contiene la plantilla y los test necesarios para validarla.
+Ampliar esta plantilla es sencillo, se cuenta ya con un repositorio de desarrollo para la plantilla\footnote{Repositorio para el desarrollo de la Plantilla Dockerfile \url{https://github.com/M4rdom/Dockerfile-Template-Dev} \cite{dockerfile_template_dev}.} que contiene la plantilla y los test necesarios para validarla.
 Una vez que se haya ampliado la plantilla, se puede añadir al repositorio de plantillas de GitHub y utilizarla para generar productos.
 \\Al seleccionar una feature que no ha sido desarrollada, el producto resultante (en este caso el fichero Dockerfile) contendrá el siguiente mensaje de error:
 
@@ -958,7 +958,7 @@ Las soluciones actualmente disponibles son más cómodas al detectar las feature
 Es conveniente adaptar este sistema para que sea capaz de detectar algunas de las features de forma autónoma y dejar otras para la personalización del usuario, al menos en cuanto nos referimos a la generación del fichero Dockerfile.
 
 \subsection{Escalabilidad}
-Teniendo en cuenta que la escalabilidad de cualquier aplicación depende de la capacidad de sus servicios de generar nuevas instancias es en un principio viable,
+Teniendo en cuenta que la escalabilidad de cualquier aplicación depende de la capacidad de sus servicios de generar nuevas instancias, es en un principio viable,
 escalar horizontalmente cada uno de los servicios. Sin embargo, la escalabilidad de la aplicación se ve limitada actualmente por el uso de API pública de GitHub \cite{github_rest_api} para el servicio de Repository-manager visto en el \hyperref[sec:Desarrollo de los servicios de backend]{Capítulo 6} que limita el número de peticiones que se pueden hacer en un periodo de tiempo.\footnote{Actualmente el número de peticiones que puede realizarse a la API son 80 peticiones por minuto; esto es propenso a que cambien en un futuro.}
 En el escenario en el que se quiera llevar la aplicación a un entorno de producción, debe sortearse este problema bien por medio del uso de tokens de autenticación.
 Existe la posibilidad de que el usuario aporte un token personal de una cuenta de GitHub a la hora de desplegar el servicio o bien emplear un token propio desde GitHub.
@@ -976,7 +976,7 @@ No obstante, se podrá resolver la variabilidad de las plantillas que ya se han 
 
 
 %% Conclusiones
-\section{Conclusiones y líneas Futuras}
+\section{Conclusiones y líneas futuras}
 \label{sec:Conclusiones}
 
 
@@ -990,7 +990,7 @@ Sin duda, el proyecto queda lejos de tener aplicaciones funcionales reales, pero
 Además de contar con una forma interesante de generar Dockerfiles, pueden existir dinámicas para aprovechar configuraciones válidas para generar otros ficheros necesarios, como, por ejemplo, podemos generar ficheros de configuración para el servidor de Nginx \cite{nginx} directamente a partir de la configuración para generar un Dockerfile. 
 Esto es gracias a los ficheros Mapping Models y a un diseño inteligente de las plantillas.
 \subsection{Desarrollo de nuevas plantillas}
-El proyecto está preparado para recibir nuevas plantillas manteniendo las existentes, por ejemplo pueden agregarse todo tipo de plantillas que requieran de la salida de un fichero de configuración, como pueden ser en el caso de herramientas como Ansible \cite{ansible}.	 
+El proyecto está preparado para recibir nuevas plantillas manteniendo las existentes, por ejemplo, pueden agregarse todo tipo de plantillas que requieran de la salida de un fichero de configuración, como pueden ser en el caso de herramientas como Ansible \cite{ansible}.	 
 Una vez añadidas plantillas al repositorio, éstas estarán disponibles de la misma forma en la que están disponibles las plantillas existentes y solo será necesario recargar el listado de plantillas que se encuentra en la barra de navegación de la aplicación web.	
 \subsection{Continuación en el desarrollo de plantillas ya existentes}
 Las plantillas existentes tienen un gran margen de mejora. En la situación actual no soportan la gran mayoría de las opciones de configuración que se pueden dar en un fichero Dockerfile. Además, las opciones que se manejan son propensas a quedar obsoletas y se necesita de una continua revisión de las plantillas en busca de problemas de diseño o seguridad.
@@ -998,7 +998,7 @@ Estos son problemas que padecen otras herramientas que nos permiten generar el f
 
 \subsection{Mejorar la experiencia del usuario }
 La generación de la configuraciones está ligada al desarrollo de la extensión UVLS. Dicha extensión permite al usuario generar una configuración válida desplegando el árbol de características, pero para ello el usuario
-necesita contar con VSCode y la extensión instalada para ser capaz de generar configuraciones válidas. La propuesta para este escenario sería la integración de dicha funcionalidad dentro de la plataforma web,
+necesita contar con VS Code y la extensión instalada para ser capaz de generar configuraciones válidas. La propuesta para este escenario sería la integración de dicha funcionalidad dentro de la plataforma web,
 La extensión UVLS es un proyecto de código abierto y su integración en la aplicación web podría ser un proyecto en sí mismo. 
 
 En el desarrollo del trabajo se ha explorado esta posibilidad ejecutando dicha extensión en la versión web del editor VS Code, pero el resultado en cuanto a rendimiento hace que esta opción no sea viable.
@@ -1179,8 +1179,8 @@ Por tanto, adaptar la aplicación a peticiones autorizadas a la API de GitHub es
 	\end{figure}
 
 	\subsubsection{Cargar configuración}
-	Para cargar una configuración debemos hacer clic en el botón Load Configuration y copiar en el editor un fichero de configuración valido
-	Opcionalmente, podemos pegar la configuración desde el portapapeles.
+	Para cargar una configuración debemos hacer clic en el botón Load Configuration y copiar en el editor un fichero de configuración valido,
+	opcionalmente, podemos pegar la configuración desde el portapapeles.
 	\begin{figure}[h]
 		\centering
 			\includegraphics[width=0.75\textwidth]{loadconfiguration.png}
@@ -1217,11 +1217,11 @@ Por tanto, adaptar la aplicación a peticiones autorizadas a la API de GitHub es
 
 
 
-	\section{Manual Desarrollo de Plantillas}
+	\section{Manual desarrollo de plantillas}
 	\label{sec:Manual de Desarrollo}
 	\subsection{Introducción}
 	Este manual describe los pasos necesarios tanto para añadir nuevas plantillas al repositorio de plantillas \cite{m4rdom_templates} como para modificar las plantillas existentes.
-	una vez añadidas las plantillas al repositorio, será necesario actualizar la lista de plantillas dentro de la aplicación véase el \hyperref[sec:Actualizar Plantillas]{Manual de Uso}.
+	una vez añadidas las plantillas al repositorio, será necesario actualizar la lista de plantillas dentro de la aplicación; véase el \hyperref[sec:Actualizar Plantillas]{Manual de Uso}.
 	\subsubsection{Como añadir nuevas plantillas al repositorio}
 	Para añadir una nueva plantilla al repositorio de plantillas debemos seguir los siguientes pasos:
 	\begin{itemize}
@@ -1237,7 +1237,7 @@ Por tanto, adaptar la aplicación a peticiones autorizadas a la API de GitHub es
 		\item Subir la plantilla al repositorio de plantillas haciendo push al repositorio.
 		\item Actualizar la lista de plantillas en la aplicación web.
 	\end{itemize}
-	\subsubsection{Estructura de Directorios}
+	\subsubsection{Estructura de directorios}
 	 A modo de resumen, la estructura de directorios de una plantilla debe ser la siguiente:
 
 	\dirtree{%
@@ -1253,7 +1253,7 @@ Por tanto, adaptar la aplicación a peticiones autorizadas a la API de GitHub es
 }
 
 
-	\subsubsection{Como modificar las plantillas del repositorio}
+	\subsubsection{Modificar las plantillas del repositorio}
 	En el caso de que queramos modificar una plantilla ya existente en el repositorio de plantillas, debemos seguir los siguientes pasos:
 	\begin{itemize}
 		\item Modificar los archivos de la plantilla que queremos modificar respetando la estructura y nombres de la plantilla.
@@ -1261,7 +1261,7 @@ Por tanto, adaptar la aplicación a peticiones autorizadas a la API de GitHub es
 		\item Actualizar la lista de plantillas en la aplicación web.
 	\end{itemize}
 
-	Es recomendable generar estas plantillas a partir de un repositorio de desarrollo \cite{Dockerfile_template_dev} para asegurar que las plantillas generan productos válidos realizando pruebas.
+	Es recomendable generar estas plantillas a partir de un repositorio de desarrollo \cite{dockerfile_template_dev} para asegurar que las plantillas generan productos válidos realizando pruebas.
 	Una vez que tengamos una plantilla lista, es solo cuestión de subirla al repositorio respetando la estructura original modificando únicamente la única plantilla que se desea modificar.
 	Estas Instrucciones pueden verse con más detalle en el repositorio de plantillas \cite{m4rdom_templates}.
 

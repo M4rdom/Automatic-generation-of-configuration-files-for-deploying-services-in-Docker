@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  20 NOV 2024 18:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  21 NOV 2024 17:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -992,50 +992,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Dockerfile_best_practices
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Dockerfile_concepts
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Dockerfile_reference
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Dockerfile_template_dev
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Kang1990_FODA
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                magickpen_Dockerfile_template
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
 Package hyperref Info: Link coloring OFF on input line 19.
@@ -1186,68 +1143,49 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
  [15
 
 ]
-
-LaTeX Warning: Citation 'Dockerfile_concepts' on page 16 undefined on input line 153.
-
 LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineMonoT-TLF on input line 158.
-(C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibertinemonot-tlf.fd
+ (C:\Users\marco\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibertinemonot-tlf.fd
 File: T1LinuxLibertineMonoT-TLF.fd 2019/05/20 (autoinst) Font definitions for T1/LinuxLibertineMonoT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <12> not available
 (Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 158.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' will be
 (Font)              scaled to size 12.0pt on input line 158.
- [16{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc}]
-
-LaTeX Warning: Citation 'Dockerfile_best_practices' on page 17 undefined on input line 162.
-
-[17]
+ [16{C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc}] [17]
 Overfull \hbox (67.24767pt too wide) in paragraph at lines 203--204
 []\T1/LinuxLibertineT-TLF/m/n/12 Utilizar co-man-dos co-mo \T1/LinuxLibertineMonoT-TLF/regular/n/12 `apt-get clean' \T1/LinuxLibertineT-TLF/m/n/12 y \T1/LinuxLibertineMonoT-TLF/regular/n/12 `rm -rf /var/lib/apt/lists/*'
  []
 
 [18]
-<./images/Docker Init.png, id=795, 639.13782pt x 265.74281pt>
+<./images/Docker Init.png, id=799, 639.13782pt x 265.74281pt>
 File: ./images/Docker Init.png Graphic file (type png)
 <use ./images/Docker Init.png>
 Package pdftex.def Info: ./images/Docker Init.png  used on input line 226.
 (pdftex.def)             Requested size: 454.67433pt x 189.0477pt.
  [19]
-<./images/Docker.extension.vscode.png, id=806, 454.69875pt x 241.65282pt>
+<./images/Docker.extension.vscode.png, id=810, 454.69875pt x 241.65282pt>
 File: ./images/Docker.extension.vscode.png Graphic file (type png)
 <use ./images/Docker.extension.vscode.png>
 Package pdftex.def Info: ./images/Docker.extension.vscode.png  used on input line 237.
 (pdftex.def)             Requested size: 454.67433pt x 241.64484pt.
-<./images/docker.extension.vscode.Dockerfile.png, id=807, 571.38469pt x 385.44pt>
+<./images/docker.extension.vscode.Dockerfile.png, id=811, 571.38469pt x 385.44pt>
 File: ./images/docker.extension.vscode.Dockerfile.png Graphic file (type png)
 <use ./images/docker.extension.vscode.Dockerfile.png>
 Package pdftex.def Info: ./images/docker.extension.vscode.Dockerfile.png  used on input line 243.
 (pdftex.def)             Requested size: 454.67433pt x 306.71152pt.
-
-
-LaTeX Warning: Citation 'magickpen_Dockerfile_template' on page 20 undefined on input line 249.
-
-
-Overfull \hbox (52.61963pt too wide) in paragraph at lines 248--250
-\T1/LinuxLibertineT-TLF/m/n/12 em-plea-dos y de la ca-li-dad del \T1/LinuxLibertineT-TLF/m/it/12 prompt\T1/LinuxLibertineT-TLF/m/n/12 .[][][] de en-tra-da co-mo \T1/LinuxLibertineT-TLF/m/it/12 ma-gick-pen \T1/LinuxLibertineT-TLF/m/n/12 [[]][][][]
- []
-
-[20 <./images/Docker Init.png> <./images/Docker.extension.vscode.png>]
-<./images/MagickPen.png, id=824, 895.09406pt x 535.2497pt>
+ [20 <./images/Docker Init.png> <./images/Docker.extension.vscode.png>]
+<./images/MagickPen.png, id=829, 895.09406pt x 535.2497pt>
 File: ./images/MagickPen.png Graphic file (type png)
 <use ./images/MagickPen.png>
 Package pdftex.def Info: ./images/MagickPen.png  used on input line 253.
 (pdftex.def)             Requested size: 454.67433pt x 271.89565pt.
  [21 <./images/docker.extension.vscode.Dockerfile.png>] [22 <./images/MagickPen.png>]
-
-LaTeX Warning: Citation 'Kang1990_FODA' on page 23 undefined on input line 275.
-
-<./images/fm.example.jpg, id=843, 357.58594pt x 184.43906pt>
+<./images/fm.example.jpg, id=849, 357.58594pt x 184.43906pt>
 File: ./images/fm.example.jpg Graphic file (type jpg)
 <use ./images/fm.example.jpg>
 Package pdftex.def Info: ./images/fm.example.jpg  used on input line 280.
 (pdftex.def)             Requested size: 341.00574pt x 175.89716pt.
-[23 <./images/fm.example.jpg>] [24
+ [23 <./images/fm.example.jpg>] [24
 
 ]
 Underfull \vbox (badness 2334) has occurred while \output is active []
@@ -1255,20 +1193,13 @@ Underfull \vbox (badness 2334) has occurred while \output is active []
  [25] [26] [27] [28] [29] [30] [31
 
 ]
-<./images/gantt.png, id=928, 3930.43407pt x 1023.825pt>
+<./images/gantt.png, id=934, 3930.43407pt x 1023.825pt>
 File: ./images/gantt.png Graphic file (type png)
 <use ./images/gantt.png>
 Package pdftex.def Info: ./images/gantt.png  used on input line 447.
 (pdftex.def)             Requested size: 454.67433pt x 118.43259pt.
- [32 <./images/gantt.png>]
-
-LaTeX Warning: Citation 'Dockerfile_reference' on page 33 undefined on input line 478.
-
-
-LaTeX Warning: Citation 'Dockerfile_concepts' on page 33 undefined on input line 485.
-
-[33] [34]
-<./images/Arquitectura Contenedores.png, id=954, 951.555pt x 603.25375pt>
+ [32 <./images/gantt.png>] [33] [34]
+<./images/Arquitectura Contenedores.png, id=963, 951.555pt x 603.25375pt>
 File: ./images/Arquitectura Contenedores.png Graphic file (type png)
 <use ./images/Arquitectura Contenedores.png>
 Package pdftex.def Info: ./images/Arquitectura Contenedores.png  used on input line 510.
@@ -1276,18 +1207,18 @@ Package pdftex.def Info: ./images/Arquitectura Contenedores.png  used on input l
  [35 <./images/Arquitectura Contenedores.png>] [36] [37] [38
 
 ] [39]
-<./images/text.feature_model.png, id=994, 229.60782pt x 217.5628pt>
+<./images/text.feature_model.png, id=1003, 229.60782pt x 217.5628pt>
 File: ./images/text.feature_model.png Graphic file (type png)
 <use ./images/text.feature_model.png>
 Package pdftex.def Info: ./images/text.feature_model.png  used on input line 593.
 (pdftex.def)             Requested size: 227.33716pt x 215.42104pt.
  [40 <./images/text.feature_model.png>]
-<./images/jinja_template_database_mongodb.png, id=1003, 490.83376pt x 321.45094pt>
+<./images/jinja_template_database_mongodb.png, id=1012, 490.83376pt x 321.45094pt>
 File: ./images/jinja_template_database_mongodb.png Graphic file (type png)
 <use ./images/jinja_template_database_mongodb.png>
 Package pdftex.def Info: ./images/jinja_template_database_mongodb.png  used on input line 605.
 (pdftex.def)             Requested size: 341.00574pt x 223.33173pt.
-<./images/Dockerfile.logica.plantillas.jinja.png, id=1006, 329.73187pt x 189.70876pt>
+<./images/Dockerfile.logica.plantillas.jinja.png, id=1015, 329.73187pt x 189.70876pt>
 File: ./images/Dockerfile.logica.plantillas.jinja.png Graphic file (type png)
 <use ./images/Dockerfile.logica.plantillas.jinja.png>
 Package pdftex.def Info: ./images/Dockerfile.logica.plantillas.jinja.png  used on input line 614.
@@ -1297,7 +1228,7 @@ Package pdftex.def Info: ./images/Dockerfile.logica.plantillas.jinja.png  used o
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [41 <./images/jinja_template_database_mongodb.png>]
-<./images/mapping_model_screenshot.png, id=1014, 392.21532pt x 335.00156pt>
+<./images/mapping_model_screenshot.png, id=1023, 392.21532pt x 335.00156pt>
 File: ./images/mapping_model_screenshot.png Graphic file (type png)
 <use ./images/mapping_model_screenshot.png>
 Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input line 626.
@@ -1307,7 +1238,7 @@ Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input li
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [42 <./images/Dockerfile.logica.plantillas.jinja.png>]
-<./images/Dockerfile.uvl.png, id=1023, 385.44pt x 217.5628pt>
+<./images/Dockerfile.uvl.png, id=1032, 385.44pt x 217.5628pt>
 File: ./images/Dockerfile.uvl.png Graphic file (type png)
 <use ./images/Dockerfile.uvl.png>
 Package pdftex.def Info: ./images/Dockerfile.uvl.png  used on input line 645.
@@ -1317,13 +1248,13 @@ Package pdftex.def Info: ./images/Dockerfile.uvl.png  used on input line 645.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [43 <./images/mapping_model_screenshot.png>]
-<./images/Dockerfile.frontend.png, id=1033, 411.78844pt x 402.75468pt>
+<./images/Dockerfile.frontend.png, id=1042, 411.78844pt x 402.75468pt>
 File: ./images/Dockerfile.frontend.png Graphic file (type png)
 <use ./images/Dockerfile.frontend.png>
 Package pdftex.def Info: ./images/Dockerfile.frontend.png  used on input line 655.
 (pdftex.def)             Requested size: 227.33716pt x 222.35155pt.
  [44 <./images/Dockerfile.uvl.png> <./images/Dockerfile.frontend.png>]
-<./images/Dockerfile.frontend.jinja.template.png, id=1044, 387.69844pt x 228.10219pt>
+<./images/Dockerfile.frontend.jinja.template.png, id=1053, 387.69844pt x 228.10219pt>
 File: ./images/Dockerfile.frontend.jinja.template.png Graphic file (type png)
 <use ./images/Dockerfile.frontend.jinja.template.png>
 Package pdftex.def Info: ./images/Dockerfile.frontend.jinja.template.png  used on input line 673.
@@ -1337,7 +1268,7 @@ Package pdftex.def Info: ./images/Dockerfile.logica.plantillas.jinja.png  used o
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [45 <./images/Dockerfile.frontend.jinja.template.png>]
-<./images/Dockerfile.metadata.png, id=1052, 516.42938pt x 511.15968pt>
+<./images/Dockerfile.metadata.png, id=1061, 516.42938pt x 511.15968pt>
 File: ./images/Dockerfile.metadata.png Graphic file (type png)
 <use ./images/Dockerfile.metadata.png>
 Package pdftex.def Info: ./images/Dockerfile.metadata.png  used on input line 690.
@@ -1348,27 +1279,18 @@ File: ./images/mapping_model_screenshot.png Graphic file (type png)
 Package pdftex.def Info: ./images/mapping_model_screenshot.png  used on input line 701.
 (pdftex.def)             Requested size: 227.33716pt x 194.17834pt.
  [47]
-<./images/Dockerfile.configuracion-backend.png, id=1068, 281.55188pt x 251.43938pt>
+<./images/Dockerfile.configuracion-backend.png, id=1077, 281.55188pt x 251.43938pt>
 File: ./images/Dockerfile.configuracion-backend.png Graphic file (type png)
 <use ./images/Dockerfile.configuracion-backend.png>
 Package pdftex.def Info: ./images/Dockerfile.configuracion-backend.png  used on input line 716.
 (pdftex.def)             Requested size: 341.00574pt x 304.55334pt.
  [48 <./images/Dockerfile.configuracion-backend.png>]
-<./images/Dockerfile.backend.producto.png, id=1075, 630.85687pt x 574.39594pt>
+<./images/Dockerfile.backend.producto.png, id=1084, 630.85687pt x 574.39594pt>
 File: ./images/Dockerfile.backend.producto.png Graphic file (type png)
 <use ./images/Dockerfile.backend.producto.png>
 Package pdftex.def Info: ./images/Dockerfile.backend.producto.png  used on input line 724.
 (pdftex.def)             Requested size: 454.67433pt x 413.98544pt.
-
-
-LaTeX Warning: Citation 'Dockerfile_template_dev' on page 49 undefined on input line 730.
-
-
-Overfull \hbox (4.04558pt too wide) in paragraph at lines 728--731
-\T1/LinuxLibertineT-TLF/m/n/12 trar-se en el re-po-si-to-rio pa-ra el de-sa-rro-llo de la plan-ti-lla doc-ke-ri-fle [[]]. 
- []
-
-[49 <./images/Dockerfile.backend.producto.png>] [50] [51
+ [49 <./images/Dockerfile.backend.producto.png>] [50] [51
 
 ]
 File: ./images/Arquitectura Contenedores.png Graphic file (type png)
@@ -1376,7 +1298,7 @@ File: ./images/Arquitectura Contenedores.png Graphic file (type png)
 Package pdftex.def Info: ./images/Arquitectura Contenedores.png  used on input line 768.
 (pdftex.def)             Requested size: 454.67433pt x 288.2514pt.
  [52] [53]
-<./images/Peticion POST uvengine-resolver.png, id=1107, 509.65407pt x 442.65375pt>
+<./images/Peticion POST uvengine-resolver.png, id=1118, 509.65407pt x 442.65375pt>
 File: ./images/Peticion POST uvengine-resolver.png Graphic file (type png)
 <use ./images/Peticion POST uvengine-resolver.png>
 Package pdftex.def Info: ./images/Peticion POST uvengine-resolver.png  used on input line 793.
@@ -1389,17 +1311,11 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <10> not
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 830.
  [57]
-
-LaTeX Warning: Citation 'Dockerfile_template_dev' on page 58 undefined on input line 837.
-
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 837.
-
 Underfull \hbox (badness 10000) in paragraph at lines 837--837
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 Repositorio pa-ra el de-sa-rro-llo de la Plan-ti-lla Doc-ker-fi-le []$\T1/LinuxLibertineMonoT-TLF/regular/n/10 https : / / github . com / M4rdom /
  []
 
-<./images/unupportedfeature.png, id=1133, 688.82344pt x 204.01219pt>
+<./images/unupportedfeature.png, id=1145, 688.82344pt x 204.01219pt>
 File: ./images/unupportedfeature.png Graphic file (type png)
 <use ./images/unupportedfeature.png>
 Package pdftex.def Info: ./images/unupportedfeature.png  used on input line 843.
@@ -1438,7 +1354,7 @@ Overfull \hbox (4.73428pt too wide) in paragraph at lines 1044--1044
 []\T1/LinuxLibertineT-TLF/m/n/12 José Ma-nuel Hor-cas. \T1/LinuxLibertineT-TLF/m/it/12 UVEn-gi-ne 1.0.0\T1/LinuxLibertineT-TLF/m/n/12 . Ac-ce-di-do: 22 de oc-tu-bre de 2024. 2024. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https :
  []
 
-
+[72]
 Overfull \hbox (26.3725pt too wide) in paragraph at lines 1044--1044
 \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : []$\T1/LinuxLibertineMonoT-TLF/regular/n/12 https : / / keepcoding . io / blog / que -[] es -[] archivo -[] dockerignore/$[]\T1/LinuxLibertineT-TLF/m/n/12 . 
  []
@@ -1448,7 +1364,7 @@ Overfull \hbox (25.7191pt too wide) in paragraph at lines 1044--1044
 \T1/LinuxLibertineMonoT-TLF/regular/n/12 Automatic -[] generation -[] of -[] configuration -[] files -[] for -[] deploying -[]
  []
 
-[72]
+
 Overfull \hbox (47.25908pt too wide) in paragraph at lines 1044--1044
 \T1/LinuxLibertineMonoT-TLF/regular/n/12 associate / 9781839211898 / c5ecd7bc -[] b7ed -[] 4303 -[] 89a8 -[] e487c6a220ed .
  []
@@ -1463,7 +1379,7 @@ Overfull \hbox (17.17911pt too wide) in paragraph at lines 1044--1044
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 1084.
 
-<./images/frontpage.png, id=1307, 1443.89438pt x 689.57625pt>
+<./images/frontpage.png, id=1328, 1443.89438pt x 689.57625pt>
 File: ./images/frontpage.png Graphic file (type png)
 <use ./images/frontpage.png>
 Package pdftex.def Info: ./images/frontpage.png  used on input line 1107.
@@ -1475,7 +1391,7 @@ File: ./images/frontpage.png Graphic file (type png)
 <use ./images/frontpage.png>
 Package pdftex.def Info: ./images/frontpage.png  used on input line 1128.
 (pdftex.def)             Requested size: 454.67433pt x 217.14401pt.
-<./images/navpage.png, id=1321, 1434.10782pt x 46.67438pt>
+<./images/navpage.png, id=1342, 1434.10782pt x 46.67438pt>
 File: ./images/navpage.png Graphic file (type png)
 <use ./images/navpage.png>
 Package pdftex.def Info: ./images/navpage.png  used on input line 1135.
@@ -1483,24 +1399,24 @@ Package pdftex.def Info: ./images/navpage.png  used on input line 1135.
  [77
 
  <./images/navpage.png>]
-<./images/selectTemplatePage.png, id=1329, 1444.64719pt x 690.32906pt>
+<./images/selectTemplatePage.png, id=1350, 1444.64719pt x 690.32906pt>
 File: ./images/selectTemplatePage.png Graphic file (type png)
 <use ./images/selectTemplatePage.png>
 Package pdftex.def Info: ./images/selectTemplatePage.png  used on input line 1157.
 (pdftex.def)             Requested size: 454.67433pt x 217.2652pt.
  [78 <./images/selectTemplatePage.png>]
-<./images/selectionVersion.png, id=1336, 519.44063pt x 448.67625pt>
+<./images/selectionVersion.png, id=1357, 519.44063pt x 448.67625pt>
 File: ./images/selectionVersion.png Graphic file (type png)
 <use ./images/selectionVersion.png>
 Package pdftex.def Info: ./images/selectionVersion.png  used on input line 1165.
 (pdftex.def)             Requested size: 341.00574pt x 294.54576pt.
  [79 <./images/selectionVersion.png>]
-<./images/RefreshTemplates.png, id=1346, 331.99031pt x 619.56468pt>
+<./images/RefreshTemplates.png, id=1367, 331.99031pt x 619.56468pt>
 File: ./images/RefreshTemplates.png Graphic file (type png)
 <use ./images/RefreshTemplates.png>
 Package pdftex.def Info: ./images/RefreshTemplates.png  used on input line 1177.
 (pdftex.def)             Requested size: 181.86694pt x 339.40027pt.
-<./images/loadconfiguration.png, id=1347, 531.48563pt x 303.38344pt>
+<./images/loadconfiguration.png, id=1368, 531.48563pt x 303.38344pt>
 File: ./images/loadconfiguration.png Graphic file (type png)
 <use ./images/loadconfiguration.png>
 Package pdftex.def Info: ./images/loadconfiguration.png  used on input line 1186.
@@ -1510,18 +1426,18 @@ Package pdftex.def Info: ./images/loadconfiguration.png  used on input line 1186
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [80 <./images/RefreshTemplates.png>]
-<./images/donwloadToolbar.png, id=1354, 906.38625pt x 249.18094pt>
+<./images/donwloadToolbar.png, id=1375, 906.38625pt x 249.18094pt>
 File: ./images/donwloadToolbar.png Graphic file (type png)
 <use ./images/donwloadToolbar.png>
 Package pdftex.def Info: ./images/donwloadToolbar.png  used on input line 1195.
 (pdftex.def)             Requested size: 454.67433pt x 124.99698pt.
  [81 <./images/loadconfiguration.png> <./images/donwloadToolbar.png>]
-<./images/Aboutpage.png, id=1363, 1438.6247pt x 514.17094pt>
+<./images/Aboutpage.png, id=1384, 1438.6247pt x 514.17094pt>
 File: ./images/Aboutpage.png Graphic file (type png)
 <use ./images/Aboutpage.png>
 Package pdftex.def Info: ./images/Aboutpage.png  used on input line 1205.
 (pdftex.def)             Requested size: 454.67433pt x 162.4982pt.
-<./images/HelpPage.png, id=1364, 1443.14156pt x 689.57625pt>
+<./images/HelpPage.png, id=1385, 1443.14156pt x 689.57625pt>
 File: ./images/HelpPage.png Graphic file (type png)
 <use ./images/HelpPage.png>
 Package pdftex.def Info: ./images/HelpPage.png  used on input line 1213.
@@ -1530,17 +1446,8 @@ Package pdftex.def Info: ./images/HelpPage.png  used on input line 1213.
 
 ]
 
-LaTeX Warning: Citation 'Dockerfile_template_dev' on page 84 undefined on input line 1264.
-
-
-Overfull \hbox (88.65071pt too wide) in paragraph at lines 1264--1267
-[]\T1/LinuxLibertineT-TLF/m/n/12 Es re-co-men-da-ble ge-ne-rar es-tas plan-ti-llas a par-tir de un re-po-si-to-rio de de-sa-rro-llo [[]]
- []
-
-
-
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Portada-Titulo-Contraportada/backcover.pdf, id=1380, 597.23125pt x 845.1575pt>
+<Portada-Titulo-Contraportada/backcover.pdf, id=1402, 597.23125pt x 845.1575pt>
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf>
 Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf  used on input line 1274.
@@ -1558,7 +1465,7 @@ pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PD
 
 
 pdfTeX warning: pdflatex (file ./Portada-Titulo-Contraportada/backcover.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Portada-Titulo-Contraportada/backcover.pdf, id=1383, page=1, 597.23125pt x 845.1575pt>
+<Portada-Titulo-Contraportada/backcover.pdf, id=1405, page=1, 597.23125pt x 845.1575pt>
 File: Portada-Titulo-Contraportada/backcover.pdf Graphic file (type pdf)
 <use Portada-Titulo-Contraportada/backcover.pdf, page 1>
 Package pdftex.def Info: Portada-Titulo-Contraportada/backcover.pdf , page1 used on input line 1274.
@@ -1588,26 +1495,26 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C020E7B9A45C7FF95B8199F74AFA471F;21366.
+(rerunfilecheck)             Checksum: FC0B3EFA9C2F2E9B2E63CF0792AAFE1D;21338.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42236 strings out of 474541
- 924529 string characters out of 5744425
- 1938978 words of memory out of 5000000
- 63576 multiletter control sequences out of 15000+600000
- 635024 words of font info for 77 fonts, out of 8000000 for 9000
+ 42253 strings out of 474541
+ 925447 string characters out of 5744425
+ 1939978 words of memory out of 5000000
+ 63589 multiletter control sequences out of 15000+600000
+ 629769 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,17n,101p,1766b,2307s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineMT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on main.pdf (85 pages, 1815046 bytes).
+Output written on main.pdf (85 pages, 1819680 bytes).
 PDF statistics:
- 1502 PDF objects out of 1728 (max. 8388607)
- 304 named destinations out of 1000 (max. 500000)
+ 1525 PDF objects out of 1728 (max. 8388607)
+ 309 named destinations out of 1000 (max. 500000)
  1165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,9 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'sections/resumen.blg'
-[380] biber-MSWIN64:340> INFO - === 
-[520] Biber.pm:419> INFO - Reading 'sections/resumen.bcf'
-[708] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[742] bbl.pm:660> INFO - Writing 'sections/resumen.bbl' with encoding 'UTF-8'
-[743] bbl.pm:763> INFO - Output to sections/resumen.bbl
-[743] Biber.pm:131> WARN - The file 'sections/resumen.bcf' does not contain any citations!
-[743] Biber.pm:133> INFO - WARNINGS: 1
+[122] biber-MSWIN64:340> INFO - === 
+[162] Biber.pm:419> INFO - Reading 'sections/resumen.bcf'
+[294] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[310] bbl.pm:660> INFO - Writing 'sections/resumen.bbl' with encoding 'UTF-8'
+[311] bbl.pm:763> INFO - Output to sections/resumen.bbl
+[311] Biber.pm:131> WARN - The file 'sections/resumen.bcf' does not contain any citations!
+[311] Biber.pm:133> INFO - WARNINGS: 1
