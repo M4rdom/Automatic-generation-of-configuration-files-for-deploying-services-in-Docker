@@ -6,5 +6,3 @@ FROM alpine@{{Linux_Version_Digest}}
 # Avoid using latest tag in production
 FROM alpine:latest
 {% endif %}
-
-{% include 'Common Templates/UnsupportedFeature.jinja' %}

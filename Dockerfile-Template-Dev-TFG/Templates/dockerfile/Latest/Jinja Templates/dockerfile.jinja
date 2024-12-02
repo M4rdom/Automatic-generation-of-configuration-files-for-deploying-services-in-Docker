@@ -1,4 +1,4 @@
-{% include 'Common Templates/Metadata.jinja' %}
+{% include 'Common Templates/Header.jinja' %}
 {% if Frontend %}
 {% include 'Frontend/Frontend.jinja' %}
 {% elif Backend %}
@@ -10,3 +10,4 @@
 {% elif OperatingSystem %}
 {% include 'OperatingSystem/OperatingSystem.jinja' %}
 {% endif %}
+{% include 'Common Templates/Metadata.jinja' %}
