@@ -1,0 +1,61 @@
+# NGINX Configuration for Angular Application
+# Main NGINX configuration
+user nginx;
+worker_processes auto;
+
+error_log /var/log/nginx/error.log warn;
+pid /var/run/nginx.pid;
+
+events {{ '{{' }}
+    worker_connections 1024;
+{{ '}}' }}
+
+http {{ '{{' }}
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
+
+    sendfile on;
+    keepalive_timeout 65;
+
+    # Gzip compression
+    gzip on;
+    gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+    gzip_proxied any;
+    gzip_min_length 256;
+
+    server {{ '{{' }}
+        {% if Port %}
+        listen {{Port}};
+        {% else %}
+        listen 80;
+        {% endif %}
+
+        # Server name and logs
+        server_name localhost;
+        access_log /var/log/nginx/access.log;
+        error_log /var/log/nginx/error.log;
+
+        # Root directory for the Angular application
+        root /usr/share/nginx/html;
+
+        # Index file
+        index index.html;
+
+        # Handle Angular routing
+        location / {{ '{{' }}
+            try_files $uri $uri/ /index.html;
+        {{ '}}' }}
+
+        # Cache control for static assets
+        location ~* \.(?:ico|css|js|gif|jpe?g|png|woff2?|eot|ttf|svg)$ {{ '{{' }}
+            expires 6M;
+            access_log off;
+            add_header Cache-Control "public";
+        {{ '}}' }}
+
+        # Disable access to hidden files
+        location ~ /\. {
+            deny all;
+        }
+    {{ '}}' }}
+{{ '}}' }}
