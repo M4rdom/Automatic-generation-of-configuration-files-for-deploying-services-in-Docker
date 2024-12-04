@@ -23,7 +23,7 @@ http {{ '{' }}
     gzip_proxied any;
     gzip_min_length 256;
 
-    server {{ '{{' }}
+    server {{ '{' }}
         {% if Port %}
         listen {{Port}};
         {% else %}
