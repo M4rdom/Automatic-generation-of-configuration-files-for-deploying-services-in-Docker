@@ -134,18 +134,12 @@ features
                                             String Java_Version_Digest
             WebServer {abstract}
                 alternative
-                    Nginx
-                        mandatory
-                            Usage
-                                alternative
-                                    Web_Server_Aplicaction
-                                    Reverse_Proxy
-                                    Load_Balancer
-                        optional
-                            Custom_nginx_config_file
                     Apache
                         optional
                             Custom_apache_config_file
+                    Nginx
+                        optional
+                            Custom_nginx_config_file
                 optional 
                     Custom_WebServer_Version 
                         alternative
