@@ -2,6 +2,8 @@ Feature, Handler, Value
 
 
 # WebServer Version Parameters
+Custom_nginx_config_file_Frontend, Custom_nginx_config_file
+Custom_apache_config_file_Frontend, Custom_apache_config_file
 Custom_WebServer_Frontend_Version, WebServer_Version_Tag,
 WebServer_Frontend_Version_Tag, WebServer_Version_Tag
 WebServer_Frontend_Version_Digest, WebServer_Version_Digest,
