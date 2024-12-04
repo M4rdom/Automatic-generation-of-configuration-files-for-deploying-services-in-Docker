@@ -50,7 +50,7 @@ def Resolver():
 
         vengine = UVengine.VEngine()
         vengine.load_configuration(configuration_path)
-        if mapping_model_path:
+        if mapping_model_path.exists():
             vengine.load_mapping_model(mapping_model_path)
         vengine.load_template(template_path)
 
